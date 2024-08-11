@@ -1,0 +1,38 @@
+---
+title: "Ambition of CAAD Futures 2025"
+format:
+  html:
+    theme: quartz
+    toc: true
+---
+
+
+## Promote and Support Collaborative International Research
+
+CAAD Futures 2025 aims to use the city of Hong Kong as a strategic interface to promote and support collaborative international research initiatives. The goal is to foster interdisciplinary cooperation around emergent research priorities, providing a platform for communication among local, regional, and international researchers in the field of Computer-Aided Architectural Design (CAAD).
+
+## Highlight Academic and Practice-Oriented Design Research
+
+The conference seeks to highlight both academic and practice-oriented design research within the CAAD Futures community. It aims to showcase the innovative work being done in Hong Kong, the Greater Bay Area, and East and Southeast Asia. By attracting top international researchers and designers, the conference will provide a venue for sharing expertise and advancing knowledge in the field.
+
+## Expand Outreach and Connect with Underrepresented Regions
+
+Through participation sponsorships and grants, CAAD Futures 2025 will proactively connect with regional countries that are currently underrepresented in the CAAD Futures network. This initiative aims to expand the conference's outreach and foster inclusivity within the community.
+
+## Encourage Open Sharing and Co-Creation
+
+Building upon the success of the 2023 conference's “Co-Creation Process,” CAAD Futures 2025 will encourage open sharing, co-creation, and collegial network strengthening. The conference will feature initiatives designed to collectively discuss research urgencies and their roadmaps, impacting local, regional, and international awareness of innovative design, construction methods, and technologies in architecture.
+
+## Catalyse Critical Discussions
+
+The theme “Catalytic Interfaces” will guide the conference's programming, focusing on the transformative role of computation in architectural design and production. The conference will catalyse critical discussions on the implementation and impact of these interfaces within the architectural profession, addressing current and future challenges and opportunities.
+
+## Foster Multidisciplinary Collaboration
+
+CAAD Futures 2025 will emphasize the potential for increased multidisciplinary collaboration and integration across various stakeholders. The conference will feature extended breaks, thematic panel discussions, and comprehensive socialization opportunities to encourage attendee interaction and foster meaningful connections.
+
+## Create an Inclusive Environment
+
+The conference is committed to cultivating a diverse and inclusive community. Initiatives will be aimed at bridging the gap between higher income and lower income countries, promoting gender, cultural, ethnic, and racial diversity among speakers, and fostering an environment where everyone feels valued, respected, and empowered to contribute their unique insights and talents.
+
+Join CAAD Futures 2025 in Hong Kong as we embrace diversity, build bridges across borders, and catalyse new opportunities in the field of Computer-Aided Architectural Design.

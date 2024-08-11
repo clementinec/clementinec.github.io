@@ -1,0 +1,74 @@
+---
+title: "CAAD Futures 2025 | Catalytic Interface"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+##### **Date:** July 2-4, 2025  
+##### **Location:** The University of Hong Kong
+
+## Introduction
+CAAD Futures (website: [caadfutures.org](https://www.caadfutures.org/)) was set up under Dutch law in 1985 with three founding members: Tom Maver, Rik Schijf, and Harry Wagter. The purpose of the organization is to promote, through international conferences and publications, the advancement of Computer Aided Architectural Design in the service of those concerned with the quality of the built environment.
+
+## Call for Papers
+We invite researchers, practitioners, and professionals to submit their papers for the CAAD Futures 2025 Conference. Topics of interest include, but are not limited to:
+
+- Digital Fabrication & Construction
+- Generative, Algorithmic & Evolutionary Design/Techniques
+- Smart Buildings/Cities/Regions
+- Building/City/Region Information Modelling/Management
+- Theory, Philosophy and Methodology // Practice & Interdisciplinarity
+- Design Cognition
+- Computational Design Education // Digital Conservation & Heritage
+- Artificial Intelligence & Machine Learning
+- Accelerating Impacts of Computational Design
+- Human - Computer Interaction // Collaborative & Collective Design
+- Virtual/Augmented/Mixed/Interactive Environments // Simulation & Analysis
+
+**Important Dates:**
+
+- **Submission Deadline:** October 15, 2024
+- **Notification of Acceptance:** December 15, 2024
+- **Final Paper Submission:** April 1, 2025
+
+## Conference Theme
+### Catalytic Interfaces
+The theme for the CAAD Futures 2025 - Hong Kong Conference is “CATALYTIC INTERFACES”.
+
+"Catalytic Interfaces" focuses on the transformative role computation plays in the interfaces surrounding architectural design and production. Whether methodological, spatial, interdisciplinary, technological, ecological, communicational, or cultural—interfaces act as catalysts, introducing alternative mechanisms that facilitate more efficient, diverse, or radical processes, demonstrating a significant shift when compared to traditional methods.
+
+The theme highlights how these interfaces grant access to extensive datasets and computational resources, enabling deeper levels of exploration, complexity, and interaction between designers and the built environment. This access fosters the rapid generation of architectural and urban designs by leveraging large data volumes.
+
+CAAD Futures 2025 aims to catalyse critical discussions on the implementation and impact of these catalytic interfaces within the architectural profession. The conference will address current and future challenges and opportunities for computation in architecture design and production, emphasising the potential for increased multidisciplinary collaboration and integration across various stakeholders.
+
+## Key Features
+### Keynote Lectures
+The conference will feature four keynote lectures by world-leading figures from a range of fields related to the conference theme.
+
+### Panel Discussions
+Following each keynote lecture, there will be panel discussions with domain pioneers to provide alternative angles and in-depth thinking.
+
+### Paper Presentations
+The conference will include paper presentation sessions over three days, consisting of both peer-reviewed papers and speaker-driven sessions.
+
+### Lunch Discussions
+Two thematic lunchtime discussions will explore significant social concerns through the lens of CAAD research, focusing on diversity & inclusion and wealth & equity.
+
+### Evening Programs
+Several evening events, including cocktail events and a closing banquet, will provide opportunities for networking and informal discussions.
+
+### Post-Conference Tours
+A series of architecture and industry-related educational tours will be organized to showcase noteworthy highlights from Hong Kong and the region.
+
+## Organising Committee
+The CAAD Futures 2025 – Hong Kong Conference is organised by an esteemed committee including:
+
+- **Chair:** Prof. Dr. Kristof CROLLA
+- **Co-Chair:** Prof. Dr. Kam-Ming Mark TAM
+- **Co-Chair:** Prof. Dr. Hongshan GUO
+- **Co-Chair:** Mr. Haotian ZHANG
+- **Co-Chair:** Dr. Garvin GOEPEL
+
+For more details, please refer to the respective sections on this website.

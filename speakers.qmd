@@ -1,0 +1,64 @@
+---
+title: "Speakers"
+format:
+  html:
+    toc: true
+---
+
+# Keynote & Speaker List
+
+## Daniela Mitterberger
+**Affiliation:** Princeton University  
+**Bio:** Daniela Mitterberger is an architect and researcher with a strong interest in new media and the relationship between humans, digital fabrication, and emerging technologies. She was a postdoctoral researcher at Gramazio Kohler Research (ETH Zurich) and works within the Design++ initiative (Centre for Augmented Computational Design in AEC). Mitterberger is co-founder and director of MAEID [Büro für Architektur und transmediale Kunst], a multidisciplinary architecture practice based in Innsbruck.
+
+## Karla Saldaña Ochoa
+**Affiliation:** University of Florida  
+**Bio:** Karla is an Ecuadorian architect with a Master of Advanced Studies in Landscape Architecture from ETH Zurich. She finished her Ph.D. at ETH Zurich, investigating the integration of Artificial and Human Intelligence to respond to natural disasters. Since August 2021, Karla is an Assistant Professor at the University of Florida, leading the SHARE Lab focused on developing human-centered AI projects for design practices.
+
+## Dr. Mariana Popescu
+**Affiliation:** TU Delft  
+**Bio:** Mariana is a computational architect and structural designer specializing in innovative fabrication processes and sustainable materials. She has developed KnitCrete, a novel formwork system for casting doubly-curved geometries in concrete using 3D knitting. Mariana's work includes the award-winning KnitCandela shell and she has been recognized as a "Pioneer" in the MIT Technology Review Innovator Under 35 list in 2019.
+
+## Stefana Parascho
+**Affiliation:** EPFL  
+**Bio:** Stefana Parascho is a researcher, architect, and educator whose work lies at the intersection of architecture, digital fabrication, and computational design. She founded the Lab for Creative Computation (CRCL) at EPFL. Her research focuses on multi-agent fabrication methods and human-robot collaborative processes.
+
+## Andrea Ling
+**Affiliation:** MIT Media Lab  
+**Bio:** Andrea is an architect and installation artist working at the intersection of design, fabrication technologies, and biological sciences. She is the 2020 S+T+ARTS Grand Prize winner for her work on material circularity. Andrea has a background in human physiology and a MS from the MIT Media Lab.
+
+## Wanyu He
+**Affiliation:** XKool Technology, FIU Artificial Intelligence and Space Architecture  
+**Bio:** Wanyu He is the founder and CEO of XKool Tech and an adjunct assistant professor at FIU. She was a senior project architect at OMA, with experience in project management and brand development. Wanyu holds a MSc in Architecture and Urban Design from Delft University of Technology.
+
+## Prof. Dr. Thomas Wortmann
+**Affiliation:** TUM  
+**Bio:** Prof. Thomas Wortmann develops computational design methods to support the development of resource- and energy-efficient buildings. He has a background in computational design and has worked on optimization and machine learning for architectural design.
+
+## Yuk Hui
+**Affiliation:** City University of Hong Kong  
+**Bio:** Prof. Yuk Hui wrote his doctoral thesis under Bernard Stiegler and obtained his Habilitation in philosophy from Leuphana University. He is the author of several monographs on digital media and critical theory, and he has been a juror of the Berggruen Prize for Philosophy and Culture since 2020.
+
+## Ramon van der Heijden
+**Affiliation:** Arup  
+**Bio:** Ramon van der Heijden is a registered architect and computational design specialist. He has a combined MSc degree in Architecture and Design Systems from Eindhoven University of Technology. Ramon is known for developing the Elefront plugin for advanced data management.
+
+## Benjamin Bratton
+**Affiliation:** University of California, San Diego  
+**Bio:** Benjamin Bratton is a writer whose work spans philosophy, computer science, and geopolitics. He is Professor of Philosophy of Technology and Speculative Design at UC San Diego and Director of antikythera at the Berggruen Institute.
+
+## David Ruy
+**Affiliation:** Sci-Arc  
+**Bio:** David Ruy is an architect, theorist, and director of Ruy Klein. He examines contemporary design problems at the intersection of architecture, nature, and technology. David's work is part of the permanent collection of The Museum of Modern Art in New York City.
+
+## John May
+**Affiliation:** Harvard GSD  
+**Bio:** John May is founding partner of MILLIØNS, a Los Angeles-based design practice. His work has been featured in exhibitions at Friedman Benda Gallery, Storefront for Art and Architecture, and the Architecture + Design Museum of Los Angeles.
+
+## Andrew Witt
+**Affiliation:** Harvard GSD  
+**Bio:** Andrew Witt is an Associate Professor in Practice in Architecture at the Harvard GSD. He is also co-founder of Certain Measures, a design and technology studio. Andrew's work is in the permanent collection of the Centre Pompidou.
+
+## Alexander Galloway
+**Affiliation:** NYU Department of Media, Culture, and Communication  
+**Bio:** Alexander R. Galloway is a writer and computer programmer working on issues in philosophy, technology, and theories of mediation. He is the author of several books on digital media and critical theory, and his writings have been translated into eleven languages.

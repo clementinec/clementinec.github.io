@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "CAAD Futures 2025"
+  favicon: "cf25logo.png"
+  navbar:
+    logo: "cf25logo.png"
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Team"
+        href: team.qmd
+      - text: "Speakers"
+        href: speakers.qmd
+      - text: "Ambition"
+        href: ambition.qmd
+      - text: "Conference Theme"
+        href: conference_theme.qmd
+
+
+format:
+  html:
+    page-layout: full
+    theme: lux
+    css: styles.css
+    toc: true
+
+
+

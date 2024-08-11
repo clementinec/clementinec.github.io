@@ -1,0 +1,40 @@
+
+---
+title: 'CAAD Topics for Papers '
+
+format:
+  html:
+    toc: false
+    navbar: false
+---
+
+
+- Artificial Intelligence & Machine Learning in Design 
+- Large Language Models / Text-to-Image Synthesisers 
+- Internet of Things (IoT) in Architecture 
+- Digital Fabrication & Manufacturing 
+- Human-Computer Interaction 
+- Computational Geometry 
+- Building/City/Region Information Modelling/Management 
+- Algorithmic & Generative Design 
+- Performance-based Design 
+- Sustainable and Green Design 
+- Virtual, Augmented, and Mixed Reality & Interactive Environments 
+- History, Theory & Philosophy of Computational Design 
+- Computational Design Education / Digital Conservation & Heritage 
+- Design Cognition and Creativity 
+- Design Optimisation 
+- Structural Design and Analysis 
+- Environmental Performance & HVAC Systems 
+- Physics-based Simulation, Modelling, and Analysis in Design 
+- Building Engineering & Construction Technology 
+- Robotics in Architecture & Construction 
+- Autonomous Systems in Design and Construction 
+- Smart Buildings, Cities, and Regions 
+- User Experience in Computational Design 
+- Data Visualisation & Analysis 
+- Interdisciplinary, Collaborative & Collective Design 
+- Accelerating Impacts of Computational Design in Practice 
+- Material Computation 
+- Shape Grammar or Rule-based Design 
+- Agent-based Design Modelling 
