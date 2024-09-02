@@ -4,15 +4,30 @@ project:
 website:
   title: "CAAD Futures 2025"
   favicon: "cf25logo.png"
+  # back-to-top-navigation: true
+  page-footer: 
+    background: black
+    left: 
+      <div>© 2024, Hong Kong University, All rights reserved.</div>
+    center: |
+      <div>
+      <img src="foabanner_inverted.png" alt="faculty of arch" style="height: 30px; margin-right: 10px; margin-top: 10px">
+      </div>
+    right: |
+      <div>
+      <img src="caadfutures.png" alt="caadfutures" style="height: 30px; margin-right: 10px;">
+      </div>
+      
+    
   navbar:
     logo: "cf25logo.png"
     right:
       - text: "Home"
         href: index.qmd
-      - text: "Team"
+      - text: "Call for Papers"
+        href: call.qmd
+      - text: "Committee"
         href: team.qmd
-      - text: "Speakers"
-        href: speakers.qmd
       - text: "Ambition"
         href: ambition.qmd
       - text: "Conference Theme"

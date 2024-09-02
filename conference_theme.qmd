@@ -3,6 +3,7 @@ title: "Catalytic Interface Programming"
 format:
   html:
     toc: true
+    navbar: false
 ---
 (Note: Precise dates to follow and are subject to change) 
 
