@@ -1,1 +1,5 @@
 /* css styles */
+.reveal .footer > * {
+	background-color: #006682;
+	color: white;
+}
