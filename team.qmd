@@ -50,4 +50,5 @@ The current board members of the CAAD Futures Foundation are:
 - Mine Özkar, Chair. Professor of Architecture at Istanbul Technical University, Türkiye (ozkar@itu.edu.tr).
 - Christiane M. Herr, Vice-Chair. Professor, SUSTech School of Design.
 - Daniel Cardoso Llach, Vice-Chair. Associate Professor, School of Architecture, Carnegie Mellon University, United States.  
+
 Find out more about CAAD Futures Foundation [here](https://sites.google.com/unicamp.br/caadfutures/).
