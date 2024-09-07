@@ -29,7 +29,7 @@ website:
         menu:
           - text: "Call for Regular Papers"
             href: regular.qmd
-          - text: "Call for Catalytic Interface"
+          - text: "Call for Catalytic Interfaces Proposals"
             href: props.qmd
       - text: "Committee"
         href: team.qmd
