@@ -10,7 +10,7 @@ We invite researchers to submit abstracts for consideration as regular papers.  
  
 High-quality submissions will be selected for publication by the end of the first review round either as (A) long papers in a Springer publication or as (B) short papers in a companion conference publication. The selection for these categories will be based on both quality as well as the curation of the conference programme. We especially welcome research papers pioneering novel CAAD paradigm interfacing multiple CAAD technologies. See [A2](topics.qmd) for a list of potential paper topics and [A3](20240809_Timeline_WIP.pdf) for a tentative timeline of the submission process. 
  
-Our submission system is now open.  Please submit your regular paper abstract via EasyChair [here](https://easychair.org/conferences/?conf=caadfutures2025) by 30 September 2024.  Be sure to select the option “‘Regular Paper Abstract” under the field “Submission Type.” 
+<mark>Our submission system is now open.  Please submit your regular paper abstract via EasyChair [here](https://easychair.org/conferences/?conf=caadfutures2025) by 30 September 2024.  Be sure to select the option “‘Regular Paper Abstract” under the field “Submission Type.”</mark>
  
  
  

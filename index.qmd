@@ -24,7 +24,8 @@ To achieve this, we have designed a dynamic two-pronged programme. Our conferenc
  
 Thank you in advance for your participation, and we very much look forward to welcoming you in Hong Kong next year. 
  
-Yours sincerely, 
+Yours sincerely, <br>
+
 **CAAD Futures 2025 Organising Committee**
  
 ![](Stamp_CAADFutures2025_OUTLN.png){width=100px

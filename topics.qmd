@@ -38,5 +38,3 @@ format:
 - Material Computation 
 - Shape Grammar or Rule-based Design 
 - Agent-based Design Modelling 
-
-<mark>among others...</mark>
