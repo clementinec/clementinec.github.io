@@ -14,13 +14,13 @@ website:
       <img src="foabanner_inverted.png" alt="faculty of arch" style="height: 30px; margin-right: 10px; margin-top: 10px">
       </div>
     right: |
-      <div>
+      <a href="https://sites.google.com/unicamp.br/caadfutures/" target="_blank">
       <img src="caadfutures.png" alt="caadfutures" style="height: 30px; margin-right: 10px;">
-      </div>
+      </a>
       
     
   navbar:
-    logo: "Stamp_CAADFutures2025_OUTLN.png"
+    # logo: "Stamp_CAADFutures2025_OUTLN.png"
     right:
       - text: "Home"
         href: index.qmd
@@ -38,13 +38,9 @@ website:
       # - text: "Conference Theme"
       #   href: conference_theme.qmd
 
-
 format:
   html:
     page-layout: full
     theme: lux
     css: styles.css
     toc: true
-
-
-

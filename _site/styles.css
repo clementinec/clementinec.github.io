@@ -3,3 +3,67 @@
 	background-color: #006682;
 	color: white;
 }
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Light.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Light.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Light.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Light.ttf') format("truetype");
+    font-display: swap;
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/* Make text bold */
+.bold-text, h1, h2, h3, strong {
+  font-weight: 700; /* 700 is the bold weight */
+}
+
+.navbar, .navbar a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; /* Regular weight (adjust as needed) */
+}
+
+
+
+mark {
+  background-color: #d7d7d7; /* Custom background color */
+  color: #000000;              /* Custom text color (optional) */
+}
+
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Force inline code (single backticks) to use Poppins font, black background, and white text */
+code {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #000000 !important;  /* Solid black */
+  color: #ffffff !important;             /* Solid white */
+  padding: 2px 4px !important;           /* Optional: small padding */
+  border-radius: 4px !important;         /* Optional: rounded corners */
+  font-weight: 700 !important;           /* Bold Poppins font */
+}
+
+/* Force block code (triple backticks) to use Poppins font, black background, and white text */
+pre code {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #000000 !important;  /* Solid black */
+  color: #ffffff !important;             /* Solid white */
+  padding: 10px 15px !important;         /* Optional: larger padding for block code */
+  border-radius: 5px !important;         /* Optional: rounded corners */
+  font-weight: 700 !important;           /* Bold Poppins font */
+  overflow-x: auto !important;           /* Ensure horizontal scrolling for large blocks */
+}
+
+/* Reset any background color or shadows on the pre tag itself */
+pre {
+  background-color: transparent !important; /* Ensure no interference from the pre element */
+  box-shadow: none !important;              /* Prevent any shadow effects */
+}
