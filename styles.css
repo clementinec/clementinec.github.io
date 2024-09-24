@@ -26,39 +26,44 @@ body {
   font-weight: 700; /* 700 is the bold weight */
 }
 
-/* Ensure the iframe container takes the full width */
-.video-container {
-  width: 100%;
-  max-width: 100%; /* Optional, to prevent overflow */
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
+.navbar, .navbar a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; /* Regular weight (adjust as needed) */
 }
 
-/* Make the iframe responsive and fill the container */
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
+
 
 mark {
   background-color: #d7d7d7; /* Custom background color */
   color: #000000;              /* Custom text color (optional) */
 }
 
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-
-/* Custom styles for inline code */
+/* Force inline code (single backticks) to use Poppins font, black background, and white text */
 code {
-  background-color: #d7d7d7; /* Custom background color */
-  color: #000000;            /* Custom text color (e.g., pink) */
-  padding: 2px 4px;          /* Add some padding around the text */
-  border-radius: 4px;        /* Optional: rounded corners */
-  font-family: Poppins;    /* Optional: ensure the text is in a monospace font */
-  font-weight: 700; /* Bold */
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #000000 !important;  /* Solid black */
+  color: #ffffff !important;             /* Solid white */
+  padding: 2px 4px !important;           /* Optional: small padding */
+  border-radius: 4px !important;         /* Optional: rounded corners */
+  font-weight: 700 !important;           /* Bold Poppins font */
+}
+
+/* Force block code (triple backticks) to use Poppins font, black background, and white text */
+pre code {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #000000 !important;  /* Solid black */
+  color: #ffffff !important;             /* Solid white */
+  padding: 10px 15px !important;         /* Optional: larger padding for block code */
+  border-radius: 5px !important;         /* Optional: rounded corners */
+  font-weight: 700 !important;           /* Bold Poppins font */
+  overflow-x: auto !important;           /* Ensure horizontal scrolling for large blocks */
+}
+
+/* Reset any background color or shadows on the pre tag itself */
+pre {
+  background-color: transparent !important; /* Ensure no interference from the pre element */
+  box-shadow: none !important;              /* Prevent any shadow effects */
 }
