@@ -44,7 +44,7 @@ mark {
 /* Force inline code (single backticks) to use Poppins font, black background, and white text */
 code {
   font-family: 'Poppins', sans-serif !important;
-  background-color: #000000 !important;  /* Solid black */
+  background-color: #FF0000 !important;  /* Solid black */
   color: #ffffff !important;             /* Solid white */
   padding: 2px 4px !important;           /* Optional: small padding */
   border-radius: 4px !important;         /* Optional: rounded corners */
