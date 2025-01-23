@@ -5,8 +5,6 @@ format:
     theme: quartz
     toc: false
 ---
-The CAAD Futures 2025 – Hong Kong Conference will be organised by an Organising Committee of Hong Kong-based (Co-)Chairs with a long-standing affiliation with the community. The Organising Committee includes:
-
 
 ```{=html}
 <style>
@@ -52,7 +50,7 @@ The CAAD Futures 2025 – Hong Kong Conference will be organised by an Organisin
     </div>
     <div class="text-cell">
         <h3>Chair: Prof. Dr. Kristof CROLLA</h3>
-        <p>Prof. Dr. Kristof CROLLA is a licensed architect and tenured Associate Professor at the University of Hong Kong (HKU), where he is Associate Dean (Special Projects) at the Faculty of Architecture, teaches in the Master of Architecture program and directs both the Bachelor of Arts & Science Design+ program and the Building Simplexity Lab (BSL) research group. He also runs his architectural practice, Laboratory for Explorative Architecture & Design Ltd. (LEAD). Crolla has worked with renowned firms like Zaha Hadid Architects and has been invited to participate as a critic, lecturer, and tutor worldwide. He is best known for projects like 'YEZO','Golden Moon', and 'ZCB Bamboo Pavilion', which earned him numerous awards, including the World Architecture Festival Small Project of the Year 2016. Crolla completed his PhD at RMIT, Melbourne, and in 2019, was appointed as a Task Force Expert Member for Bamboo Construction by INBAR. He was the Organisation Committee Chair of the CAADRIA 2021 Hong Kong Conference)</p>
+        <p>Prof. Dr. Kristof CROLLA is a licensed architect and tenured Associate Professor at the University of Hong Kong (HKU), where he is Associate Dean (Special Projects) at the Faculty of Architecture, teaches in the Master of Architecture program and directs both the Bachelor of Arts & Science Design+ program and the Building Simplexity Lab (BSL) research group. He also runs his architectural practice, Laboratory for Explorative Architecture & Design Ltd. (LEAD). Crolla has worked with renowned firms like Zaha Hadid Architects and has been invited to participate as a critic, lecturer, and tutor worldwide. He is best known for projects like 'YEZO','Golden Moon', and 'ZCB Bamboo Pavilion', which earned him numerous awards, including the World Architecture Festival Small Project of the Year 2016. Crolla completed his PhD at RMIT, Melbourne, and in 2019, was appointed as a Task Force Expert Member for Bamboo Construction by INBAR. He was the Organisation Committee Chair of the CAADRIA 2021 Hong Kong Conference(see website: [caadria2021.org](https://caadria2021.org/))</p>
     </div>
 </div>
 ```
@@ -101,6 +99,18 @@ The CAAD Futures 2025 – Hong Kong Conference will be organised by an Organisin
     <div class="text-cell">
         <h3>Co-Chair: DR. GARVIN GOEPEL</h3>
         <p>Dr. Garvin Goepel is a designer and researcher specializing in integrating Augmented Reality (AR) with generative architecture. Currently a Post-doctoral Fellow and Lecturer at the University of Hong Kong (HKU), he completed his PhD at the Chinese University of Hong Kong (CUHK) as a Hong Kong PhD Fellowship Scheme awardee. Goepel’s research focuses on collaborative holographic-driven construction, technology-infused craftsmanship, and replacing conventional paper drawing-based communication with holographic instructions. He believes AR can democratize skill through simple, intuitive instructions without professional training. Goepel holds a Master of Architecture with distinction from the University of Applied Arts, Vienna, and has worked with practices such as Coop Himmelb(l)au. He has researched at ETH’s Block Research Group, CUHK, and HKU, published in leading conferences and journals, and taught AR and design workshops internationally. His work includes the mixed-reality artwork 'Resonance-In-Sight' for the Hong Kong Museum of Arts. In 2021, he was part of the organizing committee for the 26th International Conference of CAADRIA.</p>
+    </div>
+</div>
+```
+
+```{=html}
+<div class="table-container">
+    <div class="image-cell">
+        <img src="images/KY.png" alt="Mr. Kaiho Yu">
+    </div>
+    <div class="text-cell">
+        <h3>Committee: Mr. Kaiho Yu</h3>
+        <p>TBU</p>
     </div>
 </div>
 ```
