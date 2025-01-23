@@ -50,7 +50,7 @@ format:
     </div>
     <div class="text-cell">
         <h3>Chair: Prof. Dr. Kristof CROLLA</h3>
-        <p>Prof. Dr. Kristof CROLLA is a licensed architect and tenured Associate Professor at the University of Hong Kong (HKU), where he is Associate Dean (Special Projects) at the Faculty of Architecture, teaches in the Master of Architecture program and directs both the Bachelor of Arts & Science Design+ program and the Building Simplexity Lab (BSL) research group. He also runs his architectural practice, Laboratory for Explorative Architecture & Design Ltd. (LEAD). Crolla has worked with renowned firms like Zaha Hadid Architects and has been invited to participate as a critic, lecturer, and tutor worldwide. He is best known for projects like 'YEZO','Golden Moon', and 'ZCB Bamboo Pavilion', which earned him numerous awards, including the World Architecture Festival Small Project of the Year 2016. Crolla completed his PhD at RMIT, Melbourne, and in 2019, was appointed as a Task Force Expert Member for Bamboo Construction by INBAR. He was the Organisation Committee Chair of the CAADRIA 2021 Hong Kong Conference(see website: [caadria2021.org](https://caadria2021.org/))</p>
+        <p>Prof. Dr. Kristof CROLLA is a licensed architect and tenured Associate Professor at the University of Hong Kong (HKU), where he is Associate Dean (Special Projects) at the Faculty of Architecture, teaches in the Master of Architecture program and directs both the Bachelor of Arts & Science Design+ program and the Building Simplexity Lab (BSL) research group. He also runs his architectural practice, Laboratory for Explorative Architecture & Design Ltd. (LEAD). Crolla has worked with renowned firms like Zaha Hadid Architects and has been invited to participate as a critic, lecturer, and tutor worldwide. He is best known for projects like 'YEZO', 'Golden Moon', and 'ZCB Bamboo Pavilion', which earned him numerous awards, including the World Architecture Festival Small Project of the Year 2016. Crolla completed his PhD at RMIT, Melbourne, and in 2019, was appointed as a Task Force Expert Member for Bamboo Construction by INBAR. He was the Organisation Committee Chair of the CAADRIA 2021 Hong Kong Conference (see website: <a href="https://caadria2021.org/" target="_blank">caadria2021.org</a>).</p>
     </div>
 </div>
 ```
@@ -58,7 +58,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <img src="images/MT.jpg" alt="Prof. Dr. Kam-Ming Mark TAM ">
+        <img src="images/MT.png" alt="Prof. Dr. Kam-Ming Mark TAM ">
     </div>
     <div class="text-cell">
         <h3>Co-Chair: Prof. Dr. Kam-Ming Mark TAM </h3>
@@ -94,7 +94,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <img src="images/HZ.png" alt="DR. GARVIN GOEPEL">
+        <img src="images/GG.png" alt="DR. GARVIN GOEPEL">
     </div>
     <div class="text-cell">
         <h3>Co-Chair: DR. GARVIN GOEPEL</h3>
@@ -106,11 +106,59 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
+        <img src="images/TT.png" alt="Prof. Dr. Tan Tan">
+    </div>
+    <div class="text-cell">
+        <h3>Committee: Prof. Dr. Tan Tan</h3>
+        <p>Prof Tan Tan is an Assistant Professor at the Department of Real Estate and Construction, Faculty of Architecture, the University of Hong Kong. Previously, he held a postdoctoral position at the TU Delft in the Netherlands and NCCR Digital Fabrication in Switzerland. He earned his PhD and MSc degrees from UCL Bartlett and his BArch from Huazhong University of Science and Technology. His primary fields of research interest include two streams: design engineering informatics and design management innovation. His research draws into the intersection of architecture, technology, and business to bridge the connection between architectural design and construction management, especially in exploring frontier knowledge and advanced solutions to Design for X (DfX) for industrialized construction. </p>
+    </div>
+</div>
+```
+
+```{=html}
+<div class="table-container">
+    <div class="image-cell">
+        <img src="images/FX.png" alt="Prof. Dr. Fan (Frank) Xue">
+    </div>
+    <div class="text-cell">
+        <h3>Committee: Prof. Dr. Fan (Frank) Xue</h3>
+        <p>Prof. Dr. Fan (Frank) Xue is an Associate Professor in the Department of Real Estate and Construction at The University of Hong Kong. Frank has an interdisciplinary background in Automation (BEng), Computer Science (MSc), Industrial and Systems Engineering (PhD), and Construction Management (Postdoctoral fellow to present). He is member of ACM, senior member of CGS, member of ASC, member of HKGISA, member of ISDE, and member of IEEE. He is Deputy Director of HKUrbanLabs—iLab, Vice Director of National Center of Technology Innovation for Digital Construction—Hong Kong Branch, Vice Director of Hong Kong-Zhuhai-Macao Station of the ‘Spatial Information Technologies’ Key Scientific Research Base of National Cultural Heritage Administration of China. He also serves as Member of Hong Kong RGC-APSF (Engineering Panel), Vice-Chair of ACM-Hong Kong, committee of CGS-BIM, committee of ASC-Smart Construction, and committee of ISDE-Digital Heritage. His research interests include building and city information modeling, LiDAR data processing, derivative-free optimization, blockchain, and machine learning.</p>
+    </div>
+</div>
+```
+
+```{=html}
+<div class="table-container">
+    <div class="image-cell">
+        <img src="images/mono.png" alt="Mr. Mono Tung">
+    </div>
+    <div class="text-cell">
+        <h3>Committee: Mr. Mono Tung</h3>
+        <p>Mono Tung is an architectural designer, columnist, and assistant lecturer at the University of Hong Kong, specializing in computational design, digital and robotic fabrication. He has worked with leading firms like Zaha Hadid Architects and Foster and Partners. His master's thesis on interactive pneumatic structures showcased innovative materiality and human interaction. This project has been showcased at multiple venues and featured on Michael Webb’s website. As a regular newspaper columnist, he writes on AI-assisted design, VR in architecture, and latest technologies applied to architecture. Mono’s collaborations with artists have contributed spatial designs to major art festivals, including the Echigo Tsumari Art Triennale, Singapore Art Week, and the Landskrona Foto Festival in Sweden. His multidisciplinary approach bridges architecture, technology, and art, redefining their collective impact.</p>
+    </div>
+</div>
+```
+
+```{=html}
+<div class="table-container">
+    <div class="image-cell">
         <img src="images/KY.png" alt="Mr. Kaiho Yu">
     </div>
     <div class="text-cell">
         <h3>Committee: Mr. Kaiho Yu</h3>
-        <p>TBU</p>
+        <p>Kaiho Yu is a researcher, designer, and lecturer at the University of Hong Kong. His research emphasizes a transdisciplinary approach, merging digital media, computer simulation, gaming, and robotics with the disciplines to envision a future where architecture can be conceived as intelligent and adaptable systems. He serves in advisory and committee roles for various journals and conferences, including the Bartlett’s ‘Prospectives’ Journal, DigitalFUTURES, and the International Conference on Computational Design and Robotic Fabrication (CDRF).</p>
+    </div>
+</div>
+```
+
+```{=html}
+<div class="table-container">
+    <div class="image-cell">
+        <img src="images/JW.png" alt="Mr. Jeff WIDJAJA">
+    </div>
+    <div class="text-cell">
+        <h3>Committee: Mr. Jeff WIDJAJA</h3>
+        <p>Jeff Widjaja is an architectural designer, digital fabricator, and Assistant Lecturer at the University of Hong Kong. He teaches design studio, digital representation, and provides support in fabrication technologies. His expertise lies in robotic additive manufacturing, specifically exploring non-planar toolpaths and variable material extrusion rates. Jeff has worked with several international architectural firms across Asia and North America and holds degrees from the Architectural Association and the Illinois Institute of Technology.</p>
     </div>
 </div>
 ```
