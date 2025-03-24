@@ -35,7 +35,7 @@ website:
           - text: "Call for Catalytic Interfaces Proposals"
             href: props.qmd
       - text: "Committee"
-        href: team.qmd
+        href: committee.qmd
       - text: "Ambition"
         href: ambition.qmd
       # - text: "Conference Theme"
