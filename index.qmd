@@ -20,6 +20,8 @@ We are pleased to announce that CAAD Futures 2025 will be held at the University
 The theme of CAAD Futures 2025 is ‘Catalytic Interfaces’. This reflects our goals (i) to catalyse collaborative and interdisciplinary research initiatives around emergent computer-aided architectural design (CAAD) research priorities, and (ii) to provide a platform for local, regional, and international researchers in the field of CAAD to interface and collaborate. 
  
 To achieve this, we have designed a dynamic two-pronged programme. Our conference features [Regular Paper Presentations](regular.qmd) on emergent interfacing CAAD research. Additionally, a dedicated series of team-based [‘Catalytic Interfaces’](props.qmd) programming will provide infrastructure, both physical and digital, along with focused time and attention for fostering collaboration on new research priorities both during and prior to the conference.  
+
+The paper submission and review process for CAAD Futures 2025 has concluded. Accepted papers will be presented at the conference. 
  
 We very much look forward to welcoming you in Hong Kong. 
  
