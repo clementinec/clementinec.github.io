@@ -15,7 +15,7 @@ website:
       </div>
     right: |
       <a href="https://sites.google.com/unicamp.br/caadfutures/" target="_blank">
-      <img src="caadfutures.png" alt="caadfutures" style="height: 30px; margin-right: 10px;">
+      <img src="caadfutures_new logo.png" alt="caadfutures" style="height: 30px; margin-right: 10px;">
       </a>
   search: 
     location: sidebar
@@ -27,12 +27,12 @@ website:
     right:
       - text: "Home"
         href: index.qmd
-      - text: "Calls"
+      - text: "Paper Sesions"
         # href: call.qmd
         menu:
-          - text: "Call for Regular Papers"
+          - text: "Session 1: Regular Papers"
             href: regular.qmd
-          - text: "Call for Catalytic Interfaces Proposals"
+          - text: "Session 2: Catalytic Interfaces"
             href: props.qmd
       - text: "Committee"
         href: committee.qmd

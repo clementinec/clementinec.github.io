@@ -1,0 +1,108 @@
+---
+title: "Organizing Team for CAAD Futures 2025"
+format:
+  html:
+    theme: quartz
+    toc: false
+---
+
+# Keynotes
+
+As part of CAAD Futures 2025, Keynote Sessions will feature presentations by two distinguished keynote speakers and three outstanding early-career women researchers. They will share innovative insights across the conference days, July 2–4, 2025. 
+
+```{=html}
+<style>
+.table-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 25px;
+    border: 0.25px dotted #aaa;
+    border-radius: 10px;
+}
+.image-cell {
+    flex: 0 0 200px;
+    text-align: center;
+    padding-right: 30px;
+}
+.image-cell img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.text-cell {
+    flex: 1;
+}
+.text-cell h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.text-cell p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+</style>
+```
+
+```{=html}
+<div class="table-container">
+    <div class="image-cell">
+        <img src="images/keynotes/Shigeru.png" alt="Prof. Shigeru Ban">
+    </div>
+    <div class="text-cell">
+        <h3>Keynote: Prof. Shigeru Ban</h3>
+        <p>Shigeru Ban is renowned for his innovative use of unconventional materials and for redefining architecture’s role in humanitarian and disaster-relief efforts. In 2014, Ban was named the 37th recipient of the Pritzker Architecture Prize.</p>
+    </div>
+</div>
+```
+
+```{=html}
+<div class="table-container">
+    <div class="image-cell">
+        <img src="images/keynotes/Wilson.png" alt="Prof. Dr. Wilson Lu">
+    </div>
+    <div class="text-cell">
+        <h3>Keynote: Prof. Dr. Wilson Lu</h3>
+        <p>Chair Professor of Digital Construction and Head of the Department of Real Estate and Construction at The University of Hong Kong. Specialising in BIM, smart construction, big data, and sustainability, Prof. Lu has led over HKD $80 million in funded research.</p>
+    </div>
+</div>
+```
+
+```{=html}
+<div class="table-container">
+    <div class="image-cell">
+        <img src="images/keynotes/Mariana.png" alt="Prof. Dr. Mariana Popescu">
+    </div>
+    <div class="text-cell">
+        <h3>Keynote: Prof. Dr. Mariana Popescu</h3>
+        <p>Assistant Professor at TU Delft (incoming to MIT), recognised in MIT Technology Review's Innovators Under 35 (2019). Her research focuses on digital fabrication and the creative use of materials in construction.</p>
+    </div>
+</div>
+```
+
+```{=html}
+<div class="table-container">
+    <div class="image-cell">
+        <img src="images/keynotes/Daniela.png" alt="Prof. Dr. Daniela Mitterberger">
+    </div>
+    <div class="text-cell">
+        <h3>Keynote: Prof. Dr. Daniela Mitterberger</h3>
+        <p>Assistant Professor at Princeton University, director of the XAIA lab and co-founder of MAEID. Her work explores the intersection of robotics, XR, AI, and human-robot collaboration in architecture.</p>
+    </div>
+</div>
+```
+
+```{=html}
+<div class="table-container">
+    <div class="image-cell">
+        <img src="images/keynotes/Wanyu.png" alt="Ms. Wanyu He">
+    </div>
+    <div class="text-cell">
+        <h3>Keynote: Ms. Wanyu He</h3>
+        <p>Founder and CEO of XKool Technology, a pioneering company in China leveraging AI to revolutionise building technologies.</p>
+    </div>
+</div>
+```

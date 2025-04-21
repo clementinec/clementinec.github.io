@@ -1,0 +1,35 @@
+{
+  "keynotes": 
+[
+  {
+    "role": "Keynote",
+    "name": "Prof. Shigeru Ban",
+    "shortbio": "Shigeru Ban is renowned for his innovative use of unconventional materials and for redefining architecture’s role in humanitarian and disaster-relief efforts. In 2014, Ban was named the 37th recipient of the Pritzker Architecture Prize.",
+    "image": "images/keynotes/Shigeru.png"
+  },
+  {
+    "role": "Keynote",
+    "name": "Prof. Dr. Wilson Lu",
+    "shortbio": "Chair Professor of Digital Construction and Head of the Department of Real Estate and Construction at The University of Hong Kong. Specialising in BIM, smart construction, big data, and sustainability, Prof. Lu has led over HKD $80 million in funded research.",
+    "image": "images/keynotes/Wilson.png"
+  },
+  {
+    "role": "Keynote",
+    "name": "Prof. Dr. Mariana Popescu",
+    "shortbio": "Assistant Professor at TU Delft (incoming to MIT), recognised in MIT Technology Review's Innovators Under 35 (2019). Her research focuses on digital fabrication and the creative use of materials in construction.",
+    "image": "images/keynotes/Mariana.png"
+  },
+  {
+    "role": "Keynote",
+    "name": "Prof. Dr. Daniela Mitterberger",
+    "shortbio": "Assistant Professor at Princeton University, director of the XAIA lab and co-founder of MAEID. Her work explores the intersection of robotics, XR, AI, and human-robot collaboration in architecture.",
+    "image": "images/keynotes/Daniela.png"
+  },
+  {
+    "role": "Keynote",
+    "name": "Ms. Wanyu He",
+    "shortbio": "Founder and CEO of XKool Technology, a pioneering company in China leveraging AI to revolutionise building technologies.",
+    "image": "images/keynotes/Wanyu.png"
+  }
+]
+}
