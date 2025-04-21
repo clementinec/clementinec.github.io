@@ -1,12 +1,11 @@
 ---
-title: "Organizing Team for CAAD Futures 2025"
+title: "CAADFutures 2025: Keynote Speakers"
 format:
   html:
     theme: quartz
     toc: false
 ---
 
-# Keynotes
 
 As part of CAAD Futures 2025, Keynote Sessions will feature presentations by two distinguished keynote speakers and three outstanding early-career women researchers. They will share innovative insights across the conference days, July 2–4, 2025. 
 

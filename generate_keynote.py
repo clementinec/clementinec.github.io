@@ -6,7 +6,7 @@ with open("keynotes.json", "r") as file:
 
 # Initialize Quarto `.qmd` content with the required YAML front matter
 qmd_content = """---
-title: "Organizing Team for CAAD Futures 2025"
+title: "CAADFutures 2025: Keynote Speakers"
 format:
   html:
     theme: quartz
