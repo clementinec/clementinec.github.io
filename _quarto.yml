@@ -27,12 +27,12 @@ website:
     right:
       - text: "Home"
         href: index.qmd
-      - text: "Paper Sesions"
+      - text: "Paper Sessions"
         # href: call.qmd
         menu:
-          - text: "Session 1: Regular Papers"
+          - text: "Regular Papers"
             href: regular.qmd
-          - text: "Session 2: Catalytic Interfaces"
+          - text: "Catalytic Interfaces"
             href: props.qmd
       - text: "Committee"
         href: committee.qmd
