@@ -13,37 +13,63 @@ As part of CAAD Futures 2025, Keynote Sessions will feature presentations by two
 <style>
 .table-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
     padding: 25px;
     border: 0.25px dotted #aaa;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
+
 .image-cell {
     flex: 0 0 200px;
     text-align: center;
     padding-right: 30px;
 }
+
 .image-cell img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
 }
+
 .text-cell {
     flex: 1;
+    min-width: 280px;
 }
+
 .text-cell h3 {
     margin: 0;
     font-size: 1.2em;
     font-weight: bold;
 }
+
 .text-cell p {
     margin: 5px 0;
     font-size: 1.1em;
     line-height: 1.5;
 }
+
+/* MEDIA QUERY for mobile or narrow screens */
+@media (max-width: 768px) {
+    .table-container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .image-cell {
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .text-cell {
+        min-width: 100%;
+    }
+}
 </style>
+
 ```
 
 ```{=html}
