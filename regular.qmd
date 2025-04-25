@@ -1,10 +1,11 @@
 ---
-title: "Session 1: Regular Papers"
+title: ""
 format:
   html:
-    theme: quartz
-    toc: true
+    toc: false
 ---
+
+### Session 1: Regular Papers
 
 Welcome to the Regular Papers section of CAAD Futures 2025. This page provides essential information for authors of accepted `Springer Book` and `Companion/Compendium Book` papers. Please review the details below carefully.
 
