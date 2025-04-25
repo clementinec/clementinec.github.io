@@ -27,7 +27,7 @@ website:
     right:
       - text: "Home"
         href: index.qmd
-      - text: "Paper Sessions"
+      - text: "Programme"
         # href: call.qmd
         menu:
           - text: "Regular Papers"
