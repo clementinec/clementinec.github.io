@@ -1,7 +1,15 @@
 ---
 title: "Keynote Speaker: Prof. Wilson Lu"
+toc: False
 format: html
 ---
+<style>
+  /* turn off forced uppercase & weird letter‐spacing on **all** headings */
+  h1, h2, h3, h4, h5, h6 {
+    text-transform: none !important;
+    letter-spacing: normal !important;
+  }
+</style>
 
 ## Meet Prof. Wilson Lu
 
@@ -11,7 +19,7 @@ format: html
 
 <div>
 
-##### Head and Chair Professor (Digital Construction)
+#### Head and Chair Professor (Digital Construction)
 ##### Department of Real Estate and Construction
 ##### Faculty of Architecture, The University of Hong Kong
 
@@ -21,7 +29,7 @@ Wilson Lu is Chair Professor (Digital Construction) and Head of the Department o
 
 :::
 
-#### About Prof. Lu
+### About Prof. Lu
 
 His research interests focus on digital construction with two directions: Construction informatics (Building Information Modelling (BIM), smart construction, big data, and blockchain) and Circular construction (Management, economics, and public policies).
 

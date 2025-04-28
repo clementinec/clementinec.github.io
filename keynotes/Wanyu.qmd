@@ -1,7 +1,15 @@
 ---
 title: "Keynote Speaker: Dr. Wanyu He"
+toc: False
 format: html
 ---
+<style>
+  /* turn off forced uppercase & weird letter‐spacing on **all** headings */
+  h1, h2, h3, h4, h5, h6 {
+    text-transform: none !important;
+    letter-spacing: normal !important;
+  }
+</style>
 
 ## Meet Dr. Wanyu He
 
