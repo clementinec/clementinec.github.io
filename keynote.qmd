@@ -103,10 +103,12 @@ As part of CAAD Futures 2025, Keynote Sessions will feature presentations by two
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <img src="images/keynotes/Mariana.png" alt="Prof. Dr. Mariana Popescu">
+    <a href="keynotes/Mariana.html">
+        <img src="images/keynotes/Mariana.png" alt="Prof. Dr. Mariana Popescu"></a>
     </div>
     <div class="text-cell">
-        <h3>Keynote: Prof. Dr. Mariana Popescu</h3>
+        <h3>
+        <a href="keynotes/Mariana.html">Keynote: Prof. Dr. Mariana Popescu</a></h3>
         <p>Assistant Professor at TU Delft (incoming to MIT), recognised in MIT Technology Review's Innovators Under 35 (2019). Her research focuses on digital fabrication and the creative use of materials in construction.</p>
     </div>
 </div>
@@ -115,10 +117,12 @@ As part of CAAD Futures 2025, Keynote Sessions will feature presentations by two
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <img src="images/keynotes/Daniela.png" alt="Prof. Dr. Daniela Mitterberger">
+    <a href="keynotes/Daniela.html">
+        <img src="images/keynotes/Daniela.png" alt="Prof. Dr. Daniela Mitterberger"></a>
     </div>
     <div class="text-cell">
-        <h3>Keynote: Prof. Dr. Daniela Mitterberger</h3>
+        <h3><a href="keynotes/Daniela.html">
+        Keynote: Prof. Dr. Daniela Mitterberger</a></h3>
         <p>Assistant Professor at Princeton University, director of the XAIA lab and co-founder of MAEID. Her work explores the intersection of robotics, XR, AI, and human-robot collaboration in architecture.</p>
     </div>
 </div>
