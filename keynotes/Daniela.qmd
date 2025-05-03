@@ -1,5 +1,5 @@
 ---
-title: "Keynote Speaker: Daniela Mitterberger"
+title: "Keynote Speaker: Prof. Daniela Mitterberger"
 toc: False
 format: html
 ---
