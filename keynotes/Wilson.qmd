@@ -11,7 +11,7 @@ format: html
   }
 </style>
 
-## Meet Prof. Wilson Lu
+
 
 ::: {layout-ncol=2}
 
@@ -19,11 +19,10 @@ format: html
 
 <div>
 
-#### Head and Chair Professor (Digital Construction)
-##### Department of Real Estate and Construction
-##### Faculty of Architecture, The University of Hong Kong
+#### Wilson Lu
+##### Head and Chair Professor (Digital Construction), Faculty of Architecture, The University of Hong Kong
 
-Wilson Lu is Chair Professor (Digital Construction) and Head of the Department of Real Estate and Construction, Faculty of Architecture (FoA), the University of Hong Kong (HKU). Before that, he served as Associate Dean (Research), FoA at HKU from 2016-2023.
+Prof. Lu is Chair Professor (Digital Construction) and Head of the Department of Real Estate and Construction, Faculty of Architecture (FoA), the University of Hong Kong (HKU). Before that, he served as Associate Dean (Research), FoA at HKU from 2016-2023.
 
 </div>
 
@@ -33,7 +32,7 @@ Wilson Lu is Chair Professor (Digital Construction) and Head of the Department o
 
 His research interests focus on digital construction with two directions: Construction informatics (Building Information Modelling (BIM), smart construction, big data, and blockchain) and Circular construction (Management, economics, and public policies).
 
-Prof. Wilson Lu is the leader of research grants worth HK$80+ million from various prestigious funding regimes including Hong Kong Research Grant Council (RGC), and Innovation and Technology Commission (ITC). In 2022, he was awarded a prestigious RGC Collaborative Research Fund (CRF) Project (C7080-22GF): Generative DfX in high-rise modular building: An expert-augmented cascade graph learning and optimisation approach.
+Prof. Lu is the leader of research grants worth HK$80+ million from various prestigious funding regimes including Hong Kong Research Grant Council (RGC), and Innovation and Technology Commission (ITC). In 2022, he was awarded a prestigious RGC Collaborative Research Fund (CRF) Project (C7080-22GF): Generative DfX in high-rise modular building: An expert-augmented cascade graph learning and optimisation approach.
 
 ### Keynote Lecture: Design for Excellence (DfX): The competing or complementary roles of human designers and generative AI?
 

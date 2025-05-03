@@ -20,7 +20,7 @@ format: html
 <div>
 
 #### Mariana Popescu 
-#####  Assistant professor of Digital fabrication, TU Delft
+#####  Assistant professor (Digital fabrication), TU Delft
 
 
 Prof. Popescu has a strong interest and experience in innovative ways of approaching the fabrication process and use of materials in construction. She obtained her PhD in 2019 from ETH Zurich and was named a “Pioneer” in the MIT Technology Review Innovator Under 35 list of 2019
@@ -37,8 +37,8 @@ This presentation explores the relationship between design, material, and fabric
 
 
 ![](../images/keynotes/MP1.jpeg)
-Sustainable design
-<div> 
+KnitCandela, Mexico, 2018  
 ![](../images/keynotes/MP2.jpeg)
-<div>
+Common Thread, Belgium, 2024
 ![](../images/keynotes/MP3.jpeg)
+KnitNervi, Italy, 2022
