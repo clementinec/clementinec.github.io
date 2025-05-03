@@ -11,27 +11,27 @@ format: html
   }
 </style>
 
-## Meet Asst. Prof. Dr. Daniela Mitterberger
+
 
 ::: {layout-ncol=2}
 
-![](../images/keynotes/Daniela Mitterberger[44].jpg){fig-alt="Prof. Daniela Mitterberger" style="border-radius: 50%; width: 80%;"}
+![](../images/keynotes/Daniela Mitterberger[44].jpg){fig-alt="Prof. Daniela Mitterberger" style="border-radius: 50%; width: 50%;"}
 
 <div>
 
-#### Asst. Prof. Dr. Daniela Mitterberger
-##### School of Architecture, Princeton University
+#### Daniela Mitterberger
+##### Assistant Professor, School of Architecture, Princeton University
 
 
-Prof. Daniela Mitterberger (Assistant Professor, Princeton University - School of Architecture) is an Austrian architect and researcher specializing in AI-driven digital fabrication, robotics, and extended reality (XR). She leads Princeton’s Extended Augmentation in Architecture Lab (XAIA) and serves on the Board of Directors of the COMPAS Association, where she advances COMPAS XR for interdisciplinary collaboration in AEC. Her doctoral research at ETH Zurich focused on adaptive digital fabrication and human–machine collaboration, culminating in multiple teaching engagements at leading international institutions. Parallel to her academic work, Mitterberger co-founded and directs MAEID, an award-winning architecture practice with international exhibitions including the Milan Triennale, Venice Biennale and Ars Electronica.
+Prof. Mitterberger is an Austrian architect and researcher specializing in AI-driven digital fabrication, robotics, and extended reality (XR). She leads Princeton’s Extended Augmentation in Architecture Lab (XAIA) and serves on the Board of Directors of the COMPAS Association, where she advances COMPAS XR for interdisciplinary collaboration in AEC. Her doctoral research at ETH Zurich focused on adaptive digital fabrication and human–machine collaboration, culminating in multiple teaching engagements at leading international institutions. Parallel to her academic work, Mitterberger co-founded and directs MAEID, an award-winning architecture practice with international exhibitions including the Milan Triennale, Venice Biennale and Ars Electronica.
  
 </div>
 
 :::
 
-### About Daniela
+### About Prof. Mitterberger
 
-Prof. Daniela Mitterberger is an Austrian architect and researcher in digital fabrication and human-machine interaction. Her research focuses on extended reality, spatial computing, and robotics. Mitterberger joined Princeton University as an assistant professor in January 2024. There, she leads the Extended Augmentation in Architecture Lab (XAIA) as part of the School of Architecture. Mitterberger serves on the Board of Directors of the COMPAS Association, supporting its open-source frameworks for interdisciplinary collaboration in AEC. She leads the development of COMPAS XR, the framework that integrates extended reality and robotics.
+Prof. Mitterberger is an Austrian architect and researcher in digital fabrication and human-machine interaction. Her research focuses on extended reality, spatial computing, and robotics. Mitterberger joined Princeton University as an assistant professor in January 2024. There, she leads the Extended Augmentation in Architecture Lab (XAIA) as part of the School of Architecture. Mitterberger serves on the Board of Directors of the COMPAS Association, supporting its open-source frameworks for interdisciplinary collaboration in AEC. She leads the development of COMPAS XR, the framework that integrates extended reality and robotics.
  
 Prior to joining Princeton University, Mitterberger was a senior scientist and co-lead of the Immersive Design Lab at ETH Zurich. She received her doctoral degree in Architecture from ETH Zurich in 2023, focusing on adaptive digital fabrication and human-machine collaboration.
  
