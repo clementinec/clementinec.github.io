@@ -11,7 +11,7 @@ format: html
   }
 </style>
 
-## Meet Dr. Wanyu He
+
 
 ::: {layout-ncol=2}
 
@@ -19,9 +19,10 @@ format: html
 
 <div>
 
+#### Wanyu He 
 #### Founder & CEO, XKool Technology and LookX AI
 
-Dr. Wanyu He is a trailblazer in the fusion of architecture and artificial intelligence. 
+Dr. He is a trailblazer in the fusion of architecture and artificial intelligence. 
 
 As the Founder and CEO of XKool Technology and LookX AI, she is revolutionizing the design and construction industries by leveraging cutting-edge AI technologies to enhance creativity, efficiency, and sustainability.
 
@@ -31,9 +32,9 @@ As the Founder and CEO of XKool Technology and LookX AI, she is revolutionizing 
 
 ### About Dr. He
 
-With over seven years of experience as a Senior Project Architect at OMA Rotterdam and Hong Kong, Wanyu has played a pivotal role in delivering iconic projects such as the Shenzhen Stock Exchange.
+With over seven years of experience as a Senior Project Architect at OMA Rotterdam and Hong Kong, Dr. He has played a pivotal role in delivering iconic projects such as the Shenzhen Stock Exchange.
 
-Wanyu is also a dedicated educator, currently serving as a Specially Appointed External Lecturer at Shenzhen University (2023–) and previously as an Adjunct Assistant Professor at the University of Hong Kong (2019–2020). Her teaching bridges the gap between academic theory and practical innovation, inspiring the next generation of architects.
+Dr. He is also a dedicated educator, currently serving as a Specially Appointed External Lecturer at Shenzhen University (2023–) and previously as an Adjunct Assistant Professor at the University of Hong Kong (2019–2020). Her teaching bridges the gap between academic theory and practical innovation, inspiring the next generation of architects.
 
 Currently holding a doctoral degree from Florida International University and pursuing her Ph.D. at Tongji University and, Wanyu focuses on the integration of artificial intelligence in spatial architecture. This builds upon her Master of Science in Architectural Design and Computer Algorithms from the Berlage Institute at Delft University of Technology, showcasing her exceptional blend of technical and creative expertise.
 Through her leadership, research, and teaching, Wanyu He is shaping the future of architecture, demonstrating how AI can amplify human ingenuity to create smarter, more sustainable built environments.
