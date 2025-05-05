@@ -2,7 +2,7 @@
 title: "Organizing Team for CAAD Futures 2025"
 format:
   html:
-    theme: quartz
+
     toc: false
 ---
 

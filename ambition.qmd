@@ -2,7 +2,7 @@
 title: "Ambition of CAAD Futures 2025"
 format:
   html:
-    theme: quartz
+   
     toc: true
 ---
 
