@@ -2,12 +2,11 @@
 title: "CAADFutures 2025: Keynote Speakers"
 format:
   html:
-    theme: quartz
     toc: false
 ---
 
 
-As part of CAAD Futures 2025, Keynote Sessions will feature presentations by two distinguished keynote speakers and three outstanding early-career women researchers. They will share innovative insights across the conference days, July 2–4, 2025. 
+Keynote Sessions will feature presentations by two distinguished keynote speakers and three outstanding early-career women researchers. They will share innovative insights across the conference days, July 2–4, 2025. 
 
 ```{=html}
 <style>
@@ -88,12 +87,12 @@ As part of CAAD Futures 2025, Keynote Sessions will feature presentations by two
 <div class="table-container">
     <div class="image-cell">
     <a href="keynotes/Wilson.html">
-        <img src="images/keynotes/Wilson.png" alt="Prof. Dr. Wilson Lu">
+        <img src="images/keynotes/Wilson.png" alt="Prof. Wilson Lu">
         </a>
     </div>
     <div class="text-cell">
         <h3>
-        <a href="keynotes/Wilson.html">Keynote: Prof. Dr. Wilson Lu</a>
+        <a href="keynotes/Wilson.html">Prof. Wilson Lu</a>
         </h3>
         <p>Chair Professor of Digital Construction and Head of the Department of Real Estate and Construction at The University of Hong Kong. Specialising in BIM, smart construction, big data, and sustainability, Prof. Lu has led over HKD $80 million in funded research.</p>
     </div>
@@ -104,11 +103,11 @@ As part of CAAD Futures 2025, Keynote Sessions will feature presentations by two
 <div class="table-container">
     <div class="image-cell">
     <a href="keynotes/Mariana.html">
-        <img src="images/keynotes/Mariana.png" alt="Prof. Dr. Mariana Popescu"></a>
+        <img src="images/keynotes/Mariana.png" alt="Prof. Mariana Popescu"></a>
     </div>
     <div class="text-cell">
         <h3>
-        <a href="keynotes/Mariana.html">Keynote: Prof. Dr. Mariana Popescu</a></h3>
+        <a href="keynotes/Mariana.html">Prof. Mariana Popescu</a></h3>
         <p>Assistant Professor at TU Delft (incoming to MIT), recognised in MIT Technology Review's Innovators Under 35 (2019). Her research focuses on digital fabrication and the creative use of materials in construction.</p>
     </div>
 </div>
