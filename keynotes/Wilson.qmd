@@ -1,5 +1,6 @@
 ---
-title: "Keynote: "Design for Excellence (DfX): The competing or complementary roles of human designers and generative AI?""
+title: >-
+  Keynote: "Design for Excellence (DfX): The competing or complementary roles of human designers and generative AI?"
 toc: False
 format: html
 ---

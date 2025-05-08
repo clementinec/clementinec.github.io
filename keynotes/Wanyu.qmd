@@ -1,5 +1,6 @@
 ---
-title: "Keynote: "AI-Enhanced Architecture: Shaping the Future of Design and Construction""
+title: >-
+  Keynote: "AI-Enhanced Architecture: Shaping the Future of Design and Construction"
 toc: False
 format: html
 ---
