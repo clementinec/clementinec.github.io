@@ -77,7 +77,7 @@ Keynote Sessions will feature presentations by two distinguished keynote speaker
         <img src="images/keynotes/Shigeru.png" alt="Prof. Shigeru Ban">
     </div>
     <div class="text-cell">
-        <h3>Keynote: Prof. Shigeru Ban</h3>
+        <h3>Prof. Shigeru Ban</h3>
         <p>Shigeru Ban is renowned for his innovative use of unconventional materials and for redefining architecture’s role in humanitarian and disaster-relief efforts. In 2014, Ban was named the 37th recipient of the Pritzker Architecture Prize.</p>
     </div>
 </div>
@@ -117,11 +117,11 @@ Keynote Sessions will feature presentations by two distinguished keynote speaker
 <div class="table-container">
     <div class="image-cell">
     <a href="keynotes/Daniela.html">
-        <img src="images/keynotes/Daniela.png" alt="Prof. Dr. Daniela Mitterberger"></a>
+        <img src="images/keynotes/Daniela Mitterberger[44]_new.png" alt="Prof. Daniela Mitterberger"></a>
     </div>
     <div class="text-cell">
         <h3><a href="keynotes/Daniela.html">
-        Keynote: Prof. Dr. Daniela Mitterberger</a></h3>
+        Prof. Daniela Mitterberger</a></h3>
         <p>Assistant Professor at Princeton University, director of the XAIA lab and co-founder of MAEID. Her work explores the intersection of robotics, XR, AI, and human-robot collaboration in architecture.</p>
     </div>
 </div>
@@ -131,11 +131,11 @@ Keynote Sessions will feature presentations by two distinguished keynote speaker
 <div class="table-container">
     <div class="image-cell">
     <a href="keynotes/Wanyu.html">
-        <img src="images/keynotes/Wanyu.png" alt="Ms. Wanyu He"></a>
+        <img src="images/keynotes/Wanyu.png" alt="Dr. Wanyu He"></a>
     </div>
     <div class="text-cell">
         <h3>
-        <a href="keynotes/Wanyu.html">Keynote: Ms. Wanyu He</a>
+        <a href="keynotes/Wanyu.html">Dr. Wanyu He</a>
         </h3>
         <p>Founder and CEO of XKool Technology, a pioneering company in China leveraging AI to revolutionise building technologies.</p>
     </div>
