@@ -1,5 +1,5 @@
 ---
-title: "Keynote Speaker:  Prof. Mariana Popescu "
+title: "Keynote"
 toc: False
 format: html
 ---
@@ -19,9 +19,9 @@ format: html
 
 <div>
 
-#### Mariana Popescu 
-#####  Assistant professor (Digital fabrication), TU Delft
-
+## Prof. Mariana Popescu 
+#####  Assistant professor (Digital fabrication)
+#####  TU Delft
 
 Prof. Popescu has a strong interest and experience in innovative ways of approaching the fabrication process and use of materials in construction. She obtained her PhD in 2019 from ETH Zurich and was named a “Pioneer” in the MIT Technology Review Innovator Under 35 list of 2019
 
@@ -29,7 +29,7 @@ Prof. Popescu has a strong interest and experience in innovative ways of approac
 
 :::
 
-### About Prof. Popescu
+### About the Speaker
 
 Sustainable design, engineering, and fabrication strategies represent a critical challenge in today's building industry. As we shape the built environment, technological advances have expanded our capabilities to create complex geometries. However, the current climatic context demands that we shift from an "anything is possible" mindset to one mindful of performance, materials, and overall design elegance.
 
