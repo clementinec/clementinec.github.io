@@ -11,7 +11,9 @@ format:
     letter-spacing: normal !important;
   }
 </style>
-We are pleased to announce that ticket sales for **CAAD Futures 2025** are now open. Tickets can be purchased via the official registration portal.
+We are pleased to announce that ticket sales for **CAAD Futures 2025** are now open. 
+
+Tickets can be purchased via [`the official registration portal`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100296).
 
 ### Ticket Categories
 ---
