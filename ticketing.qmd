@@ -13,7 +13,9 @@ format:
 </style>
 We are pleased to announce that ticket sales for **CAAD Futures 2025** are now open. 
 
-Tickets can be purchased via [`the official registration portal`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100296).
+Tickets can be purchased via [`the official registration portal`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100350).
+
+<hr style="border: 1px solid #333;">
 
 ### Ticket Categories
 ---
@@ -30,6 +32,8 @@ An optional printed hard copy of the **Companion Publication** can be purchased 
 
 A **10% Early Bird Discount** is available for all ticket categories until **25 May 2025**. Subject to availability, **late registration tickets** will be offered at a 10% surcharge starting **22 June 2025**.
 
+<hr style="border: 1px solid #333;">
+
 ### Publication Requirements
 ---
 
@@ -38,6 +42,8 @@ To be eligible for inclusion in the official conference proceedings:
 - Each **accepted paper or Catalytic Interface team** must have at least one presenting author registered and paid by **1 June 2025**
 - The presenting author must attend in person in **Hong Kong** and present the work at the scheduled time
 - Each accepted paper must be associated with a **unique, fully registered conference participant**
+
+<hr style="border: 1px solid #333;">
 
 ### Reduced Fee Tickets
 ---
@@ -60,6 +66,8 @@ Subsidised tickets are available for:
 
 **Prior approval** must be obtained by contacting [candylnt@hku.hk](mailto:candylnt@hku.hk)  
 Tickets purchased **without approval** may be deemed **invalid without refund**.
+
+<hr style="border: 1px solid #333;">
 
 ### Tours of Hong Kong
 ---
