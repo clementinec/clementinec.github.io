@@ -10,15 +10,24 @@ format:
     text-transform: none !important;
     letter-spacing: normal !important;
   }
+.faint-line {
+  border: none;
+  height: 2px;
+  background-color: #ccc;  /* very light grey */
+  margin: 1.5em 0;          /* optional vertical spacing */
+}
+
 </style>
+
 We are pleased to announce that ticket sales for **CAAD Futures 2025** are now open. 
 
 Tickets can be purchased via [`the official registration portal`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100350).
 
-<hr style="border: 1px solid #333;">
+---
 
 ### Ticket Categories
----
+
+<hr class="faint-line">
 
 Three types of registration tickets are available:
 
@@ -32,10 +41,11 @@ An optional printed hard copy of the **Companion Publication** can be purchased 
 
 A **10% Early Bird Discount** is available for all ticket categories until **25 May 2025**. Subject to availability, **late registration tickets** will be offered at a 10% surcharge starting **22 June 2025**.
 
-<hr style="border: 1px solid #333;">
+---
 
 ### Publication Requirements
----
+
+<hr class="faint-line">
 
 To be eligible for inclusion in the official conference proceedings:
 
@@ -43,10 +53,11 @@ To be eligible for inclusion in the official conference proceedings:
 - The presenting author must attend in person in **Hong Kong** and present the work at the scheduled time
 - Each accepted paper must be associated with a **unique, fully registered conference participant**
 
-<hr style="border: 1px solid #333;">
+---
 
 ### Reduced Fee Tickets
----
+
+<hr class="faint-line">
 
 ##### Student Tickets
 
@@ -67,10 +78,11 @@ Subsidised tickets are available for:
 **Prior approval** must be obtained by contacting [candylnt@hku.hk](mailto:candylnt@hku.hk)  
 Tickets purchased **without approval** may be deemed **invalid without refund**.
 
-<hr style="border: 1px solid #333;">
+---
 
 ### Tours of Hong Kong
----
+
+<hr class="faint-line">
 
 A curated series of **cultural and social activities** will be offered throughout the conference week and weekend.  
 These include:
