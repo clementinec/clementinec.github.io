@@ -34,7 +34,7 @@ website:
             href: regular.qmd
           - text: "Catalytic Interfaces"
             href: props.qmd
-      - text: "Keynote"
+      - text: "Keynotes"
         href: keynote.qmd
       - text: "Schedule"
         href: schedule.qmd
