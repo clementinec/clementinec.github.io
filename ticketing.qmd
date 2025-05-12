@@ -1,0 +1,94 @@
+---
+title: "Tickets"
+format: 
+  html:
+    toc: False
+---
+<style>
+  /* turn off forced uppercase & weird letter‐spacing on **all** headings */
+  h1, h2, h3, h4, h5, h6 {
+    text-transform: none !important;
+    letter-spacing: normal !important;
+  }
+.faint-line {
+  border: none;
+  height: 1tpx;
+  background-color: #ccc;  /* very light grey */
+  margin: 1.5em 0;          /* optional vertical spacing */
+}
+
+</style>
+
+We are pleased to announce that ticket sales for **CAAD Futures 2025** are now open. 
+
+Tickets can be purchased via [`the official registration portal`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100350).
+
+---
+
+## Ticket Categories
+
+<!-- <hr class="faint-line"> -->
+
+Three types of registration tickets are available:
+
+- **Regular Ticket** – HKD 5,400  
+- **Student Ticket** – HKD 2,700  
+  _50% discounted, available exclusively to students currently enrolled in Bachelor’s or Master’s level programmes_  
+- **Supported Ticket** – HKD 275  
+  _Reserved for approved authors from low- and lower-middle-income countries (as defined by the World Bank)_
+
+An optional printed hard copy of the **Companion Publication** can be purchased for an additional HKD 500. Copies will be distributed at the start of the conference.
+
+A **10% Early Bird Discount** is available for all ticket categories until **25 May 2025**. Subject to availability, **late registration tickets** will be offered at a 10% surcharge starting **22 June 2025**.
+
+---
+
+## Publication Requirements
+
+<!-- <hr class="faint-line"> -->
+
+To be eligible for inclusion in the official conference proceedings:
+
+- Each **accepted paper or Catalytic Interface team** must have at least one presenting author registered and paid by **1 June 2025**
+- The presenting author must attend in person in **Hong Kong** and present the work at the scheduled time
+- Each accepted paper must be associated with a **unique, fully registered conference participant**
+
+---
+
+## Reduced Fee Tickets
+
+<!-- <hr class="faint-line"> -->
+
+##### Student Tickets
+
+Available only to individuals enrolled in **Bachelor’s or Master’s degree programmes** (PhD students are not eligible).  
+To validate eligibility:
+
+- Submit proof of enrolment (valid student ID + current registration status)
+- Email to: [candylnt@hku.hk](mailto:candylnt@hku.hk) within 7 days of purchase  
+Failure to comply may result in **cancellation of the ticket without refund**.
+
+##### Supported Tickets
+
+Subsidised tickets are available for:
+
+- Authors from World Bank-classified low- or lower-middle-income countries
+- Who have **successfully passed peer review** and require financial assistance
+
+**Prior approval** must be obtained by contacting [candylnt@hku.hk](mailto:candylnt@hku.hk)  
+Tickets purchased **without approval** may be deemed **invalid without refund**.
+
+---
+
+## Tours of Hong Kong
+
+<!-- <hr class="faint-line"> -->
+
+A curated series of **cultural and social activities** will be offered throughout the conference week and weekend.  
+These include:
+
+- Guided architecture tours
+- Field excursions to key sites
+- A Junk Boat Party in Sai Kung
+
+Tickets for these events will be **sold separately** and released at a later date.

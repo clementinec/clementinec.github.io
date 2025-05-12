@@ -1,5 +1,97 @@
 ---
-title: "Schedule"
+title: "Conference Schedule"
+format: 
+  html:
+    toc: False
+---
+<style>
+  /* turn off forced uppercase & weird letter‐spacing on **all** headings */
+  h1, h2, h3, h4, h5, h6 {
+    text-transform: none !important;
+    letter-spacing: normal !important;
+  }
+  .faint-line {
+  border: none;
+  height: 1tpx;
+  background-color: #ccc;  /* very light grey */
+  margin: 1.5em 0;          /* optional vertical spacing */
+}
+</style>
+
+<!-- # Schedule -->
+
+We look forward to welcoming you in Hong Kong on **Tuesday night, 1 July 2025**! The programme below outlines the core conference activities, including **keynotes, paper sessions**, and our experimental **Catalytic Interfaces** track.
+
+_Note: This schedule is tentative and may be updated. Social event details (tours, Shenzhen day trip, Junk Boat Party) will be announced soon. Tickets for these will be sold separately._
+
 ---
 
-![Tentative programming of CAAD Futures 2025](program.png)
+## Tuesday, 1 July 2025
+
+- **18:00 – 21:00**: Welcome Drinks
+
+---
+
+## Wednesday, 2 July 2025
+
+- **08:30 – 09:00**: Registration & Opening  
+- **09:00 – 09:20**: Welcome & Opening Remarks  
+- **09:20 – 10:30**: Keynote 1  
+- **10:40 – 11:00**: Catalytic Interfaces – Check In  
+- **11:00 – 12:10**: Speaker-driven Paper Session  
+- **12:10 – 12:50**: Lunch break / Poster viewing  
+- **12:50 – 13:40**: Short Presentations (Parallel Sessions)  
+- **14:00 – 16:20**: Paper Sessions  
+- **17:00 – 18:00**: Keynote 2  
+- **18:00 – 19:00**: Catalytic Interfaces – Work Session  
+- **19:00 onward**: Evening Social / Tours of Hong Kong (details to be announced soon)
+
+---
+
+## Thursday, 3 July 2025
+
+- **08:30 – 09:00**: Registration & Opening  
+- **09:00 – 10:00**: Keynote 3  
+- **10:10 – 10:30**: Catalytic Interfaces – Check In  
+- **10:30 – 11:40**: Speaker-driven Paper Session  
+- **11:40 – 12:20**: Lunch break / Poster viewing  
+- **12:20 – 13:10**: Short Presentations (Parallel Sessions)  
+- **13:30 – 14:40**: Speaker-driven Paper Session  
+- **15:00 – 17:20**: Paper Sessions  
+- **17:20 – 19:00**: Catalytic Interfaces – Work Session  
+- **19:00 onward**: Evening Social / Tours of Hong Kong (details to be announced soon)
+
+---
+
+## Friday, 4 July 2025
+
+- **08:30 – 09:00**: Registration & Opening  
+- **09:00 – 10:00**: Keynote 4  
+- **10:10 – 10:30**: Catalytic Interfaces – Check In  
+- **10:30 – 11:40**: Speaker-driven Paper Session  
+- **11:40 – 12:20**: Lunch break / Poster viewing  
+- **12:20 – 13:10**: Short Presentations (Parallel Sessions)  
+- **13:10 – 14:20**: Speaker-driven Paper Session  
+- **14:40 – 17:20**: Catalytic Interfaces Presentations  
+- **17:30 – 18:30**: Keynote 5  
+- **18:30 – 19:00**: Closing Speeches & Awards  
+- **19:30 onward**: Banquet Dinner
+
+---
+
+## Saturday, 5 July 2025
+
+- **09:30 – 20:00**: Shenzhen Day Tour  
+- **09:30 – 11:30**: Morning tours of Hong Kong  
+- **13:00 – 18:00**: Afternoon tours of Hong Kong  
+- **19:30 – 22:30**: Evening tours of Hong Kong (details to be announced soon)
+
+---
+
+## Sunday, 6 July 2025
+
+- **09:30 – 18:00**: Junk Boat Party in Sai Kung (details to be announced soon)
+
+---
+
+_Note again: This schedule is tentative and subject to change._
