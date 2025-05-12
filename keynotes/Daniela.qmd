@@ -1,5 +1,6 @@
 ---
-title: "Keynote"
+title: >-
+  Keynote: "Intuitive Machines & Extended Realities"
 toc: False
 format: html
 ---
@@ -19,11 +20,12 @@ format: html
 
 <div>
 
-## Prof. Daniela Mitterberger
-##### Assistant Professor
-##### School of Architecture
-##### Princeton University
-Prof. Mitterberger is an Austrian architect and researcher specializing in AI-driven digital fabrication, robotics, and extended reality (XR). She leads Princeton’s Extended Augmentation in Architecture Lab (XAIA) and serves on the Board of Directors of the COMPAS Association, where she advances COMPAS XR for interdisciplinary collaboration in AEC. Her doctoral research at ETH Zurich focused on adaptive digital fabrication and human–machine collaboration, culminating in multiple teaching engagements at leading international institutions. Parallel to her academic work, Mitterberger co-founded and directs MAEID, an award-winning architecture practice with international exhibitions including the Milan Triennale, Venice Biennale and Ars Electronica.
+## Prof. Dr. Daniela Mitterberger
+##### Assistant Professor at Princeton School of Architecture
+##### Director of XAIA Lab (Extended Augmentation in Architecture)
+##### Architect, Partner and Co-Founder of MAEID (Büro für Architektur und transmediale Kunst)
+
+
  
 </div>
 
@@ -31,10 +33,25 @@ Prof. Mitterberger is an Austrian architect and researcher specializing in AI-dr
 
 ### About the Speaker
 
-Prof. Mitterberger is an Austrian architect and researcher in digital fabrication and human-machine interaction. Her research focuses on extended reality, spatial computing, and robotics. Mitterberger joined Princeton University as an assistant professor in January 2024. There, she leads the Extended Augmentation in Architecture Lab (XAIA) as part of the School of Architecture. Mitterberger serves on the Board of Directors of the COMPAS Association, supporting its open-source frameworks for interdisciplinary collaboration in AEC. She leads the development of COMPAS XR, the framework that integrates extended reality and robotics.
- 
-Prior to joining Princeton University, Mitterberger was a senior scientist and co-lead of the Immersive Design Lab at ETH Zurich. She received her doctoral degree in Architecture from ETH Zurich in 2023, focusing on adaptive digital fabrication and human-machine collaboration.
- 
-She has previously been appointed and lectured in several international graduate and postgraduate programs, amongst others, at the MSD in Melbourne, UniSA in Adelaide, the University of Applied Arts and Academy of Fine Arts in Vienna, the University of Innsbruck, ETH Zurich, Tongji University in Shanghai, and IAAC in Barcelona.
- 
-Parallel to her academic career, Daniela Mitterberger also explores the boundaries between science and art with her multidisciplinary architecture office MAEID [Büro für Architektur und Transmediale Kunst], which she co-founded in 2015. MAEID’s work has been awarded numerous international prizes and exhibited in renowned galleries, institutions and events, including the Venice Biennale 2021, Princess of Asturias Awards 2021, Seoul Biennale 2020, Ars Electronica Linz, MAK Vienna, Melbourne Triennial, Academy of Fine Arts Vienna and HdA Graz.
+Daniela Mitterberger is an Austrian architect and researcher in digital fabrication and human machine interaction. Her research focuses on extended reality, spatial computing, and robotics. Mitterberger is an assistant professor at Princeton University where she leads the Extended Augmentation in Architecture Lab (XAIA). She serves on the Board of Directors of the COMPAS Association and is leading the development of COMPAS XR, the framework that integrates extended reality and robotics for architecture, engineering and construction.
+
+Prior to joining Princeton University, Mitterberger was senior scientist and co-lead of the Immersive Design Lab at ETH Zurich. There she received her doctoral degree in Architecture in 2023, focusing on adaptive digital fabrication and human-machine collaboration.
+
+Parallel to her academic career, Daniela Mitterberger also explores the boundaries between science and art with her multidisciplinary architecture office MAEID which she co-founded in 2015. MAEID’s work has been awarded numerous international prizes and exhibited in renowned galleries, institutions and events, including the Venice Biennale 2021, Seoul Biennale 2020, Ars Electronica Linz, and MAK Vienna.
+
+
+
+### Lecture Abstract
+
+This talk explores how emerging technologies—particularly spatial computing—are reshaping the way we interact with machines in design and construction. Moving beyond the limitations of 2D screens, tools like extended reality (XR), AI, and collaborative robotics allow digital information to be embedded directly into the physical world, opening up new forms of interaction between humans, machines, and materials. Starting from the idea that intuition can be augmented through computation, the talk reflects on how XR enables a shift from mass customization to mass collaboration in architecture. Through a series of built case studies, this talk will showcase ongoing research on immersive and interactive design, teleoperated fabrication, and human–machine collaboration. These projects show how digital tools can support and extend craft—enhancing precision and creativity while maintaining the tactile and cultural dimensions of making. The talk concludes with a broader reflection on the role of XR in AEC, and its potential to shape more collaborative, adaptive, and sustainable ways of working.
+
+
+
+![](../images/keynotes/dan1.jpg)
+AR Timber Assembly 
+![](../images/keynotes/dan2.jpg)
+AR Timber Assembly Closeup
+![](../images/keynotes/dan3.jpg)
+Cocorporeality
+![](../images/keynotes/dan4.jpg)
+Tieaknot

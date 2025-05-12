@@ -31,7 +31,7 @@ format: html
 
 ### About the Speaker
 
-Prof. Popescu has a strong interest and experience in innovative ways of approaching the fabrication process and use of materials in construction. She obtained her PhD in 2019 from ETH Zurich and was named a “Pioneer” in the MIT Technology Review Innovator Under 35 list of 2019
+Prof. Popescu has a strong interest and experience in innovative ways of approaching the fabrication process and use of materials in construction. She obtained her PhD in 2019 from ETH Zurich and was named a “Pioneer” in the MIT Technology Review Innovator Under 35 list of 2019.
 
 
 ### Lecture Abstract
