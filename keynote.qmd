@@ -119,7 +119,7 @@ Keynote Sessions will feature presentations by two distinguished keynote speaker
 <div class="table-container">
     <div class="image-cell">
     <a href="keynotes/Daniela.html">
-        <img src="images/keynotes/Daniela Mitterberger[44]_new.png" alt="Prof. Daniela Mitterberger"></a>
+        <img src="images/keynotes/Daniela Mitterberger[44]_newnew.png" alt="Prof. Daniela Mitterberger"></a>
     </div>
     <div class="text-cell">
         <h3><a href="keynotes/Daniela.html">

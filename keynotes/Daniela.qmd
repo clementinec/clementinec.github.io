@@ -15,7 +15,7 @@ format: html
 
 ::: {layout-ncol=2}
 
-![](../images/keynotes/Daniela Mitterberger[44]_new.png){fig-alt="Prof. Daniela Mitterberger" style="border-radius: 50%; width: 80%;"}
+![](../images/keynotes/Daniela Mitterberger[44]_newnew.png){fig-alt="Prof. Daniela Mitterberger" style="border-radius: 50%; width: 80%;"}
 
 <div>
 
