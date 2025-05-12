@@ -12,7 +12,7 @@ format:
   }
 .faint-line {
   border: none;
-  height: 2px;
+  height: 1tpx;
   background-color: #ccc;  /* very light grey */
   margin: 1.5em 0;          /* optional vertical spacing */
 }
@@ -25,9 +25,9 @@ Tickets can be purchased via [`the official registration portal`](https://hkuems
 
 ---
 
-### Ticket Categories
+## Ticket Categories
 
-<hr class="faint-line">
+<!-- <hr class="faint-line"> -->
 
 Three types of registration tickets are available:
 
@@ -43,9 +43,9 @@ A **10% Early Bird Discount** is available for all ticket categories until **25 
 
 ---
 
-### Publication Requirements
+## Publication Requirements
 
-<hr class="faint-line">
+<!-- <hr class="faint-line"> -->
 
 To be eligible for inclusion in the official conference proceedings:
 
@@ -55,9 +55,9 @@ To be eligible for inclusion in the official conference proceedings:
 
 ---
 
-### Reduced Fee Tickets
+## Reduced Fee Tickets
 
-<hr class="faint-line">
+<!-- <hr class="faint-line"> -->
 
 ##### Student Tickets
 
@@ -80,9 +80,9 @@ Tickets purchased **without approval** may be deemed **invalid without refund**.
 
 ---
 
-### Tours of Hong Kong
+## Tours of Hong Kong
 
-<hr class="faint-line">
+<!-- <hr class="faint-line"> -->
 
 A curated series of **cultural and social activities** will be offered throughout the conference week and weekend.  
 These include:

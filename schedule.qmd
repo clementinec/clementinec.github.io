@@ -10,6 +10,12 @@ format:
     text-transform: none !important;
     letter-spacing: normal !important;
   }
+  .faint-line {
+  border: none;
+  height: 1tpx;
+  background-color: #ccc;  /* very light grey */
+  margin: 1.5em 0;          /* optional vertical spacing */
+}
 </style>
 
 <!-- # Schedule -->
