@@ -21,7 +21,7 @@ format:
 
 We are pleased to announce that ticket sales for **CAAD Futures 2025** are now open. 
 
-Tickets can be purchased via [`the official registration portal`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100350).
+Tickets can be purchased via [`the official registration portal`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100412).
 
 ---
 
@@ -47,11 +47,16 @@ A **10% Early Bird Discount** is available for all ticket categories until **25 
 
 <!-- <hr class="faint-line"> -->
 
-To be eligible for inclusion in the official conference proceedings:
+<!-- To be eligible for inclusion in the official conference proceedings: -->
 
-- We kindly request that at least two Catalysers attend from each Catalytic Interface team.  One individual must complete registration and payment by **1 June 2025**. 
+<!-- - We kindly request that at least two Catalysers attend from each Catalytic Interface team.  One individual must complete registration and payment by **1 June 2025**. 
 - The presenting author must attend in person in **Hong Kong** and present the work at the scheduled time
-- Each accepted paper must be associated with a **unique, fully registered conference participant**
+- Each accepted paper must be associated with a **unique, fully registered conference participant** -->
+
+- **In-person presentation is mandatory** for inclusion in the Conference Companion Book or Springer Book Publication as well as participation in the Catalytic Interface (CI) programme.
+- Regular papers (Springer or Compendium): At least **one presenting author** must register, pay by **1 June 2025**, attend in person in Hong Kong, and present at the scheduled time.
+- CI position papers: At least **two team members** must attend, with one registered and paid by **1 June 2025**, and the work must be presented in person. More team members are warmly encouraged to attend—the more, the merrier—to ensure rich and engaged participation.
+- Each accepted paper (regular or CI) must be linked to a **unique, fully registered conference participant**.
 
 ---
 
