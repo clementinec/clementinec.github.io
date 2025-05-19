@@ -121,8 +121,8 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/DiamondHillCrematorium.html">
-            <img src="images/events/VictoriaPeak.jpg" alt="Diamond Hill Crematorium">
+        <a href="event_details.html#VictoriaPeak">
+            <img src="images/events/VictoriaPeak.jpg" alt="Victoria Peak">
         </a>
     </div>
     <div class="text-cell">
@@ -140,7 +140,7 @@ format:
             <strong>Time:</strong><br>7:30PM – 10:30PM<br>
             <strong>Cost:</strong> Free
         </p>
-        <a class="ticket-button" href="https://signup.example.com" target="_blank">Ticket Purchase</a>
+        <a class="ticket-button" href="event_details.html#VictoriaPeak" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -148,7 +148,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/BarCentral.html">
+        <a href="event_details.html#BarCentral">
             <img src="images/events/barCentral.jpg" alt="BarCentral">
         </a>
     </div>
@@ -173,7 +173,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/GalaDinner.html">
+        <a href="event_details.html#GalaDinner">
             <img src="images/events/hhtst_eye.jpg" alt="GalaDinner">
         </a>
     </div>
@@ -191,7 +191,7 @@ format:
         <strong>Time:</strong> 6:00PM – 10:30PM<br>
         <strong>Quota:</strong> 250<br>
         <strong>Cost:</strong> HKD 960</p>
-        <a class="ticket-button" href="https://signup.example.com" target="_blank">Ticket Purchase</a>
+        <a class="ticket-button" href="event_details.html#GalaDinner" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -218,7 +218,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/BarTST.html">
+        <a href="event_details.html#BarTST">
             <img src="images/events/socialBarTST.jpg" alt="BarTST">
         </a>
     </div>
@@ -243,7 +243,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/DiamondHillCrematorium.html">
+        <a href="event_details.html#DiamondHill">
             <img src="images/events/DiamondHillCrematorium.png" alt="Diamond Hill Crematorium">
         </a>
     </div>
@@ -262,60 +262,15 @@ format:
             <strong>Time:</strong><br>7:30PM – 10:30PM<br>
             <strong>Cost:</strong> Free
         </p>
-        <a class="ticket-button" href="https://signup.example.com" target="_blank">Ticket Purchase</a>
+        <a class="ticket-button" href="event_details.html#DiamondHill" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
-<!-- 
-```{=html}
-<div class="table-container">
-    <div class="image-cell">
-        <a href="events/WanChaiTempleBlueHouse.html">
-            <img src="images/events/WanChaiTempleBlueHouse.avif" alt="WanChaiTempleBlueHouse">
-        </a>
-    </div>
-    <div class="text-cell">
-        <div class="event-title-block">
-            <div class="event-category">Architecture Tour</div>
-            <h1 class="event-heading">
-                <span class="highlight">Unique Typologies:</span>
-                Wan Chai Temple & Blue House
-            </h1>
-        </div>
-        <p class="event-subtitle"><strong>Exploring Spiritual Heritage and Urban Regeneration</strong></p>
-        Explore one of Hong Kong’s oldest districts through its temples, tenement buildings, and revitalized heritage sites.<br><br>
-        <strong>Date:</strong> 5th July<br>
-        <strong>Time:</strong><br> 9:30AM – 11:30AM<br>4:30PM – 6:30PM<br>
-        <strong>Quota:</strong> 30<br>
-        <strong>Cost:</strong> HKD 250</p>
-        <a class="ticket-button" href="https://signup.example.com" target="_blank">Ticket Purchase</a>
-    </div>
-</div>
-``` -->
-<!-- ```{=html}
-
-<div class="table-container">
-    <div class="image-cell">
-        <a href="events/PublicHousing.html">
-            <img src="images/events/PublicHousing.png" alt="PublicHousing">
-        </a>
-    </div>
-    <div class="text-cell">
-        <h3><a href="events/PublicHousing.html">Architecture Tour - Public Housing</a></h3>
-        <p><strong>Understanding Urban Density through Repetition and Design</strong><br>
-        Join Professor Christian J. Lange for a deep dive into Hong Kong’s iconic housing estates.<br><br>
-        <strong>Date:</strong> 5th July<br>
-        <strong>Time:</strong><br> 9:30AM – 11:30AM<br>4:30PM – 6:30PM<br>
-        <strong>Quota:</strong> 30<br>
-        <strong>Cost:</strong> HKD 250</p>
-    </div>
-</div>
-``` -->
 
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/PublicHousing.html">
+        <a href="event_details.html#PublicHousing">
             <img src="images/events/PublicHousing.png" alt="PublicHousing">
         </a>
     </div>
@@ -333,7 +288,7 @@ format:
         <strong>Time:</strong><br> 9:30AM – 11:30AM<br>4:30PM – 6:30PM<br>
         <strong>Quota:</strong> 30<br>
         <strong>Cost:</strong> HKD 250</p>
-        <a class="ticket-button" href="https://signup.example.com" target="_blank">Ticket Purchase</a>
+        <a class="ticket-button" href="event_details.html#PublicHousing" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -341,7 +296,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/MPlus.html">
+        <a href="event_details.html#MPlus">
             <img src="images/events/MPlus.png" alt="MPlus">
         </a>
     </div>
@@ -359,7 +314,7 @@ format:
         <strong>Time:</strong><br> 2:30PM – 4:30PM<br>4:30PM – 6:30PM<br>
         <strong>Quota:</strong> 30<br>
         <strong>Cost:</strong> HKD 250 (M+ Tickets is not included)</p>
-        <a class="ticket-button" href="https://signup.example.com" target="_blank">Ticket Purchase</a>
+        <a class="ticket-button" href="event_details.html#MPlus" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -368,7 +323,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/WanChaiTempleBlueHouse.html">
+        <a href="event_details.html#WanChaiTempleBlueHouse">
             <img src="images/events/WanChaiTempleBlueHouse.avif" alt="WanChaiTempleBlueHouse">
         </a>
     </div>
@@ -382,7 +337,7 @@ format:
         </div>
         <p class="event-subtitle"><strong>Exploring Spiritual Heritage and Urban Regeneration</strong></p>
         Explore one of Hong Kong’s oldest districts through its temples, tenement buildings, and revitalized heritage sites. This guided walk offers a rich look at how Wan Chai balances tradition, community life, and contemporary urban renewal.<br><br><strong>Date:</strong> 5th July<br><strong>Time:</strong><br> 9:30AM – 11:30AM<br>4:30PM – 6:30PM<br><strong>Quota:</strong> 30<br><strong>Cost:</strong> HKD 250</p>
-        <a class="ticket-button" href="https://signup.example.com" target="_blank">Ticket Purchase</a>
+        <a class="ticket-button" href="event_details.html#WanChaiTempleBlueHouse" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -390,7 +345,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/WanChaiTempleBlueHouse.html">
+        <a href="event_details.html#MongkokYauMaTei">
             <img src="images/events/temple-street.jpg" alt="MongkokYauMaTei">
         </a>
     </div>
@@ -404,7 +359,7 @@ format:
         </div>
         <p class="event-subtitle"><strong>Exploring Everyday Density and Urban Heritage</strong></p>
         Explore one of Hong Kong’s oldest districts through its temples, tenement buildings, and revitalized heritage sites. This guided walk offers a rich look at how Wan Chai balances tradition, community life, and contemporary urban renewal.<br><br><strong>Date:</strong> 5th July<br><strong>Time:</strong><br> 9:30AM – 11:30AM<br>4:30PM – 6:30PM<br><strong>Quota:</strong> 30<br><strong>Cost:</strong> HKD 250</p>
-        <a class="ticket-button" href="https://signup.example.com" target="_blank">Ticket Purchase</a>
+        <a class="ticket-button" href="event_details.html#MongkokYauMaTei" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -414,7 +369,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/WanChaiTempleBlueHouse.html">
+        <a href="event_details.html#ShenzhenTour">
             <img src="images/events/shenzhen.png" alt="ShenzhenDiscover">
         </a>
     </div>
@@ -459,7 +414,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/tramtourwitty.html">
+        <a href="event_details.html#TramTourWestToEast">
             <img src="images/events/tramtour.png" alt="tram">
         </a>
     </div>
@@ -478,7 +433,7 @@ format:
         7:30PM – 9:00PM<br><strong>
         Quota:</strong> 30<br><strong>
         Cost:</strong> HKD 250</p>
-        <a class="ticket-button" href="https://signup.example.com" target="_blank">Ticket Purchase</a>
+        <a class="ticket-button" href="event_details.html#TramTourWestToEast" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -486,7 +441,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/tramtourwitty.html">
+        <a href="event_details.html#TramTourEastToWest">
             <img src="images/events/tram2.webp" alt="TramTourEastToWest">
         </a>
     </div>
@@ -506,7 +461,7 @@ format:
         8:30PM – 9:00PM<br><strong>
         Quota:</strong> 30<br><strong>
         Cost:</strong> HKD 250</p>
-        <a class="ticket-button" href="https://signup.example.com" target="_blank">Ticket Purchase</a>
+        <a class="ticket-button" href="event_details.html#TramTourEastToWest" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -514,7 +469,7 @@ format:
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-        <a href="events/junkboat.html">
+        <a href="event_details.html#JunkBoatSaiKung">
             <img src="images/events/junkboat.png" alt="junkboat">
         </a>
     </div>
