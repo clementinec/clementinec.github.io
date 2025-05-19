@@ -5,7 +5,7 @@ format:
     toc: false
 ---
 
-### Session 1: Regular Papers
+### Regular Papers
 
 Welcome to the Regular Papers section of CAAD Futures 2025. This page provides essential information for authors of accepted `Springer Book` and `Companion/Compendium Book` papers. Please review the details below carefully.
 
@@ -21,13 +21,13 @@ Welcome to the Regular Papers section of CAAD Futures 2025. This page provides e
   - Submit both the original file (DOC or LaTeX) and an exported PDF version.
   - Package these files in a ZIP folder for submission via EasyChair.
   - Download the paper template in [`DOC or LaTeX format`](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
+- **Spelling Consistency**: We kindly ask that you use consistent British English spelling conventions throughout your manuscript.
 - **Contact for Invitation Letters**: Request an invitation letter for travel arrangements by emailing <mark>caadfutures2025@hku.hk</mark> with your submission ID.
 
 
 ### Springer Book Papers
 
 - Key Dates
-  - **Submission of Revisions & Responses**: As soon as possible, no later than 14 April 2025
   - **Final Abstract Submission**: <mark>26 May 2025</mark> (for inclusion in the Companion/Compendium Book)
   - **Final Publication**: After the conference, end of July 2025
 - Requirements
@@ -46,7 +46,7 @@ Welcome to the Regular Papers section of CAAD Futures 2025. This page provides e
   - Supplementary Materials: Authors may include supporting media (e.g., video or image summaries). Guidelines will be released shortly.
 
 ### Poster Exhibition
-  - **Submission**: All Companion/Compendium Book authors are invited to submit a poster by 26 May 2025.
+  - **Submission**: Submission:  All Companion/Compendium Book authors are invited to submit a poster by <mark>2 June 2025</mark> using this [template](https://drive.google.com/drive/folders/1x_hUbIyT1zq88_W8axd_BKPpC45SdBPe)
   - **Details**: Posters will be displayed throughout the conference with dedicated plenary sessions for viewing and discussion.
 
 ### Highlight Presentations

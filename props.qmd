@@ -4,7 +4,7 @@ format:
   html:
     toc: false
 ---
-### Session 2: Catalytic Interfaces
+### Catalytic Interfaces
 
 Welcome to the Catalytic Interfaces section of CAAD Futures 2025. This page provides key information for proposers participating in the Catalytic Interfaces programme.
 
@@ -23,5 +23,6 @@ Welcome to the Catalytic Interfaces section of CAAD Futures 2025. This page prov
   - Submit both the original file (DOC or LaTeX) and an exported PDF version.
   - Package these files in a ZIP folder for submission via EasyChair.
   - Download the paper template in [`DOC or LaTeX format`](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
+- **Spelling Consistency**: We kindly ask that you use consistent British English spelling conventions throughout your manuscript.
 - **EasyChair Submission**: Complete the two questions summarizing your "Planned Activities" and "Request for Additional Support" in the EasyChair submission form.
 - **Contact for Invitation Letters**: Request an invitation letter for travel arrangements by emailing caadfutures2025@hku.hk with your submission ID.
