@@ -1,0 +1,51 @@
+---
+title: >-
+  Keynote: "Design for Excellence (DfX): The competing or complementary roles of human designers and generative AI?"
+toc: False
+format: html
+---
+<style>
+  /* turn off forced uppercase & weird letter‐spacing on **all** headings */
+  h1, h2, h3, h4, h5, h6 {
+    text-transform: none !important;
+    letter-spacing: normal !important;
+  }
+</style>
+
+
+
+::: {layout-ncol=2}
+
+![](../images/keynotes/Wilson.png){fig-alt="Prof. Wilson Lu" style="border-radius: 50%; width: 80%;"}
+
+<div>
+
+## Prof. Wilson Lu
+##### Head and Chair Professor (Digital Construction)
+##### Department of Real Estate and Construction
+##### Faculty of Architecture
+##### The University of Hong Kong
+
+
+
+</div>
+
+:::
+
+### About the Speaker
+
+Wilson Lu is Chair Professor (Digital Construction) and Head of the Department of Real Estate and Construction, Faculty of Architecture (FoA), the University of Hong Kong (HKU). Before that, he served as Associate Dean (Research), FoA at HKU from 2016-2023. His research interests focus on digital construction with two directions: 1.Construction informatics: Building Information Modelling (BIM), smart construction, and big data, and blockchain; 2.Circular construction: Management, economics, and public policies.
+
+Prof. Wilson Lu is the leader of research grants worth HK$80+ million from various prestigious funding regimes including Hong Kong Research Grant Council (RGC), and Innovation and Technology Commission (ITC). In 2022, he was awarded a prestigious RGC Collaborative Research Fund (CRF) Project (C7080-22GF): Generative DfX in high-rise modular building: An expert-augmented cascade graph learning and optimisation approach.  
+
+
+
+### Lecture Abstract
+
+Evolving from Design for Manufacturing and Assembly, Design for Excellence (DfX) refers to a more overarching concept, where "X" denotes various potential unknown or excellent factors such as quality, time, cost, functionality, safety, sustainability, and many others. Generative Artificial Intelligence (GenAI) further empowers DfX by rapidly producing a myriad of design options, evaluating their performance, and optimizing them according to predefined excellence criteria. However, this advancement has sparked concerns about GenAI’s potential invasion to traditional designers’ territories. This lecture contends that human and AI designers are not competitors but complementary contributors to achieving DfX. While the exponentially increasing computational power enables AI to enhance the generation, evaluation, and optimization (GEO) generic approach, they are remained computationally intensive. Through mathematical modeling and a case study, this research demonstrates that human designers’ intuition and heuristics can efficiently eliminate unfeasible ‘solution space’ and drive the AI designers quickly converge to the plausible solutions to avoid exhaustive searches and associated computational costs. AI excels at quantitative computations, whereas human designers are adept at addressing qualitative, intangible aspects such as aesthetics, ethics, and well-being. This study offers an evidence-based perspective to reframe the polarized debates about the role of human designers in the era of GenAI.
+
+![](../images/keynotes/lu1.jpg)
+<center>The intensive computations in generative design</center>
+
+![](../images/keynotes/lu2.jpg)
+<center>Human’s heuristic and experience can exclude the heavy search of excellent solution in the entire ‘design space’</center>
