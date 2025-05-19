@@ -49,5 +49,5 @@ Welcome to the Regular Papers section of CAAD Futures 2025. This page provides e
   - **Submission**: Submission:  All Companion/Compendium Book authors are invited to submit a poster by <mark>2 June 2025</mark> using this [template](https://drive.google.com/drive/folders/1x_hUbIyT1zq88_W8axd_BKPpC45SdBPe)
   - **Details**: Posters will be displayed throughout the conference with dedicated plenary sessions for viewing and discussion.
 
-### Highlight Presentations
+### Presentations
 A select number of outstanding Companion/Compendium papers will be chosen for short-form presentations during a plenary session. Selection will be announced by the end of the month.
