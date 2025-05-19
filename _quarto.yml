@@ -40,6 +40,8 @@ website:
         href: schedule.qmd
       - text: "Tickets"
         href: ticketing.qmd
+      - text: "Events"
+        href: event.qmd
       - text: "Committee"
         href: committee.qmd
       - text: "Ambition"

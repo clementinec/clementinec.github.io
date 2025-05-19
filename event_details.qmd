@@ -16,6 +16,25 @@ img.square-crop {
     border-radius: 0;          /* no circle */
     display: block;
 }
+
+.ticket-button {
+    display: inline-block;
+    background-color: #ff0000;      /* Bright red */
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1px 1px;
+    border-radius: 1.5px;
+    margin-top: 15px;
+    <!-- float: right;                  /* Align to the right */ -->
+    font-size: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s ease;
+}
+
+.ticket-button:hover {
+    background-color: #cc0000;      /* Slightly darker on hover */
+}
 </style>
 ```
 <div id="VictoriaPeak"></div>
@@ -45,8 +64,10 @@ Join us for a relaxed evening walk from HKU to The Peak, one of Hong Kong’s mo
 - Add details on length and elevation to manage expectations!!
 
 **Event Details:**  
-**Date:** Option 1: Wednesday, 2nd July  
-Option 2: Thursday, 3rd July  
+**Date:** 
+
+- Option 1: Wednesday, 2nd July  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100398)
+- Option 2: Thursday, 3rd July  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100481)
 **Time:** 7:30PM – 10:30PM  
 **Cost:** Free of charge
 
@@ -114,8 +135,12 @@ Join HKU Adjunct Assistant Professor Human T.L. Wu for an in-depth architectural
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** Option 1: 2:30PM – 4:30PM  
-Option 2: 4:30PM – 6:30PM  
+**Time:** 
+
+- Option 1: 2:30PM – 4:30PM [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100384)
+- Option 2: 4:30PM – 6:30PM [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100420)
+<!-- <a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100479" target="_blank">Purchase this event.</a> -->
+ 
 **Quota:** 30  
 **Cost:** HKD 250 (M+ Exhibition Entry Tickets is not included)
 
@@ -147,8 +172,10 @@ Led by HKU Professor Christian J. Lange, co-author of *Cities of Repetition*, th
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** Option 1: 9:30AM – 11:30AM  
-Option 2: 4:30PM – 6:30PM  
+**Time:** 
+
+- Option 1: 9:30AM – 11:30AM  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100389)
+- Option 2: 4:30PM – 6:30PM  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100424)
 **Quota:** 30  
 **Cost:** HKD 250
 
@@ -180,8 +207,10 @@ This exclusive architecture walk explores how public buildings in Hong Kong can 
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** 9:30AM – 11:30AM  
-4:30PM – 6:30PM  
+**Time:** 
+
+- Option 1: 9:30AM – 11:30AM  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100387)
+- Option 2: 4:30PM – 6:30PM  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100422)
 **Quota:** 30  
 **Cost:** HKD 250
 
@@ -213,8 +242,10 @@ This guided walk takes participants through Wan Chai’s historical layers—vis
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** Option 1: 9:30AM – 11:30AM  
-Option 2: 4:30PM – 6:30PM  
+**Time:** 
+
+- Option 1: 9:30AM – 11:30AM  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100391)
+- Option 2: 4:30PM – 6:30PM  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100428)
 **Quota:** 30  
 **Cost:** HKD 250
 
@@ -247,8 +278,10 @@ This walking tour takes participants deep into the vibrant heart of Kowloon, whe
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** Option 1: 9:30AM – 11:30AM  
-Option 2: 4:30PM – 6:30PM  
+**Time:** 
+
+- Option 1: 9:30AM – 11:30AM  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100392)
+- Option 2: 4:30PM – 6:30PM  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100433)
 **Quota:** 30  
 **Cost:** HKD 250
 
@@ -350,7 +383,7 @@ Ride Hong Kong’s iconic tram for a guided journey across the city’s evolving
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** 7:30PM – 9:00PM  
+**Time:** 7:30PM – 8:30PM  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100403)
 **Quota:** 30  
 **Cost:** HKD 250
 
@@ -382,7 +415,7 @@ Hop aboard a classic Hong Kong tram for a guided ride through the city’s archi
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** 8:30PM – 9:30PM  
+**Time:** 8:30PM – 9:30PM  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100435)
 **Quota:** 30  
 **Cost:** HKD 250
 
@@ -414,7 +447,7 @@ Join fellow participants for a laid-back night out in Central. Enjoy great drink
 
 **Event Details:**  
 **Date:** Wednesday, 2nd July  
-**Time:** 7:30PM – 10:30PM
+**Time:** 7:30PM – 10:30PM <a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100479" target="_blank">Purchase this event.</a>
 
 ---
 
