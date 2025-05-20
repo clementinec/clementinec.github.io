@@ -18,7 +18,7 @@ Welcome to the Catalytic Interfaces section of CAAD Futures 2025. This page prov
 - **Final Camera-Ready Paper**: <mark>26 May 2025</mark>
 
 #### Requirements
-- **Attendance**: At least tw- Catalysers from each original submission team must attend the conference.
+- **Attendance**: At least two Catalysers from each original submission team must attend the conference.
 - **Submission Format**:
   - Submit both the original file (DOC or LaTeX) and an exported PDF version.
   - Package these files in a ZIP folder for submission via EasyChair.
