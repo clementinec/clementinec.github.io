@@ -33,7 +33,7 @@ format:
 
 .image-cell img {
     width: 100%;
-    height: 280px;
+    height: auto;
     object-fit: cover;
     object-position: center center; /* 👈 forces center cropping */
     border-radius: 50%;
