@@ -37,7 +37,42 @@ img.square-crop {
 }
 </style>
 ```
+<div id="VictoriaPeak"></div>
 
+::: {layout-ncol=2}
+
+![](images/events/VictoriaPeak.jpg){fig-alt="Walking Tour: Victoria Peak at Night" style="border-radius: 5%; width: 100%;"}
+
+<div>
+
+## Walking Tour: Victoria Peak at Night  
+**High Density Urbanism**
+
+A panoramic evening escape above the city.
+
+Join us for a relaxed evening walk from HKU to The Peak, one of Hong Kong’s most iconic vantage points. As dusk falls, experience the city’s dazzling skyline come to life from above.
+
+</div>
+
+:::
+
+**Highlights:**
+
+- Gentle hike through green trails connecting the urban edge to nature.
+- Spectacular night-time views of Victoria Harbour and the skyline.
+- A chance to unwind, connect, and enjoy Hong Kong from a new perspective.
+- Add details on length and elevation to manage expectations!!
+
+**Event Details:**  
+**Date:** 
+
+- Option 1: Wednesday, 2nd July  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100398)
+- Option 2: Thursday, 3rd July  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100481)
+
+**Time:** 7:30PM – 10:30PM  
+**Cost:** Free of charge
+
+---
 
 <div id="GalaDinner"></div>
 
@@ -50,7 +85,7 @@ img.square-crop {
 ## Social Event: Gala Dinner (Extra Tickets)  
 **Banquet – Maxim’s Palace**
 
-Get an `Extra` ticket to join us for the official CAAD Futures 2025 Conference Banquet at the iconic Maxim’s Palace, a treasured Hong Kong venue known for its grand interiors and harbor views.
+Join us for the official CAAD Futures 2025 Conference Banquet at the iconic Maxim’s Palace, a treasured Hong Kong venue known for its grand interiors and harbor views.
 
 </div>
 
@@ -64,7 +99,7 @@ Get an `Extra` ticket to join us for the official CAAD Futures 2025 Conference B
 
 **Event Details:**  
 **Time:** 6:00PM – 10:30PM  
-**Quota Remaining:** 30  
+**Quota:** 250  
 **Cost:** HKD 960
 
 **Notes:**  
@@ -294,42 +329,7 @@ This full-day architecture tour to Shenzhen offers an immersive experience into 
 > Participants are responsible for meeting immigration requirements.
 
 ---
-<div id="VictoriaPeak"></div>
 
-::: {layout-ncol=2}
-
-![](images/events/VictoriaPeak.jpg){fig-alt="Walking Tour: Victoria Peak at Night" style="border-radius: 5%; width: 100%;"}
-
-<div>
-
-## Walking Tour: Victoria Peak at Night  
-**High Density Urbanism**
-
-A panoramic evening escape above the city.
-
-Join us for a relaxed evening walk from HKU to The Peak, one of Hong Kong’s most iconic vantage points. As dusk falls, experience the city’s dazzling skyline come to life from above.
-
-</div>
-
-:::
-
-**Highlights:**
-
-- Gentle hike through green trails connecting the urban edge to nature.
-- Spectacular night-time views of Victoria Harbour and the skyline.
-- A chance to unwind, connect, and enjoy Hong Kong from a new perspective.
-- Add details on length and elevation to manage expectations!!
-
-**Event Details:**  
-**Date:** 
-
-- Option 1: Wednesday, 2nd July  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100398)
-- Option 2: Thursday, 3rd July  [`Purchase this event`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100481)
-
-**Time:** 7:30PM – 10:30PM  
-**Cost:** Free of charge
-
----
 <div id="JunkBoatSaiKung"></div>
 
 ::: {layout-ncol=2}
@@ -428,8 +428,8 @@ Hop aboard a classic Hong Kong tram for a guided ride through the city’s archi
 **Cost:** HKD 250
 
 ---
-<!-- 
-<div id="BarCentral"></div>
+
+<!-- <div id="BarCentral"></div>
 
 ::: {layout-ncol=2}
 
@@ -457,8 +457,8 @@ Join fellow participants for a laid-back night out in Central. Enjoy great drink
 **Date:** Wednesday, 2nd July  
 **Time:** 7:30PM – 10:30PM <a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100479" target="_blank">Purchase this event.</a>
 
----
-
+--- -->
+<!-- 
 <div id="BarTST"></div>
 
 ::: {layout-ncol=2}
