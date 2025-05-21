@@ -19,10 +19,11 @@ Welcome to the Catalytic Interfaces section of CAAD Futures 2025. This page prov
 
 #### Requirements
 - **Attendance**: At least two Catalysers from each original submission team must attend the conference.
-- **Submission Format**:
-  - Submit both the original file (DOC or LaTeX) and an exported PDF version.
-  - Package these files in a ZIP folder for submission via EasyChair.
-  - Download the paper template in [`DOC or LaTeX format`](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
+- **Submission**: Please submit directly to [`EasyChair`](https://easychair.org/conferences/?conf=caadfutures2025).
+- **Format**:
+  - **Template**: Download the paper template in [`DOC or LaTeX format`](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
+  - **ZIP**: Package these files in a ZIP folder for submission.
+  - **File Type**: Submit both the original file (DOC or LaTeX) and an exported PDF version.
 - **Spelling Consistency**: We kindly ask that you use consistent British English spelling conventions throughout your manuscript.
-- **EasyChair Submission**: Complete the two questions summarizing your "Planned Activities" and "Request for Additional Support" in the EasyChair submission form.
+- **Author Details**: Submissions must include author names and institutional affiliations (**do not** anonymise).
 - **Contact for Invitation Letters**: Request an invitation letter for travel arrangements by emailing caadfutures2025@hku.hk with your submission ID.

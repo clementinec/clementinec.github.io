@@ -19,36 +19,46 @@ Welcome to the Regular Papers section of CAAD Futures 2025. This page provides e
 - **Registration Requirement**: Each accepted paper must have at least one uniquely registered author.
 - **Submission Format**:
   - Submit both the original file (DOC or LaTeX) and an exported PDF version.
-  - Package these files in a ZIP folder for submission via EasyChair.
-  - Download the paper template in [`DOC or LaTeX format`](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
-- **Spelling Consistency**: We kindly ask that you use consistent British English spelling conventions throughout your manuscript.
+  - **ZIP**: Always package all relevant files into a single ZIP folder.
+  - **Submission**: Unless otherwise indicate, please submit directly to [`EasyChair`](https://easychair.org/conferences/?conf=caadfutures2025).
+  - **Template**: Download the paper template in [`DOC or LaTeX format`](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
+  - **Spelling Consistency**: We kindly ask that you use consistent British English spelling conventions throughout your manuscript.
 - **Contact for Invitation Letters**: Request an invitation letter for travel arrangements by emailing <mark>caadfutures2025@hku.hk</mark> with your submission ID.
 
+### Springer Book Authors
 
-### Springer Book Papers
-
-- Key Dates
+- **Key Dates**
   - **Final Abstract Submission**: <mark>26 May 2025</mark> (for inclusion in the Companion/Compendium Book)
-  - **Final Publication**: After the conference, end of July 2025
-<!-- - Requirements
-  - **Anonymisation**: Ensure your submission is fully anonymised.
-  - **Response to Reviewers**: Include a point-by-point response to reviewers as a DOC or PDF within your submission ZIP package.
- -->
+  - **Final Camera-Ready Paper**: After the conference at the end of July 2025 (post-conference publication).
+- **Final Abstract**
+  - **Submission**: Please send your abstract directly by emailing <mark>caadfutures2025@hku.hk</mark> with subject as “Springer Abstract #PaperID”.
+  - **Author Details**: Submissions must include author names and institutional affiliations (**do not** anonymise).
+  - **Template**: Please use the following [`template`](https://drive.google.com/drive/folders/19uLSt3xwMc35bFUCZtZpJh-pM7-p5qN-).
  
-### Companion/Compendium Book Papers
+### Companion/Compendium Book Authors
 
-- Key Dates
-  - **Final Camera-Ready Paper**: <mark>26 May 2025</mark>
 
-- Requirements
+- **Key Dates**
+    - **Final Camera-Ready Paper**: <mark>26 May 2025</mark>
+    - **Final Exhibition Poster**: <mark>2 June 2025</mark>
+
+- **Camera-Ready Paper**
+  - **Submission**: Please submit using EasyChair by <mark>26 May 2025</mark> 
   - **Reviewer Feedback**: Authors are strongly encouraged to address reviewer feedback in the final submission.
-  - **Anonymization**: Final papers should **not** be anonymized.
+    - **Author Details**: Submissions must include author names and institutional affiliations (**do not** anonymise).
   - **DOI Assignment**: All accepted papers will be assigned a DOI.
-  - Supplementary Materials: Authors may include supporting media (e.g., video or image summaries). Guidelines will be released shortly.
 
-### Poster Exhibition
-  - **Submission**: Submission:  All Companion/Compendium Book authors are invited to submit a poster by <mark>2 June 2025</mark> using this [template](https://drive.google.com/drive/folders/1x_hUbIyT1zq88_W8axd_BKPpC45SdBPe)
+- **Exhibition Poster**
+  - **Submission**: 
+    - All Companion/Compendium Book authors are invited to submit a poster by <mark>2 June 2025</mark>
+    - As EasyChair only allows one file upload per submission, we kindly ask you to submit a single ZIP file containing:
+      - (i) Your final camera-ready paper.
+      - (ii) Your completed exhibition poster (in any of the three formats provided).
+  - **Template**: 
+    - Please choose and select **one** of the poster [`templates`](https://drive.google.com/drive/folders/1x_hUbIyT1zq88_W8axd_BKPpC45SdBPe). You are welcome to choose from the different layout options included.
+    - **Format**: Adobe Illustrator, PowerPoint, or PDF.
   - **Details**: Posters will be displayed throughout the conference with dedicated plenary sessions for viewing and discussion.
 
-### Presentations
-A select number of outstanding Companion/Compendium papers will be chosen for short-form presentations during a plenary session. Selection will be announced by the end of the month.
+
+<!-- ### Presentations
+A select number of outstanding Companion/Compendium papers will be chosen for short-form presentations during a plenary session. Selection will be announced by the end of the month. -->
