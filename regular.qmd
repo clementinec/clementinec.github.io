@@ -31,7 +31,7 @@ Welcome to the Regular Papers section of CAAD Futures 2025. This page provides e
   - **Final Abstract Submission**: <mark>26 May 2025</mark> (for inclusion in the Companion/Compendium Book)
   - **Final Publication**: After the conference, end of July 2025
 <!-- - Requirements
-  - **Anonymization**: Ensure your submission is fully anonymized.
+  - **Anonymisation**: Ensure your submission is fully anonymised.
   - **Response to Reviewers**: Include a point-by-point response to reviewers as a DOC or PDF within your submission ZIP package.
  -->
  
