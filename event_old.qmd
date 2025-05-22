@@ -427,7 +427,7 @@ format:
 <div class="table-container">
     <div class="image-cell">
         <a href="event_details.html#VictoriaPeak">
-            <img src="images/events/VictoriaPeak.jpg" alt="Victoria Peak">
+            <img src="images/events/VictoriaPeak.jpg" alt="Victoria Peak"> style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
         </a>
     </div>
     <div class="text-cell">
