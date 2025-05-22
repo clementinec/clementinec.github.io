@@ -115,14 +115,14 @@ format:
   </div>
 </div>
 
-<div class="thumbnail-card">
+<!-- <div class="thumbnail-card">
   <a href="event_details.html#TramTourWestToEast"><img src="images/events/tramtour.png" alt="Whitty Street Tram Depot to North Point"></a>
   <div class="caption">
     <h3>Whitty Street Tram Depot to North Point</h3>
     <p class="event-category">Tram Tour</p>
     <p class="writeup">A Moving Portrait of Hong Kong’s Architecture.</p>
   </div>
-</div>
+</div> -->
 
 <div class="thumbnail-card">
   <a href="event_details.html#TramTourEastToWest"><img src="images/events/tram2.webp" alt="North Point to Whitty Street Tram Depot"></a>
