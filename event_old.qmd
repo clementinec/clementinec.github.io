@@ -232,11 +232,10 @@ format:
         </div>
         <p class="event-subtitle"><strong>Understanding Urban Density through Repetition and Design</strong></p>
         Join Professor Christian J. Lange for a deep dive into Hong Kong’s iconic housing estates.<br><br>
-        <strong>Date:</strong> 5th July<br>
+        <strong>Date:</strong> Saturday, 5th July<br>
         <strong>Time:</strong><br> 9:30AM – 11:30AM<br>4:30PM – 6:30PM<br>
-        <strong>Quota:</strong> 30<br>
+        <strong>Quota:</strong> 30/60<br>
         <strong>Cost:</strong> HKD 250</p>
-        <a class="ticket-button" href="event_details.html#PublicHousing" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -258,11 +257,10 @@ format:
         </div>
         <p class="event-subtitle"><strong>Inside the Making of a Cultural Landmark</strong></p>
         Join Prof. Human T.L. Wu for a behind-the-scenes look at this iconic Herzog & de Meuron project.<br><br>
-        <strong>Date:</strong> 5th July<br>
+        <strong>Date:</strong> Saturday, 5th July<br>
         <strong>Time:</strong><br> 2:30PM – 4:30PM<br>4:30PM – 6:30PM<br>
-        <strong>Quota:</strong> 30<br>
+        <strong>Quota:</strong> 30/60<br>
         <strong>Cost:</strong> HKD 250 (M+ Tickets is not included)</p>
-        <a class="ticket-button" href="event_details.html#MPlus" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -284,8 +282,7 @@ format:
             </h1>
         </div>
         <p class="event-subtitle"><strong>Exploring Spiritual Heritage and Urban Regeneration</strong></p>
-        Explore one of Hong Kong’s oldest districts through its temples, tenement buildings, and revitalized heritage sites. This guided walk offers a rich look at how Wan Chai balances tradition, community life, and contemporary urban renewal.<br><br><strong>Date:</strong> 5th July<br><strong>Time:</strong><br> 9:30AM – 11:30AM<br>4:30PM – 6:30PM<br><strong>Quota:</strong> 30<br><strong>Cost:</strong> HKD 250</p>
-        <a class="ticket-button" href="event_details.html#WanChaiTempleBlueHouse" target="_blank">Ticket Purchase</a>
+        Explore one of Hong Kong’s oldest districts through its temples, tenement buildings, and revitalized heritage sites. This guided walk offers a rich look at how Wan Chai balances tradition, community life, and contemporary urban renewal.<br><br><strong>Date:</strong> Saturday, 5th July<br><strong>Time:</strong><br> 9:30AM – 11:30AM<br>4:30PM – 6:30PM<br><strong>Quota:</strong> 30/60<br><strong>Cost:</strong> HKD 250</p>
     </div>
 </div>
 ```
@@ -306,8 +303,7 @@ format:
             </h1>
         </div>
         <p class="event-subtitle"><strong>Exploring Everyday Density and Urban Heritage</strong></p>
-        Explore one of Hong Kong’s oldest districts through its temples, tenement buildings, and revitalized heritage sites. This guided walk offers a rich look at how Wan Chai balances tradition, community life, and contemporary urban renewal.<br><br><strong>Date:</strong> 5th July<br><strong>Time:</strong><br> 9:30AM – 11:30AM<br>4:30PM – 6:30PM<br><strong>Quota:</strong> 30<br><strong>Cost:</strong> HKD 250</p>
-        <a class="ticket-button" href="event_details.html#MongkokYauMaTei" target="_blank">Ticket Purchase</a>
+        Explore one of Hong Kong’s oldest districts through its temples, tenement buildings, and revitalized heritage sites. This guided walk offers a rich look at how Wan Chai balances tradition, community life, and contemporary urban renewal.<br><br><strong>Date:</strong> Saturday, 5th July<br><strong>Time:</strong><br> 9:30AM – 11:30AM<br>4:30PM – 6:30PM<br><strong>Quota:</strong> 30/60<br><strong>Cost:</strong> HKD 250</p>
     </div>
 </div>
 ```
@@ -331,12 +327,11 @@ format:
         </div>
         <p class="event-subtitle"><strong>Exploring Innovation and Urban Transformation in China’s Design Capital.</strong></p>
         This full-day architecture tour to Shenzhen offers an immersive experience into the city’s cutting-edge design, cultural revitalization, and urban transformation.<br><br><strong>
-        Date:</strong> 5th July<br><strong>
+        Date:</strong> Saturday, 5th July<br><strong>
         Time:</strong><br> 
-        7:30PM – 10:30PM<br><strong>
-        Quota:</strong> 49<br><strong>
+        7:30AM - 8:00PM<br><strong>
+        Quota:</strong> 40<br><strong>
         Cost:</strong> HKD 900</p>
-        <a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100400" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -358,12 +353,11 @@ format:
         </div>
         <p class="event-subtitle"><strong>A Moving Portrait of Hong Kong’s Architecture.</strong></p>
         Ride Hong Kong’s iconic tram for a guided journey across the city’s evolving skyline. From historic streets to soaring towers, discover how architecture captures the rhythms of urban life and change.<br><br><strong>
-        Date:</strong> 5th July<br><strong>
+        Date:</strong> Saturday, 5th July<br><strong>
         Time:</strong><br> 
-        7:30PM – 9:00PM<br><strong>
+        7:30PM - 8:30PM<br><strong>
         Quota:</strong> 30<br><strong>
         Cost:</strong> HKD 250</p>
-        <a class="ticket-button" href="event_details.html#TramTourWestToEast" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -386,12 +380,11 @@ format:
         <p class="event-subtitle"><strong>A Moving Lens on Hong Kong’s Vertical Urbanism.</strong></p>
         Hop aboard a classic Hong Kong tram for a guided ride through the city’s architectural evolution. This moving tour offers fresh perspectives on urban density, heritage, and transformation—from North Point’s residential towers to Central’s iconic skyline.
         <br><br><strong>
-        Date:</strong> 5th July<br><strong>
+        Date:</strong> Saturday, 5th July<br><strong>
         Time:</strong><br> 
-        8:30PM – 9:00PM<br><strong>
+        8:30PM - 9:30PM<br><strong>
         Quota:</strong> 30<br><strong>
         Cost:</strong> HKD 250</p>
-        <a class="ticket-button" href="event_details.html#TramTourEastToWest" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
@@ -414,39 +407,12 @@ format:
         <p class="event-subtitle"><strong>A Scenic Escape to Hong Kong’s Exotic Back Garden.</strong></p>
         Unwind and recharge after the conference with a relaxing junk boat excursion through the scenic waters of Sai Kung, often referred to as the "back garden of Hong Kong." 
         <br><br><strong>
-        Date:</strong> 6th July<br><strong>
+        Date:</strong> Sunday, 6th July<br><strong>
         Time:</strong><br> 
         9:00AM – 7:30PM<br><strong>
         Quota:</strong> 43<br><strong>
         Cost:</strong> HKD 960</p>
-        <a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100393" target="_blank">Ticket Purchase</a>
     </div>
 </div>
 ```
 
-```{=html}
-<div class="table-container">
-    <div class="image-cell">
-        <a href="event_details.html#VictoriaPeak">
-            <img src="images/events/VictoriaPeak.jpg" alt="Victoria Peak"> 
-        </a>
-    </div>
-    <div class="text-cell">
-        <div class="event-title-block">
-            <div class="event-category">Walking Tour</div>
-            <h1 class="event-heading">
-                <span class="highlight">High Density Urbanism:</span>
-                The Victoria Peak and Night
-            </h1>
-        </div>
-        <p class="event-subtitle"><strong>A panoramic evening escape above the city.</strong></p>
-        <p>Join us for a scenic evening walk from HKU to the Peak, offering panoramic views of Hong Kong's skyline illuminated at night.</p>
-        <p>
-            <strong>Date:</strong> 2nd July, 3rd July<br>
-            <strong>Time:</strong><br>7:30PM – 10:30PM<br>
-            <strong>Cost:</strong> Free
-        </p>
-        <a class="ticket-button" href="event_details.html#VictoriaPeak" target="_blank">Ticket Purchase</a>
-    </div>
-</div>
-```
