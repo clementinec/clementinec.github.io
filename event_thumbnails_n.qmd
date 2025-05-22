@@ -1,0 +1,129 @@
+
+::: {.thumbnail-card}
+
+![Gala Dinner](images/events/hhtst_eye.jpg){.thumbnail-img}
+
+### Gala Dinner
+
+**Evening Social**
+
+<p><strong>Date:</strong> Friday, 4th July</p>
+
+:::
+
+
+::: {.thumbnail-card}
+
+![Diamond Hill Crematorium](images/events/DiamondHillCrematorium.png){.thumbnail-img}
+
+### Diamond Hill Crematorium
+
+**Architecture Tour**
+
+<p><strong>Date:</strong> Saturday, 5th July</p><p><strong>Quota:</strong> 30/60</p>
+
+:::
+
+
+::: {.thumbnail-card}
+
+![Public Housing](images/events/PublicHousing.png){.thumbnail-img}
+
+### Public Housing
+
+**Architecture Tour**
+
+<p><strong>Date:</strong> Saturday, 5th July</p><p><strong>Quota:</strong> 30/60</p>
+
+:::
+
+
+::: {.thumbnail-card}
+
+![M+ Art Museum by Herzog and de Meuron](images/events/MPlus.png){.thumbnail-img}
+
+### M+ Art Museum by Herzog and de Meuron
+
+**Architecture Tour**
+
+<p><strong>Date:</strong> Saturday, 5th July</p><p><strong>Quota:</strong> 30/60</p>
+
+:::
+
+
+::: {.thumbnail-card}
+
+![Wan Chai Temple & Blue House](images/events/WanChaiTempleBlueHouse.avif){.thumbnail-img}
+
+### Wan Chai Temple & Blue House
+
+**Architecture Tour**
+
+<p><strong>Date:</strong> Saturday, 5th July</p><p><strong>Quota:</strong> 30/60</p>
+
+:::
+
+
+::: {.thumbnail-card}
+
+![Mongkok & Yau Ma Tei](images/events/temple-street.jpg){.thumbnail-img}
+
+### Mongkok & Yau Ma Tei
+
+**Architecture Tour**
+
+<p><strong>Date:</strong> Saturday, 5th July</p><p><strong>Quota:</strong> 30/60</p>
+
+:::
+
+
+::: {.thumbnail-card}
+
+![Discovering Shenzhen](images/events/shenzhen.png){.thumbnail-img}
+
+### Discovering Shenzhen
+
+**Field Trip**
+
+
+
+:::
+
+
+::: {.thumbnail-card}
+
+![Whitty Street Tram Depot to North Point](images/events/tramtour.png){.thumbnail-img}
+
+### Whitty Street Tram Depot to North Point
+
+**Tram Tour**
+
+
+
+:::
+
+
+::: {.thumbnail-card}
+
+![North Point to Whitty Street Tram Depot](images/events/tram2.webp){.thumbnail-img}
+
+### North Point to Whitty Street Tram Depot
+
+**Tram Tour**
+
+
+
+:::
+
+
+::: {.thumbnail-card}
+
+![Junk Boat Trip in Sai Kung](images/events/junkboat.png){.thumbnail-img}
+
+### Junk Boat Trip in Sai Kung
+
+**Social Event**
+
+
+
+:::

@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 
 # Load your Quarto file
-input_path = Path("event.qmd")  # Ensure this file exists
+input_path = Path("event_old.qmd")  # Ensure this file exists
 with open(input_path, "r", encoding="utf-8") as f:
     content = f.read()
 

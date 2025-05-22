@@ -62,7 +62,7 @@ format:
 </div>
 
 <div class="thumbnail-card">
-  <a href="event_details.html#DiamondHill"><img src="images/events/DiamondHillCrematorium.png" alt="Diamond Hill Crematorium"></a>
+  <a href="event_details.html#DiamondHill"><img src="images/events/DiamondHillCrematorium.jpg" alt="Diamond Hill Crematorium"></a>
   <div class="caption">
     <h3>Diamond Hill Crematorium</h3>
     <p class="event-category">Architecture Tour</p>
@@ -89,7 +89,7 @@ format:
 </div>
 
 <div class="thumbnail-card">
-  <a href="event_details.html#WanChaiTempleBlueHouse"><img src="images/events/WanChaiTempleBlueHouse.avif" alt="Wan Chai Temple & Blue House"></a>
+  <a href="event_details.html#WanChaiTempleBlueHouse"><img src="images/events/WanChaiTempleBlueHouse.jpg" alt="Wan Chai Temple & Blue House"></a>
   <div class="caption">
     <h3>Wan Chai Temple & Blue House</h3>
     <p class="event-category">Architecture Tour</p>

@@ -154,7 +154,7 @@ Led by HKU Professor Christian J. Lange, co-author of *Cities of Repetition*, th
 
 ::: {layout-ncol=2}
 
-![](images/events/DiamondHillCrematorium.png){fig-alt="Architecture Tour: Unique Typologies – Diamond Hill Crematorium" style="border-radius: 5%; width: 100%;"}
+![](images/events/DiamondHillCrematorium.jpg){fig-alt="Architecture Tour: Unique Typologies – Diamond Hill Crematorium" style="border-radius: 5%; width: 100%;"}
 
 <div>
 
@@ -191,7 +191,7 @@ This exclusive architecture walk explores how public buildings in Hong Kong can 
 
 ::: {layout-ncol=2}
 
-![](images/events/WanChaiTempleBlueHouse.avif){fig-alt="Architecture Tour: High Density Urbanism – Wan Chai Temple & Blue House" style="border-radius: 5%; width: 100%;"}
+![](images/events/WanChaiTempleBlueHouse.jpg){fig-alt="Architecture Tour: High Density Urbanism – Wan Chai Temple & Blue House" style="border-radius: 5%; width: 100%;"}
 
 <div>
 
