@@ -45,10 +45,10 @@ img.square-crop {
 
 <div>
 
-## Social Event: Gala Dinner (Extra Tickets)  
+## Social Event: Gala Dinner (+1 ticket)  
 **Banquet – Maxim’s Palace**
 
-Get one more extra ticket beyond your conference package to join us for the official CAAD Future 2025 Conference Banquet at the iconic Maxim’s Palace.
+Get one more extra ticket beyond your conference package to join us for the official CAAD Future 2025 Conference Banquet at the iconic Maxim’s Palace.  
 Join us for the official CAAD Futures 2025 Conference Banquet at the iconic Maxim’s Palace, a treasured Hong Kong venue known for its grand interiors and harbor views.
 
 </div>
@@ -61,11 +61,10 @@ Join us for the official CAAD Futures 2025 Conference Banquet at the iconic Maxi
 - Networking opportunity in a relaxed, celebratory setting
 - Reserved seating for registered guests and their +1 companions only
 
-**Event Details:**
+**Event Details:**  
 **Date:** Friday, 4th July  
-**Time:** 6:00PM – 10:30PM 
-**Cost:** HKD 960
-
+**Time:** 6:00PM – 10:30PM  
+**Cost:** HKD 960  
 **Waiting Location:** City Hall [Map](https://maps.app.goo.gl/en8NWx9jg9z9r93p7)
 
 **Notes:**  
@@ -108,8 +107,9 @@ Join HKU Adjunct Assistant Professor Human T.L. Wu for an in-depth architectural
 - Option 2: 4:30PM – 6:30PM [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100420)
 
  
-**Quota:** 30  
-**Cost:** HKD 250 (M+ Exhibition Entry Tickets is not included)
+**Quota:** 30/60  
+**Cost:** HKD 250 (M+ Exhibition Entry Tickets is not included)  
+**Waiting Location:** Artist Square Entrance, G/F, M+ Museum [Map](https://maps.app.goo.gl/evRXFE9Bsktg5Buo8)
 
 ---
 
@@ -144,8 +144,9 @@ Led by HKU Professor Christian J. Lange, co-author of *Cities of Repetition*, th
 - Option 1: 9:30AM – 11:30AM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100389)
 - Option 2: 4:30PM – 6:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100424)
 
-**Quota:** 30  
-**Cost:** HKD 250
+**Quota:** 30/60  
+**Cost:** HKD 250  
+**Waiting Location:** Waiting Location: TBC
 
 ---
 
@@ -160,7 +161,7 @@ Led by HKU Professor Christian J. Lange, co-author of *Cities of Repetition*, th
 ## Architecture Tour: Unique Typologies – Diamond Hill Crematorium  
 **Designing for Remembrance in a City of Density**
 
-This exclusive architecture walk explores how public buildings in Hong Kong can respond to complex social and spatial challenges with dignity, clarity, and care.
+This exclusive architecture walk explores how public buildings in Hong Kong can respond to complex social and spatial challenges with dignity,clarity, and care. Located in one of the world’s most densely populated cities, the Dimond Hill Crematorium and Columbarium redefines the architectural language of remembrance. Designed by the Architectural Services Department (ASD), the facility integrates natural light, peaceful courtyards, and functional elegance to support emotional well-being in times of grief.
 
 </div>
 
@@ -180,8 +181,9 @@ This exclusive architecture walk explores how public buildings in Hong Kong can 
 - Option 1: 9:30AM – 11:30AM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100387)
 - Option 2: 4:30PM – 6:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100422)
 
-**Quota:** 30  
-**Cost:** HKD 250
+**Quota:** 30/60  
+**Cost:** HKD 250  
+**Waiting Location:** : Diamond Hill Columbarium Yeung Nim Hall [Map](https://maps.app.goo.gl/HFt8Yfm2k5WXUj2s6)
 
 ---
 
@@ -196,7 +198,11 @@ This exclusive architecture walk explores how public buildings in Hong Kong can 
 ## Architecture Tour: High Density Urbanism – Wan Chai Temple & Blue House  
 **Exploring Spiritual Heritage and Urban Regeneration**
 
-This guided walk takes participants through Wan Chai’s historical layers—visiting sacred sites and community heritage projects that reflect Hong Kong’s unique blend of tradition and modernity.
+This guided walk takes participants through Wan Chai’s historical layers—visiting sacred sites and community heritage projects that reflect Hong Kong’s unique blend of tradition and modernity.  
+
+- Wan Chai Pak Tai Temple  
+- Blue House  
+- Hung Shing Temple at Wan Chai  
 
 </div>
 
@@ -217,7 +223,8 @@ This guided walk takes participants through Wan Chai’s historical layers—vis
 - Option 2: 4:30PM – 6:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100428)
 
 **Quota:** 30  
-**Cost:** HKD 250
+**Cost:** HKD 250  
+**Waiting Location:** : Wan Chai Pak Tai Temple, Lung On St, Wan Chai [Map](https://maps.app.goo.gl/UQgPAbC4hrPZyZ3cA)    
 
 ---
 
@@ -232,7 +239,16 @@ This guided walk takes participants through Wan Chai’s historical layers—vis
 ## Architecture Tour: High Density Urbanism – Mong Kok & Yau Ma Tei  
 **Exploring Everyday Density and Urban Heritage**
 
-This walking tour takes participants deep into the vibrant heart of Kowloon, where hyper-density, layered history, and eclectic architecture collide.
+This walking tour takes participants deep into the vibrant heart of Kowloon, where hyper-density, layered history, and eclectic architecture collide.  
+
+- The Forest
+- Sai Yueng Choi St. & Fa Yuen St.
+- Langham Place
+- Shanghai St.
+- Yau Ma Tei Fruit Market
+- Yau Ma Tei Theatre
+- Red Brick Building
+- Tin Hua Temple  
 
 </div>
 
@@ -254,7 +270,8 @@ This walking tour takes participants deep into the vibrant heart of Kowloon, whe
 - Option 2: 4:30PM – 6:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100433)
 
 **Quota:** 30  
-**Cost:** HKD 250
+**Cost:** HKD 250  
+**Waiting Location:** : The FOREST, Mongkok [Map](https://maps.app.goo.gl/9hXshPubQtUWAJVr5)  
 
 ---
 
@@ -269,7 +286,7 @@ This walking tour takes participants deep into the vibrant heart of Kowloon, whe
 ## Field Trip: Discovering Shenzhen  
 **Exploring Innovation and Urban Transformation in China’s Design Capital**
 
-This full-day architecture tour to Shenzhen offers an immersive experience into the city’s cutting-edge design, cultural revitalization, and urban transformation.
+Explore Shenzhen’s bold urban future on this one-day architecture tour showcasing both high-tech innovation and civic transformation. Highlights includethe newly opened Shenzhen Science & Technology Museum by Zaha Hadid Architects, the dramatic Museum of Contemporary Art & Planning by Coop Himmelb(l)au, and Shenzhen Library by Arata Isozaki. The tour concludes at Nantou City Neighborhood Center, a revitalized communal hub blending heritage and contemporary design. From sculptural museums to socially responsive spaces, this trip offers a rare cross-border lens into how architecture shapes identity, technology, and public life in China’s most ambitious design capital. Shuttle departs from HKU.  
 
 </div>
 
@@ -278,8 +295,9 @@ This full-day architecture tour to Shenzhen offers an immersive experience into 
 **Highlights:**
 
 - Shenzhen Science & Technology Museum – Designed by Zaha Hadid Architects.
-- Marisfrolg Headquarters – A striking example of corporate architecture.
-- Nantou City Community Center – Designed by Prof. Chang Yung Ho.
+- Museum of Contemporary Art & Planning (MOCAUP) by Coop Himmelb(l)au – a dramatic sculptural landmark that redefines public space and cultural presence.
+- Shenzhen Library and Concert Hall by Arata Isozaki – a celebrated ensemble merging poetic minimalism with civic function.
+- Nantou City Neighborhood Center – Designed by HKU Prof. Chang Yung Ho, a vibrant revitalization project that reflects grassroots urban regeneration and community design.
 - Cross-border dialogue on urbanism and density between Hong Kong and Shenzhen.
 - Curated insights into spatial strategies, façade systems, and public engagement.
 - Round-trip shuttle service provided from and back to HKU.
@@ -288,10 +306,11 @@ This full-day architecture tour to Shenzhen offers an immersive experience into 
 **Date:** Saturday, 5th July  
 **Time:** 7:30PM – 10:30PM  
 **Quota:** 49  
-**Cost:** HKD 900
+**Cost:** HKD 900  
+**Waiting Location:** : LG2, Knowles Building HKU [Map](https://maps.app.goo.gl/mBc4461vX1nTVjNeA)    
 
 **Notes:**  
-> Important: Please ensure your passport and visa status allows entry into Mainland China.  
+> Important: Please ensure your passport and **visa** status allows entry into Mainland China.  
 > Participants are responsible for meeting immigration requirements.
 
 ---
@@ -307,7 +326,7 @@ This full-day architecture tour to Shenzhen offers an immersive experience into 
 ## Social Event: Junk Boat in Sai Kung  
 **A Scenic Escape to Hong Kong’s Back Garden**
 
-Wrap up the conference with a breezy escape on a private junk boat through Sai Kung’s stunning coastline—Hong Kong’s beloved “back garden.”
+Unwind after the conference with a full-day junk boat escape to Sai Kung, often called Hong Kong’s “back garden.” Set against a backdrop of emerald waters and island-dotted coastlines, this private cruise offers the perfect blend of relaxation, fun, and networking. Enjoy unlimited drinks onboard, swim in hidden coves, and soak in the natural beauty away from the urban rush. This post-conference social is ideal for informal conversations, sun-drenched moments, and forging connections with fellow participants. A shuttle bus will pick up and drop off at HKU, making access easy and convenient. Limited spaces available—reserve early to sail with us!
 
 </div>
 
@@ -325,7 +344,8 @@ Wrap up the conference with a breezy escape on a private junk boat through Sai K
 
 **Time:** 9:00AM – 7:30PM  
 **Quota:** 43  
-**Cost:** HKD 960
+**Cost:** HKD 960  
+**Waiting Location:** : LG2, Knowles Building HKU [Map](https://maps.app.goo.gl/mBc4461vX1nTVjNeA)    
 
 ---
 
@@ -340,7 +360,7 @@ Wrap up the conference with a breezy escape on a private junk boat through Sai K
 ## Evening Tour: Tram Ride – Whitty Street Depot to North Point  
 **A Moving Portrait of Hong Kong’s Architecture**
 
-Ride Hong Kong’s iconic tram for a guided journey across the city’s evolving skyline. From historic streets to soaring towers, discover how architecture captures the rhythms of urban life and change.
+Hop aboard a classic Hong Kong tram for a curated architectural journey from Whitty Street Depot to North Point. This guided tour offers a rare, street-level view of how Hong Kong’s architecture narrates its complex urban story—from its colonial past to its vertical future. Along the route, participants will witness a dramatic layering of built forms: the fading charm of tong lau (pre-war tenement buildings), the bustling street life near the North Point wet market, and some of the city’s most celebrated modern icons. These include HSBC Headquarters by Norman Foster, The Henderson by Zaha Hadid Architects, and Lippo Centre by Paul Rudolph. As the tram glides through Sheung Wan, Central, Admiralty, and Causeway Bay, this moving tour becomes a dynamic interface itself—linking architecture, infrastructure, and daily life in one of the world’s densest cities.  
 
 </div>
 
@@ -358,40 +378,9 @@ Ride Hong Kong’s iconic tram for a guided journey across the city’s evolving
 **Time:** 7:30PM – 8:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100403)
 
 **Quota:** 30  
-**Cost:** HKD 250
-
----
-
-<div id="TramTourEastToWest"></div>
-
-::: {layout-ncol=2}
-
-![](images/events/tramtour.png){fig-alt="Evening Tour: Tram Ride – North Point to Whitty Street Depot" style="border-radius: 5%; width: 100%;"}
-
-<div>
-
-## Evening Tour: Tram Ride – North Point to Whitty Street Depot  
-**A Moving Lens on Hong Kong’s Vertical Urbanism**
-
-Hop aboard a classic Hong Kong tram for a guided ride through the city’s architectural evolution. This moving tour offers fresh perspectives on urban density, heritage, and transformation—from North Point’s residential towers to Central’s iconic skyline.
-
-</div>
-
-:::
-
-**Highlights:**
-
-- Ride through Hong Kong’s diverse architectural zones on a curated tram route.
-- Guided narration by local architectural experts.
-- Great views, thoughtful commentary, and casual social setting.
-- Perfect conclusion to a day of conference activities.
-
-**Event Details:**  
-**Date:** Saturday, 5th July  
-**Time:** 8:30PM – 9:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100435)
-
-**Quota:** 30  
-**Cost:** HKD 250
+**Cost:** HKD 250  
+**Waiting Location for 7:30PM Tour:** : Whitty Street Depot Entrance [Map](https://maps.app.goo.gl/Wh99mPZYcFagB2QaA)  
+**Waiting Location for 8:30PM Tour:** : North Point Terminus [Map](https://maps.app.goo.gl/Mg8mVJCrxjU1MRSu8)    
 
 ---
 
