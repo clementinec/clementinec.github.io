@@ -6,7 +6,16 @@ format:
 ---
 ### Catalytic Interfaces
 
-Welcome to the Catalytic Interfaces section of CAAD Futures 2025. This page provides key information for proposers participating in the Catalytic Interfaces programme.
+A dedicated series of team-based 'Catalytic Interfaces' (CI) programming will provide infrastructure, both physical and digital, along with focused time and attention for fostering collaboration on new research priorities both during and prior to the conference.
+
+This page provides key information for proposers participating in the Catalytic Interfaces programme.
+
+- Inspired by the concept of a Hackathon, groups of Catalysers will be encouraged to prototype and develop artefacts during the three-day conference. These artefacts may range from design concepts to texts, physical artefacts, or software products. Each artefact will embody the group’s position on the interfacing of topics discussed leading up to the conference. 
+- Dedicated time and space for Catalysers to collaborate will be provided throughout all three days, including stand-up meetings known as <mark>‘Check In’</mark> and <mark>‘Check Out’</mark> sessions that bookend each day’s paper sessions. These meetings are scheduled within the main programming and held in a common area to allow all conference participants to listen in and potentially join the discussions. Additionally, dedicated ‘Basecamps’ or classrooms will be reserved across the campus, providing spaces for more in-depth investigations.  Please see our [`schedule`](schedule.qmd) for more informatiion.
+- On the final day of the conference, the groups of Catalysers will <mark>present</mark>  their artefacts and refined positions in an event open to the public. This facilitates broader exchange and dissemination of ideas. 
+- The outcomes of the conference will be two-fold: a manifesto compiling the condensed positions of all Catalysers, and the opportunity for interested Catalysers to submit the outcomes of their three-day collaboration. These will be included in a companion publication by CAAD Futures and hosted on a dedicated open-access platform to complement the conference proceedings.
+
+<!-- Welcome to the Catalytic Interfaces section of CAAD Futures 2025.  -->
 
 #### Conference Details
 
@@ -17,13 +26,21 @@ Welcome to the Catalytic Interfaces section of CAAD Futures 2025. This page prov
 
 - **Final Camera-Ready Paper**: <mark>26 May 2025</mark>
 
-#### Requirements
-- **Attendance**: At least two Catalysers from each original submission team must attend the conference.
+#### Position Paper Requirements
 - **Submission**: Please submit directly to [`EasyChair`](https://easychair.org/conferences/?conf=caadfutures2025).
+- **Suggested Structure**: The Position Paper serves as a vision statement or manifesto, outlining your team’s interdisciplinary research objectives and the potential impact of your work. A suggested structure includes:
+  - **Introduction**: Contextualise your research focus.
+  - **Relevant Works**: Situate your work within the broader CAAD landscape.
+  - **Methods**: Describe the methodologies guiding your research.
+  - **Preliminary Results**: Present any early findings or insights.
+  - **Catalytic Interfaces**: Outline your CI activities planned for CAAD Futures 2025, anticipated outputs, and how this work is expected to evolve post-event.
 - **Format**:
+  - **Author Details**: Submissions must include author names and institutional affiliations (**do not** anonymise).
   - **Template**: Download the paper template in [`DOC or LaTeX format`](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
-  - **ZIP**: Package these files in a ZIP folder for submission.
+  - **ZIP**: Package files in a ZIP folder for submission.
   - **File Type**: Submit both the original file (DOC or LaTeX) and an exported PDF version.
 - **Spelling Consistency**: We kindly ask that you use consistent British English spelling conventions throughout your manuscript.
-- **Author Details**: Submissions must include author names and institutional affiliations (**do not** anonymise).
-- **Contact for Invitation Letters**: Request an invitation letter for travel arrangements by emailing caadfutures2025@hku.hk with your submission ID.
+
+#### Additional Information
+- **Attendance**: At least two Catalysers from each original submission team must attend the conference.
+- **Contact for Invitation Letters**: Request an invitation letter for travel arrangements by emailing <mark>caadfutures2025@hku.hk</mark> with your submission ID.
