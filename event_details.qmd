@@ -580,6 +580,7 @@ drinks at the venue.
 
 <div id="BarTST"></div>
 
+<div style="display:none">
 ::: {layout-ncol=2}
 
 ![](images/events/socialBarTST.jpg){fig-alt="Evening Social: Bar in Tsim Sha Tsui" style="border-radius: 5%; width: 100%;"}

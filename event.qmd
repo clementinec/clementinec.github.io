@@ -190,6 +190,7 @@ format:
   </div>
 </div>
 
+<div style="display:none">
 <div class="thumbnail-card">
   <a href="event_details.html#BarTST"><img src="images/events/socialBarTST.jpg" alt="The Victoria Peak and Night"></a>
   <div class="caption">
