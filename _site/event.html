@@ -126,6 +126,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./ambition.html"> 
 <span class="menu-text">Ambition</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./event.html" aria-current="page"> 
+<span class="menu-text">Events</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -174,12 +178,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
-.thumbnail-grid {
+.thumbnail-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   padding: 20px;
 }
+
+.thumbnail-grid {
+  display: contents; /* Inherit grid behavior from parent */
+}
+
+.divider {
+  grid-column: 1 / -1;
+  height: 2px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
 .thumbnail-card {
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -216,32 +232,16 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
+<div class="thumbnail-wrapper">
 
 <div class="thumbnail-grid">
-<div class="thumbnail-card">
-  <a href="event_details.html#GalaDinner"><img src="images/events/hhtst_eye.jpg" alt="Gala Dinner"></a>
-  <div class="caption">
-    <h3 class="anchored">Gala Dinner</h3>
-    <p class="event-category">Evening Social</p>
-    <p class="writeup">Banquet – Maxim’s Palace (Get One More Ticket)</p>
-  </div>
-</div>
 
 <div class="thumbnail-card">
-  <a href="event_details.html#DiamondHill"><img src="images/events/DiamondHillCrematorium.jpg" alt="Diamond Hill Crematorium"></a>
+  <a href="event_details.html#Henderson"><img src="images/events/Henderson.png" alt="Henderson"></a>
   <div class="caption">
-    <h3 class="anchored">Diamond Hill Crematorium</h3>
-    <p class="event-category">Architecture Tour</p>
-    <p class="writeup">A panoramic evening escape above the city.</p>
-  </div>
-</div>
-
-<div class="thumbnail-card">
-  <a href="event_details.html#PublicHousing"><img src="images/events/PublicHousing.png" alt="Public Housing"></a>
-  <div class="caption">
-    <h3 class="anchored">Public Housing</h3>
-    <p class="event-category">Architecture Tour</p>
-    <p class="writeup">Understanding Urban Density through Repetition and Design</p>
+    <h3 class="anchored">Henderson by Zaha Hadid Architects</h3>
+    <p class="event-category"><br>Architecture Tour</p>
+    <p class="writeup">The Henderson by Zaha Hadid Architects: Vertical Fluidity and Urban Innovation</p>
   </div>
 </div>
 
@@ -249,26 +249,8 @@ ul.task-list li input[type="checkbox"] {
   <a href="event_details.html#MPlus"><img src="images/events/MPlus.png" alt="M+ Art Museum by Herzog and de Meuron"></a>
   <div class="caption">
     <h3 class="anchored">M+ Art Museum by Herzog and de Meuron</h3>
-    <p class="event-category">Architecture Tour</p>
+    <p class="event-category"><br>Architecture Tour</p>
     <p class="writeup">Inside the Making of a Cultural Landmark</p>
-  </div>
-</div>
-
-<div class="thumbnail-card">
-  <a href="event_details.html#WanChaiTempleBlueHouse"><img src="images/events/WanChaiTempleBlueHouse.jpg" alt="Wan Chai Temple &amp; Blue House"></a>
-  <div class="caption">
-    <h3 class="anchored">Wan Chai Temple &amp; Blue House</h3>
-    <p class="event-category">Architecture Tour</p>
-    <p class="writeup">Exploring Spiritual Heritage and Urban Regeneration</p>
-  </div>
-</div>
-
-<div class="thumbnail-card">
-  <a href="event_details.html#MongkokYauMaTei"><img src="images/events/temple-street.jpg" alt="Mongkok &amp; Yau Ma Tei"></a>
-  <div class="caption">
-    <h3 class="anchored">Mongkok &amp; Yau Ma Tei</h3>
-    <p class="event-category">Architecture Tour</p>
-    <p class="writeup">Exploring Everyday Density and Urban Heritage</p>
   </div>
 </div>
 
@@ -276,45 +258,117 @@ ul.task-list li input[type="checkbox"] {
   <a href="event_details.html#ShenzhenTour"><img src="images/events/shenzhen.png" alt="Discovering Shenzhen"></a>
   <div class="caption">
     <h3 class="anchored">Discovering Shenzhen</h3>
-    <p class="event-category">Field Trip</p>
+    <p class="event-category"><br>Field Trip</p>
     <p class="writeup">Exploring Innovation and Urban Transformation in China’s Design Capital.</p>
   </div>
 </div>
 
-<!-- <div class="thumbnail-card">
-  <a href="event_details.html#TramTourWestToEast"><img src="images/events/tramtour.png" alt="Whitty Street Tram Depot to North Point"></a>
-  <div class="caption">
-    <h3>Whitty Street Tram Depot to North Point</h3>
-    <p class="event-category">Tram Tour</p>
-    <p class="writeup">A Moving Portrait of Hong Kong’s Architecture.</p>
-  </div>
-</div> -->
+
+
 
 <div class="thumbnail-card">
   <a href="event_details.html#TramTourEastToWest"><img src="images/events/tram2.webp" alt="North Point to Whitty Street Tram Depot"></a>
   <div class="caption">
     <h3 class="anchored">North Point to Whitty Street Tram Depot</h3>
-    <p class="event-category">Tram Tour</p>
+    <p class="event-category"><br>Tram Tour</p>
     <p class="writeup">A Moving Lens on Hong Kong’s Vertical Urbanism.</p>
   </div>
 </div>
 
 <div class="thumbnail-card">
-  <a href="event_details.html#JunkBoatSaiKung"><img src="images/events/junkboat.png" alt="Junk Boat Trip in Sai Kung"></a>
+  <a href="event_details.html#PublicHousing"><img src="images/events/PublicHousing.png" alt="Public Housing"></a>
   <div class="caption">
-    <h3 class="anchored">Junk Boat Trip in Sai Kung</h3>
-    <p class="event-category">Social Event</p>
-    <p class="writeup">A Scenic Escape to Hong Kong’s Exotic Back Garden.</p>
+    <h3 class="anchored">Public Housing</h3>
+    <p class="event-category"><br>Architecture Tour</p>
+    <p class="writeup">Understanding Urban Density through Repetition and Design</p>
   </div>
 </div>
+
+
+<div class="thumbnail-card">
+  <a href="event_details.html#DiamondHill"><img src="images/events/DiamondHillCrematorium.jpg" alt="Diamond Hill Crematorium"></a>
+  <div class="caption">
+    <h3 class="anchored">Diamond Hill Crematorium</h3>
+    <p class="event-category"><br>Architecture Tour</p>
+    <p class="writeup">A panoramic evening escape above the city.</p>
+  </div>
+</div>
+
+<div class="thumbnail-card">
+  <a href="event_details.html#MongkokYauMaTei"><img src="images/events/temple-street.jpg" alt="Mongkok &amp; Yau Ma Tei"></a>
+  <div class="caption">
+    <h3 class="anchored">Mongkok &amp; Yau Ma Tei</h3>
+    <p class="event-category"><br>Architecture Tour</p>
+    <p class="writeup">Exploring Everyday Density and Urban Heritage</p>
+  </div>
+</div>
+
+<div class="thumbnail-card">
+  <a href="event_details.html#WanChaiTempleBlueHouse"><img src="images/events/WanChaiTempleBlueHouse.jpg" alt="Wan Chai Temple &amp; Blue House"></a>
+  <div class="caption">
+    <h3 class="anchored">Wan Chai Temple &amp; Blue House</h3>
+    <p class="event-category"><br>Architecture Tour</p>
+    <p class="writeup">Exploring Spiritual Heritage and Urban Regeneration</p>
+  </div>
+</div>
+
+
+
 
 <div class="thumbnail-card">
   <a href="event_details.html#VictoriaPeak"><img src="images/events/VictoriaPeak.jpg" alt="The Victoria Peak and Night"></a>
   <div class="caption">
     <h3 class="anchored">The Victoria Peak and Night</h3>
-    <p class="event-category">Walking Tour</p>
+    <p class="event-category"><br>Walking Tour</p>
     <p class="writeup">A panoramic evening escape above the city.</p>
   </div>
+</div>
+
+
+</div>
+
+<div class="divider"></div>
+
+
+<div class="thumbnail-grid">
+
+<div class="thumbnail-card">
+  <a href="event_details.html#GalaDinner"><img src="images/events/hhtst_eye.jpg" alt="Gala Dinner"></a>
+  <div class="caption">
+    <h3 class="anchored">Gala Dinner</h3>
+    <p class="event-category"><br>Evening Social</p>
+    <p class="writeup">Banquet – Maxim’s Palace (Get One More Ticket)</p>
+  </div>
+</div>
+
+
+<div class="thumbnail-card">
+  <a href="event_details.html#JunkBoatSaiKung"><img src="images/events/junkboat.png" alt="Junk Boat Trip in Sai Kung"></a>
+  <div class="caption">
+    <h3 class="anchored">Junk Boat Trip in Sai Kung</h3>
+    <p class="event-category"><br>Social Event</p>
+    <p class="writeup">A Scenic Escape to Hong Kong’s Exotic Back Garden.</p>
+  </div>
+</div>
+
+<div class="thumbnail-card">
+  <a href="event_details.html#BarCentral"><img src="images/events/barCentral.jpg" alt="The Victoria Peak and Night"></a>
+  <div class="caption">
+    <h3 class="anchored">Bar in Central</h3>
+    <p class="event-category"><br>Evening Social</p>
+    <p class="writeup">Join fellow participants for a laid-back night out in Central.</p>
+  </div>
+</div>
+
+<div class="thumbnail-card">
+  <a href="event_details.html#BarTST"><img src="images/events/socialBarTST.jpg" alt="The Victoria Peak and Night"></a>
+  <div class="caption">
+    <h3 class="anchored">Bar in Tsim Sha Tsui</h3>
+    <p class="event-category"><br>Evening Social</p>
+    <p class="writeup">Join fellow participants for a laid-back night out in Central.</p>
+  </div>
+</div>
+
 </div>
 </div>
 

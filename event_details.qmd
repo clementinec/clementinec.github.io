@@ -37,19 +37,33 @@ img.square-crop {
 }
 </style>
 ```
-<div id="GalaDinner"></div>
+<div id="Henderson"></div>
 
 ::: {layout-ncol=2}
 
-![](images/events/hhtst_eye.jpg){fig-alt="Social Event: Gala Dinner (Extra Tickets)" style="border-radius: 5%; width: 100%;"}
+![](images/events/Henderson.png){fig-alt="Social Event: Gala Dinner (Extra Tickets)" style="border-radius: 5%; width: 100%;"}
 
 <div>
 
-## Social Event: Gala Dinner (+1 ticket)  
-**Banquet – Maxim’s Palace**
+## ARCHITECTURE TOUR: HENDERSON BY ZAHA HADID ARCHITECTS
+**Architecture Tour – The Henderson by Zaha Hadid Architects: Vertical
+Fluidity and Urban Innovation**
 
-Get one more extra ticket beyond your conference package to join us for the official CAAD Future 2025 Conference Banquet at the iconic Maxim’s Palace.  
-Join us for the official CAAD Futures 2025 Conference Banquet at the iconic Maxim’s Palace, a treasured Hong Kong venue known for its grand interiors and harbor views.
+Step inside The Henderson, Zaha Hadid Architects’ newest landmark
+in the heart of Hong Kong, for an exclusive guided tour. Located on
+the world’s most expensive plot in Central, this 36-storey skyscraper
+embodies innovation in form, structure, and sustainability. Inspired by the
+Hong Kong orchid tree, its organic geometry and 1,000 uniquely curved
+glass panels distinguish it from the rigid verticality of the surrounding
+skyline. Participants will gain insight into the building’s advanced
+structural engineering—supported by six mega-columns and a single
+core—and how it connects to Hong Kong’s elevated walkway system
+and MTR network, creating a fluid interface between nature, movement,
+and workplace design. Led by architectural professionals, the tour also
+offers a rare chance to access Skygarden on the 22/F, a space designed
+for urban respite and community interaction. This tour is a must for
+anyone interested in parametric design, sustainability, and future-facing
+architecture.
 
 </div>
 
@@ -62,16 +76,26 @@ Join us for the official CAAD Futures 2025 Conference Banquet at the iconic Maxi
 - Reserved seating for registered guests and their +1 companions only
 
 **Event Details:**  
-**Date:** Friday, 4th July  
-**Time:** 6:00PM – 10:30PM  
-**Cost:** HKD 960  
-**Waiting Location:** City Hall [Map](https://maps.app.goo.gl/en8NWx9jg9z9r93p7)
+
+**Date:** 
+
+- Wednesday, 2nd July 8:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100399)<br>
+- Saturday, 5th July 9:30AM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100551)<br>
+- Saturday, 5th July 11:30AM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100552)<br>
+- Saturday, 5th July 2:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100553)<br>
+
+**Quota**: 80<br>
+**Time:** 6:00PM – 10:30PM  <br>
+**Cost:** HKD 250 <br>
+**Waiting Location:** The Henderson Art Garden /Lambeth Walk Rest Garden [Map](https://maps.app.goo.gl/dSWhhiTjKzX56L4t5)
+
 
 **Notes:**  
 > Banquet tickets are already included for all full conference registrants.  
 > Additional tickets available for +1 guests only.  
 > Name of registered participant required for +1 ticket.  
 > No public sales or walk-ins accepted.
+
 
 ---
 
@@ -110,6 +134,96 @@ Join HKU Adjunct Assistant Professor Human T.L. Wu for an in-depth architectural
 **Quota:** 30/60  
 **Cost:** HKD 250 (M+ Exhibition Entry Tickets is not included)  
 **Waiting Location:** Artist Square Entrance, G/F, M+ Museum [Map](https://maps.app.goo.gl/evRXFE9Bsktg5Buo8)
+
+---
+
+
+<div id="ShenzhenTour"></div>
+
+::: {layout-ncol=2}
+
+![](images/events/shenzhen.png){fig-alt="Field Trip: Discovering Shenzhen" style="border-radius: 5%; width: 100%;"}
+
+<div>
+
+## Field Trip: Discovering Shenzhen  
+**Exploring Innovation and Urban Transformation in China’s Design Capital**
+
+Explore Shenzhen’s bold urban future on this one-
+day architecture tour showcasing both high-tech
+innovation and civic transformation. Highlights include
+the newly opened Shenzhen Science & Technology
+Museum by Zaha Hadid Architects, the dramatic
+Museum of Contemporary Art & Planning by Coop
+Himmelb(l)au, and Shenzhen Library by Arata Isozaki.
+The tour concludes at Nantou City Neighborhood
+Center, a revitalized communal hub blending heritage
+and contemporary design. From sculptural museums
+to socially responsive spaces, this trip offers a rare
+cross-border lens into how architecture shapes
+identity, technology, and public life in China’s most
+ambitious design capital. Shuttle departs from HKU.
+</div>
+
+:::
+
+**Highlights:**
+
+- Shenzhen Science & Technology Museum – Designed by Zaha Hadid Architects.
+- Museum of Contemporary Art & Planning (MOCAUP) by Coop Himmelb(l)au – a dramatic sculptural landmark that redefines
+public space and cultural presence.
+- Shenzhen Library and Concert Hall by Arata Isozaki – a celebrated ensemble merging poetic minimalism with civic function.
+- Nantou City Neighborhood Center – Designed by HKU Prof. Chang Yung Ho, a vibrant revitalization project that reflects grassroots
+urban regeneration and community design.
+- Cross-border dialogue on urbanism and density between Hong Kong and Shenzhen.
+- Curated insights into spatial strategies, façade systems, and public engagement.
+- Round-trip shuttle service provided from and back to HKU.
+
+**Event Details:**  
+**Date:** Saturday, 5th July  
+**Time:** 7:30PM – 10:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100400)  
+**Quota:** 49  
+**Cost:** HKD 900  
+**Waiting Location:** : LG2, Knowles Building HKU [Map](https://maps.app.goo.gl/mBc4461vX1nTVjNeA)    
+
+**Notes:**  
+> Important: Please ensure your passport and <mark>**visa status**</mark>  allows entry into Mainland China.  
+> Participants are responsible for meeting immigration requirements.
+
+---
+
+
+<div id="TramTourWestToEast"></div>
+
+::: {layout-ncol=2}
+
+![](images/events/tram2.webp){fig-alt="Evening Tour: Tram Ride – Whitty Street Depot to North Point" style="border-radius: 5%; width: 100%;"}
+
+<div>
+
+## Evening Tour: Tram Ride – Whitty Street Depot to North Point  
+**A Moving Portrait of Hong Kong’s Architecture**
+
+Hop aboard a classic Hong Kong tram for a curated architectural journey from Whitty Street Depot to North Point. This guided tour offers a rare, street-level view of how Hong Kong’s architecture narrates its complex urban story—from its colonial past to its vertical future. Along the route, participants will witness a dramatic layering of built forms: the fading charm of tong lau (pre-war tenement buildings), the bustling street life near the North Point wet market, and some of the city’s most celebrated modern icons. These include HSBC Headquarters by Norman Foster, The Henderson by Zaha Hadid Architects, and Lippo Centre by Paul Rudolph. As the tram glides through Sheung Wan, Central, Admiralty, and Causeway Bay, this moving tour becomes a dynamic interface itself—linking architecture, infrastructure, and daily life in one of the world’s densest cities.  
+
+</div>
+
+:::
+
+**Highlights:**
+
+- Ride on a classic open-top tram reserved for our group.
+- Architectural narration as you pass through key districts.
+- Experience Hong Kong’s architectural transition in real time.
+- Photograph the city from a unique moving perspective.
+
+**Event Details:**  
+**Date:** Saturday, 5th July  
+**Time:** 7:30PM – 8:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100403)
+
+**Quota:** 30  
+**Cost:** HKD 250  
+**Waiting Location for 7:30PM Tour:** : Whitty Street Depot Entrance [Map](https://maps.app.goo.gl/Wh99mPZYcFagB2QaA)  
 
 ---
 
@@ -161,8 +275,8 @@ Led by HKU Professor Christian J. Lange, co-author of *Cities of Repetition*, th
 ## Architecture Tour: Unique Typologies – Diamond Hill Crematorium  
 **Designing for Remembrance in a City of Density**
 
-This exclusive architecture walk explores how public buildings in Hong Kong can respond to complex social and spatial challenges with dignity,clarity, and care. Located in one of the world’s most densely populated cities, the Dimond Hill Crematorium and Columbarium redefines the architectural language of remembrance. Designed by the Architectural Services Department (ASD), the facility integrates natural light, peaceful courtyards, and functional elegance to support emotional well-being in times of grief.
-
+This exclusive architecture walk explores how public buildings in Hong Kong can respond to complex social and spatial challenges with dignity, clarity, and care. Located in one of the world’s most densely populated cities, the Diamond Hill Crematorium and
+Columbarium redefines the architectural language of remembrance. Designed by the Architectural Services Department (ASD), the facility integrates natural light, peaceful courtyards, and functional elegance to support emotional well-being in times of grief.
 </div>
 
 :::
@@ -184,6 +298,53 @@ This exclusive architecture walk explores how public buildings in Hong Kong can 
 **Quota:** 30/60  
 **Cost:** HKD 250  
 **Waiting Location:** : Diamond Hill Columbarium Yeung Nim Hall [Map](https://maps.app.goo.gl/HFt8Yfm2k5WXUj2s6)
+
+---
+
+<div id="MongkokYauMaTei"></div>
+
+::: {layout-ncol=2}
+
+![](images/events/temple-street.jpg){fig-alt="Architecture Tour: High Density Urbanism – Mong Kok & Yau Ma Tei" style="border-radius: 5%; width: 100%;"}
+
+<div>
+
+## Architecture Tour: High Density Urbanism – Mong Kok & Yau Ma Tei  
+**Exploring Everyday Density and Urban Heritage**
+
+This walking tour takes participants deep into the vibrant heart of Kowloon, where hyper-density, layered history, and eclectic architecture collide.  
+
+- The Forest
+- Sai Yueng Choi St. & Fa Yuen St.
+- Langham Place
+- Shanghai St.
+- Yau Ma Tei Fruit Market
+- Yau Ma Tei Theatre
+- Red Brick Building
+- Tin Hua Temple  
+
+</div>
+
+:::
+
+**Highlights:**
+
+- Navigate commercial streets like Sai Yeung Choi and Fa Yuen for a look at urban retail typologies.
+- Visit Langham Place for insights on vertical mall design in a dense city.
+- Explore cultural landmarks including Yau Ma Tei Theatre, Red Brick Building, and Tin Hau Temple.
+- Examine the adaptive reuse and conservation of the Yau Ma Tei Fruit Market and Shanghai Street.
+- Discuss the coexistence of traditional temples, colonial buildings, and modern towers in a compact urban grid.
+
+**Event Details:**  
+**Date:** Saturday, 5th July  
+**Time:** 
+
+- Option 1: 9:30AM – 11:30AM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100433)
+- Option 2: 2:30PM - 4:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100392)
+
+**Quota:** 30  
+**Cost:** HKD 250  
+**Waiting Location:** : The FOREST, Mongkok [Map](https://maps.app.goo.gl/9hXshPubQtUWAJVr5)  
 
 ---
 
@@ -226,29 +387,36 @@ This guided walk takes participants through Wan Chai’s historical layers—vis
 **Cost:** HKD 250  
 **Waiting Location:** : Wan Chai Pak Tai Temple, Lung On St, Wan Chai [Map](https://maps.app.goo.gl/UQgPAbC4hrPZyZ3cA)    
 
+
 ---
 
-<div id="MongkokYauMaTei"></div>
+
+<div id="VictoriaPeak"></div>
 
 ::: {layout-ncol=2}
 
-![](images/events/temple-street.jpg){fig-alt="Architecture Tour: High Density Urbanism – Mong Kok & Yau Ma Tei" style="border-radius: 5%; width: 100%;"}
+![](images/events/VictoriaPeak.jpg){fig-alt="Architecture Tour: High Density Urbanism – Wan Chai Temple & Blue House" style="border-radius: 5%; width: 100%;"}
 
 <div>
 
-## Architecture Tour: High Density Urbanism – Mong Kok & Yau Ma Tei  
-**Exploring Everyday Density and Urban Heritage**
+## Architecture Tour: High Density Urbanism – Victoria Peak at Night
+**A panoramic evening escape above the city.**
 
-This walking tour takes participants deep into the vibrant heart of Kowloon, where hyper-density, layered history, and eclectic architecture collide.  
-
-- The Forest
-- Sai Yueng Choi St. & Fa Yuen St.
-- Langham Place
-- Shanghai St.
-- Yau Ma Tei Fruit Market
-- Yau Ma Tei Theatre
-- Red Brick Building
-- Tin Hua Temple  
+Experience Hong Kong from above
+on a scenic 1.5-hour evening walk
+from HKU to Victoria Peak, climbing
+350 meters through lush hillside paths
+as the city lights begin to glow. This
+informal group walk offers a refreshing
+break from conference sessions and a
+chance to witness one of the most iconic
+panoramic views of Hong Kong’s skyline
+and Victoria Harbour. At the summit,
+participants can explore the Peak
+Galleria, grab a snack, or simply soak in
+the views. You may choose to descend
+by the historic Peak Tram, which brings
+you directly back to Admiralty.
 
 </div>
 
@@ -256,37 +424,37 @@ This walking tour takes participants deep into the vibrant heart of Kowloon, whe
 
 **Highlights:**
 
-- Navigate commercial streets like Sai Yeung Choi and Fa Yuen for a look at urban retail typologies.
-- Visit Langham Place for insights on vertical mall design in a dense city.
-- Explore cultural landmarks including Yau Ma Tei Theatre, Red Brick Building, and Tin Hau Temple.
-- Examine the adaptive reuse and conservation of the Yau Ma Tei Fruit Market and Shanghai Street.
-- Discuss the coexistence of traditional temples, colonial buildings, and modern towers in a compact urban grid.
+- Gentle hike through green trails connecting the urban edge to nature.
+- Spectacular night-time views of Victoria Harbour and the skyline.
+- A chance to unwind, connect, and enjoy Hong Kong from a new perspective.
+
 
 **Event Details:**  
-**Date:** Saturday, 5th July  
 **Time:** 
 
-- Option 1: 9:30AM – 11:30AM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100392)
-- Option 2: 2:30PM - 4:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100433)
+- Option 1: July 2nd, 7:00PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100398)
+- Option 2: July 3rd, 7:00PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100481)
 
-**Quota:** 30  
-**Cost:** HKD 250  
-**Waiting Location:** : The FOREST, Mongkok [Map](https://maps.app.goo.gl/9hXshPubQtUWAJVr5)  
 
----
+**Waiting Location:** : Waiting Location: Reception of CAAD future 2025 [Map](https://maps.app.goo.gl/en8NWx9jg9z9r93p7)
 
-<div id="ShenzhenTour"></div>
+**Walking Path:**[Map](https://maps.app.goo.gl/Ef6FHUA2yFh4bLsf6)
+
+
+
+<div id="GalaDinner"></div>
 
 ::: {layout-ncol=2}
 
-![](images/events/shenzhen.png){fig-alt="Field Trip: Discovering Shenzhen" style="border-radius: 5%; width: 100%;"}
+![](images/events/hhtst_eye.jpg){fig-alt="Social Event: Gala Dinner (Extra Tickets)" style="border-radius: 5%; width: 100%;"}
 
 <div>
 
-## Field Trip: Discovering Shenzhen  
-**Exploring Innovation and Urban Transformation in China’s Design Capital**
+## Social Event: Gala Dinner (+1 ticket)  
+**Banquet – Maxim’s Palace**
 
-Explore Shenzhen’s bold urban future on this one-day architecture tour showcasing both high-tech innovation and civic transformation. Highlights includethe newly opened Shenzhen Science & Technology Museum by Zaha Hadid Architects, the dramatic Museum of Contemporary Art & Planning by Coop Himmelb(l)au, and Shenzhen Library by Arata Isozaki. The tour concludes at Nantou City Neighborhood Center, a revitalized communal hub blending heritage and contemporary design. From sculptural museums to socially responsive spaces, this trip offers a rare cross-border lens into how architecture shapes identity, technology, and public life in China’s most ambitious design capital. Shuttle departs from HKU.  
+Get one more extra ticket beyond your conference package to join us for the official CAAD Future 2025 Conference Banquet at the iconic Maxim’s Palace.  
+Join us for the official CAAD Futures 2025 Conference Banquet at the iconic Maxim’s Palace, a treasured Hong Kong venue known for its grand interiors and harbor views.
 
 </div>
 
@@ -294,24 +462,21 @@ Explore Shenzhen’s bold urban future on this one-day architecture tour showcas
 
 **Highlights:**
 
-- Shenzhen Science & Technology Museum – Designed by Zaha Hadid Architects.
-- Museum of Contemporary Art & Planning (MOCAUP) by Coop Himmelb(l)au – a dramatic sculptural landmark that redefines public space and cultural presence.
-- Shenzhen Library and Concert Hall by Arata Isozaki – a celebrated ensemble merging poetic minimalism with civic function.
-- Nantou City Neighborhood Center – Designed by HKU Prof. Chang Yung Ho, a vibrant revitalization project that reflects grassroots urban regeneration and community design.
-- Cross-border dialogue on urbanism and density between Hong Kong and Shenzhen.
-- Curated insights into spatial strategies, façade systems, and public engagement.
-- Round-trip shuttle service provided from and back to HKU.
+- Lavish Cantonese banquet at one of Hong Kong’s most historic dining halls
+- Networking opportunity in a relaxed, celebratory setting
+- Reserved seating for registered guests and their +1 companions only
 
 **Event Details:**  
-**Date:** Saturday, 5th July  
-**Time:** 7:30PM – 10:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100400)  
-**Quota:** 49  
-**Cost:** HKD 900  
-**Waiting Location:** : LG2, Knowles Building HKU [Map](https://maps.app.goo.gl/mBc4461vX1nTVjNeA)    
+**Date:** Friday, 4th July  
+**Time:** 6:00PM – 10:30PM  
+**Cost:** HKD 960  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100556)<br>
+**Waiting Location:** City Hall [Map](https://maps.app.goo.gl/en8NWx9jg9z9r93p7)
 
 **Notes:**  
-> Important: Please ensure your passport and **visa** status allows entry into Mainland China.  
-> Participants are responsible for meeting immigration requirements.
+> Banquet tickets are already included for all full conference registrants.  
+> Additional tickets available for +1 guests only.  
+> Name of registered participant required for +1 ticket.  
+> No public sales or walk-ins accepted.
 
 ---
 
@@ -326,8 +491,23 @@ Explore Shenzhen’s bold urban future on this one-day architecture tour showcas
 ## Social Event: Junk Boat in Sai Kung  
 **A Scenic Escape to Hong Kong’s Back Garden**
 
-Unwind after the conference with a full-day junk boat escape to Sai Kung, often called Hong Kong’s “back garden.” Set against a backdrop of emerald waters and island-dotted coastlines, this private cruise offers the perfect blend of relaxation, fun, and networking. Enjoy unlimited drinks onboard, swim in hidden coves, and soak in the natural beauty away from the urban rush. This post-conference social is ideal for informal conversations, sun-drenched moments, and forging connections with fellow participants. A shuttle bus will pick up and drop off at HKU, making access easy and convenient. Limited spaces available—reserve early to sail with us!
-
+Unwind after the conference with a
+full-day junk boat escape to Sai Kung,
+often called Hong Kong’s “back garden.”
+Set against a backdrop of emerald
+waters and island-dotted coastlines,
+this private cruise offers the perfect
+blend of relaxation, fun, and networking.
+Enjoy unlimited drinks onboard, swim in
+hidden coves, and soak in the natural
+beauty away from the urban rush.
+This post-conference social is ideal for
+informal conversations, sun-drenched
+moments, and forging connections with
+fellow participants. A shuttle bus will pick
+up and drop off at HKU, making access
+easy and convenient. Limited spaces
+available—reserve early to sail with us!
 </div>
 
 :::
@@ -349,42 +529,7 @@ Unwind after the conference with a full-day junk boat escape to Sai Kung, often 
 
 ---
 
-<div id="TramTourWestToEast"></div>
-
-::: {layout-ncol=2}
-
-![](images/events/tram2.webp){fig-alt="Evening Tour: Tram Ride – Whitty Street Depot to North Point" style="border-radius: 5%; width: 100%;"}
-
-<div>
-
-## Evening Tour: Tram Ride – Whitty Street Depot to North Point  
-**A Moving Portrait of Hong Kong’s Architecture**
-
-Hop aboard a classic Hong Kong tram for a curated architectural journey from Whitty Street Depot to North Point. This guided tour offers a rare, street-level view of how Hong Kong’s architecture narrates its complex urban story—from its colonial past to its vertical future. Along the route, participants will witness a dramatic layering of built forms: the fading charm of tong lau (pre-war tenement buildings), the bustling street life near the North Point wet market, and some of the city’s most celebrated modern icons. These include HSBC Headquarters by Norman Foster, The Henderson by Zaha Hadid Architects, and Lippo Centre by Paul Rudolph. As the tram glides through Sheung Wan, Central, Admiralty, and Causeway Bay, this moving tour becomes a dynamic interface itself—linking architecture, infrastructure, and daily life in one of the world’s densest cities.  
-
-</div>
-
-:::
-
-**Highlights:**
-
-- Ride on a classic open-top tram reserved for our group.
-- Architectural narration as you pass through key districts.
-- Experience Hong Kong’s architectural transition in real time.
-- Photograph the city from a unique moving perspective.
-
-**Event Details:**  
-**Date:** Saturday, 5th July  
-**Time:** 7:30PM – 8:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100403)
-
-**Quota:** 30  
-**Cost:** HKD 250  
-**Waiting Location for 7:30PM Tour:** : Whitty Street Depot Entrance [Map](https://maps.app.goo.gl/Wh99mPZYcFagB2QaA)  
-**Waiting Location for 8:30PM Tour:** : North Point Terminus [Map](https://maps.app.goo.gl/Mg8mVJCrxjU1MRSu8)    
-
----
-
-<!-- <div id="BarCentral"></div>
+<div id="BarCentral"></div>
 
 ::: {layout-ncol=2}
 
@@ -395,8 +540,22 @@ Hop aboard a classic Hong Kong tram for a curated architectural journey from Whi
 ## Evening Social: Bar in Central  
 **Relax, connect, and toast to design in the heart of Hong Kong**
 
-Join fellow participants for a laid-back night out in Central. Enjoy great drinks, better conversations, and a taste of Hong Kong’s buzzing bar scene.
-
+Join us for a special AI-themed
+evening in Central, bringing together
+architects, designers, and innovators
+from the Google community, local
+AI circles, and the Expat AI network.
+This informal gathering is a chance to
+unwind, exchange ideas, and explore
+the intersection of AI and the built
+environment over drinks in one of Hong
+Kong’s most vibrant nightlife districts.
+Whether you’re deep in machine
+learning or just AI-curious, come mingle
+in good company. Kindly note: this is a
+casual, self-funded event – all attendees
+are welcome to purchase their own
+drinks at the venue.
 </div>
 
 :::
@@ -409,11 +568,13 @@ Join fellow participants for a laid-back night out in Central. Enjoy great drink
 - Easy access via public transport from conference venues.
 
 **Event Details:**  
-**Date:** Wednesday, 2nd July  
-**Time:** 7:30PM – 10:30PM <a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100479" target="_blank">Purchase this event.</a>
+**Date:** Thursday, 3rd July  
+**Time:** 7:30PM <a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100394" target="_blank">Register</a>
 
---- -->
-<!-- 
+**Waiting Location:** 129 Second Street, L/G Nam Cheong House, Sai Ying Pun,Hong Kong [Map](https://maps.app.goo.gl/YqDvccu3ncDPx2CfA)
+
+---
+
 <div id="BarTST"></div>
 
 ::: {layout-ncol=2}
@@ -425,8 +586,21 @@ Join fellow participants for a laid-back night out in Central. Enjoy great drink
 ## Evening Social: Bar in Tsim Sha Tsui  
 **Skyline views, harbour breeze, and vibrant conversations**
 
-Wind down after the conference with a relaxed night out in Tsim Sha Tsui. Explore a curated mix of iconic bars, blending old Hong Kong charm with modern flair—perfect for casual networking and lively conversations.
-
+Wrap up the day with an informal
+evening gathering in Tsim Sha Tsui,
+set against the stunning backdrop of
+Victoria Harbour. Join fellow conference
+participants for casual networking
+in one of the district’s rooftop or
+waterfront bars, where conversations
+flow as easily as the drinks. This social
+offers the perfect chance to meet new
+collaborators, share insights, and soak
+in the city’s iconic skyline by night.
+Please note: this is a self-funded
+event—guests are kindly asked to
+purchase their own drinks. Come as you
+are, and enjoy the view.
 </div>
 
 :::
@@ -439,7 +613,7 @@ Wind down after the conference with a relaxed night out in Tsim Sha Tsui. Explor
 - Venue details announced closer to date.
 
 **Event Details:**  
-**Date:** Thursday, 3rd July  
-**Time:** 7:30PM – 10:30PM
-
---- -->
+**Date:** Wednesday, 2nd July  
+**Time:** 7:00PM <a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100397" target="_blank">Register</a><br>
+**Waiting Location:** TBC
+---
