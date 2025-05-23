@@ -197,7 +197,7 @@ urban regeneration and community design.
 
 ::: {layout-ncol=2}
 
-![](images/events/tram2.webp){fig-alt="Evening Tour: Tram Ride – Whitty Street Depot to North Point" style="border-radius: 5%; width: 100%;"}
+![](images/events/tramtour.png){fig-alt="Evening Tour: Tram Ride – Whitty Street Depot to North Point" style="border-radius: 5%; width: 100%;"}
 
 <div>
 
@@ -219,7 +219,10 @@ Hop aboard a classic Hong Kong tram for a curated architectural journey from Whi
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** 7:30PM – 8:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100403)
+**Time:** 
+
+- 7:30PM – 8:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100403)
+- 8:30PM – 9:30PM  [`Tickets`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100435)
 
 **Quota:** 30  
 **Cost:** HKD 250  
