@@ -106,7 +106,7 @@ format:
 </div>
 
 <div class="thumbnail-card">
-  <a href="event_details.html#PublicHousing"><img src="images/events/PublicHousing.png" alt="Public Housing"></a>
+  <a href="event_details.html#PublicHousing"><img src="images/events/Public_Housing.png" alt="Public Housing"></a>
   <div class="caption">
     <h3>Public Housing</h3>
     <p class="event-category"><br>Architecture Tour</p>

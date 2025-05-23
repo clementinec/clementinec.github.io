@@ -231,7 +231,7 @@ Hop aboard a classic Hong Kong tram for a curated architectural journey from Whi
 
 ::: {layout-ncol=2}
 
-![](images/events/PublicHousing.png){fig-alt="Architecture Tour: Unique Typologies – High Density Public Housing" style="border-radius: 5%; width: 100%;"}
+![](images/events/Public_Housing.png){fig-alt="Architecture Tour: Unique Typologies – High Density Public Housing" style="border-radius: 5%; width: 100%;"}
 
 <div>
 
