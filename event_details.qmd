@@ -3,40 +3,13 @@ title: "CAADFUTURES 2025: EVENT & SOCIAL Details"
 format:
   html:
     toc: True
+    page-layout: full
+    css: styleeve.css         # ← your external stylesheet
+    includes:
+      in-header: 
+        - baguette.html
 ---
 
-```{=html}
-
-<style>
-img.square-crop {
-    width: 200px;              /* or any square size you want */
-    height: 200px;
-    object-fit: cover;         /* ensures it's cropped, not squashed */
-    object-position: center;   /* centers the image focus */
-    border-radius: 0;          /* no circle */
-    display: block;
-}
-
-.ticket-button {
-    display: inline-block;
-    background-color: #ff0000;      /* Bright red */
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 1px 1px;
-    border-radius: 1.5px;
-    margin-top: 15px;
-    <!-- float: right;                  /* Align to the right */ -->
-    font-size: 1em;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-    transition: background 0.3s ease;
-}
-
-.ticket-button:hover {
-    background-color: #cc0000;      /* Slightly darker on hover */
-}
-</style>
-```
 <div id="Henderson"></div>
 
 ::: {layout-ncol=2}
@@ -97,6 +70,25 @@ architecture.
 > No public sales or walk-ins accepted.
 
 
+
+```{python}
+#| echo: false
+#| output: asis
+
+import glob, os
+event_id = "Henderson"
+imgs     = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
+
+print('<div class="event-gallery">')
+for img in imgs:
+    webpath = os.path.relpath(img)
+    print(f'<a href="{webpath}" data-lightbox="event-gallery" data-title="{event_id}">')
+    print(f'  <img src="{webpath}" alt="{event_id}">')
+    print('</a>')
+print('</div>')
+
+```
+
 ---
 
 <div id="MPlus"></div>
@@ -135,6 +127,25 @@ Join HKU Adjunct Assistant Professor Human T.L. Wu for an in-depth architectural
 **Cost:** HKD 250 (M+ Exhibition Entry Tickets is not included)  
 **Waiting Location:** Artist Square Entrance, G/F, M+ Museum [Map](https://maps.app.goo.gl/evRXFE9Bsktg5Buo8)
 
+
+
+```{python}
+#| echo: false
+#| output: asis
+
+import glob, os
+event_id = "MPlus"
+imgs     = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
+
+print('<div class="event-gallery">')
+for img in imgs:
+    webpath = os.path.relpath(img)
+    print(f'<a href="{webpath}" data-lightbox="event-gallery" data-title="{event_id}">')
+    print(f'  <img src="{webpath}" alt="{event_id}">')
+    print('</a>')
+print('</div>')
+
+```
 ---
 
 
@@ -190,6 +201,24 @@ urban regeneration and community design.
 > Important: Please ensure your passport and <mark>**visa status**</mark>  allows entry into Mainland China.  
 > Participants are responsible for meeting immigration requirements.
 
+```{python}
+#| echo: false
+#| output: asis
+
+import glob, os
+event_id = "Shenzhen"
+imgs     = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
+
+print('<div class="event-gallery">')
+for img in imgs:
+    webpath = os.path.relpath(img)
+    print(f'<a href="{webpath}" data-lightbox="event-gallery" data-title="{event_id}">')
+    print(f'  <img src="{webpath}" alt="{event_id}">')
+    print('</a>')
+print('</div>')
+
+```
+
 ---
 
 
@@ -228,6 +257,24 @@ Hop aboard a classic Hong Kong tram for a curated architectural journey from Whi
 **Cost:** HKD 250  
 **Waiting Location for 7:30PM Tour:** : Whitty Street Depot Entrance [Map](https://maps.app.goo.gl/Wh99mPZYcFagB2QaA)  
 
+```{python}
+#| echo: false
+#| output: asis
+
+import glob, os
+event_id = "TramTour"
+imgs     = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
+
+print('<div class="event-gallery">')
+for img in imgs:
+    webpath = os.path.relpath(img)
+    print(f'<a href="{webpath}" data-lightbox="event-gallery" data-title="{event_id}">')
+    print(f'  <img src="{webpath}" alt="{event_id}">')
+    print('</a>')
+print('</div>')
+
+```
+
 ---
 
 <div id="PublicHousing"></div>
@@ -265,6 +312,23 @@ Led by HKU Professor Christian J. Lange, co-author of *Cities of Repetition*, th
 **Cost:** HKD 250  
 **Waiting Location:** Waiting Location: TBC
 
+```{python}
+#| echo: false
+#| output: asis
+
+import glob, os
+event_id = "PublicHousing"
+imgs     = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
+
+print('<div class="event-gallery">')
+for img in imgs:
+    webpath = os.path.relpath(img)
+    print(f'<a href="{webpath}" data-lightbox="event-gallery" data-title="{event_id}">')
+    print(f'  <img src="{webpath}" alt="{event_id}">')
+    print('</a>')
+print('</div>')
+
+```
 ---
 
 <div id="DiamondHill"></div>
@@ -302,6 +366,24 @@ Columbarium redefines the architectural language of remembrance. Designed by the
 **Cost:** HKD 250  
 **Waiting Location:** : Diamond Hill Columbarium Yeung Nim Hall [Map](https://maps.app.goo.gl/HFt8Yfm2k5WXUj2s6)
 
+
+```{python}
+#| echo: false
+#| output: asis
+
+import glob, os
+event_id = "DiamondHill"
+imgs     = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
+
+print('<div class="event-gallery">')
+for img in imgs:
+    webpath = os.path.relpath(img)
+    print(f'<a href="{webpath}" data-lightbox="event-gallery" data-title="{event_id}">')
+    print(f'  <img src="{webpath}" alt="{event_id}">')
+    print('</a>')
+print('</div>')
+
+```
 ---
 
 <div id="MongkokYauMaTei"></div>
@@ -349,6 +431,24 @@ This walking tour takes participants deep into the vibrant heart of Kowloon, whe
 **Cost:** HKD 250  
 **Waiting Location:** : The FOREST, Mongkok [Map](https://maps.app.goo.gl/9hXshPubQtUWAJVr5)  
 
+```{python}
+#| echo: false
+#| output: asis
+
+import glob, os
+event_id = "YauMaTai"
+imgs     = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
+
+print('<div class="event-gallery">')
+for img in imgs:
+    webpath = os.path.relpath(img)
+    print(f'<a href="{webpath}" data-lightbox="event-gallery" data-title="{event_id}">')
+    print(f'  <img src="{webpath}" alt="{event_id}">')
+    print('</a>')
+print('</div>')
+
+```
+
 ---
 
 <div id="WanChaiTempleBlueHouse"></div>
@@ -390,7 +490,23 @@ This guided walk takes participants through Wan Chai’s historical layers—vis
 **Cost:** HKD 250  
 **Waiting Location:** : Wan Chai Pak Tai Temple, Lung On St, Wan Chai [Map](https://maps.app.goo.gl/UQgPAbC4hrPZyZ3cA)    
 
+```{python}
+#| echo: false
+#| output: asis
 
+import glob, os
+event_id = "BlueHouse"
+imgs     = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
+
+print('<div class="event-gallery">')
+for img in imgs:
+    webpath = os.path.relpath(img)
+    print(f'<a href="{webpath}" data-lightbox="event-gallery" data-title="{event_id}">')
+    print(f'  <img src="{webpath}" alt="{event_id}">')
+    print('</a>')
+print('</div>')
+
+```
 ---
 
 
@@ -443,7 +559,25 @@ you directly back to Admiralty.
 
 **Walking Path:**[Map](https://maps.app.goo.gl/Ef6FHUA2yFh4bLsf6)
 
+```{python}
+#| echo: false
+#| output: asis
 
+import glob, os
+event_id = "Peak"
+imgs     = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
+
+print('<div class="event-gallery">')
+for img in imgs:
+    webpath = os.path.relpath(img)
+    print(f'<a href="{webpath}" data-lightbox="event-gallery" data-title="{event_id}">')
+    print(f'  <img src="{webpath}" alt="{event_id}">')
+    print('</a>')
+print('</div>')
+
+```
+
+---
 
 <div id="GalaDinner"></div>
 
@@ -529,6 +663,23 @@ available—reserve early to sail with us!
 **Quota:** 43  
 **Cost:** HKD 960  
 **Waiting Location:** : LG2, Knowles Building HKU [Map](https://maps.app.goo.gl/mBc4461vX1nTVjNeA)    
+```{python}
+#| echo: false
+#| output: asis
+
+import glob, os
+event_id = "JunkBoat"
+imgs     = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
+
+print('<div class="event-gallery">')
+for img in imgs:
+    webpath = os.path.relpath(img)
+    print(f'<a href="{webpath}" data-lightbox="event-gallery" data-title="{event_id}">')
+    print(f'  <img src="{webpath}" alt="{event_id}">')
+    print('</a>')
+print('</div>')
+
+```
 
 ---
 
@@ -575,6 +726,24 @@ drinks at the venue.
 **Time:** 7:30PM <a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100394" target="_blank">Register</a>
 
 **Waiting Location:** 129 Second Street, L/G Nam Cheong House, Sai Ying Pun,Hong Kong [Map](https://maps.app.goo.gl/YqDvccu3ncDPx2CfA)
+
+```{python}
+#| echo: false
+#| output: asis
+
+import glob, os
+event_id = "Central"
+imgs     = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
+
+print('<div class="event-gallery">')
+for img in imgs:
+    webpath = os.path.relpath(img)
+    print(f'<a href="{webpath}" data-lightbox="event-gallery" data-title="{event_id}">')
+    print(f'  <img src="{webpath}" alt="{event_id}">')
+    print('</a>')
+print('</div>')
+
+```
 
 ---
 
