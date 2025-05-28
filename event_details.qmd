@@ -52,15 +52,15 @@ architecture.
 
 **Date:** 
 
-- Wednesday, 2nd July 8:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100399)<br>
-- Saturday, 5th July 9:30AM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100551)<br>
-- Saturday, 5th July 11:30AM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100552)<br>
-- Saturday, 5th July 2:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100553)<br>
+- Wednesday, 2nd July 8:30PM - 10:00PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100399)<br>
+- Saturday, 5th July 9:30AM - 11:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100551)<br>
+- Saturday, 5th July 11:30AM - 3:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100552)<br>
+- Saturday, 5th July 2:30PM - 6:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100553)<br>
 
-**Quota**: 80<br>
+**Quota**: 20 per tour<br>
 **Time:** 6:00PM – 10:30PM  <br>
 **Cost:** HKD 250 <br>
-**Waiting Location:** The Henderson Art Garden /Lambeth Walk Rest Garden [Map](https://maps.app.goo.gl/dSWhhiTjKzX56L4t5)
+**Meeting Point:** The Henderson Art Garden /Lambeth Walk Rest Garden [Map](https://maps.app.goo.gl/dSWhhiTjKzX56L4t5)
 
 
 **Notes:**  
@@ -123,9 +123,9 @@ Join HKU Adjunct Assistant Professor Human T.L. Wu for an in-depth architectural
 - Option 2: 4:30PM - 6:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100420)
 
  
-**Quota:** 30/60  
+**Quota:** 30 per tour
 **Cost:** HKD 250 (M+ Exhibition Entry Tickets is not included)  
-**Waiting Location:** Artist Square Entrance, G/F, M+ Museum [Map](https://maps.app.goo.gl/evRXFE9Bsktg5Buo8)
+**Meeting Point:** Artist Square Entrance, G/F, M+ Museum [Map](https://maps.app.goo.gl/evRXFE9Bsktg5Buo8)
 
 
 
@@ -192,10 +192,10 @@ urban regeneration and community design.
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** 7:30PM – 10:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100400)  
+**Time:** 8:30PM – 8:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100400)  
 **Quota:** 49  
 **Cost:** HKD 900  
-**Waiting Location:** : LG2, Knowles Building HKU [Map](https://maps.app.goo.gl/mBc4461vX1nTVjNeA)    
+**Meeting Point:** : LG2, Knowles Building HKU [Map](https://maps.app.goo.gl/mBc4461vX1nTVjNeA)    
 
 **Notes:**  
 > Important: Please ensure your passport and <mark>**visa status**</mark>  allows entry into Mainland China.  
@@ -253,10 +253,13 @@ Hop aboard a classic Hong Kong tram for a curated architectural journey from Whi
 - 7:30PM – 8:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100403)
 - 8:30PM – 9:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100435)
 
-**Quota:** 30  
+**Quota:** 30 per tour
 **Cost:** HKD 250  
-**Waiting Location for 7:30PM Tour:** : Whitty Street Depot Entrance [Map](https://maps.app.goo.gl/Wh99mPZYcFagB2QaA)  
-
+**Meeting Point for 7:30PM Tour:** : Whitty Street Depot Entrance
+**Meeting Point for 8:30PM Tour:** : North Point Terminal 
+<!-- **Meeting Point for 7:30PM Tour:** : Whitty Street Depot Entrance [Map](https://maps.app.goo.gl/Wh99mPZYcFagB2QaA)  
+**Meeting Point for 8:30PM Tour:** : Whitty Street Depot Entrance [Map](https://maps.app.goo.gl/Wh99mPZYcFagB2QaA)  
+ -->
 ```{python}
 #| echo: false
 #| output: asis
@@ -306,11 +309,11 @@ Led by HKU Professor Christian J. Lange, co-author of *Cities of Repetition*, th
 **Time:** 
 
 - Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100389)
-- Option 2: 4:30PM – 6:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100424)
+- Option 2: 1:30PM – 3:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100424)
 
-**Quota:** 30/60  
+**Quota:** 30 per tour 
 **Cost:** HKD 250  
-**Waiting Location:** Waiting Location: TBC
+**Meeting Point:** Meeting Point: TBC
 
 ```{python}
 #| echo: false
@@ -364,7 +367,7 @@ Columbarium redefines the architectural language of remembrance. Designed by the
 
 **Quota:** 30/60  
 **Cost:** HKD 250  
-**Waiting Location:** : Diamond Hill Columbarium Yeung Nim Hall [Map](https://maps.app.goo.gl/HFt8Yfm2k5WXUj2s6)
+**Meeting Point:** : Diamond Hill Columbarium Yeung Nim Hall [Map](https://maps.app.goo.gl/HFt8Yfm2k5WXUj2s6)
 
 
 ```{python}
@@ -425,11 +428,11 @@ This walking tour takes participants deep into the vibrant heart of Kowloon, whe
 **Time:** 
 
 - Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100433)
-- Option 2: 2:30PM - 4:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100392)
+- Option 2: 1:30PM - 3:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100392)
 
-**Quota:** 30  
+**Quota:** 30 per tour
 **Cost:** HKD 250  
-**Waiting Location:** : The FOREST, Mongkok [Map](https://maps.app.goo.gl/9hXshPubQtUWAJVr5)  
+**Meeting Point:** : The FOREST, Mongkok [Map](https://maps.app.goo.gl/9hXshPubQtUWAJVr5)  
 
 ```{python}
 #| echo: false
@@ -484,11 +487,11 @@ This guided walk takes participants through Wan Chai’s historical layers—vis
 **Time:** 
 
 - Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100391)
-- Option 2: 2:30PM - 4:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100428)
+- Option 2: 4:30PM - 6:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100428)
 
-**Quota:** 30  
+**Quota:** 30 per tour
 **Cost:** HKD 250  
-**Waiting Location:** : Wan Chai Pak Tai Temple, Lung On St, Wan Chai [Map](https://maps.app.goo.gl/UQgPAbC4hrPZyZ3cA)    
+**Meeting Point:** : Wan Chai Pak Tai Temple, Lung On St, Wan Chai [Map](https://maps.app.goo.gl/UQgPAbC4hrPZyZ3cA)    
 
 ```{python}
 #| echo: false
@@ -555,7 +558,7 @@ you directly back to Admiralty.
 - Option 2: July 3rd, 7:00PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100481)
 
 
-**Waiting Location:** : Waiting Location: Reception of CAAD future 2025 [Map](https://maps.app.goo.gl/en8NWx9jg9z9r93p7)
+**Meeting Point:** : Meeting Point: Reception of CAAD future 2025 [Map](https://maps.app.goo.gl/en8NWx9jg9z9r93p7)
 
 **Walking Path:**[Map](https://maps.app.goo.gl/Ef6FHUA2yFh4bLsf6)
 
@@ -607,7 +610,7 @@ Join us for the official CAAD Futures 2025 Conference Banquet at the iconic Maxi
 **Date:** Friday, 4th July  
 **Time:** 6:00PM – 10:30PM  
 **Cost:** HKD 960  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100556)<br>
-**Waiting Location:** City Hall [Map](https://maps.app.goo.gl/en8NWx9jg9z9r93p7)
+**Meeting Point:** City Hall [Map](https://maps.app.goo.gl/en8NWx9jg9z9r93p7)
 
 **Notes:**  
 > Banquet tickets are already included for all full conference registrants.  
@@ -662,7 +665,7 @@ available—reserve early to sail with us!
 **Time:** 9:00AM – 7:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100393)     
 **Quota:** 43  
 **Cost:** HKD 960  
-**Waiting Location:** : LG2, Knowles Building HKU [Map](https://maps.app.goo.gl/mBc4461vX1nTVjNeA)    
+**Meeting Point:** : LG2, Knowles Building HKU [Map](https://maps.app.goo.gl/mBc4461vX1nTVjNeA)    
 ```{python}
 #| echo: false
 #| output: asis
@@ -687,11 +690,11 @@ print('</div>')
 
 ::: {layout-ncol=2}
 
-![](images/events/barCentral.jpg){fig-alt="Evening Social: Bar in Central" style="border-radius: 5%; width: 100%;"}
+![](images/events/barCentral.jpg){fig-alt="Evening Social: Bar in Local AI Social" style="border-radius: 5%; width: 100%;"}
 
 <div>
 
-## Evening Social: Bar in Central  
+## Evening Social: Bar in Local AI Social  
 **Relax, connect, and toast to design in the heart of Hong Kong**
 
 Join us for a special AI-themed
@@ -723,9 +726,9 @@ drinks at the venue.
 
 **Event Details:**  
 **Date:** Thursday, 3rd July  
-**Time:** 7:30PM <a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100394" target="_blank">Register</a>
+**Time:** 7:00 PM - 9:00 PM<a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100394" target="_blank">Register</a>
 
-**Waiting Location:** 129 Second Street, L/G Nam Cheong House, Sai Ying Pun,Hong Kong [Map](https://maps.app.goo.gl/YqDvccu3ncDPx2CfA)
+**Meeting Point:** 129 Second Street, L/G Nam Cheong House, Sai Ying Pun,Hong Kong [Map](https://maps.app.goo.gl/YqDvccu3ncDPx2CfA)
 
 ```{python}
 #| echo: false
@@ -788,5 +791,5 @@ are, and enjoy the view.
 **Event Details:**  
 **Date:** Wednesday, 2nd July  
 **Time:** 7:00PM <a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100397" target="_blank">Register</a><br>
-**Waiting Location:** TBC
+**Meeting Point:** TBC
 ---
