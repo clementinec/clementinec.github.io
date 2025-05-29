@@ -6,8 +6,7 @@ format:
     page-layout: full
     css: styleeve.css         # ← your external stylesheet
     includes:
-      in-header: 
-        - baguette.html
+        baguette.html
 ---
 
 <div id="Henderson"></div>
@@ -74,15 +73,13 @@ architecture.
 ```{python}
 #| echo: false
 #| output: asis
-
 import glob, os
 event_id = "Henderson"
-imgs     = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
-
+imgs = sorted(glob.glob(f"images/events_images/{event_id}/*Credit*"))
 print('<div class="event-gallery">')
 for img in imgs:
     webpath = os.path.relpath(img)
-    print(f'<a href="{webpath}" data-lightbox="event-gallery" data-title="{event_id}">')
+    print(f'<a href="{webpath}" data-pswp-width="1200" data-pswp-height="800">')
     print(f'  <img src="{webpath}" alt="{event_id}">')
     print('</a>')
 print('</div>')
@@ -309,7 +306,7 @@ Led by HKU Professor Christian J. Lange, co-author of *Cities of Repetition*, th
 **Time:** 
 
 - Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100389)
-- Option 2: 1:30PM – 3:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100424)
+- Option 2: 4:30PM – 6:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100424)
 
 **Quota:** 30 per tour 
 **Cost:** HKD 250  
