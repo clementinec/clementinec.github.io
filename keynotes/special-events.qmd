@@ -1,0 +1,71 @@
+---
+title: "Emergency Architecture: Designing for Crisis and Recovery"
+toc: False
+format: html
+---
+
+
+<style>
+  /* turn off forced uppercase & weird letter‐spacing on **all** headings */
+  h1, h2, h3, h4, h5, h6 {
+    text-transform: none !important;
+    letter-spacing: normal !important;
+  }
+</style>
+
+::: {layout-ncol=2}
+
+![](../images/keynotes/Shigeru.png){fig-alt="Prof. Shigeru Ban" style="border-radius: 50%; width: 80%;"}
+
+<div>
+
+## Prof. Shigeru Ban
+##### Special Evening Presentation
+##### Ticketed Event - Limited Capacity
+##### July 5, 2025 | 7:00 PM
+
+
+
+</div>
+
+:::
+
+### About This Special Event
+
+Join us for an exclusive evening presentation with Pritzker Prize laureate Shigeru Ban as he delves deeper into his groundbreaking work in emergency architecture and disaster relief. This intimate session will feature never-before-seen project documentation, live sketching demonstrations, and an extended Q&A session.
+
+**Event Details:**
+
+- **Date:** July 5, 2025
+- **Time:** 7:00 PM - 9:00 PM
+- **Venue:** [Special Event Hall]
+- **Capacity:** Limited to 150 attendees
+- **Includes:** Light reception following the presentation
+
+### Presentation Focus
+
+In this special evening session, Professor Ban will share his personal experiences from over three decades of disaster relief work, from the 1995 Kobe earthquake to recent humanitarian crises. He will demonstrate his design process through live sketching and discuss the technical innovations that make his emergency shelters both rapidly deployable and dignified spaces for displaced populations.
+
+Attendees will gain insights into:
+- The evolution of paper tube construction techniques
+- Collaboration strategies with international relief organizations
+- Balancing speed, cost, and human dignity in emergency design
+- Future innovations in disaster-responsive architecture
+
+This presentation goes beyond his daytime keynote to explore the personal motivations and practical challenges behind his humanitarian architecture practice.
+
+### Ticket Information
+
+**Special Event Tickets:** HK$500
+- Includes presentation, Q&A session, and reception
+- Available separately or as add-on to conference registration
+- Early bird pricing available until April 30, 2025
+
+*This is a separately ticketed event and not included in general conference registration.*
+
+![](../images/keynotes/ban1.jpg)
+Emergency Housing, Haiti, 2010
+![](../images/keynotes/ban2.jpg)
+Paper Tube Shelter prototype demonstration
+![](../images/keynotes/ban3.jpg)
+Disaster Relief Workshop, Nepal, 2015

@@ -1,0 +1,52 @@
+---
+title: "Travel Information"
+format:
+  html:
+    toc: false
+---
+<style>
+  /* turn off forced uppercase & weird letter‐spacing on **all** headings */
+  h1, h2, h3, h4, h5, h6 {
+    text-transform: none !important;
+    letter-spacing: normal !important;
+  }
+</style>
+
+Welcome to CAAD Futures 2025 at The University of Hong Kong (HKU). Below is essential travel information to help you plan your visit.
+
+## Visa Requirements
+
+Most overseas visitors can enter Hong Kong without a visa for tourism or short business visits, with permitted stays ranging from 7 to 180 days depending on nationality. For longer stays or activities such as work, study, or business, a visa or entry permit is required. All visitors must hold a passport valid for more than one month.
+
+**Note**: Visa policies may vary, so please check the [Hong Kong Immigration Department](https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html) for detailed and up-to-date requirements.
+
+## Accommodation
+
+A variety of hotels are available near HKU, catering to different budgets and preferences. Here are some recommended options:
+
+- **JEN Hong Kong by Shangri-La**: A modern hotel with excellent amenities, close to HKU
+- **Courtyard by Marriott Hong Kong**: Comfortable and convenient, ideal for conference attendees
+- **Ibis Hong Kong Central & Sheung Wan**: A budget-friendly option with good access to public transport
+
+**Tip**: Book via platforms like [TripAdvisor](https://www.tripadvisor.com/), [Booking.com](https://www.booking.com/), or [Agoda](https://www.agoda.com/).
+
+## Transportation
+
+Hong Kong's public transportation system is efficient and easy to navigate, making it simple to reach HKU.
+
+### MTR (Metro)
+The closest station is **HKU Station** on the Island Line. From Hong Kong International Airport, take the Airport Express to Hong Kong Station, then transfer to the Island Line to HKU Station (approximately 45 minutes total).
+
+### Buses
+Routes 23, 37A, 40, 40M, and 90B stop near HKU's main campus.
+
+### Taxis
+Red taxis serve Hong Kong Island and are widely available. A taxi from the airport to HKU costs approximately HK$360.
+
+**Tip**: Purchase an [Octopus Card](https://www.mtr.com.hk/en/customer/tickets/octopus.html) for seamless payments across MTR, buses, and other transport. For real-time directions, use [HKeMobility](https://www.hkemobility.gov.hk/) or [Google Maps](https://www.google.com/maps).
+
+## Conference Location
+
+The conference will take place at HKU's main campus in Pok Fu Lam, Hong Kong. The map below highlights HKU Station and key campus locations.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3694.895559329999!2d114.13239999999999!3d22.279999999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340405e4f577c601%3A0x6e0a5b55e8088b7b!2sThe%20University%20of%20Hong%20Kong!5e0!3m2!1sen!2sus!4v1685214800000!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

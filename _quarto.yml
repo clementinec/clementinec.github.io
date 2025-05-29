@@ -1,6 +1,5 @@
 project:
   type: website
-
 website:
   title: "CAAD Futures 2025"
   favicon: "Stamp_CAADFutures2025_OUTLN.png"
@@ -28,24 +27,32 @@ website:
       - text: "Home"
         href: index.qmd
       - text: "Programme"
-        # href: call.qmd
         menu:
           - text: "Regular Papers"
             href: regular.qmd
           - text: "Catalytic Interfaces"
             href: props.qmd
+          # - text: "Special Events"
+          #   href: keynotes/special-events.qmd
+          - text: "Schedule"
+            href: schedule.qmd
+          - text: "---"
+          - text: "All Events"
+            href: event.qmd
       - text: "Keynotes"
         href: keynote.qmd
-      - text: "Schedule"
-        href: schedule.qmd
-      - text: "Tickets"
-        href: ticketing.qmd
-      - text: "Committee"
-        href: committee.qmd
-      - text: "Ambition"
-        href: ambition.qmd
-      - text: "Events"
-        href: event.qmd
+      - text: "Attend"
+        menu:
+          - text: "Tickets"
+            href: ticketing.qmd
+          - text: "Travel Info"
+            href: travel.qmd
+      - text: "About"
+        menu:
+          - text: "Committee"
+            href: committee.qmd
+          - text: "Ambition"
+            href: ambition.qmd
 
 format:
   html:
