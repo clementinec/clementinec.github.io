@@ -38,4 +38,21 @@ Dr. Garvin Goepel <br>
 Mr. Haotian Zhang <br>
 
 Please send all inquiries to [this e-mail address](mailto:caadfutures2025@hku.hk). 
- 
+
+---
+**Supported by**
+
+```{=html}
+<div style="text-align: center; margin: 30px 0;">
+  <!-- Row 1: Bigger logos -->
+  <div style="display: flex; justify-content: center; align-items: center; gap: 60px; height: 100px; margin-bottom: 30px;">
+    <img src="images/HKU.png" alt="The University of Hong Kong" style="height: 150px; object-fit: contain;">
+    <img src="images/CITF.jpg" alt="CITF" style="height: 75px; object-fit: contain;">
+  </div>
+  
+  <!-- Row 2: Smaller logo -->
+  <div style="display: flex; justify-content: center; align-items: center; height: 60px;">
+    <img src="images/DFab.jpg" alt="The NCCR/DFab" style="height: 40px; object-fit: contain;">
+  </div>
+</div>
+```
