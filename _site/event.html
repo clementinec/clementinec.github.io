@@ -252,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-<img src="images/events/Venue.jpg" alt="Venue" style="width:100%; max-width:500px; margin:20px 0;">
+<img src="images/events/Venue.jpg" alt="Venue" style="width:100%; max-width:600px; margin:20px 0;">
 
 <div class="thumbnail-wrapper">
 
@@ -470,7 +470,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/caadfutures2025\.hku\.hk");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

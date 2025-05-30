@@ -62,7 +62,7 @@ format:
 }
 </style>
 
-<img src="images/events/Venue.jpg" alt="Venue" style="width:100%; max-width:600px; margin:20px 0;">
+<img src="images/events/Venue.jpg" alt="Venue" style="width:100%; max-width:540px; margin:20px 0;">
 
 <div class="thumbnail-wrapper">
 
