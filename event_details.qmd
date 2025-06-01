@@ -53,11 +53,10 @@ architecture.
 
 - Wednesday, 2nd July 8:30PM - 10:00PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100399)<br>
 - Saturday, 5th July 9:30AM - 11:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100551)<br>
-- Saturday, 5th July 11:30AM - 3:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100552)<br>
-- Saturday, 5th July 2:30PM - 6:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100553)<br>
+- Saturday, 5th July 1:30PM - 3:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100552)<br>
+- Saturday, 5th July 4:30PM - 6:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100553)<br>
 
-**Quota**: 20 per tour<br>
-**Time:** 6:00PM – 10:30PM  <br>
+**Quota**: 20 per tour<br>  
 **Cost:** HKD 250 <br>
 **Meeting Point:** The Henderson Art Garden /Lambeth Walk Rest Garden [Map](https://maps.app.goo.gl/dSWhhiTjKzX56L4t5)
 
@@ -120,7 +119,7 @@ Join HKU Adjunct Assistant Professor Human T.L. Wu for an in-depth architectural
 - Option 2: 4:30PM - 6:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100420)
 
  
-**Quota:** 30 per tour
+**Quota:** 30 per tour  
 **Cost:** HKD 250 (M+ Exhibition Entry Tickets is not included)  
 **Meeting Point:** Artist Square Entrance, G/F, M+ Museum [Map](https://maps.app.goo.gl/evRXFE9Bsktg5Buo8)
 
@@ -250,10 +249,10 @@ Hop aboard a classic Hong Kong tram for a curated architectural journey from Whi
 - 7:30PM – 8:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100403)
 - 8:30PM – 9:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100435)
 
-**Quota:** 30 per tour
+**Quota:** 30 per tour  
 **Cost:** HKD 250  
-**Meeting Point for 7:30PM Tour:** : Whitty Street Depot Entrance
-**Meeting Point for 8:30PM Tour:** : North Point Terminal 
+**Meeting Point for 7:30PM Tour:** : Whitty Street Depot Entrance [Map](https://maps.app.goo.gl/ab4kTbWDJzXqoZfs6)    
+**Meeting Point for 8:30PM Tour:** : North Point Terminal [Map](https://maps.app.goo.gl/KiHi7SxKnAumx4g77)   
 <!-- **Meeting Point for 7:30PM Tour:** : Whitty Street Depot Entrance [Map](https://maps.app.goo.gl/Wh99mPZYcFagB2QaA)  
 **Meeting Point for 8:30PM Tour:** : Whitty Street Depot Entrance [Map](https://maps.app.goo.gl/Wh99mPZYcFagB2QaA)  
  -->
@@ -305,10 +304,10 @@ Led by HKU Professor Christian J. Lange, co-author of *Cities of Repetition*, th
 **Date:** Saturday, 5th July  
 **Time:** 
 
-- Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100389)
+- Option 1: 1:30PM – 3:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100389)
 - Option 2: 4:30PM – 6:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100424)
 
-**Quota:** 30 per tour 
+**Quota:** 30 per tour  
 **Cost:** HKD 250  
 **Meeting Point:** Meeting Point: TBC
 
@@ -360,9 +359,9 @@ Columbarium redefines the architectural language of remembrance. Designed by the
 **Time:** 
 
 - Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100387)
-- Option 2: 2:30PM - 4:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100422)
+- Option 2: 1:30PM - 3:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100422)
 
-**Quota:** 30/60  
+**Quota:** 30 per tour  
 **Cost:** HKD 250  
 **Meeting Point:** : Diamond Hill Columbarium Yeung Nim Hall [Map](https://maps.app.goo.gl/HFt8Yfm2k5WXUj2s6)
 
@@ -427,7 +426,7 @@ This walking tour takes participants deep into the vibrant heart of Kowloon, whe
 - Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100433)
 - Option 2: 1:30PM - 3:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100392)
 
-**Quota:** 30 per tour
+**Quota:** 30 per tour  
 **Cost:** HKD 250  
 **Meeting Point:** : The FOREST, Mongkok [Map](https://maps.app.goo.gl/9hXshPubQtUWAJVr5)  
 
@@ -486,7 +485,7 @@ This guided walk takes participants through Wan Chai’s historical layers—vis
 - Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100391)
 - Option 2: 4:30PM - 6:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100428)
 
-**Quota:** 30 per tour
+**Quota:** 30 per tour  
 **Cost:** HKD 250  
 **Meeting Point:** : Wan Chai Pak Tai Temple, Lung On St, Wan Chai [Map](https://maps.app.goo.gl/UQgPAbC4hrPZyZ3cA)    
 
@@ -551,8 +550,8 @@ you directly back to Admiralty.
 **Event Details:**  
 **Time:** 
 
-- Option 1: July 2nd, 7:00PM - 9:00PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100398)
-- Option 2: July 3rd, 7:00PM - 9:00PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100481)
+- Option 1: Wednesday, July 2nd, 7:00 PM - 9:00 PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100398)
+- Option 2: Thursday, July 3rd, 7:00 PM - 9:00 PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100481)
 
 
 **Meeting Point:** : Meeting Point: Reception of CAAD future 2025 [Map](https://maps.app.goo.gl/en8NWx9jg9z9r93p7)
