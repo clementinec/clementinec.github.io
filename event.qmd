@@ -184,7 +184,7 @@ format:
 </div>
 
 <div class="thumbnail-card">
-  <a href="event_details.html#BarCentral"><img src="images/events/barCentral.jpg" alt="The Victoria Peak and Night"></a>
+  <a href="event_details.html#BarCentral"><img src="images/events/Stephen.png" alt="The Victoria Peak and Night"></a>
   <div class="caption">
     <h3>Bar in Local AI Social</h3>
     <p class="event-category"><br>Evening Social</p>

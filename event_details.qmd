@@ -686,7 +686,7 @@ print('</div>')
 
 ::: {layout-ncol=2}
 
-![](images/events/barCentral.jpg){fig-alt="Evening Social: Bar in Local AI Social" style="border-radius: 5%; width: 100%;"}
+![](images/events/Stephen.png){fig-alt="Evening Social: Bar in Local AI Social" style="border-radius: 5%; width: 100%;"}
 
 <div>
 
