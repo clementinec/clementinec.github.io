@@ -92,8 +92,14 @@ Tickets purchased **without approval** may be deemed **invalid without refund**.
 A curated series of **cultural and social activities** will be offered throughout the conference week and weekend.  
 These include:
 
-- Guided architecture tours
-- Field excursions to key sites
-- A Junk Boat Party in Sai Kung
+- [Architecture Tour – Henderson by Zaha Hadid Architects](event_details.qmd#Henderson)  
+- [Architecture Tour – M+ Art Museum by Herzog and de Meuron](event_details.qmd#MPlus)  
+- [Architecture Tour – Tram Tour](event_details.qmd#TramTourWestToEast)  
+- [Architecture Tour – Public Housing](event_details.qmd#PublicHousing)  
+- [Architecture Tour – Diamond Hill Crematorium by ASD](event_details.qmd#DiamondHill)  
+- [Architecture Tour – Mongkok & Yau Ma Tei](event_details.qmd#MongkokYauMaTei)  
+- [Architecture Tour – Wan Chai Temple & Blue House](event_details.qmd#WanChaiTempleBlueHouse)  
+- [Architecture Tour – The Victoria Peak at Night](event_details.qmd#VictoriaPeak)  
+- [Social – Junk Boat in Sai Kung](event_details.qmd#JunkBoatSaiKung)  
 
 Tickets for these events will be **sold separately** and released at a later date.

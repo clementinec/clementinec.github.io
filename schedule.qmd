@@ -44,7 +44,8 @@ _Note: This schedule is tentative and may be updated. Social event details (tour
 - **14:00 – 16:20**: Paper Sessions  
 - **17:00 – 18:00**: Keynote 2  
 - **18:00 – 19:00**: Catalytic Interfaces – Work Session  
-- **19:00 onward**: Evening Social / Tours of Hong Kong (details to be announced soon)
+- **19:00 – 21:00**: [Victoria Peak at Night](event_details.qmd#VictoriaPeak)  
+- **20:30 – 22:00**: [Henderson by Zaha Hadid Architects](event_details.qmd#Henderson)  
 
 ---
 
@@ -59,7 +60,8 @@ _Note: This schedule is tentative and may be updated. Social event details (tour
 - **13:30 – 14:40**: Speaker-driven Paper Session  
 - **15:00 – 17:20**: Paper Sessions  
 - **17:20 – 19:00**: Catalytic Interfaces – Work Session  
-- **19:00 onward**: Evening Social / Tours of Hong Kong (details to be announced soon)
+- **19:00 – 21:00**: [Victoria Peak at Night](event_details.qmd#VictoriaPeak)  
+- **19:00 – 21:00**: [Bar in Sai Ying Pun](event_details.qmd#BarCentral)  
 
 ---
 
@@ -81,16 +83,28 @@ _Note: This schedule is tentative and may be updated. Social event details (tour
 
 ## Saturday, 5 July 2025
 
-- **09:30 – 20:00**: Shenzhen Day Tour  
-- **09:30 – 11:30**: Morning tours of Hong Kong  
-- **13:00 – 18:00**: Afternoon tours of Hong Kong  
-- **19:30 – 22:30**: Evening tours of Hong Kong (details to be announced soon)
+- **08:30 – 20:30**: Shenzhen Tour  
+- **09:30 – 11:30**: [Henderson by Zaha Hadid Architects](event_details.qmd#Henderson)  
+- **09:30 – 11:30**: [Diamond Hill Crematorium](event_details.qmd#DiamondHill)  
+- **09:30 – 11:30**: [Mongkok & Yau Ma Tei](event_details.qmd#MongkokYauMaTei)  
+- **09:30 – 11:30**: [Wan Chai Temple & Blue House](event_details.qmd#WanChaiTempleBlueHouse)  
+- **13:30 – 15:30**: [Henderson by Zaha Hadid Architects](event_details.qmd#Henderson)  
+- **13:30 – 15:30**: [Diamond Hill Crematorium](event_details.qmd#DiamondHill)  
+- **13:30 – 15:30**: [Mongkok & Yau Ma Tei](event_details.qmd#MongkokYauMaTei)  
+- **13:30 – 15:30**: [Public Housing](event_details.qmd#PublicHousing)  
+- **14:30 – 16:30**: [M+ Art Museum by Herzog and de Meuron](event_details.qmd#MPlus)  
+- **16:30 – 18:30**: [Henderson by Zaha Hadid Architects](event_details.qmd#Henderson)  
+- **16:30 – 18:30**: [Wan Chai Temple & Blue House](event_details.qmd#WanChaiTempleBlueHouse)  
+- **16:30 – 18:30**: [M+ Art Museum by Herzog and de Meuron](event_details.qmd#MPlus)  
+- **16:30 – 18:30**: [Public Housing](event_details.qmd#PublicHousing)  
+- **19:30 – 20:30**: [North Point to Whitty Street Tram Depot](event_details.qmd#TramTourWestToEast)  
+- **20:30 – 21:30**: [North Point to Whitty Street Tram Depot](event_details.qmd#TramTourWestToEast)  
 
 ---
 
 ## Sunday, 6 July 2025
 
-- **09:30 – 18:00**: Junk Boat Party in Sai Kung (details to be announced soon)
+- **08:30 – 19:30**: [Junk Boat](event_details.qmd#JunkBoatSaiKung)  
 
 ---
 
