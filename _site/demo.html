@@ -188,607 +188,542 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: #f8f9fa;
-    padding: 20px;
-}
 
-.schedule-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    overflow: hidden;
-}
 
-.schedule-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: #343a40;
-    color: white;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Schedule - Fixed</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-.schedule-header h1 {
-    color: white;
-    margin: 0;
-}
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+        .toggle-btn {
+            padding: 8px 16px;
+            border: 2px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.1);
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
 
-.view-toggle {
-    display: flex;
-    gap: 10px;
-}
+        .toggle-btn.active {
+            background: rgba(255,255,255,0.2);
+            border-color: rgba(255,255,255,0.6);
+        }
 
-.toggle-btn {
-    padding: 8px 16px;
-    border: 2px solid rgba(255,255,255,0.3);
-    background: rgba(255,255,255,0.1);
-    color: white;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
+        .schedule-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
 
-.toggle-btn.active {
-    background: rgba(255,255,255,0.2);
-    border-color: rgba(255,255,255,0.6);
-}
+        .schedule-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #343a40;
+            color: white;
+        }
 
-.schedule-grid {
-    display: grid;
-    grid-template-columns: 80px repeat(4, 1fr);
-    grid-auto-rows:40px;
-    gap: 1px;
-    background: #e9ecef;
-}
+        .schedule-header h1 {
+            color: white;
+            margin: 0;
+        }
 
-.schedule-grid.weekend {
-    grid-template-columns: 80px repeat(2, 1fr);
-}
+        /* Schedule layout */
+        .schedule-layout {
+            display: grid;
+            grid-template-columns: 80px repeat(4, 1fr);
+            background: #e9ecef;
+            gap: 1px;
+        }
 
-.day-header {
-    background: #000000;
-    color: white;
-    padding: 15px 10px;
-    text-align: center;
-    font-weight: 600;
-}
+        .schedule-layout.weekend {
+            grid-template-columns: 80px repeat(2, 1fr);
+        }
 
-.time-slot {
-    background: #f8f9fa;
-    padding: 8px 5px;
-    text-align: center;
-    font-size: 0.9em;
-    color: #6c757d;
-    border-right: 1px solid #dee2e6;
-}
+        /* Headers */
+        .day-header {
+            background: #000000;
+            color: white;
+            padding: 15px 10px;
+            text-align: center;
+            font-weight: 600;
+        }
 
-.event-cell {
-    background: white;
-    min-height: 50px;
-    position: relative;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    padding: 2px;
-}
+        /* Time column */
+        .time-column {
+            background: #f8f9fa;
+            border-right: 1px solid #dee2e6;
+        }
 
-.event-card {
-    background: #6c757d;
-    color: white;
-    padding: 6px 10px;
-    border-radius: 6px;
-    font-size: 0.8em;
-    font-weight: 500;
-    position: relative;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    flex: 1;
-    min-width: 0;
-}
+        .time-slot {
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9em;
+            color: #6c757d;
+            border-bottom: 1px solid #e9ecef;
+        }
 
-.event-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    background: #5a6268;
-}
+        /* Day columns with relative positioning */
+        .day-column {
+            background: white;
+            position: relative;
+            min-height: 320px; /* 8 slots * 40px */
+        }
 
-.event-card.architecture {
-    background: #495057;
-}
+        /* Event cards with absolute positioning */
+        .event-card {
+            position: absolute;
+            left: 4px;
+            right: 4px;
+            background: #6c757d;
+            color: white;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-size: 0.8em;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            z-index: 1;
+        }
 
-.event-card.architecture:hover {
-    background: #343a40;
-}
+        /* For long events like field trips, align text to top */
+        .event-card.field-trip {
+            align-items: flex-start;
+            padding-top: 12px;
+        }
 
-.event-card.social {
-    background: #6c757d;
-}
+        .event-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            z-index: 10;
+        }
 
-.event-card.social:hover {
-    background: #5a6268;
-}
+        .event-card.architecture {
+            background: #495057;
+        }
 
-.event-card.tour {
-    background: #868e96;
-}
+        .event-card.social {
+            background: #6c757d;
+        }
 
-.event-card.tour:hover {
-    background: #6c757d;
-}
+        .event-card.tour {
+            background: #868e96;
+        }
 
-.event-card.field-trip {
-    background: #adb5bd;
-}
+        .event-card.field-trip {
+            background: #adb5bd;
+        }
 
-.event-card.field-trip:hover {
-    background: #868e96;
-}
+        .event-card.tram {
+            background: #ced4da;
+            color: #212529;
+        }
 
-.event-card.tram {
-    background: #ced4da;
-    color: #212529;
-}
+        /* Multiple concurrent events */
+        .event-card.concurrent-2 {
+            width: calc(50% - 6px);
+        }
 
-.event-card.tram:hover {
-    background: #adb5bd;
-}
+        .event-card.concurrent-3 {
+            width: calc(33.33% - 6px);
+        }
 
-.event-tooltip {
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 12px 35px rgba(0,0,0,0.25);
-    z-index: 1000;
-    width: 350px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
+        .event-card.concurrent-4 {
+            width: calc(25% - 6px);
+        }
 
-.event-tooltip:hover {
-    background: #f8f9fa;
-}
+        .event-card.pos-0 { left: 4px; }
+        .event-card.pos-1 { left: calc(25% + 2px); }
+        .event-card.pos-2 { left: calc(50% + 2px); }
+        .event-card.pos-3 { left: calc(75% + 2px); }
 
-.event-card:hover .event-tooltip {
-    opacity: 1;
-    visibility: visible;
-}
+        /* Weekend layout has longer time range */
+        .day-column.weekend {
+            min-height: 1040px; /* 26 slots * 40px */
+        }
 
-.tooltip-image {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
+        .event-tooltip {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+            z-index: 1000;
+            width: 350px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            margin-bottom: 15px;
+            pointer-events: none;
+        }
 
-.tooltip-title {
-    font-weight: 600;
-    color: #2d3436;
-    margin-bottom: 8px;
-    font-size: 1.1em;
-}
+        .event-card:hover .event-tooltip {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
 
-.tooltip-category {
-    color: #636e72;
-    font-size: 1em;
-    margin-bottom: 12px;
-    font-weight: 500;
-}
+        .tooltip-title {
+            font-weight: 600;
+            color: #2d3436;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
 
-.tooltip-description {
-    color: #636e72;
-    font-size: 1em;
-    line-height: 1.5;
-}
+        .tooltip-category {
+            color: #636e72;
+            font-size: 1em;
+            margin-bottom: 12px;
+            font-weight: 500;
+        }
 
-.thumbnail-view {
-    display: none;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
+        .tooltip-description {
+            color: #636e72;
+            font-size: 1em;
+            line-height: 1.5;
+        }
 
-.thumbnail-view.active {
-    display: grid;
-}
+        .thumbnail-view {
+            display: none;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
 
-.schedule-view {
-    display: block;
-}
+        .thumbnail-view.active {
+            display: grid;
+        }
+        .thumbnail-card {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            background: #fff;
+            transition: transform 0.2s ease;
+        }
 
-.schedule-view.hidden {
-    display: none !important;
-}
+        .thumbnail-card:hover {
+            transform: scale(1.03);
+        }
 
-.thumbnail-card {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden;
-    text-align: center;
-    background: #fff;
-    transition: transform 0.2s ease;
-}
+        .thumbnail-card a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
 
-.thumbnail-card:hover {
-    transform: scale(1.03);
-}
+        .thumbnail-card a:hover {
+            text-decoration: none;
+        }
 
-.thumbnail-card a {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-}
+        .thumbnail-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
 
-.thumbnail-card a:hover {
-    text-decoration: none;
-}
+        .caption {
+            padding: 10px;
+        }
 
-.thumbnail-card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-}
+        .caption h3 {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin: 0 0 0.2em 0;
+        }
 
-.caption {
-    padding: 10px;
-}
+        .caption .event-category {
+            font-size: 0.9em;
+            color: #666;
+            margin: 0 0 0.5em 0;
+        }
 
-.caption h3 {
-    font-size: 1.2em;
-    font-weight: 600;
-    margin: 0 0 0.2em 0;
-}
+        .caption .writeup {
+            font-size: 0.95em;
+            color: #444;
+            line-height: 1.4;
+        }
 
-.caption .event-category {
-    font-size: 0.9em;
-    color: #666;
-    margin: 0 0 0.5em 0;
-}
+        @media (max-width: 768px) {
+            .schedule-grid {
+                grid-template-columns: 60px 1fr;
+                font-size: 0.8em;
+            }
+            
+            .event-tooltip {
+                width: 280px;
+                left: 0;
+                transform: none;
+                bottom: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
 
-.caption .writeup {
-    font-size: 0.95em;
-    color: #444;
-    line-height: 1.4;
-}
 
-@media (max-width: 768px) {
-    .schedule-grid {
-        grid-template-columns: 60px 1fr;
-        font-size: 0.8em;
-    }
-    
-    .event-tooltip {
-        width: 280px;
-        left: 0;
-        transform: none;
-        bottom: 100%;
-        margin-bottom: 10px;
-    }
-}
-</style>
-
-<div class="schedule-container">
-    <div class="schedule-header">
-        <h1>Events Schedule</h1>
-        <div class="view-toggle">
-            <button class="toggle-btn active" onclick="toggleToSchedule()">Schedule View</button>
-            <button class="toggle-btn" onclick="toggleToThumbnails()">Thumbnail View</button>
+    <div class="schedule-container">
+        <div class="schedule-header">
+            <h1>Events Schedule</h1>
+            <div class="view-toggle">
+                <button class="toggle-btn active" onclick="toggleToSchedule()">Schedule View</button>
+                <button class="toggle-btn" onclick="toggleToThumbnails()">Thumbnail View</button>
+            </div>
         </div>
-    </div>
-
-    <div class="schedule-view" id="scheduleView">
+<div class="schedule-view" id="scheduleView">
         <!-- Weekday Schedule -->
-        <div class="schedule-grid" id="weekdayGrid">
-            <div class="time-slot"></div>
+        <div class="schedule-layout">
+            <div></div>
             <div class="day-header">Tue 1/7</div>
             <div class="day-header">Wed 2/7</div>
             <div class="day-header">Thu 3/7</div>
             <div class="day-header">Fri 4/7</div>
 
-            <div class="time-slot">18:00</div>
-            <div class="event-cell">
-                <div class="event-card social">
+            <div class="time-column">
+                <div class="time-slot">18:00</div>
+                <div class="time-slot">18:30</div>
+                <div class="time-slot">19:00</div>
+                <div class="time-slot">19:30</div>
+                <div class="time-slot">20:00</div>
+                <div class="time-slot">20:30</div>
+                <div class="time-slot">21:00</div>
+                <div class="time-slot">21:30</div>
+            </div>
+
+            <!-- Tuesday -->
+            <div class="day-column">
+                <div class="event-card social" data-start="18:00" data-end="21:00" style="top: 0px; height: 280px;">
                     Welcoming Drinks
-                    <div class="event-tooltip" onclick="window.location.href='event_details.html#WelcomingDrinks'">
+                    <div class="event-tooltip">
                         <div class="tooltip-title">Welcoming Drinks</div>
                         <div class="tooltip-category">Social Event</div>
                         <div class="tooltip-description">Join us for an opening reception to meet fellow participants and kick off the week. 18:00 - 21:00</div>
                     </div>
                 </div>
             </div>
-            <div class="event-cell"></div>
-            <div class="event-cell"></div>
-            <div class="event-cell"></div>
 
-            <div class="time-slot">19:00</div>
-            <div class="event-cell"></div>
-            <div class="event-cell">
-                <div class="event-card tour">
+            <!-- Wednesday -->
+            <div class="day-column">
+                <div class="event-card tour" data-start="19:00" data-end="21:00" style="top: 60px; height: 120px;">
                     Victoria Peak at Night
-                    <div class="event-tooltip" onclick="window.location.href='event_details.html#VictoriaPeak'">
-                        <img src="images/events/VictoriaPeak.jpg" alt="Victoria Peak" class="tooltip-image">
+                    <div class="event-tooltip">
                         <div class="tooltip-title">The Victoria Peak and Night</div>
                         <div class="tooltip-category">Walking Tour</div>
                         <div class="tooltip-description">A panoramic evening escape above the city. 19:00 - 21:00</div>
                     </div>
                 </div>
-            </div>
-            <div class="event-cell">
-                <div class="event-card tour">
-                    Victoria Peak at Night
-                    <div class="event-tooltip" onclick="window.location.href='event_details.html#VictoriaPeak'">
-                        <img src="images/events/VictoriaPeak.jpg" alt="Victoria Peak" class="tooltip-image">
-                        <div class="tooltip-title">The Victoria Peak and Night</div>
-                        <div class="tooltip-category">Walking Tour</div>
-                        <div class="tooltip-description">A panoramic evening escape above the city. 19:00 - 21:00</div>
-                    </div>
-                </div>
-            </div>
-            <div class="event-cell">
-                <div class="event-card social">
-                    Local AI Social
-                    <div class="event-tooltip" onclick="window.location.href='event_details.html#BarCentral'">
-                        <img src="images/events/Stephen.png" alt="Local AI Social" class="tooltip-image">
-                        <div class="tooltip-title">Bar in Local AI Social</div>
-                        <div class="tooltip-category">Evening Social</div>
-                        <div class="tooltip-description">Join fellow participants for a laid-back night out in Central. 19:00 - 21:00</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="time-slot">19:30</div>
-            <div class="event-cell"></div>
-            <div class="event-cell"></div>
-            <div class="event-cell"></div>
-            <div class="event-cell">
-                <div class="event-card social">
-                    Gala Dinner
-                    <div class="event-tooltip" onclick="window.location.href='event_details.html#GalaDinner'">
-                        <img src="images/events/hhtst_eye.jpg" alt="Gala Dinner" class="tooltip-image">
-                        <div class="tooltip-title">Gala Dinner</div>
-                        <div class="tooltip-category">Evening Social</div>
-                        <div class="tooltip-description">Banquet – Maxim's Palace (Get One More Ticket). 19:30 - 21:00</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="time-slot">20:30</div>
-            <div class="event-cell"></div>
-            <div class="event-cell">
-                <div class="event-card architecture">
+                <div class="event-card architecture" data-start="20:30" data-end="22:00" style="top: 100px; height: 60px;">
                     Henderson by Zaha Hadid
-                    <div class="event-tooltip" onclick="window.location.href='event_details.html#Henderson'">
-                        <img src="images/events/Henderson.png" alt="Henderson" class="tooltip-image">
+                    <div class="event-tooltip">
                         <div class="tooltip-title">Henderson by Zaha Hadid Architects</div>
                         <div class="tooltip-category">Architecture Tour</div>
                         <div class="tooltip-description">The Henderson by Zaha Hadid Architects: Vertical Fluidity and Urban Innovation. 20:30 - 22:00</div>
                     </div>
                 </div>
             </div>
-            <div class="event-cell"></div>
-            <div class="event-cell"></div>
+
+            <!-- Thursday -->
+            <div class="day-column">
+                <div class="event-card tour" data-start="19:00" data-end="21:00" style="top: 40px; height: 80px;">
+                    Victoria Peak at Night
+                    <div class="event-tooltip">
+                        <div class="tooltip-title">The Victoria Peak and Night</div>
+                        <div class="tooltip-category">Walking Tour</div>
+                        <div class="tooltip-description">A panoramic evening escape above the city. 19:00 - 21:00</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Friday -->
+            <div class="day-column">
+                <div class="event-card social" data-start="19:00" data-end="21:00" style="top: 40px; height: 80px;">
+                    Local AI Social
+                    <div class="event-tooltip">
+                        <div class="tooltip-title">Bar in Local AI Social</div>
+                        <div class="tooltip-category">Evening Social</div>
+                        <div class="tooltip-description">Join fellow participants for a laid-back night out in Central. 19:00 - 21:00</div>
+                    </div>
+                </div>
+                <div class="event-card social" data-start="19:30" data-end="21:00" style="top: 60px; height: 60px;">
+                    Gala Dinner
+                    <div class="event-tooltip">
+                        <div class="tooltip-title">Gala Dinner</div>
+                        <div class="tooltip-category">Evening Social</div>
+                        <div class="tooltip-description">Banquet – Maxim's Palace (Get One More Ticket). 19:30 - 21:00</div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Weekend Schedule -->
-        <div class="schedule-grid weekend" style="margin-top: 2px;">
-            <div class="time-slot"></div>
-            <div class="day-header">Wed 5/7</div>
-            <div class="day-header">Sat 6/7</div>
+        <div class="schedule-layout weekend" style="margin-top: 40px;">
+            <div></div>
+            <div class="day-header">Sat 5/7</div>
+            <div class="day-header">Sun 6/7</div>
 
-            <div class="time-slot">8:30</div>
-            <div class="event-cell">
-                <div class="event-card field-trip" data-time="8:30-20:30">
+            <div class="time-column">
+                <div class="time-slot">8:30</div>
+                <div class="time-slot">9:00</div>
+                <div class="time-slot">9:30</div>
+                <div class="time-slot">10:00</div>
+                <div class="time-slot">10:30</div>
+                <div class="time-slot">11:00</div>
+                <div class="time-slot">11:30</div>
+                <div class="time-slot">12:00</div>
+                <div class="time-slot">12:30</div>
+                <div class="time-slot">13:00</div>
+                <div class="time-slot">13:30</div>
+                <div class="time-slot">14:00</div>
+                <div class="time-slot">14:30</div>
+                <div class="time-slot">15:00</div>
+                <div class="time-slot">15:30</div>
+                <div class="time-slot">16:00</div>
+                <div class="time-slot">16:30</div>
+                <div class="time-slot">17:00</div>
+                <div class="time-slot">17:30</div>
+                <div class="time-slot">18:00</div>
+                <div class="time-slot">18:30</div>
+                <div class="time-slot">19:00</div>
+                <div class="time-slot">19:30</div>
+                <div class="time-slot">20:00</div>
+                <div class="time-slot">20:30</div>
+                <div class="time-slot">21:00</div>
+            </div>
+
+            <!-- Saturday -->
+            <div class="day-column weekend">
+                <div class="event-card field-trip" data-start="8:30" data-end="20:30" style="top: 0px; height: 480px;">
                     Discovering Shenzhen
                     <div class="event-tooltip">
-                        <img src="images/events/shenzhen.png" alt="Shenzhen" class="tooltip-image">
                         <div class="tooltip-title">Discovering Shenzhen</div>
                         <div class="tooltip-category">Field Trip</div>
                         <div class="tooltip-description">Exploring Innovation and Urban Transformation in China's Design Capital. 8:30 - 20:30</div>
                     </div>
                 </div>
-            </div>
-            <div class="event-cell">
-                <div class="event-card social">
-                    Junk Boat
+                
+                <!-- Multiple events at 9:30 -->
+                <div class="event-card architecture concurrent-4 pos-0" data-start="9:30" data-end="11:30" style="top: 40px; height: 80px;">
+                    Henderson
                     <div class="event-tooltip">
-                        <img src="images/events/junkboat.png" alt="Junk Boat" class="tooltip-image">
-                        <div class="tooltip-title">Junk Boat Trip in Sai Kung</div>
-                        <div class="tooltip-category">Social Event</div>
-                        <div class="tooltip-description">A Scenic Escape to Hong Kong's Exotic Back Garden. 8:30 - 19:30</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="time-slot">9:30</div>
-            <div class="event-cell">
-                <div class="event-card architecture">
-                    Henderson by Zaha Hadid
-                    <div class="event-tooltip">
-                        <img src="images/events/Henderson.png" alt="Henderson" class="tooltip-image">
                         <div class="tooltip-title">Henderson by Zaha Hadid Architects</div>
                         <div class="tooltip-category">Architecture Tour</div>
                         <div class="tooltip-description">The Henderson by Zaha Hadid Architects: Vertical Fluidity and Urban Innovation. 9:30 - 11:30</div>
                     </div>
                 </div>
-                <div class="event-card architecture">
-                    Diamond Hill Crematorium
+                <div class="event-card architecture concurrent-4 pos-1" data-start="9:30" data-end="11:30" style="top: 40px; height: 80px;">
+                    Diamond Hill
                     <div class="event-tooltip">
-                        <img src="images/events/DiamondHillCrematorium.jpg" alt="Diamond Hill Crematorium" class="tooltip-image">
                         <div class="tooltip-title">Diamond Hill Crematorium</div>
                         <div class="tooltip-category">Architecture Tour</div>
                         <div class="tooltip-description">A panoramic evening escape above the city. 9:30 - 11:30</div>
                     </div>
                 </div>
-                <div class="event-card architecture">
-                    Wan Chai Temple &amp; Blue House
+                <div class="event-card architecture concurrent-4 pos-2" data-start="9:30" data-end="11:30" style="top: 40px; height: 80px;">
+                    Wan Chai
                     <div class="event-tooltip">
-                        <img src="images/events/WanChaiTempleBlueHouse.jpg" alt="Wan Chai Temple" class="tooltip-image">
                         <div class="tooltip-title">Wan Chai Temple &amp; Blue House</div>
                         <div class="tooltip-category">Architecture Tour</div>
                         <div class="tooltip-description">Exploring Spiritual Heritage and Urban Regeneration. 9:30 - 11:30</div>
                     </div>
                 </div>
-                <div class="event-card architecture">
-                    Mongkok &amp; Yau Ma Tei
+                <div class="event-card architecture concurrent-4 pos-3" data-start="9:30" data-end="11:30" style="top: 40px; height: 80px;">
+                    Mongkok
                     <div class="event-tooltip">
-                        <img src="images/events/temple-street.jpg" alt="Mongkok &amp; Yau Ma Tei" class="tooltip-image">
                         <div class="tooltip-title">Mongkok &amp; Yau Ma Tei</div>
                         <div class="tooltip-category">Architecture Tour</div>
                         <div class="tooltip-description">Exploring Everyday Density and Urban Heritage. 9:30 - 11:30</div>
                     </div>
                 </div>
-            </div>
-            <div class="event-cell"></div>
 
-            <div class="time-slot">13:30</div>
-            <div class="event-cell">
-                <div class="event-card architecture">
-                    Henderson by Zaha Hadid
-                    <div class="event-tooltip">
-                        <img src="images/events/Henderson.png" alt="Henderson" class="tooltip-image">
-                        <div class="tooltip-title">Henderson by Zaha Hadid Architects</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">The Henderson by Zaha Hadid Architects: Vertical Fluidity and Urban Innovation. 13:30 - 15:30</div>
-                    </div>
+                <!-- Multiple events at 13:30 -->
+                <div class="event-card architecture concurrent-4 pos-0" data-start="13:30" data-end="15:30" style="top: 200px; height: 80px;">
+                    Henderson
                 </div>
-                <div class="event-card architecture">
+                <div class="event-card architecture concurrent-4 pos-1" data-start="13:30" data-end="15:30" style="top: 200px; height: 80px;">
                     Public Housing
-                    <div class="event-tooltip">
-                        <img src="images/events/Public_Housing.png" alt="Public Housing" class="tooltip-image">
-                        <div class="tooltip-title">Public Housing</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">Understanding Urban Density through Repetition and Design. 13:30 - 15:30</div>
-                    </div>
                 </div>
-                <div class="event-card architecture">
-                    Mongkok &amp; Yau Ma Tei
-                    <div class="event-tooltip">
-                        <img src="images/events/temple-street.jpg" alt="Mongkok &amp; Yau Ma Tei" class="tooltip-image">
-                        <div class="tooltip-title">Mongkok &amp; Yau Ma Tei</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">Exploring Everyday Density and Urban Heritage. 13:30 - 15:30</div>
-                    </div>
+                <div class="event-card architecture concurrent-4 pos-2" data-start="13:30" data-end="15:30" style="top: 200px; height: 80px;">
+                    Mongkok
                 </div>
-                <div class="event-card architecture">
-                    Diamond Hill Crematorium
-                    <div class="event-tooltip">
-                        <img src="images/events/DiamondHillCrematorium.jpg" alt="Diamond Hill Crematorium" class="tooltip-image">
-                        <div class="tooltip-title">Diamond Hill Crematorium</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">A panoramic evening escape above the city. 13:30 - 15:30</div>
-                    </div>
+                <div class="event-card architecture concurrent-4 pos-3" data-start="13:30" data-end="15:30" style="top: 200px; height: 80px;">
+                    Diamond Hill
+                </div>
+
+                <!-- Multiple events at 16:30 -->
+                <div class="event-card architecture concurrent-4 pos-0" data-start="16:30" data-end="18:30" style="top: 320px; height: 80px;">
+                    Henderson
+                </div>
+                <div class="event-card architecture concurrent-4 pos-1" data-start="16:30" data-end="18:30" style="top: 320px; height: 80px;">
+                    M+ Museum
+                </div>
+                <div class="event-card architecture concurrent-4 pos-2" data-start="16:30" data-end="18:30" style="top: 320px; height: 80px;">
+                    Public Housing
+                </div>
+                <div class="event-card architecture concurrent-4 pos-3" data-start="16:30" data-end="18:30" style="top: 320px; height: 80px;">
+                    Wan Chai
+                </div>
+
+                <div class="event-card tram" data-start="19:30" data-end="20:30" style="top: 440px; height: 40px;">
+                    Tram Tour
+                </div>
+
+                <div class="event-card tram" data-start="20:30" data-end="21:30" style="top: 480px; height: 40px;">
+                    Tram Tour
                 </div>
             </div>
-            <div class="event-cell"></div>
 
-            <div class="time-slot">14:30</div>
-            <div class="event-cell"></div>
-            <div class="event-cell">
-                <div class="event-card architecture">
+            <!-- Sunday -->
+            <div class="day-column weekend">
+                <div class="event-card social" data-start="8:30" data-end="19:30" style="top: 0px; height: 440px;">
+                    Junk Boat
+                    <div class="event-tooltip">
+                        <div class="tooltip-title">Junk Boat Trip in Sai Kung</div>
+                        <div class="tooltip-category">Social Event</div>
+                        <div class="tooltip-description">A Scenic Escape to Hong Kong's Exotic Back Garden. 8:30 - 19:30</div>
+                    </div>
+                </div>
+                
+                <div class="event-card architecture" data-start="14:30" data-end="16:30" style="top: 240px; height: 80px;">
                     M+ Art Museum
                     <div class="event-tooltip">
-                        <img src="images/events/MPlus.png" alt="M+ Museum" class="tooltip-image">
                         <div class="tooltip-title">M+ Art Museum by Herzog and de Meuron</div>
                         <div class="tooltip-category">Architecture Tour</div>
                         <div class="tooltip-description">Inside the Making of a Cultural Landmark. 14:30 - 16:30</div>
                     </div>
                 </div>
             </div>
-
-            <div class="time-slot">16:30</div>
-            <div class="event-cell">
-                <div class="event-card architecture" data-time="16:30-18:30">
-                    Henderson by Zaha Hadid
-                    <div class="event-tooltip">
-                        <img src="images/events/Henderson.png" alt="Henderson" class="tooltip-image">
-                        <div class="tooltip-title">Henderson by Zaha Hadid Architects</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">The Henderson by Zaha Hadid Architects: Vertical Fluidity and Urban Innovation. 16:30 - 18:30</div>
-                    </div>
-                </div>
-                <div class="event-card architecture">
-                    M+ Art Museum
-                    <div class="event-tooltip">
-                        <img src="images/events/MPlus.png" alt="M+ Museum" class="tooltip-image">
-                        <div class="tooltip-title">M+ Art Museum by Herzog and de Meuron</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">Inside the Making of a Cultural Landmark. 16:30 - 18:30</div>
-                    </div>
-                </div>
-                <div class="event-card architecture">
-                    Public Housing
-                    <div class="event-tooltip">
-                        <img src="images/events/Public_Housing.png" alt="Public Housing" class="tooltip-image">
-                        <div class="tooltip-title">Public Housing</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">Understanding Urban Density through Repetition and Design. 16:30 - 18:30</div>
-                    </div>
-                </div>
-                <div class="event-card architecture">
-                    Wan Chai Temple &amp; Blue House
-                    <div class="event-tooltip">
-                        <img src="images/events/WanChaiTempleBlueHouse.jpg" alt="Wan Chai Temple" class="tooltip-image">
-                        <div class="tooltip-title">Wan Chai Temple &amp; Blue House</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">Exploring Spiritual Heritage and Urban Regeneration. 16:30 - 18:30</div>
-                    </div>
-                </div>
-            </div>
-            <div class="event-cell"></div>
-
-            <div class="time-slot">19:30</div>
-            <div class="event-cell">
-                <div class="event-card tram">
-                    Tram Tour
-                    <div class="event-tooltip">
-                        <img src="images/events/tramtour.png" alt="Tram Tour" class="tooltip-image">
-                        <div class="tooltip-title">North Point to Whitty Street Tram Depot</div>
-                        <div class="tooltip-category">Tram Tour</div>
-                        <div class="tooltip-description">A Moving Lens on Hong Kong's Vertical Urbanism. 19:30 - 20:30</div>
-                    </div>
-                </div>
-            </div>
-            <div class="event-cell"></div>
-
-            <div class="time-slot">20:30</div>
-            <div class="event-cell">
-                <div class="event-card tram">
-                    Tram Tour
-                    <div class="event-tooltip">
-                        <img src="images/events/tramtour.png" alt="Tram Tour" class="tooltip-image">
-                        <div class="tooltip-title">North Point to Whitty Street Tram Depot</div>
-                        <div class="tooltip-category">Tram Tour</div>
-                        <div class="tooltip-description">A Moving Lens on Hong Kong's Vertical Urbanism. 20:30 - 21:30</div>
-                    </div>
-                </div>
-            </div>
-            <div class="event-cell"></div>
         </div>
     </div>
+</div>
 
-    <!-- Thumbnail View -->
+ <!-- Thumbnail View -->
     <div class="thumbnail-view" id="thumbnailView">
         <div class="thumbnail-card">
             <a href="event_details.html#Henderson"><img src="images/events/Henderson.png" alt="Henderson"></a>
@@ -898,10 +833,9 @@ body {
             </div>
         </div>
     </div>
-</div>
-
-<script>
-function toggleToSchedule() {
+</main></div>
+    <script>
+    function toggleToSchedule() {
     document.getElementById('scheduleView').style.display = 'block';
     document.getElementById('thumbnailView').style.display = 'none';
     
@@ -916,12 +850,61 @@ function toggleToThumbnails() {
     document.querySelectorAll('.toggle-btn')[0].classList.remove('active');
     document.querySelectorAll('.toggle-btn')[1].classList.add('active');
 }
-</script>
+
+function showThumbnails() {
+    document.getElementById('scheduleView').classList.add('hidden');
+    document.getElementById('thumbnailView').classList.add('active');
+    document.querySelectorAll('.toggle-btn')[0].classList.remove('active');
+    document.querySelectorAll('.toggle-btn')[1].classList.add('active');
+}
+    document.addEventListener('DOMContentLoaded', () => {
+        // Calculate and set positions dynamically
+        const timeSlotHeight = 40; // pixels per 30-minute slot
+        
+        function timeToMinutes(timeStr) {
+            const [hours, minutes] = timeStr.split(':').map(Number);
+            return hours * 60 + minutes;
+        }
+        
+        function calculatePosition(startTime, baseTime) {
+            const startMinutes = timeToMinutes(startTime);
+            const baseMinutes = timeToMinutes(baseTime);
+            const diffMinutes = startMinutes - baseMinutes;
+            return (diffMinutes / 30) * timeSlotHeight;
+        }
+        
+        function calculateHeight(startTime, endTime) {
+            const startMinutes = timeToMinutes(startTime);
+            const endMinutes = timeToMinutes(endTime);
+            const durationMinutes = endMinutes - startMinutes;
+            return (durationMinutes / 30) * timeSlotHeight;
+        }
+        
+        // Process all day columns
+        document.querySelectorAll('.day-column').forEach(column => {
+            const isWeekend = column.classList.contains('weekend');
+            const baseTime = isWeekend ? '8:30' : '18:00';
+            
+            column.querySelectorAll('.event-card[data-start][data-end]').forEach(event => {
+                const startTime = event.getAttribute('data-start');
+                const endTime = event.getAttribute('data-end');
+                
+                if (!event.style.top) {
+                    event.style.top = calculatePosition(startTime, baseTime) + 'px';
+                }
+                if (!event.style.height) {
+                    event.style.height = calculateHeight(startTime, endTime) + 'px';
+                }
+            });
+        });
+    });
+    </script>
 
 
 
 
-</main> <!-- /main -->
+
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1309,7 +1292,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</div> <!-- /content -->
+ <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">

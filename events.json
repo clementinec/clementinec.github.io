@@ -1,0 +1,112 @@
+{
+  "tours": [
+    {
+      "id": "Henderson",
+      "image": "images/events/Henderson.png",
+      "type": "Architecture Tour",
+      "title": "HENDERSON BY ZAHA HADID ARCHITECTS",
+      "intro": "The Henderson by Zaha Hadid Architects: Vertical Fluidity and Urban Innovation",
+      "date": "July 2nd; July 5th",
+      "cost":"HKD 250"
+    },
+    {
+      "id": "MPlus",
+      "image": "images/events/MPlus.png",
+      "type": "Architecture Tour",
+      "title": "M+ Art Museum by Herzog and de Meuron",
+      "intro": "Inside the Making of a Cultural Landmark",
+      "date": "July 5th",
+      "cost": "HKD 250"
+    },
+    {
+      "id": "ShenzhenTour",
+      "image": "images/events/shenzhen.png",
+      "type": "Field Trip",
+      "title": "Discovering Shenzhen",
+      "intro": "Exploring Innovation and Urban Transformation in China’s Design Capital",
+      "date": "July 5th",
+      "cost": "HKD 250"
+    },
+    {
+      "id": "TramTourWestToEast",
+      "image": "images/events/tramtour.png",
+      "type": "Evening Tour",
+      "title": "Tram Ride – Whitty Street Depot to North Point",
+      "intro": "A Moving Portrait of Hong Kong’s Architecture",
+      "cost": "HKD 900"
+    },
+    {
+      "id": "PublicHousing",
+      "image": "images/events/Public_Housing.png",
+      "type": "Architecture Tour",
+      "title": "Unique Typologies – High Density Public Housing",
+      "intro": "Understanding Urban Density through Repetition and Design",
+      "cost": "HKD 250"
+    },
+    {
+      "id": "DiamondHill",
+      "image": "images/events/DiamondHillCrematorium.jpg",
+      "type": "Architecture Tour",
+      "title": "Unique Typologies – Diamond Hill Crematorium",
+      "intro": "Designing for Remembrance in a City of Density",
+      "cost": "HKD 250"
+    },
+    {
+      "id": "MongkokYauMaTei",
+      "image": "images/events/temple-street.jpg",
+      "type": "Architecture Tour",
+      "title": "High Density Urbanism – Mong Kok & Yau Ma Tei",
+      "intro": "Exploring Everyday Density and Urban Heritage",
+      "cost": "HKD 250"
+    },
+    {
+      "id": "WanChaiTempleBlueHouse",
+      "image": "images/events/WanChaiTempleBlueHouse.jpg",
+      "type": "Architecture Tour",
+      "title": "High Density Urbanism – Wan Chai Temple & Blue House",
+      "intro": "Exploring Spiritual Heritage and Urban Regeneration",
+      "cost": "HKD 250"
+    },
+    {
+      "id": "VictoriaPeak",
+      "image": "images/events/VictoriaPeak.jpg",
+      "type": "Architecture Tour",
+      "title": "High Density Urbanism – Victoria Peak at Night",
+      "intro": "A panoramic evening escape above the city.",
+      "cost": "HKD 250"
+    }
+  ],
+  "social": [
+    {
+      "id": "GalaDinner",
+      "image": "images/events/hhtst_eye.jpg",
+      "type": "Social Event",
+      "title": "Gala Dinner (+1 ticket)",
+      "intro": "Banquet – Maxim’s Palace",
+      "date": "July 2nd, 7:00PM; July 3rd, 7:00PM"
+    },
+    {
+      "id": "JunkBoatSaiKung",
+      "image": "images/events/junkboat.png",
+      "type": "Social Event",
+      "title": "Junk Boat in Sai Kung",
+      "intro": "A Scenic Escape to Hong Kong’s Back Garden",
+      "cost": "HKD 960"
+    },
+    {
+      "id": "BarCentral",
+      "image": "images/events/barCentral.jpg",
+      "type": "Evening Social",
+      "title": "Bar in Central",
+      "intro": "Relax, connect, and toast to design in the heart of Hong Kong",
+      "cost": "HKD 960"
+    },
+    {
+      "id": "BarTST",
+      "image": "images/events/socialBarTST.jpg",
+      "type": "Evening Social",
+      "title": "Bar in Tsim Sha Tsui",
+      "intro": "Skyline views, harbour breeze, and vibrant conversations"
+    }
+  ]
+}

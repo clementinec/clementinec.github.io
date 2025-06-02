@@ -66,6 +66,7 @@ body {
 .schedule-grid {
     display: grid;
     grid-template-columns: 80px repeat(4, 1fr);
+    grid-auto-rows:40px;
     gap: 1px;
     background: #e9ecef;
 }
@@ -417,7 +418,7 @@ body {
 
             <div class="time-slot">8:30</div>
             <div class="event-cell">
-                <div class="event-card field-trip">
+                <div class="event-card field-trip" data-time="8:30-20:30">
                     Discovering Shenzhen
                     <div class="event-tooltip">
                         <img src="images/events/shenzhen.png" alt="Shenzhen" class="tooltip-image">
@@ -537,7 +538,7 @@ body {
 
             <div class="time-slot">16:30</div>
             <div class="event-cell">
-                <div class="event-card architecture">
+                <div class="event-card architecture" data-time="16:30-18:30">
                     Henderson by Zaha Hadid
                     <div class="event-tooltip">
                         <img src="images/events/Henderson.png" alt="Henderson" class="tooltip-image">
@@ -753,25 +754,32 @@ function showThumbnails() {
     document.querySelectorAll('.toggle-btn')[1].classList.add('active');
 }
 
-// Wait for DOM to be ready
-document.addEventListener('DOMContentLoaded', function() {
-    
-    // Event mapping for schedule cards
-    const eventMappings = {
-        'Henderson by Zaha Hadid': 'Henderson',
-        'M+ Art Museum': 'MPlus',
-        'Discovering Shenzhen': 'ShenzhenTour',
-        'Tram Tour': 'TramTourWestToEast',
-        'Public Housing': 'PublicHousing',
-        'Diamond Hill Crematorium': 'DiamondHill',
-        'Mongkok & Yau Ma Tei': 'MongkokYauMaTei',
-        'Wan Chai Temple & Blue House': 'WanChaiTempleBlueHouse',
-        'Victoria Peak at Night': 'VictoriaPeak',
-        'Junk Boat': 'JunkBoatSaiKung',
-        'Gala Dinner': 'GalaDinner',
-        'Local AI Social': 'BarCentral'
-    };
-    
+document.addEventListener('DOMContentLoaded', () => {
+
+  const interval = 30;          // minutes per grid row (keep in sync with CSS)
+
+  /* helper: "08:30" → 510  (minutes after midnight) */
+  const toMin = t => { const [h,m]=t.split(':').map(Number); return h*60+m; };
+
+  document.querySelectorAll('.event-card').forEach(card=>{
+    /* find a time-range either in data-time or in the tooltip text */
+    let range = card.dataset.time;
+    if(!range){
+      const txt = card.textContent;
+      const m = txt.match(/(\d{1,2}:\d{2})\s*[-–]\s*(\d{1,2}:\d{2})/);
+      if(m) range = `${m[1]}-${m[2]}`;
+    }
+    if(!range) return;          // skip cards with no range
+
+    const [from,to] = range.split('-').map(s=>s.trim());
+    const span = Math.max(1, (toMin(to)-toMin(from))/interval);
+
+    /* apply to the grid *item* (event-cell), not the inner card */
+    const cell = card.closest('.event-cell');
+    if(cell) cell.style.gridRowEnd = `span ${span}`;
+  });
+});
+
     // Add click handling for schedule event cards
     document.querySelectorAll('.event-card').forEach(card => {
         card.addEventListener('click', function(e) {
