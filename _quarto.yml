@@ -39,16 +39,20 @@ website:
           - text: "---"
           - text: "All Events"
             href: event.qmd
+          - text: "Event Pending"
+            href: event_thumbnails_n.qmd
       - text: "Keynotes"
         href: keynote.qmd
-      - text: "Attend"
+      - text: "Tickets"
         menu:
-          - text: "Tickets"
+          - text: "Keynote Ticketing"
+            href: keynotes/special-events.qmd
+          - text: "Side Events"
             href: ticketing.qmd
-          - text: "Travel Info"
-            href: travel.qmd
       - text: "About"
         menu:
+          - text: "Travel Info"
+            href: travel.qmd
           - text: "Committee"
             href: committee.qmd
           - text: "Ambition"
