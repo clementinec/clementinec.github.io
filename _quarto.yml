@@ -36,19 +36,21 @@ website:
           #   href: keynotes/special-events.qmd
           - text: "Schedule"
             href: schedule.qmd
-          - text: "---"
-          - text: "All Events"
-            href: event.qmd
-          - text: "Event Pending"
-            href: event_thumbnails_n.qmd
+          # - text: "---"
+          # - text: "All Events"
+          #   href: event.qmd
+          # - text: "Event Pending"
+          #   href: event_thumbnails_n.qmd
       - text: "Keynotes"
         href: keynote.qmd
       - text: "Tickets"
         menu:
           - text: "Keynote Ticketing"
             href: keynotes/special-events.qmd
-          - text: "Side Events"
+          - text: "General Ticketing"
             href: ticketing.qmd
+          - text: "Side Events"
+            href: event.qmd
       - text: "About"
         menu:
           - text: "Travel Info"
