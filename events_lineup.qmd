@@ -63,7 +63,23 @@ format:
   line-height: 1.4;
 }
 </style>
-
+<div style="margin-bottom: 20px;">
+  <a href="demo.qmd"
+     style="
+       display: inline-block; padding: 8px 16px; background: #333;
+       color: #fff; text-decoration: none; border-radius: 4px;
+       font-size: 14px; opacity: 0.5; 
+     ">
+    ← View Calendar
+  </a>
+  <a href="events_lineup.qmd"
+     style="
+       display: inline-block; padding: 8px 16px; background: #333;
+       color: #fff; text-decoration: none; border-radius: 4px;
+       font-size: 14px; cursor: not-allowed;
+     ">
+    View Lineup →
+  </a>
 <div class="thumbnail-wrapper">
 <div class="thumbnail-grid">
 

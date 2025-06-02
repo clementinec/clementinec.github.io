@@ -50,7 +50,7 @@ website:
           - text: "General Ticketing"
             href: ticketing.qmd
           - text: "Side Events"
-            href: event.qmd
+            href: events_lineup.qmd
       - text: "About"
         menu:
           - text: "Travel Info"
