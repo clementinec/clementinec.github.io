@@ -12,7 +12,7 @@ format:
 {{< video https://vimeo.com/989928315 >}}
 
 
-## CALL FOR PAPERS AND CATALYTIC INTERFACE PROPOSALS
+## CAAD Futures 2025 : Catalytic Interfaces
 <!-- ### <span style="color:red;"> FINAL SUBMISSION DEADLINE EXTENSION: 6 OCT (23:59 AOE)</span> -->
 
 We are pleased to announce that CAAD Futures 2025 will be held at the University of Hong Kong during the first week of July 2025. 
