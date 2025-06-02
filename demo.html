@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">General Ticketing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./event.html">
+    <a class="dropdown-item" href="./events_lineup.html">
  <span class="dropdown-text">Side Events</span></a>
   </li>  
     </ul>
@@ -185,721 +185,704 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Schedule Toggle &amp; Super-Light Gray Calendar</title>
+  <style>
+    /*————————————————————————————————————————————————————————————————
+      1) GLOBAL RESET & BASE STYLES
+    —————————————————————————————————————————————————————————————————*/
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      color: #222;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Events Schedule - Fixed</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    /*————————————————————————————————————————————————————————————————
+      2) VIEW TOGGLE BUTTONS
+    —————————————————————————————————————————————————————————————————*/
+    .view-toggle {
+      margin-bottom: 16px;
+    }
+    .view-toggle button {
+      padding: 6px 12px;
+      margin-right: 8px;
+      font-size: 14px;
+      border: 1px solid #888;
+      background: #fff;
+      color: #333;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .view-toggle button.active {
+      background: #333;
+      color: #fff;
+      border-color: #333;
+    }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #f8f9fa;
-            padding: 20px;
-        }
-        .toggle-btn {
-            padding: 8px 16px;
-            border: 2px solid rgba(255,255,255,0.3);
-            background: rgba(255,255,255,0.1);
-            color: white;
-            border-radius: 6px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
+    /*————————————————————————————————————————————————————————————————
+      3) TWO VIEW CONTAINERS
+    —————————————————————————————————————————————————————————————————*/
+    #calendar‐view,
+    #qmd‐view {
+      display: none;
+    }
+    #calendar‐view.active,
+    #qmd‐view.active {
+      display: block;
+    }
 
-        .toggle-btn.active {
-            background: rgba(255,255,255,0.2);
-            border-color: rgba(255,255,255,0.6);
-        }
+    /*————————————————————————————————————————————————————————————————
+      4) SHARED GRID STYLES (Calendar)
+    —————————————————————————————————————————————————————————————————*/
+    .schedule-all {
+      display: flex;
+      flex-direction: column;
+      gap: 0;               /* Panels flush with each other */
+      border: 1px solid #ccc;
+      background: #fff;
+      overflow: visible;    /* Tooltips can overflow */
+    }
+    .schedule-grid {
+      display: grid;
+      grid-auto-rows: 30px; /* 30px per half-hour slot */
+      overflow: visible;    /* Let tooltips spill out */
+    }
+    .time-label {
+      font-size: 12px;
+      color: #555;
+      text-align: right;
+      padding-right: 6px;
+      border-bottom: 1px solid #eee;
+      border-right: 1px solid #eee;
+      background: #f5f5f5;
+    }
+    .day-header {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      font-size: 13px;
+      font-weight: bold;
+      border-right: 1px solid #444;
+      border-bottom: 1px solid #444;
+      padding-top: 4px;
+    }
 
-        .schedule-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-            overflow: hidden;
-        }
-
-        .schedule-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background: #343a40;
-            color: white;
-        }
-
-        .schedule-header h1 {
-            color: white;
-            margin: 0;
-        }
-
-        /* Schedule layout */
-        .schedule-layout {
-            display: grid;
-            grid-template-columns: 80px repeat(4, 1fr);
-            background: #e9ecef;
-            gap: 1px;
-        }
-
-        .schedule-layout.weekend {
-            grid-template-columns: 80px repeat(2, 1fr);
-        }
-
-        /* Headers */
-        .day-header {
-            background: #000000;
-            color: white;
-            padding: 15px 10px;
-            text-align: center;
-            font-weight: 600;
-        }
-
-        /* Time column */
-        .time-column {
-            background: #f8f9fa;
-            border-right: 1px solid #dee2e6;
-        }
-
-        .time-slot {
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.9em;
-            color: #6c757d;
-            border-bottom: 1px solid #e9ecef;
-        }
-
-        /* Day columns with relative positioning */
-        .day-column {
-            background: white;
-            position: relative;
-            min-height: 320px; /* 8 slots * 40px */
-        }
-
-        /* Event cards with absolute positioning */
-        .event-card {
-            position: absolute;
-            left: 4px;
-            right: 4px;
-            background: #6c757d;
-            color: white;
-            padding: 6px 10px;
-            border-radius: 6px;
-            font-size: 0.8em;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            overflow: hidden;
-            z-index: 1;
-        }
-
-        /* For long events like field trips, align text to top */
-        .event-card.field-trip {
-            align-items: flex-start;
-            padding-top: 12px;
-        }
-
-        .event-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-            z-index: 10;
-        }
-
-        .event-card.architecture {
-            background: #495057;
-        }
-
-        .event-card.social {
-            background: #6c757d;
-        }
-
-        .event-card.tour {
-            background: #868e96;
-        }
-
-        .event-card.field-trip {
-            background: #adb5bd;
-        }
-
-        .event-card.tram {
-            background: #ced4da;
-            color: #212529;
-        }
-
-        /* Multiple concurrent events */
-        .event-card.concurrent-2 {
-            width: calc(50% - 6px);
-        }
-
-        .event-card.concurrent-3 {
-            width: calc(33.33% - 6px);
-        }
-
-        .event-card.concurrent-4 {
-            width: calc(25% - 6px);
-        }
-
-        .event-card.pos-0 { left: 4px; }
-        .event-card.pos-1 { left: calc(25% + 2px); }
-        .event-card.pos-2 { left: calc(50% + 2px); }
-        .event-card.pos-3 { left: calc(75% + 2px); }
-
-        /* Weekend layout has longer time range */
-        .day-column.weekend {
-            min-height: 1040px; /* 26 slots * 40px */
-        }
-
-        .event-tooltip {
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 12px;
-            padding: 20px;
-            box-shadow: 0 12px 35px rgba(0,0,0,0.25);
-            z-index: 1000;
-            width: 350px;
-            opacity: 0;
-            visibility: hidden;
-            transition: all 0.3s ease;
-            margin-bottom: 15px;
-            pointer-events: none;
-        }
-
-        .event-card:hover .event-tooltip {
-            opacity: 1;
-            visibility: visible;
-            pointer-events: auto;
-        }
-
-        .tooltip-title {
-            font-weight: 600;
-            color: #2d3436;
-            margin-bottom: 8px;
-            font-size: 1.1em;
-        }
-
-        .tooltip-category {
-            color: #636e72;
-            font-size: 1em;
-            margin-bottom: 12px;
-            font-weight: 500;
-        }
-
-        .tooltip-description {
-            color: #636e72;
-            font-size: 1em;
-            line-height: 1.5;
-        }
-
-        .thumbnail-view {
-            display: none;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
-
-        .thumbnail-view.active {
-            display: grid;
-        }
-        .thumbnail-card {
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            overflow: hidden;
-            text-align: center;
-            background: #fff;
-            transition: transform 0.2s ease;
-        }
-
-        .thumbnail-card:hover {
-            transform: scale(1.03);
-        }
-
-        .thumbnail-card a {
-            display: block;
-            text-decoration: none;
-            color: inherit;
-        }
-
-        .thumbnail-card a:hover {
-            text-decoration: none;
-        }
-
-        .thumbnail-card img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-        }
-
-        .caption {
-            padding: 10px;
-        }
-
-        .caption h3 {
-            font-size: 1.2em;
-            font-weight: 600;
-            margin: 0 0 0.2em 0;
-        }
-
-        .caption .event-category {
-            font-size: 0.9em;
-            color: #666;
-            margin: 0 0 0.5em 0;
-        }
-
-        .caption .writeup {
-            font-size: 0.95em;
-            color: #444;
-            line-height: 1.4;
-        }
-
-        @media (max-width: 768px) {
-            .schedule-grid {
-                grid-template-columns: 60px 1fr;
-                font-size: 0.8em;
-            }
-            
-            .event-tooltip {
-                width: 280px;
-                left: 0;
-                transform: none;
-                bottom: 100%;
-                margin-bottom: 10px;
-            }
-        }
-    </style>
+    /*————————————————————————————————————————————————————————————————
+      5) EVENT BLOCK & TOOLTIP
+    —————————————————————————————————————————————————————————————————*/
+    .event {
+      position: relative;
+      border-radius: 3px;
+      font-size: 12px;
+      padding: 4px;
+      cursor: pointer;
+      overflow: visible;
+      z-index: 1; /* default stacking level */
+      transition: box-shadow 0.15s ease, z-index 0.15s ease;
+    }
+    .event:hover {
+      z-index: 100; /* bring hovered event above all siblings */
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    .no-lift:hover {
+      /* Remove the “lift” shadow */
+      box-shadow: none !important;
+      /* Keep it at its normal z-index (so it doesn’t jump above siblings) */
+      z-index: 1 !important;
+    }
+    .event-title {
+      font-weight: bold;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .tooltip {
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      margin-bottom: 6px;
+      /* keep the same width, padding, background, etc. */
+      width: 340px;
+      padding: 8px;
+      background: #fafafa;
+      border: 1px solid #888;
+      border-radius: 4px;
+      font-size: 12px;
+      line-height: 1.3;
+      color: #222;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s ease, visibility 0.2s ease;
+      z-index: 999; /* stays on top */
+    }
+    .event:hover .tooltip {
+      opacity: 1;
+      visibility: visible;
+    }
 
 
-    <div class="schedule-container">
-        <div class="schedule-header">
-            <h1>Events Schedule</h1>
-            <div class="view-toggle">
-                <button class="toggle-btn active" onclick="toggleToSchedule()">Schedule View</button>
-                <button class="toggle-btn" onclick="toggleToThumbnails()">Thumbnail View</button>
-            </div>
-        </div>
-<div class="schedule-view" id="scheduleView">
-        <!-- Weekday Schedule -->
-        <div class="schedule-layout">
-            <div></div>
-            <div class="day-header">Tue 1/7</div>
-            <div class="day-header">Wed 2/7</div>
-            <div class="day-header">Thu 3/7</div>
-            <div class="day-header">Fri 4/7</div>
+    /*————————————————————————————————————————————————————————————————
+      6) SUPER-LIGHT GRAY PALETTE
+      (All events are very light; “Shenzhen” lightest; Gala/Drinks slightly darker)
+    —————————————————————————————————————————————————————————————————*/
+    /* Discovering Shenzhen → very light (#f9f9f9) */
+    .cat-fieldtrip {
+      background: #f9f9f9;
+      color: #000;
+      border: 1px solid #e6e6e6;
+    }
+    /* Welcoming Drinks & Local AI Social → slightly darker (#e6e6e6) */
+    .cat-eveningsocial {
+      background: #e6e6e6;
+      color: #000;
+      border: 1px solid #cccccc;
+    }
+    /* Gala Dinner & Junk Boat → a bit darker (#dcdcdc) */
+    .cat-social {
+      background: #dcdcdc;
+      color: #000;
+      border: 1px solid #bfbfbf;
+    }
+    /* Tram Tour → mid-light gray (#d4d4d4) */
+    .cat-eveningtour {
+      background: #d4d4d4;
+      color: #000;
+      border: 1px solid #bbbbbb;
+    }
+    /* Architecture tours (Victoria Peak, Henderson, etc.) → slightly darker (#c8c8c8) */
+    .cat-architecture {
+      background: #c8c8c8;
+      color: #000;
+      border: 1px solid #aaaaaa;
+    }
+    .event-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;     /* Allow it to contain the .event div */
+      }
+      .event-link:hover {
+        /* (Optional) keep the hover shadow on .event itself via its own CSS,
+           without adding any extra underline or color change from the <a> */
+      }
 
-            <div class="time-column">
-                <div class="time-slot">18:00</div>
-                <div class="time-slot">18:30</div>
-                <div class="time-slot">19:00</div>
-                <div class="time-slot">19:30</div>
-                <div class="time-slot">20:00</div>
-                <div class="time-slot">20:30</div>
-                <div class="time-slot">21:00</div>
-                <div class="time-slot">21:30</div>
-            </div>
+    /*————————————————————————————————————————————————————————————————
+      7) QMD VIEW STYLING
+    —————————————————————————————————————————————————————————————————*/
+    #qmd‐view pre {
+      background: #f7f7f7;
+      border: 1px solid #ddd;
+      padding: 12px;
+      border-radius: 4px;
+      overflow: auto;
+      max-height: 70vh;
+      white-space: pre-wrap;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+  </a></style>
 
-            <!-- Tuesday -->
-            <div class="day-column">
-                <div class="event-card social" data-start="18:00" data-end="21:00" style="top: 0px; height: 280px;">
-                    Welcoming Drinks
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">Welcoming Drinks</div>
-                        <div class="tooltip-category">Social Event</div>
-                        <div class="tooltip-description">Join us for an opening reception to meet fellow participants and kick off the week. 18:00 - 21:00</div>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Wednesday -->
-            <div class="day-column">
-                <div class="event-card tour" data-start="19:00" data-end="21:00" style="top: 60px; height: 120px;">
-                    Victoria Peak at Night
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">The Victoria Peak and Night</div>
-                        <div class="tooltip-category">Walking Tour</div>
-                        <div class="tooltip-description">A panoramic evening escape above the city. 19:00 - 21:00</div>
-                    </div>
-                </div>
-                <div class="event-card architecture" data-start="20:30" data-end="22:00" style="top: 100px; height: 60px;">
-                    Henderson by Zaha Hadid
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">Henderson by Zaha Hadid Architects</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">The Henderson by Zaha Hadid Architects: Vertical Fluidity and Urban Innovation. 20:30 - 22:00</div>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Thursday -->
-            <div class="day-column">
-                <div class="event-card tour" data-start="19:00" data-end="21:00" style="top: 40px; height: 80px;">
-                    Victoria Peak at Night
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">The Victoria Peak and Night</div>
-                        <div class="tooltip-category">Walking Tour</div>
-                        <div class="tooltip-description">A panoramic evening escape above the city. 19:00 - 21:00</div>
-                    </div>
-                </div>
-            </div>
+  <h1>My Conference Schedule</h1>
 
-            <!-- Friday -->
-            <div class="day-column">
-                <div class="event-card social" data-start="19:00" data-end="21:00" style="top: 40px; height: 80px;">
-                    Local AI Social
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">Bar in Local AI Social</div>
-                        <div class="tooltip-category">Evening Social</div>
-                        <div class="tooltip-description">Join fellow participants for a laid-back night out in Central. 19:00 - 21:00</div>
-                    </div>
-                </div>
-                <div class="event-card social" data-start="19:30" data-end="21:00" style="top: 60px; height: 60px;">
-                    Gala Dinner
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">Gala Dinner</div>
-                        <div class="tooltip-category">Evening Social</div>
-                        <div class="tooltip-description">Banquet – Maxim's Palace (Get One More Ticket). 19:30 - 21:00</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Weekend Schedule -->
-        <div class="schedule-layout weekend" style="margin-top: 40px;">
-            <div></div>
-            <div class="day-header">Sat 5/7</div>
-            <div class="day-header">Sun 6/7</div>
-
-            <div class="time-column">
-                <div class="time-slot">8:30</div>
-                <div class="time-slot">9:00</div>
-                <div class="time-slot">9:30</div>
-                <div class="time-slot">10:00</div>
-                <div class="time-slot">10:30</div>
-                <div class="time-slot">11:00</div>
-                <div class="time-slot">11:30</div>
-                <div class="time-slot">12:00</div>
-                <div class="time-slot">12:30</div>
-                <div class="time-slot">13:00</div>
-                <div class="time-slot">13:30</div>
-                <div class="time-slot">14:00</div>
-                <div class="time-slot">14:30</div>
-                <div class="time-slot">15:00</div>
-                <div class="time-slot">15:30</div>
-                <div class="time-slot">16:00</div>
-                <div class="time-slot">16:30</div>
-                <div class="time-slot">17:00</div>
-                <div class="time-slot">17:30</div>
-                <div class="time-slot">18:00</div>
-                <div class="time-slot">18:30</div>
-                <div class="time-slot">19:00</div>
-                <div class="time-slot">19:30</div>
-                <div class="time-slot">20:00</div>
-                <div class="time-slot">20:30</div>
-                <div class="time-slot">21:00</div>
-            </div>
-
-            <!-- Saturday -->
-            <div class="day-column weekend">
-                <div class="event-card field-trip" data-start="8:30" data-end="20:30" style="top: 0px; height: 480px;">
-                    Discovering Shenzhen
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">Discovering Shenzhen</div>
-                        <div class="tooltip-category">Field Trip</div>
-                        <div class="tooltip-description">Exploring Innovation and Urban Transformation in China's Design Capital. 8:30 - 20:30</div>
-                    </div>
-                </div>
-                
-                <!-- Multiple events at 9:30 -->
-                <div class="event-card architecture concurrent-4 pos-0" data-start="9:30" data-end="11:30" style="top: 40px; height: 80px;">
-                    Henderson
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">Henderson by Zaha Hadid Architects</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">The Henderson by Zaha Hadid Architects: Vertical Fluidity and Urban Innovation. 9:30 - 11:30</div>
-                    </div>
-                </div>
-                <div class="event-card architecture concurrent-4 pos-1" data-start="9:30" data-end="11:30" style="top: 40px; height: 80px;">
-                    Diamond Hill
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">Diamond Hill Crematorium</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">A panoramic evening escape above the city. 9:30 - 11:30</div>
-                    </div>
-                </div>
-                <div class="event-card architecture concurrent-4 pos-2" data-start="9:30" data-end="11:30" style="top: 40px; height: 80px;">
-                    Wan Chai
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">Wan Chai Temple &amp; Blue House</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">Exploring Spiritual Heritage and Urban Regeneration. 9:30 - 11:30</div>
-                    </div>
-                </div>
-                <div class="event-card architecture concurrent-4 pos-3" data-start="9:30" data-end="11:30" style="top: 40px; height: 80px;">
-                    Mongkok
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">Mongkok &amp; Yau Ma Tei</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">Exploring Everyday Density and Urban Heritage. 9:30 - 11:30</div>
-                    </div>
-                </div>
-
-                <!-- Multiple events at 13:30 -->
-                <div class="event-card architecture concurrent-4 pos-0" data-start="13:30" data-end="15:30" style="top: 200px; height: 80px;">
-                    Henderson
-                </div>
-                <div class="event-card architecture concurrent-4 pos-1" data-start="13:30" data-end="15:30" style="top: 200px; height: 80px;">
-                    Public Housing
-                </div>
-                <div class="event-card architecture concurrent-4 pos-2" data-start="13:30" data-end="15:30" style="top: 200px; height: 80px;">
-                    Mongkok
-                </div>
-                <div class="event-card architecture concurrent-4 pos-3" data-start="13:30" data-end="15:30" style="top: 200px; height: 80px;">
-                    Diamond Hill
-                </div>
-
-                <!-- Multiple events at 16:30 -->
-                <div class="event-card architecture concurrent-4 pos-0" data-start="16:30" data-end="18:30" style="top: 320px; height: 80px;">
-                    Henderson
-                </div>
-                <div class="event-card architecture concurrent-4 pos-1" data-start="16:30" data-end="18:30" style="top: 320px; height: 80px;">
-                    M+ Museum
-                </div>
-                <div class="event-card architecture concurrent-4 pos-2" data-start="16:30" data-end="18:30" style="top: 320px; height: 80px;">
-                    Public Housing
-                </div>
-                <div class="event-card architecture concurrent-4 pos-3" data-start="16:30" data-end="18:30" style="top: 320px; height: 80px;">
-                    Wan Chai
-                </div>
-
-                <div class="event-card tram" data-start="19:30" data-end="20:30" style="top: 440px; height: 40px;">
-                    Tram Tour
-                </div>
-
-                <div class="event-card tram" data-start="20:30" data-end="21:30" style="top: 480px; height: 40px;">
-                    Tram Tour
-                </div>
-            </div>
-
-            <!-- Sunday -->
-            <div class="day-column weekend">
-                <div class="event-card social" data-start="8:30" data-end="19:30" style="top: 0px; height: 440px;">
-                    Junk Boat
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">Junk Boat Trip in Sai Kung</div>
-                        <div class="tooltip-category">Social Event</div>
-                        <div class="tooltip-description">A Scenic Escape to Hong Kong's Exotic Back Garden. 8:30 - 19:30</div>
-                    </div>
-                </div>
-                
-                <div class="event-card architecture" data-start="14:30" data-end="16:30" style="top: 240px; height: 80px;">
-                    M+ Art Museum
-                    <div class="event-tooltip">
-                        <div class="tooltip-title">M+ Art Museum by Herzog and de Meuron</div>
-                        <div class="tooltip-category">Architecture Tour</div>
-                        <div class="tooltip-description">Inside the Making of a Cultural Landmark. 14:30 - 16:30</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  <!--————————————————————————————————————————————————————————————————
+    VIEW TOGGLE BUTTONS
+  —————————————————————————————————————————————————————————————————-->
+<div style="margin-bottom: 20px;">
+  <a href="./demo.html" style="
+       display: inline-block; padding: 8px 16px; background: #333;
+       color: #fff; text-decoration: none; border-radius: 4px;
+       font-size: 14px; opacity: 0.5; cursor: not-allowed;
+     ">
+    ← View Calendar
+  </a>
+  <a href="./events_lineup.html" style="
+       display: inline-block; padding: 8px 16px; background: #333;
+       color: #fff; text-decoration: none; border-radius: 4px;
+       font-size: 14px;
+     ">
+    View Lineup →
+  </a>
 </div>
 
- <!-- Thumbnail View -->
-    <div class="thumbnail-view" id="thumbnailView">
-        <div class="thumbnail-card">
-            <a href="event_details.html#Henderson"><img src="images/events/Henderson.png" alt="Henderson"></a>
-            <div class="caption">
-                <h3 class="anchored">Henderson by Zaha Hadid Architects</h3>
-                <p class="event-category">Architecture Tour</p>
-                <p class="writeup">The Henderson by Zaha Hadid Architects: Vertical Fluidity and Urban Innovation</p>
-            </div>
+  <!--————————————————————————————————————————————————————————————————
+    8) CALENDAR VIEW (Default)
+  —————————————————————————————————————————————————————————————————-->
+  <div id="calendar‐view" class="active">
+
+    <!--————————————————————————————————————————————————————
+      PANEL 1: EVENING EVENTS (Tue 1/7 → Fri 4/7; 18:00 → 22:00)
+    —————————————————————————————————————————————————————-->
+    <div class="schedule-all">
+      <div class="schedule-grid" style="
+             grid-template-columns: 80px repeat(4, 1fr);
+             grid-template-rows: auto repeat(8, 30px);
+           ">
+        <!-- Row 1 (Day Headers) -->
+        <div class="day-header" style="grid-row: 1; grid-column: 2;">Tue 1/7</div>
+        <div class="day-header" style="grid-row: 1; grid-column: 3;">Wed 2/7</div>
+        <div class="day-header" style="grid-row: 1; grid-column: 4;">Thu 3/7</div>
+        <div class="day-header" style="grid-row: 1; grid-column: 5;">Fri 4/7</div>
+
+        <!-- Rows 2–9 (Time Labels 18:00 → 21:30) -->
+        <div class="time-label" style="grid-row: 2; grid-column: 1;">18:00</div>
+        <div class="time-label" style="grid-row: 3; grid-column: 1;">18:30</div>
+        <div class="time-label" style="grid-row: 4; grid-column: 1;">19:00</div>
+        <div class="time-label" style="grid-row: 5; grid-column: 1;">19:30</div>
+        <div class="time-label" style="grid-row: 6; grid-column: 1;">20:00</div>
+        <div class="time-label" style="grid-row: 7; grid-column: 1;">20:30</div>
+        <div class="time-label" style="grid-row: 8; grid-column: 1;">21:00</div>
+        <div class="time-label" style="grid-row: 9; grid-column: 1;">21:30</div>
+
+        <!-- “Welcoming Drinks” (Tue 1/7, 18:00 – 21:00) ▸ cat-eveningsocial -->
+        <div class="event cat-eveningsocial" style="
+               grid-row: 2 / 8;      /* 18:00 → 21:00 */
+               grid-column: 2;       /* column Tue 1/7 */
+             ">
+          <div class="event-title">Welcoming Drinks</div>
+          <div class="tooltip">
+          <a href="event_details.html#BarCentral">
+            <img src="images/events/barCentral.jpg" alt="Bar in Central" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Welcoming Drinks</strong><br>
+            <em>Kick-off Reception at Bar in Central</em><br>
+            Date: July 1 | 18:00 – 21:00<br>
+            Cost: Complimentary
+          </div>
         </div>
 
-        <div class="thumbnail-card">
-            <a href="event_details.html#MPlus"><img src="images/events/MPlus.png" alt="M+ Art Museum"></a>
-            <div class="caption">
-                <h3 class="anchored">M+ Art Museum by Herzog and de Meuron</h3>
-                <p class="event-category">Architecture Tour</p>
-                <p class="writeup">Inside the Making of a Cultural Landmark</p>
-            </div>
+        <!-- “Victoria Peak at Night” (Wed 2/7, 19:00 – 21:00) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 4 / 8;      /* 19:00 → 21:00 */
+               grid-column: 3;       /* column Wed 2/7 */
+             ">
+          <div class="event-title">Victoria Peak at Night</div>
+          <div class="tooltip">
+          <a href="event_details.html#VictoriaPeak">
+            <img src="images/events/VictoriaPeak.jpg" alt="Victoria Peak at Night" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Victoria Peak at Night</strong><br>
+            <em>A panoramic evening escape above the city.</em><br>
+            Date: July 2 | 19:00 – 21:00<br>
+            <!-- Cost: HKD 250 -->
+          </div>
         </div>
 
-        <div class="thumbnail-card">
-            <a href="event_details.html#ShenzhenTour"><img src="images/events/shenzhen.png" alt="Discovering Shenzhen"></a>
-            <div class="caption">
-                <h3 class="anchored">Discovering Shenzhen</h3>
-                <p class="event-category">Field Trip</p>
-                <p class="writeup">Exploring Innovation and Urban Transformation in China's Design Capital.</p>
-            </div>
+        <!-- “Henderson by Zaha Hadid Arch.” (Wed 2/7, 20:30 – 22:00) ▸ cat-architecture -->
+        
+        <div class="event cat-architecture" style="
+               grid-row: 7 / 10;     /* 20:30 → 22:00 */
+               grid-column: 3;       /* column Wed 2/7 */
+             ">
+
+          <div class="event-title">Henderson by Zaha Hadid Arch.</div>
+          <div class="tooltip">
+
+            <a href="event_details.html#Henderson"><img src="images/events/Henderson.png" alt="Henderson by Zaha Hadid Arch." style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+                 
+            <strong>Henderson by Zaha Hadid Arch.</strong><br>
+            <em>Vertical Fluidity &amp; Urban Innovation</em><br>
+            Date: July 2 | 20:30 – 22:00<br>
+            Cost: HKD 250
+          </div>
+        </div>
+        
+
+        <!-- “Victoria Peak at Night” (Thu 3/7, 19:00 – 21:00) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 4 / 8;      /* 19:00 → 21:00 */
+               grid-column: 4;       /* column Thu 3/7 */
+             ">
+          <div class="event-title">Victoria Peak at Night</div>
+          <div class="tooltip">
+          <a href="event_details.html#VictoriaPeak">
+            <img src="images/events/VictoriaPeak.jpg" alt="Victoria Peak at Night" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Victoria Peak at Night</strong><br>
+            <em>A panoramic evening escape above the city.</em><br>
+            Date: July 3 | 19:00 – 21:00<br>
+            <!-- Cost: HKD 250 -->
+          </div>
         </div>
 
-        <div class="thumbnail-card">
-            <a href="event_details.html#TramTourWestToEast"><img src="images/events/tramtour.png" alt="Tram Tour"></a>
-            <div class="caption">
-                <h3 class="anchored">North Point to Whitty Street Tram Depot</h3>
-                <p class="event-category">Tram Tour</p>
-                <p class="writeup">A Moving Lens on Hong Kong's Vertical Urbanism.</p>
-            </div>
+        <!-- “Local AI Social” (Thu 3/7, 19:00 – 21:00) ▸ cat-eveningsocial -->
+        <div class="event cat-eveningsocial" style="
+               grid-row: 5 / 8;      /* 19:00 → 21:00 */
+               grid-column: 4;       /* column Thu 3/7  (same column as Gala would have been on Fri) */
+             ">
+          <div class="event-title">AI Social</div>
+          <div class="tooltip">
+            <img src="images/events/barCentral.jpg" alt="AI Social – Bar in Central" style="width:100%; margin-bottom:6px; border-radius:3px;">
+            <strong>Local AI Social</strong><br>
+            <em>Networking at Bar in Central</em><br>
+            Date: July 3 | 19:00 – 21:00<br>
+            Cost: HKD TBU
+          </div>
         </div>
 
-        <div class="thumbnail-card">
-            <a href="event_details.html#PublicHousing"><img src="images/events/Public_Housing.png" alt="Public Housing"></a>
-            <div class="caption">
-                <h3 class="anchored">Public Housing</h3>
-                <p class="event-category">Architecture Tour</p>
-                <p class="writeup">Understanding Urban Density through Repetition and Design</p>
-            </div>
+        <!-- “Gala Dinner (+1 ticket)” (Fri 4/7, 19:30 – 21:00) ▸ cat-social -->
+        <div class="event cat-social" style="
+               grid-row: 5 / 8;      /* 19:30 → 21:00 */
+               grid-column: 5;       /* column Fri 4/7 */
+             ">
+          <div class="event-title">Gala Dinner (+1 ticket)</div>
+          <div class="tooltip">
+          <a href="event_details.html#GalaDinner">
+            <img src="images/events/hhtst_eye.jpg" alt="Gala Dinner (+1 ticket)" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Gala Dinner (+1 ticket)</strong><br>
+            <em>Banquet – Maxim’s Palace</em><br>
+            Date: July 4 | 19:30 – 21:00<br>
+            (No extra cost for registered guest)
+          </div>
         </div>
 
-        <div class="thumbnail-card">
-            <a href="event_details.html#DiamondHill"><img src="images/events/DiamondHillCrematorium.jpg" alt="Diamond Hill Crematorium"></a>
-            <div class="caption">
-                <h3 class="anchored">Diamond Hill Crematorium</h3>
-                <p class="event-category">Architecture Tour</p>
-                <p class="writeup">A panoramic evening escape above the city.</p>
-            </div>
+      </div>
+      <!-- end Panel 1 -->
+
+
+      <!--————————————————————————————————————————————————————
+        PANEL 2: FULL-DAY EVENTS (Wed 5/7 & Sat 6/7; 08:00 → 21:30)
+        — Only a single header row for “Wed 5/7” + “Sat 6/7”
+      —————————————————————————————————————————————————————-->
+      <div class="schedule-grid" style="
+             /* 80px time-column | 4 sub-cols for Wed 5/7 | 1 col for Sat 6/7 */
+             grid-template-columns: 80px repeat(4, 1fr) 1fr;
+             /* Only one header row: auto, then 27 half-hour slots (08:00 → 21:30) */
+             grid-template-rows: auto repeat(27, 30px);
+           ">
+        <!-- Row 1: Main Headers -->
+        <div class="day-header" style="grid-row: 1; grid-column: 2 / span 4;">
+          Wed 5/7
+        </div>
+        <div class="day-header" style="grid-row: 1; grid-column: 6;">
+          Sat 6/7
         </div>
 
-        <div class="thumbnail-card">
-            <a href="event_details.html#MongkokYauMaTei"><img src="images/events/temple-street.jpg" alt="Mongkok &amp; Yau Ma Tei"></a>
-            <div class="caption">
-                <h3 class="anchored">Mongkok &amp; Yau Ma Tei</h3>
-                <p class="event-category">Architecture Tour</p>
-                <p class="writeup">Exploring Everyday Density and Urban Heritage</p>
-            </div>
+        <!-- Row 2–28: Time Labels 08:00 → 21:30 -->
+        <div class="time-label" style="grid-row: 2;  grid-column: 1;">08:00</div>
+        <div class="time-label" style="grid-row: 3;  grid-column: 1;">08:30</div>
+        <div class="time-label" style="grid-row: 4;  grid-column: 1;">09:00</div>
+        <div class="time-label" style="grid-row: 5;  grid-column: 1;">09:30</div>
+        <div class="time-label" style="grid-row: 6;  grid-column: 1;">10:00</div>
+        <div class="time-label" style="grid-row: 7;  grid-column: 1;">10:30</div>
+        <div class="time-label" style="grid-row: 8;  grid-column: 1;">11:00</div>
+        <div class="time-label" style="grid-row: 9;  grid-column: 1;">11:30</div>
+        <div class="time-label" style="grid-row: 10; grid-column: 1;">12:00</div>
+        <div class="time-label" style="grid-row: 11; grid-column: 1;">12:30</div>
+        <div class="time-label" style="grid-row: 12; grid-column: 1;">13:00</div>
+        <div class="time-label" style="grid-row: 13; grid-column: 1;">13:30</div>
+        <div class="time-label" style="grid-row: 14; grid-column: 1;">14:00</div>
+        <div class="time-label" style="grid-row: 15; grid-column: 1;">14:30</div>
+        <div class="time-label" style="grid-row: 16; grid-column: 1;">15:00</div>
+        <div class="time-label" style="grid-row: 17; grid-column: 1;">15:30</div>
+        <div class="time-label" style="grid-row: 18; grid-column: 1;">16:00</div>
+        <div class="time-label" style="grid-row: 19; grid-column: 1;">16:30</div>
+        <div class="time-label" style="grid-row: 20; grid-column: 1;">17:00</div>
+        <div class="time-label" style="grid-row: 21; grid-column: 1;">17:30</div>
+        <div class="time-label" style="grid-row: 22; grid-column: 1;">18:00</div>
+        <div class="time-label" style="grid-row: 23; grid-column: 1;">18:30</div>
+        <div class="time-label" style="grid-row: 24; grid-column: 1;">19:00</div>
+        <div class="time-label" style="grid-row: 25; grid-column: 1;">19:30</div>
+        <div class="time-label" style="grid-row: 26; grid-column: 1;">20:00</div>
+        <div class="time-label" style="grid-row: 27; grid-column: 1;">20:30</div>
+        <div class="time-label" style="grid-row: 28; grid-column: 1;">21:00</div>
+        <div class="time-label" style="grid-row: 29; grid-column: 1;">21:30</div>
+
+        <!-- “Discovering Shenzhen” (Wed 5/7, 08:30 – 20:30) ▸ cat-fieldtrip -->
+        <div class="event cat-fieldtrip no-lift" style="
+               grid-row: 3 / 27;      /* 08:30 (row 3) → 20:30 (row 27) */
+               grid-column: 2 / span 4; /* spans all 4 sub-columns under Wed 5/7 */
+             ">
+          <div class="event-title">Discovering Shenzhen</div>
+          <div class="tooltip">
+          <a href="event_details.html#ShenzhenTour">
+            <img src="images/events/shenzhen.png" alt="Discovering Shenzhen" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Discovering Shenzhen</strong><br>
+            <em>Exploring Innovation &amp; Urban Transformation</em><br>
+            Date: July 5 | 08:30 – 20:30<br>
+            Cost: HKD 900
+          </div>
         </div>
 
-        <div class="thumbnail-card">
-            <a href="event_details.html#WanChaiTempleBlueHouse"><img src="images/events/WanChaiTempleBlueHouse.jpg" alt="Wan Chai Temple &amp; Blue House"></a>
-            <div class="caption">
-                <h3 class="anchored">Wan Chai Temple &amp; Blue House</h3>
-                <p class="event-category">Architecture Tour</p>
-                <p class="writeup">Exploring Spiritual Heritage and Urban Regeneration</p>
-            </div>
+        <!-- “Henderson by Zaha Hadid Arch.” (Wed 5/7, 09:30 – 11:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 5 / 9;      /* 09:30 (row 5) → 11:30 (row 9) */
+               grid-column: 2;       /* sub-col 1 under Wed 5/7 */
+             ">
+          <div class="event-title">Henderson by Zaha Hadid Arch.</div>
+          <div class="tooltip">
+          <a href="event_details.html#Henderson">
+            <img src="images/events/Henderson.png" alt="Henderson by Zaha Hadid Arch." style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Henderson by Zaha Hadid Arch.</strong><br>
+            <em>Vertical Fluidity &amp; Urban Innovation</em><br>
+            Date: July 5 | 09:30 – 11:30<br>
+            Cost: HKD 250
+          </div>
         </div>
 
-        <div class="thumbnail-card">
-            <a href="event_details.html#VictoriaPeak"><img src="images/events/VictoriaPeak.jpg" alt="Victoria Peak"></a>
-            <div class="caption">
-                <h3 class="anchored">The Victoria Peak and Night</h3>
-                <p class="event-category">Walking Tour</p>
-                <p class="writeup">A panoramic evening escape above the city.</p>
-            </div>
+        <!-- “Diamond Hill Crematorium” (Wed 5/7, 09:30 – 11:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 5 / 9;      /* 09:30 → 11:30 */
+               grid-column: 3;       /* sub-col 2 under Wed 5/7 */
+             ">
+          <div class="event-title">Diamond Hill Crematorium</div>
+          <div class="tooltip">
+          <a href="event_details.html#DiamondHill">
+            <img src="images/events/DiamondHillCrematorium.jpg" alt="Diamond Hill Crematorium" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Diamond Hill Crematorium</strong><br>
+            <em>Remembrance &amp; Architectural Context</em><br>
+            Date: July 5 | 09:30 – 11:30<br>
+            Cost: HKD 250
+          </div>
         </div>
 
-        <div class="thumbnail-card">
-            <a href="event_details.html#JunkBoatSaiKung"><img src="images/events/junkboat.png" alt="Junk Boat"></a>
-            <div class="caption">
-                <h3 class="anchored">Junk Boat Trip in Sai Kung</h3>
-                <p class="event-category">Social Event</p>
-                <p class="writeup">A Scenic Escape to Hong Kong's Exotic Back Garden.</p>
-            </div>
+        <!-- “Wan Chai Temple & Blue House” (Wed 5/7, 09:30 – 11:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 5 / 9;      /* 09:30 → 11:30 */
+               grid-column: 4;       /* sub-col 3 under Wed 5/7 */
+             ">
+          <div class="event-title">Wan Chai Temple &amp; Blue House</div>
+          <div class="tooltip">
+          <a href="event_details.html#WanChaiTempleBlueHouse">
+            <img src="images/events/WanChaiTempleBlueHouse.jpg" alt="Wan Chai Temple &amp; Blue House" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Wan Chai Temple &amp; Blue House</strong><br>
+            <em>Heritage &amp; Urban Regeneration</em><br>
+            Date: July 5 | 09:30 – 11:30<br>
+            Cost: HKD 250
+          </div>
         </div>
 
-        <div class="thumbnail-card">
-            <a href="event_details.html#GalaDinner"><img src="images/events/hhtst_eye.jpg" alt="Gala Dinner"></a>
-            <div class="caption">
-                <h3 class="anchored">Gala Dinner</h3>
-                <p class="event-category">Evening Social</p>
-                <p class="writeup">Banquet – Maxim's Palace (Get One More Ticket)</p>
-            </div>
+        <!-- “Mong Kok & Yau Ma Tei” (Wed 5/7, 09:30 – 11:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 5 / 9;      /* 09:30 → 11:30 */
+               grid-column: 5;       /* sub-col 4 under Wed 5/7 */
+             ?>">
+          <div class="event-title">Mong Kok &amp; Yau Ma Tei</div>
+          <div class="tooltip">
+          <a href="event_details.html#MongkokYauMaTei">
+            <img src="images/events/temple-street.jpg" alt="Mong Kok &amp; Yau Ma Tei" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Mong Kok &amp; Yau Ma Tei</strong><br>
+            <em>Urban Density &amp; Cultural Layers</em><br>
+            Date: July 5 | 09:30 – 11:30<br>
+            Cost: HKD 250
+          </div>
         </div>
 
-        <div class="thumbnail-card">
-            <a href="event_details.html#BarCentral"><img src="images/events/Stephen.png" alt="Local AI Social"></a>
-            <div class="caption">
-                <h3 class="anchored">Bar in Local AI Social</h3>
-                <p class="event-category">Evening Social</p>
-                <p class="writeup">Join fellow participants for a laid-back night out in Central.</p>
-            </div>
+        <!-- “Henderson by Zaha Hadid Arch.” (Wed 5/7, 13:30 – 15:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 13 / 17;     /* 13:30 (row 13) → 15:30 (row 17) */
+               grid-column: 2;       /* sub-col 1 under Wed 5/7 */
+             ">
+          <div class="event-title">Henderson by Zaha Hadid Arch.</div>
+          <div class="tooltip">
+          <a href="event_details.html#Henderson">
+            <img src="images/events/Henderson.png" alt="Henderson by Zaha Hadid Arch." style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Henderson by Zaha Hadid Arch.</strong><br>
+            <em>Vertical Fluidity &amp; Urban Innovation</em><br>
+            Date: July 5 | 13:30 – 15:30<br>
+            Cost: HKD 250
+          </div>
         </div>
+
+        <!-- “Public Housing Typologies” (Wed 5/7, 13:30 – 15:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 13 / 17;     /* 13:30 → 15:30 */
+               grid-column: 3;       /* sub-col 2 under Wed 5/7 */
+             ">
+          <div class="event-title">Public Housing Typologies</div>
+          <div class="tooltip">
+          <a href="event_details.html#PublicHousing">
+            <img src="images/events/Public_Housing.png" alt="Public Housing Typologies" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Public Housing Typologies</strong><br>
+            <em>High-Density Residential Design</em><br>
+            Date: July 5 | 13:30 – 15:30<br>
+            Cost: HKD 250
+          </div>
+        </div>
+
+        <!-- “Mong Kok & Yau Ma Tei” (Wed 5/7, 13:30 – 15:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 13 / 17;     /* 13:30 → 15:30 */
+               grid-column: 4;       /* sub-col 3 under Wed 5/7 */
+             ?>">
+          <div class="event-title">Mong Kok &amp; Yau Ma Tei</div>
+          <div class="tooltip">
+          <a href="event_details.html#MongkokYauMaTei">
+            <img src="images/events/temple-street.jpg" alt="Mong Kok &amp; Yau Ma Tei" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Mong Kok &amp; Yau Ma Tei</strong><br>
+            <em>Urban Density &amp; Cultural Layers</em><br>
+            Date: July 5 | 13:30 – 15:30<br>
+            Cost: HKD 250
+          </div>
+        </div>
+
+        <!-- “Diamond Hill Crematorium” (Wed 5/7, 13:30 – 15:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 13 / 17;     /* 13:30 → 15:30 */
+               grid-column: 5;       /* sub-col 4 under Wed 5/7 */
+             ?>">
+          <div class="event-title">Diamond Hill Crematorium</div>
+          <div class="tooltip">
+          <a href="event_details.html#DiamondHill">
+            <img src="images/events/DiamondHillCrematorium.jpg" alt="Diamond Hill Crematorium" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Diamond Hill Crematorium</strong><br>
+            <em>Designing for Remembrance in a City of Density</em><br>
+            Date: July 5 | 13:30 – 15:30<br>
+            Cost: HKD 250
+          </div>
+        </div>
+
+        <!-- “M+ Art Museum” (Wed 5/7, 14:30 – 16:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 15 / 19;     /* 14:30 (row 15) → 16:30 (row 19) */
+               grid-column: 5;       /* sub-col 4 under Wed 5/7 */
+             ?>">
+          <div class="event-title">M+ Art Museum</div>
+          <div class="tooltip">
+          <a href="event_details.html#MPlus">
+            <img src="images/events/MPlus.png" alt="M+ Art Museum" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>M+ Art Museum by Herzog &amp; de Meuron</strong><br>
+            <em>Inside the Making of a Cultural Landmark</em><br>
+            Date: July 5 | 14:30 – 16:30<br>
+            Cost: HKD 250
+          </div>
+        </div>
+
+        <!-- “Henderson by Zaha Hadid Arch.” (Wed 5/7, 16:30 – 18:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 19 / 23;     /* 16:30 (row 19) → 18:30 (row 23) */
+               grid-column: 2;       /* sub-col 1 under Wed 5/7 */
+             ?>">
+          <div class="event-title">Henderson by Zaha Hadid Arch.</div>
+          <div class="tooltip">
+          <a href="event_details.html#Henderson">
+            <img src="images/events/Henderson.png" alt="Henderson by Zaha Hadid Arch." style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Henderson by Zaha Hadid Arch.</strong><br>
+            <em>Vertical Fluidity &amp; Urban Innovation</em><br>
+            Date: July 5 | 16:30 – 18:30<br>
+            Cost: HKD 250
+          </div>
+        </div>
+
+        <!-- “M+ Art Museum” (Wed 5/7, 16:30 – 18:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 19 / 23;     /* 16:30 → 18:30 */
+               grid-column: 3;       /* sub-col 2 under Wed 5/7 */
+             ?>">
+          <div class="event-title">M+ Art Museum</div>
+          <div class="tooltip">
+          <a href="event_details.html#MPlus">
+            <img src="images/events/MPlus.png" alt="M+ Art Museum" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>M+ Art Museum by Herzog &amp; de Meuron</strong><br>
+            <em>Inside the Making of a Cultural Landmark</em><br>
+            Date: July 5 | 16:30 – 18:30<br>
+            Cost: HKD 250
+          </div>
+        </div>
+
+        <!-- “Public Housing Typologies” (Wed 5/7, 16:30 – 18:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 19 / 23;     /* 16:30 → 18:30 */
+               grid-column: 4;       /* sub-col 3 under Wed 5/7 */
+             ?>">
+          <div class="event-title">Public Housing Typologies</div>
+          <div class="tooltip">
+          <a href="event_details.html#PublicHousing">
+            <img src="images/events/Public_Housing.png" alt="Public Housing Typologies" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Public Housing Typologies</strong><br>
+            <em>High-Density Residential Design</em><br>
+            Date: July 5 | 16:30 – 18:30<br>
+            Cost: HKD 250
+          </div>
+        </div>
+
+        <!-- “Wan Chai Temple & Blue House” (Wed 5/7, 16:30 – 18:30) ▸ cat-architecture -->
+        <div class="event cat-architecture" style="
+               grid-row: 19 / 23;     /* 16:30 → 18:30 */
+               grid-column: 5;       /* sub-col 4 under Wed 5/7 */
+             ?>">
+          <div class="event-title">Wan Chai Temple &amp; Blue House</div>
+          <div class="tooltip">
+          <a href="event_details.html#WanChaiTempleBlueHouse">
+            <img src="images/events/WanChaiTempleBlueHouse.jpg" alt="Wan Chai Temple &amp; Blue House" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Wan Chai Temple &amp; Blue House</strong><br>
+            <em>Heritage &amp; Urban Regeneration</em><br>
+            Date: July 5 | 16:30 – 18:30<br>
+            Cost: HKD 250
+          </div>
+        </div>
+
+        <!-- “Tram Tour (East → West)” (Wed 5/7, 19:30 – 20:30) ▸ cat-eveningtour -->
+        <div class="event cat-eveningtour" style="
+               grid-row: 26 / 28;     /* 19:30 → 20:30 */
+               grid-column: 2 / span 4; /* spans all four sub-cols under Wed 5/7 */
+             ">
+          <div class="event-title">Tram Tour (East → West)</div>
+          <div class="tooltip">
+          <a href="event_details.html#TramTourWestToEast">
+            <img src="images/events/tramtour.png" alt="Tram Tour" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Tram Tour</strong><br>
+            <em>A moving portrait of Hong Kong’s architecture.</em><br>
+            Date: July 5 |19:30 – 20:30<br>
+            Cost: HKD 150
+          </div>
+        </div>
+
+        <!-- “Tram Tour (West → East)” (Wed 5/7, 20:30 – 21:30) ▸ cat-eveningtour -->
+        <div class="event cat-eveningtour" style="
+               grid-row: 28 / 30;     /* 20:30 → 21:30 */
+               grid-column: 2 / span 4; /* spans all four sub-cols under Wed 5/7 */
+             ">
+          <div class="event-title">Tram Tour (West → East)</div>
+          <div class="tooltip">
+          <a href="event_details.html#TramTourWestToEast">
+            <img src="images/events/tramtour.png" alt="Tram Tour" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Tram Tour</strong><br>
+            <em>A moving portrait of Hong Kong’s architecture.</em><br>
+            Date: July 5 | 20:30 – 21:30<br>
+            Cost: HKD 150
+          </div>
+        </div>
+
+        <!-- “Junk Boat in Sai Kung” (Sat 6/7, 08:30 – 19:30) ▸ cat-social -->
+        <div class="event cat-social" style="
+               grid-row: 3 / 25;      /* 08:30 (row 3) → 19:30 (row 25) */
+               grid-column: 6;       /* column Sat 6/7 */
+             ">
+          <div class="event-title">Junk Boat in Sai Kung</div>
+          <div class="tooltip">
+          <a href="event_details.html#JunkBoatSaiKung">
+            <img src="images/events/junkboat.png" alt="Junk Boat in Sai Kung" style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
+            <strong>Junk Boat in Sai Kung</strong><br>
+            <em>A scenic escape to Hong Kong’s back-garden.</em><br>
+            Date: July 6 | 08:30 – 19:30<br>
+            Cost: HKD 960
+          </div>
+        </div>
+
+      </div>
+      <!-- end Panel 2 -->
     </div>
-</main></div>
-    <script>
-    function toggleToSchedule() {
-    document.getElementById('scheduleView').style.display = 'block';
-    document.getElementById('thumbnailView').style.display = 'none';
-    
-    document.querySelectorAll('.toggle-btn')[0].classList.add('active');
-    document.querySelectorAll('.toggle-btn')[1].classList.remove('active');
-}
+    <!-- end Calendar View -->
 
-function toggleToThumbnails() {
-    document.getElementById('scheduleView').style.display = 'none';
-    document.getElementById('thumbnailView').style.display = 'grid';
-    
-    document.querySelectorAll('.toggle-btn')[0].classList.remove('active');
-    document.querySelectorAll('.toggle-btn')[1].classList.add('active');
-}
-
-function showThumbnails() {
-    document.getElementById('scheduleView').classList.add('hidden');
-    document.getElementById('thumbnailView').classList.add('active');
-    document.querySelectorAll('.toggle-btn')[0].classList.remove('active');
-    document.querySelectorAll('.toggle-btn')[1].classList.add('active');
-}
-    document.addEventListener('DOMContentLoaded', () => {
-        // Calculate and set positions dynamically
-        const timeSlotHeight = 40; // pixels per 30-minute slot
-        
-        function timeToMinutes(timeStr) {
-            const [hours, minutes] = timeStr.split(':').map(Number);
-            return hours * 60 + minutes;
-        }
-        
-        function calculatePosition(startTime, baseTime) {
-            const startMinutes = timeToMinutes(startTime);
-            const baseMinutes = timeToMinutes(baseTime);
-            const diffMinutes = startMinutes - baseMinutes;
-            return (diffMinutes / 30) * timeSlotHeight;
-        }
-        
-        function calculateHeight(startTime, endTime) {
-            const startMinutes = timeToMinutes(startTime);
-            const endMinutes = timeToMinutes(endTime);
-            const durationMinutes = endMinutes - startMinutes;
-            return (durationMinutes / 30) * timeSlotHeight;
-        }
-        
-        // Process all day columns
-        document.querySelectorAll('.day-column').forEach(column => {
-            const isWeekend = column.classList.contains('weekend');
-            const baseTime = isWeekend ? '8:30' : '18:00';
-            
-            column.querySelectorAll('.event-card[data-start][data-end]').forEach(event => {
-                const startTime = event.getAttribute('data-start');
-                const endTime = event.getAttribute('data-end');
-                
-                if (!event.style.top) {
-                    event.style.top = calculatePosition(startTime, baseTime) + 'px';
-                }
-                if (!event.style.height) {
-                    event.style.height = calculateHeight(startTime, endTime) + 'px';
-                }
-            });
-        });
-    });
-    </script>
+  </div> <!-- #calendar‐view -->
+ 
+ 
 
 
 
 
-
- <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1287,7 +1270,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
- <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
