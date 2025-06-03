@@ -126,8 +126,9 @@ format:
   <div class="caption">
     <h3>Tram Ride – Whitty Street Depot to North Point<br></h3>
     <p class="event-category">Evening Tour</p>
-    <p class="writeup">A Moving Portrait of Hong Kong’s Architecture</p>
-    <p><strong>Cost:</strong> HKD 250</p>
+    <p class="writeup">A Moving Portrait of Hong Kong’s Architecture</p>  
+    <p><strong>Date:</strong> July 5th</p>  
+    <p><strong>Cost:</strong> HKD 250</p>  
   </div>
 </div>
 <div class="thumbnail-card">
@@ -137,8 +138,9 @@ format:
   <div class="caption">
     <h3>Unique Typologies – High Density Public Housing<br></h3>
     <p class="event-category">Architecture Tour</p>
-    <p class="writeup">Understanding Urban Density through Repetition and Design</p>
-    <p><strong>Cost:</strong> HKD 250</p>
+    <p class="writeup">Understanding Urban Density through Repetition and Design</p>  
+    <p><strong>Date:</strong> July 5th</p>  
+    <p><strong>Cost:</strong> HKD 250</p>  
   </div>
 </div>
 <div class="thumbnail-card">
@@ -148,8 +150,9 @@ format:
   <div class="caption">
     <h3>Unique Typologies – Diamond Hill Crematorium<br></h3>
     <p class="event-category">Architecture Tour</p>
-    <p class="writeup">Designing for Remembrance in a City of Density</p>
-    <p><strong>Cost:</strong> HKD 250</p>
+    <p class="writeup">Designing for Remembrance in a City of Density</p>  
+    <p><strong>Date:</strong> July 5th</p>  
+    <p><strong>Cost:</strong> HKD 250</p>  
   </div>
 </div>
 <div class="thumbnail-card">
