@@ -162,8 +162,9 @@ format:
   <div class="caption">
     <h3>High Density Urbanism – Mong Kok & Yau Ma Tei<br></h3>
     <p class="event-category">Architecture Tour</p>
-    <p class="writeup">Exploring Everyday Density and Urban Heritage</p>
-    <p><strong>Cost:</strong> HKD 250</p>
+    <p class="writeup">Exploring Everyday Density and Urban Heritage</p>  
+    <p><strong>Date:</strong> July 5th</p>  
+    <p><strong>Cost:</strong> HKD 250</p>  
   </div>
 </div>
 <div class="thumbnail-card">
@@ -173,8 +174,9 @@ format:
   <div class="caption">
     <h3>High Density Urbanism – Wan Chai Temple & Blue House<br></h3>
     <p class="event-category">Architecture Tour</p>
-    <p class="writeup">Exploring Spiritual Heritage and Urban Regeneration</p>
-    <p><strong>Cost:</strong> HKD 250</p>
+    <p class="writeup">Exploring Spiritual Heritage and Urban Regeneration</p>  
+    <p><strong>Date:</strong> July 5th</p>  
+    <p><strong>Cost:</strong> HKD 250</p>  
   </div>
 </div>
 <div class="thumbnail-card">
@@ -184,8 +186,8 @@ format:
   <div class="caption">
     <h3>High Density Urbanism – Victoria Peak at Night<br></h3>
     <p class="event-category">Architecture Tour</p>
-    <p class="writeup">A panoramic evening escape above the city.</p>
-    <p><strong>Cost:</strong> HKD 250</p>
+    <p class="writeup">A panoramic evening escape above the city.</p>  
+    <p><strong>Date:</strong> July 2nd; July 3rd</p>  
   </div>
 </div>
 </div>
@@ -199,8 +201,9 @@ format:
   <div class="caption">
     <h3>Gala Dinner (+1 ticket)<br></h3>
     <p class="event-category">Social Event</p>
-    <p class="writeup">Banquet – Maxim’s Palace</p>
-    <p><strong>Date:</strong> July 2nd, 7:00PM; July 3rd, 7:00PM</p>
+    <p class="writeup">Banquet – Maxim’s Palace</p>  
+    <p><strong>Date:</strong> July 2nd; July 3rd</p>  
+    <p><strong>Cost:</strong> HKD 960</p>  
   </div>
 </div>
 <div class="thumbnail-card">
@@ -210,21 +213,25 @@ format:
   <div class="caption">
     <h3>Junk Boat in Sai Kung<br></h3>
     <p class="event-category">Social Event</p>
-    <p class="writeup">A Scenic Escape to Hong Kong’s Back Garden</p>
-    <p><strong>Cost:</strong> HKD 960</p>
+    <p class="writeup">A Scenic Escape to Hong Kong’s Back Garden</p>  
+    <p><strong>Date:</strong> July 6th</p>  
+    <p><strong>Cost:</strong> HKD 960</p>  
   </div>
 </div>
 <div class="thumbnail-card">
   <a href="event_details.html#BarCentral">
-    <img src="images/events/barCentral.jpg" alt="Bar in Central">
+    <img src="images/events/Stephen.png" alt="Bar in Local AI Social">
   </a>
   <div class="caption">
-    <h3>Bar in Central<br></h3>
+    <h3>Bar in Local AI Social<br></h3>
     <p class="event-category">Evening Social</p>
-    <p class="writeup">Relax, connect, and toast to design in the heart of Hong Kong</p>
+    <p class="writeup">Relax, connect, and toast to design in the heart of Hong Kong</p>  
+    <p><strong>Date:</strong> July 3rd</p>  
     <!-- <p><strong>Cost:</strong> HKD 960</p> -->
   </div>
 </div>
+
+<div style="display:none">
 <div class="thumbnail-card">
   <a href="event_details.html#BarTST">
     <img src="images/events/socialBarTST.jpg" alt="Bar in Tsim Sha Tsui">
