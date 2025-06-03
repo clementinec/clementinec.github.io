@@ -22,7 +22,7 @@ format: html
 ## Prof. Shigeru Ban
 ##### Special Evening Presentation
 ##### Ticketed Event - Limited Capacity
-##### July 5, 2025 | 7:00 PM
+##### July 5, 2025 | 5:00 PM - 6:00 PM
 
 
 
@@ -37,14 +37,13 @@ Join us for an exclusive evening presentation with Pritzker Prize laureate Shige
 **Event Details:**
 
 - **Date:** July 5, 2025
-- **Time:** 7:00 PM - 9:00 PM   [`Register`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100760)
+- **Time:** 5:00 PM - 6:00 PM   [`Register`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100760)
 - **Venue:** [Special Event Hall]
-- **Capacity:** 100
-- **Includes:** Light reception following the presentation
+<!-- - **Capacity:** 100 -->
 
 ### Presentation Focus
 
-In this special evening session, Professor Ban will share his personal experiences from over three decades of disaster relief work, from the 1995 Kobe earthquake to recent humanitarian crises. He will demonstrate his design process through live sketching and discuss the technical innovations that make his emergency shelters both rapidly deployable and dignified spaces for displaced populations.
+In this special evening session, Prof. Ban will share his personal experiences from over three decades of disaster relief work, from the 1995 Kobe earthquake to recent humanitarian crises. He will demonstrate his design process through live sketching and discuss the technical innovations that make his emergency shelters both rapidly deployable and dignified spaces for displaced populations.
 
 Attendees will gain insights into:
 - The evolution of paper tube construction techniques
@@ -56,12 +55,13 @@ This presentation goes beyond his daytime keynote to explore the personal motiva
 
 ### Ticket Information
 
-**Special Event Tickets:** HK$500
-- Includes presentation, Q&A session, and reception
-- Available separately or as add-on to conference registration
-- Early bird pricing available until April 30, 2025
+**Special Event Tickets:** $300 (non-HKU) | $180 (HKU student/staff)
 
-*This is a separately ticketed event and not included in general conference registration.*
+- Includes presentation and Q&A session
+- **Separate tickets made available for purchase by outside guests** who are not registered for the conference.
+- **Conference registrants:** `Do not purchase a ticket` — this event is included with your registration!
+
+
 
 ![](../images/keynotes/ban1.jpg)
 Emergency Housing, Haiti, 2010
