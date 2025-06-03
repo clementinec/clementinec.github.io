@@ -116,7 +116,7 @@ format:
     <p class="event-category">Field Trip</p>
     <p class="writeup">Exploring Innovation and Urban Transformation in China’s Design Capital</p>
     <p><strong>Date:</strong> July 5th</p>
-    <p><strong>Cost:</strong> HKD 250</p>
+    <p><strong>Cost:</strong> HKD 900</p>
   </div>
 </div>
 <div class="thumbnail-card">
@@ -127,7 +127,7 @@ format:
     <h3>Tram Ride – Whitty Street Depot to North Point<br></h3>
     <p class="event-category">Evening Tour</p>
     <p class="writeup">A Moving Portrait of Hong Kong’s Architecture</p>
-    <p><strong>Cost:</strong> HKD 900</p>
+    <p><strong>Cost:</strong> HKD 250</p>
   </div>
 </div>
 <div class="thumbnail-card">
@@ -219,7 +219,7 @@ format:
     <h3>Bar in Central<br></h3>
     <p class="event-category">Evening Social</p>
     <p class="writeup">Relax, connect, and toast to design in the heart of Hong Kong</p>
-    <p><strong>Cost:</strong> HKD 960</p>
+    <!-- <p><strong>Cost:</strong> HKD 960</p> -->
   </div>
 </div>
 <div class="thumbnail-card">
