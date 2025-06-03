@@ -362,11 +362,12 @@ format:
              ">
           <div class="event-title">AI Social</div>
           <div class="tooltip">
-            <img src="images/events/barCentral.jpg"
+          <a href="event_details.html#BarCentral">
+            <img src="images/events/Stephen.png"
                  alt="AI Social – Bar in Central"
                  style="width:100%; margin-bottom:6px; border-radius:3px;">
             <strong>Local AI Social</strong><br/>
-            <em>Networking at Bar in Central</em><br/>
+            <em>Networking at Bar in Sai Ying Pun</em><br/>
             Date: July 3 | 19:00 – 21:00<br/>
             Cost: HKD TBU
           </div>
