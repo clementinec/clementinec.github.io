@@ -365,7 +365,7 @@ format:
           <a href="event_details.html#BarCentral">
             <img src="images/events/Stephen.png"
                  alt="AI Social – Bar in Central"
-                 style="width:100%; margin-bottom:6px; border-radius:3px;">
+                 style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
             <strong>Local AI Social</strong><br/>
             <em>Networking at Bar in Sai Ying Pun</em><br/>
             Date: July 3 | 19:00 – 21:00<br/>
