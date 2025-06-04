@@ -32,18 +32,29 @@ format: html
 
 ### About This Special Event
 
-Join us for an exclusive evening presentation with Pritzker Prize laureate Shigeru Ban as he delves deeper into his groundbreaking work in emergency architecture and disaster relief. This intimate session will feature never-before-seen project documentation, live sketching demonstrations, and an extended Q&A session.
+Join us for an exclusive evening presentation with Pritzker Prize laureate Shigeru Ban as he delves deeper into his groundbreaking work in emergency architecture and disaster relief. 
+<!-- This intimate session will feature never-before-seen project documentation, live sketching demonstrations, and an extended Q&A session. -->
 
 **Event Details:**
 
 - **Date:** July 2, 2025
 - **Time:** 5:00 PM - 6:00 PM   [`Register`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100760)
 - **Venue:** [Special Event Hall]
-<!-- - **Capacity:** 100 -->
+<!-- - **Capacity:** Limited Capacity -->
+
+### Ticket Information
+
+**Special Event Tickets:** $300 (non-HKU) | $180 (HKU student/staff)
+
+-- Includes presentation and Q&A session
+-- **Separate tickets made available for purchase by outside guests** who are not registered for the conference.
+-- **Conference registrants:** `Do not purchase a ticket` — this event is included with your registration!
 
 ### Presentation Focus
 
-In this special evening session, Prof. Ban will share his personal experiences from over three decades of disaster relief work, from the 1995 Kobe earthquake to recent humanitarian crises. He will demonstrate his design process through live sketching and discuss the technical innovations that make his emergency shelters both rapidly deployable and dignified spaces for displaced populations.
+In this special evening session, Prof. Ban will share his personal experiences from over three decades of disaster relief work, from the 1995 Kobe earthquake to recent humanitarian crises. He will demonstrate and discuss the technical innovations that make his emergency shelters both rapidly deployable and dignified spaces for displaced populations.
+
+<!-- his design process through live sketching -->
 
 Attendees will gain insights into:
 
@@ -52,17 +63,7 @@ Attendees will gain insights into:
 - Balancing speed, cost, and human dignity in emergency design
 - Future innovations in disaster-responsive architecture
 
-This presentation goes beyond his daytime keynote to explore the personal motivations and practical challenges behind his humanitarian architecture practice.
-
-### Ticket Information
-
-**Special Event Tickets:** $300 (non-HKU) | $180 (HKU student/staff)
-
-- Includes presentation and Q&A session
-- **Separate tickets made available for purchase by outside guests** who are not registered for the conference.
-- **Conference registrants:** `Do not purchase a ticket` — this event is included with your registration!
-
-
+<!-- This presentation goes beyond his daytime keynote to explore the personal motivations and practical challenges behind his humanitarian architecture practice. -->
 
 ![](../images/keynotes/ban1.jpg)
 Emergency Housing, Haiti, 2010
