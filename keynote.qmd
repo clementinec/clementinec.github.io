@@ -74,12 +74,12 @@ Keynote Sessions will feature presentations by two distinguished keynote speaker
 ```{=html}
 <div class="table-container">
     <div class="image-cell">
-    <a href="keynotes/special-events.html">
+    <a href="keynotes/Shigeru.html">
         <img src="images/keynotes/Shigeru.png" alt="Prof. Shigeru Ban"></a>
     </div>
     <div class="text-cell">
         <h3>
-        <a href="keynotes/special-events.html">Prof. Shigeru Ban</a></h3>
+        <a href="keynotes/Shigeru.html">Prof. Shigeru Ban</a></h3>
         <p>Shigeru Ban is renowned for his innovative use of unconventional materials and for redefining architecture’s role in humanitarian and disaster-relief efforts. In 2014, Ban was named the 37th recipient of the Pritzker Architecture Prize.</p>
     </div>
 </div>
