@@ -220,10 +220,10 @@ format:
 </div>
 <div class="thumbnail-card">
   <a href="event_details.html#BarCentral">
-    <img src="images/events/Stephen.png" alt="Bar in Local AI Social">
+    <img src="images/events/Stephen.png" alt="AI Social">
   </a>
   <div class="caption">
-    <h3>Bar in Local AI Social<br></h3>
+    <h3>AI Social<br></h3>
     <p class="event-category">Evening Social</p>
     <p class="writeup">Relax, connect, and toast to design in the heart of Hong Kong</p>  
     <p><strong>Date:</strong> July 3rd</p>  
