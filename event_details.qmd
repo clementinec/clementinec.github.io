@@ -686,11 +686,11 @@ print('</div>')
 
 ::: {layout-ncol=2}
 
-![](images/events/Stephen.png){fig-alt="Evening Social: AI Social in Local Bar" style="border-radius: 5%; width: 100%;"}
+![](images/events/Stephen.png){fig-alt="Evening Social: AI Social" style="border-radius: 5%; width: 100%;"}
 
 <div>
 
-## Evening Social: Bar in Local AI Social  
+## Evening Social: AI Social  
 **Relax, connect, and toast to design in the heart of Hong Kong**
 
 Join us for a special AI-themed
