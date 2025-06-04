@@ -46,7 +46,7 @@ website:
       - text: "Tickets"
         menu:
           - text: "Public Keynote"
-            href: keynotes/special-events.qmd
+            href: keynotes/Shigeru.qmd
           - text: "General Ticketing"
             href: ticketing.qmd
           - text: "Side Events"
