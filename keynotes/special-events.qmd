@@ -22,7 +22,7 @@ format: html
 ## Prof. Shigeru Ban
 ##### Special Evening Presentation
 ##### Ticketed Event - Limited Capacity
-##### July 5, 2025 | 5:00 PM - 6:00 PM
+##### July 2, 2025 | 5:00 PM - 6:00 PM
 
 
 
@@ -36,7 +36,7 @@ Join us for an exclusive evening presentation with Pritzker Prize laureate Shige
 
 **Event Details:**
 
-- **Date:** July 5, 2025
+- **Date:** July 2, 2025
 - **Time:** 5:00 PM - 6:00 PM   [`Register`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100760)
 - **Venue:** [Special Event Hall]
 <!-- - **Capacity:** 100 -->
@@ -46,6 +46,7 @@ Join us for an exclusive evening presentation with Pritzker Prize laureate Shige
 In this special evening session, Prof. Ban will share his personal experiences from over three decades of disaster relief work, from the 1995 Kobe earthquake to recent humanitarian crises. He will demonstrate his design process through live sketching and discuss the technical innovations that make his emergency shelters both rapidly deployable and dignified spaces for displaced populations.
 
 Attendees will gain insights into:
+
 - The evolution of paper tube construction techniques
 - Collaboration strategies with international relief organizations
 - Balancing speed, cost, and human dignity in emergency design
