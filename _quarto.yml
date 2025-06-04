@@ -45,7 +45,7 @@ website:
         href: keynote.qmd
       - text: "Tickets"
         menu:
-          - text: "Keynote Ticketing"
+          - text: "Public Keynote"
             href: keynotes/special-events.qmd
           - text: "General Ticketing"
             href: ticketing.qmd
