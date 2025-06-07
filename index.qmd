@@ -40,6 +40,9 @@ Mr. Haotian Zhang <br>
 Please send all inquiries to [this e-mail address](mailto:caadfutures2025@hku.hk). 
 
 ---
+
+Find out more about the CAAD Futures Foundation [here](https://www.caadfutures.org/).
+
 **Supported by**
 
 ```{=html}
@@ -56,3 +59,4 @@ Please send all inquiries to [this e-mail address](mailto:caadfutures2025@hku.hk
   </div>
 </div>
 ```
+
