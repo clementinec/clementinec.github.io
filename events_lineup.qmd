@@ -116,7 +116,7 @@ format:
     <p class="event-category">Field Trip</p>
     <p class="writeup">Exploring Innovation and Urban Transformation in China’s Design Capital</p>
     <p><strong>Date:</strong> July 5th</p>
-    <p><strong>Cost:</strong> HKD 900</p>
+    <p><strong>Cost:</strong> HKD 950</p>
   </div>
 </div>
 <div class="thumbnail-card">
