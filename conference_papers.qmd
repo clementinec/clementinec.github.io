@@ -6,10 +6,10 @@ format:
     toc: false
     page-layout: custom
     grid:
-      sidebar-width: 0px
-      body-width: 100%
-      margin-width: 0px
-      gutter-width: 0px
+      sidebar-width: 30px
+      body-width: 3000px
+      margin-width: 30px
+      gutter-width: 1.5rem
 ---
 
 ```{=html}
