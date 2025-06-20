@@ -52,7 +52,7 @@ architecture.
 **Date:** 
 
 - Wednesday, 2nd July 8:30PM - 10:00PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100399)<br>
-- Saturday, 5th July 9:30AM - 11:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100551)<br>
+<!-- - Saturday, 5th July 9:30AM - 11:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100551)<br> -->
 - Saturday, 5th July 1:30PM - 3:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100552)<br>
 - Saturday, 5th July 4:30PM - 6:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100553)<br>
 
@@ -113,12 +113,8 @@ Join HKU Adjunct Assistant Professor Human T.L. Wu for an in-depth architectural
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** 
-
-- Option 1: 2:30PM – 4:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100384)
-- Option 2: 4:30PM - 6:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100420)
-
- 
+**Time:** 2:30PM – 4:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100384)  
+<!-- - Option 2: 4:30PM - 6:30PM [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100420) -->
 **Quota:** 30 per tour  
 **Cost:** HKD 250 (M+ Exhibition Entry Tickets is not included)  
 **Meeting Point:** Artist Square Entrance, G/F, M+ Museum [Map](https://maps.app.goo.gl/evRXFE9Bsktg5Buo8)
@@ -302,11 +298,8 @@ Led by HKU Professor Christian J. Lange, co-author of *Cities of Repetition*, th
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** 
-
-- Option 1: 1:30PM – 3:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100389)
-- Option 2: 4:30PM – 6:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100424)
-
+**Time:** 1:30PM – 3:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100389)  
+<!-- - Option 2: 4:30PM – 6:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100424) -->
 **Quota:** 30 per tour  
 **Cost:** HKD 250  
 **Meeting Point:** Meeting Point: TBC
@@ -358,8 +351,8 @@ Columbarium redefines the architectural language of remembrance. Designed by the
 **Date:** Saturday, 5th July  
 **Time:** 
 
-- Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100387)
-- Option 2: 1:30PM - 3:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100422)
+- Option 1: 9:30AM – 11:30AM  <mark>Event cancelled<mark>
+- Option 2: 1:30PM - 3:30PM  <mark>Event cancelled<mark>
 
 **Quota:** 30 per tour  
 **Cost:** HKD 250  
@@ -421,11 +414,8 @@ This walking tour takes participants deep into the vibrant heart of Kowloon, whe
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** 
-
-- Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100433)
-- Option 2: 1:30PM - 3:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100392)
-
+**Time:** 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100433)  
+<!-- - Option 2: 1:30PM - 3:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100392) -->
 **Quota:** 30 per tour  
 **Cost:** HKD 250  
 **Meeting Point:** : The FOREST, Mongkok [Map](https://maps.app.goo.gl/9hXshPubQtUWAJVr5)  
@@ -480,11 +470,8 @@ This guided walk takes participants through Wan Chai’s historical layers—vis
 
 **Event Details:**  
 **Date:** Saturday, 5th July  
-**Time:** 
-
-- Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100391)
-- Option 2: 4:30PM - 6:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100428)
-
+**Time:** 4:30PM - 6:30PM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100428)  
+<!-- - Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100391) -->
 **Quota:** 30 per tour  
 **Cost:** HKD 250  
 **Meeting Point:** : Wan Chai Pak Tai Temple, Lung On St, Wan Chai [Map](https://maps.app.goo.gl/UQgPAbC4hrPZyZ3cA)    
