@@ -1,0 +1,126 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+---
+
+## Presentation Instructions
+
+Welcome to the Presentation Instructions section of CAAD Futures 2025. This page outlines the guidelines for all authors presenting in the conference, including details on timing, session setup, slide formatting, and presentation submission. Please read carefully to ensure a smooth presentation experience.
+
+Please note that **all authors—across all publication types—are expected to present** their work at the conference.
+
+#### Presentation Length by Session Type
+
+- **Special Collection Paper Sessions**
+  - **12-minute talk** + **3-minute Q&A**
+  - *also known as Springer papers*
+  - *Note*: May be lead by an invited speaker; see descriptions below.
+  
+- **Conference Proceedings Parallel Paper Sessions**
+  - **7-minute talk** + **2-minute Q&A**
+  - *also known as Companion/Compendium papers*
+
+- **Catalytic Interfaces (CI) Sessions**
+  - **20-minute slot**; 10 minutes suggested for presentation. 
+  - You may use this time flexibly for discussion or other formats.
+
+Kindly ensure your presentation stays within the allocated time.
+
+#### Session Setup
+
+- Each session will be chaired by an expert with relevant domain knowledge.
+- **Special Collection Papers** may be assigned to:
+  - **Speaker-led Sessions**: These include an extended panel format. In addition to 15 minutes per author, an extra 25 minutes is given for the invited speaker to allocate across discussion or presentations.
+  - **Standard Sessions**: Feature a session chair only, with authors presenting in sequence.
+
+#### Presentation Formatting Requirements
+
+Please use the following [`template`](https://drive.google.com/drive/folders/1zTWbRAN1ZaBuQtLn70jaE-IBEY97ZCtc?usp=sharing) file.
+
+Please make sure you update your **main slide master** with the following identifier information:
+
+1. **Session Number & Topic** (to be announced soon):
+   - Speaker-led Special Collection Paper Sessions: `S-SX` (e.g. S-S1, S-S2)
+   - Special Collection Paper Sessions: `S-X` (e.g. S-1, S-2)
+   - Parallel Paper Sessions: `P-YX` (e.g. P-A1, P-B2)
+   - Catalytic Interfaces: `CI-X` (e.g. CI-1, CI-2)
+
+2. **Paper Number**: Use the format `#XXX` (e.g. #123)
+3. **Short Title** 
+4. **Presentation Date** 
+
+Additionally, please update your **title slide**, making sure it includes:
+
+1. **Title & Subtitle of Paper**
+
+2. **Presenter and Co-authors**
+
+3. **Institutional Affiliations**
+
+#### Schedule & Upload Details
+
+- The final schedule, including session numbers, topics, and paper assignments, will be posted by **24 June 2025**.
+- Presentations must be uploaded in advance using a **Google Form** (link to be provided).
+  - Presentations will be pre-loaded on session computers.
+  - **Deadline**: Submit your presentation at least **one day before your scheduled session**.
+
+
+<!-- ### Regular Papers
+
+Welcome to the Regular Papers section of CAAD Futures 2025. This page provides essential information for authors of accepted `Springer Book` and `Companion/Compendium Book` papers. Please review the details below carefully.
+
+#### Conference Details
+
+- **Dates**: 2–4 July 2025
+- **Location**: The University of Hong Kong
+
+#### Important Information for All Paper Authors
+
+- **Registration Requirement**: Each accepted paper must have at least one uniquely registered author.
+- **Submission Format**:
+  - Submit both the original file (DOC or LaTeX) and an exported PDF version.
+  - **ZIP**: Always package all relevant files into a single ZIP folder.
+  - **Submission**: Unless otherwise indicate, please submit directly to [`EasyChair`](https://easychair.org/conferences/?conf=caadfutures2025).
+  - **Template**: Download the paper template in [`DOC or LaTeX format`](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
+  - **Spelling Consistency**: We kindly ask that you use consistent British English spelling conventions throughout your manuscript.
+- **Contact for Invitation Letters**: Request an invitation letter for travel arrangements by emailing <mark>caadfutures2025@hku.hk</mark> with your submission ID.
+
+### Springer Book Authors
+
+- **Key Dates**
+  - **Final Abstract Submission**: <mark>26 May 2025</mark> (for inclusion in the Companion/Compendium Book)
+  - **Final Camera-Ready Paper**: After the conference at the end of July 2025 (post-conference publication).
+- **Final Abstract**
+  - **Submission**: Please send your abstract directly by emailing <mark>caadfutures2025@hku.hk</mark> with subject as “Springer Abstract #PaperID”.
+  - **Author Details**: Submissions must include author names and institutional affiliations (**do not** anonymise).
+  - **Template**: Please use the following [`template`](https://drive.google.com/drive/folders/19uLSt3xwMc35bFUCZtZpJh-pM7-p5qN-).
+ 
+### Companion/Compendium Book Authors
+
+
+- **Key Dates**
+    - **Final Camera-Ready Paper**: <mark>26 May 2025</mark>
+    - **Final Exhibition Poster**: <mark>2 June 2025</mark>
+
+- **Camera-Ready Paper**
+  - **Submission**: Please submit using EasyChair by <mark>26 May 2025</mark> 
+  - **Reviewer Feedback**: Authors are strongly encouraged to address reviewer feedback in the final submission.
+    - **Author Details**: Submissions must include author names and institutional affiliations (**do not** anonymise).
+  - **DOI Assignment**: All accepted papers will be assigned a DOI.
+
+- **Exhibition Poster**
+  - **Submission**: 
+    - All Companion/Compendium Book authors are invited to submit a poster by <mark>2 June 2025</mark>
+    - As EasyChair only allows one file upload per submission, we kindly ask you to submit a single ZIP file containing:
+      - (i) Your final camera-ready paper.
+      - (ii) Your completed exhibition poster (in any of the three formats provided).
+  - **Template**: 
+    - Please choose and select **one** of the poster [`templates`](https://drive.google.com/drive/folders/1x_hUbIyT1zq88_W8axd_BKPpC45SdBPe). You are welcome to choose from the different layout options included.
+    - **Format**: Adobe Illustrator, PowerPoint, or PDF.
+  - **Details**: Posters will be displayed throughout the conference with dedicated plenary sessions for viewing and discussion. -->
+
+
+<!-- ### Presentations
+A select number of outstanding Companion/Compendium papers will be chosen for short-form presentations during a plenary session. Selection will be announced by the end of the month. -->
