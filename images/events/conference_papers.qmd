@@ -339,7 +339,7 @@ body {
     border-left: 4px solid #727272;
     background-color: rgba(114, 114, 114, 0.05);
 }
-.paper-row.session-highlight.pc1 {
+.paper-row.session-highlight.pc1- {
     border-left: 4px solid #7C7C7C;
     background-color: rgba(124, 124, 124, 0.05);
 }
@@ -371,17 +371,25 @@ body {
     border-left: 4px solid #424242;
     background-color: rgba(66, 66, 66, 0.05);
 }
-.paper-row.session-highlight.ss1 {
+.paper-row.session-highlight.s4 {
     border-left: 4px solid #4C4C4C;
     background-color: rgba(76, 76, 76, 0.05);
 }
-.paper-row.session-highlight.ss2 {
+.paper-row.session-highlight.ss1 {
     border-left: 4px solid #404040;
     background-color: rgba(64, 64, 64, 0.05);
 }
-.paper-row.session-highlight.ss5 {
+.paper-row.session-highlight.ss2 {
     border-left: 4px solid #4A4A4A;
     background-color: rgba(74, 74, 74, 0.05);
+}
+.paper-row.session-highlight.ss4 {
+    border-left: 4px solid #545454;
+    background-color: rgba(84, 84, 84, 0.05);
+}
+.paper-row.session-highlight.ss5 {
+    border-left: 4px solid #5E5E5E;
+    background-color: rgba(94, 94, 94, 0.05);
 }
 .session-badge, .decision-badge {
     font-size: 0.8em;
@@ -422,7 +430,7 @@ body {
 
 <div class="container">
     <h1>Conference Papers</h1>
-    <p><strong>81 papers</strong> across <strong>19 topics</strong> in <strong>17 sessions</strong></p>
+    <p><strong>81 papers</strong> across <strong>19 topics</strong> in <strong>19 sessions</strong></p>
     
     <div class="filters">
         <div class="filter-tag all active" data-topic="all">ALL</div>
@@ -455,7 +463,7 @@ body {
         </div>
         
         <div class="papers-container">
-            <div class="paper-row" data-topics="GENERATING BUILDING LAYOUT" data-session="S-1" data-decision="Springer" data-abstract="Open office layouts aim to provide a variety of
+            <div class="paper-row" data-topics="GENERATING BUILDING LAYOUT " data-session="S-1" data-decision="Springer" data-abstract="Open office layouts aim to provide a variety of
 workstations that accommodate workers’ diverse activities.
 However, designing layouts that cater to continuously
 changing schedules is challenging. Daily adjustment of
@@ -499,7 +507,7 @@ components to promote workers’ well-being." onmouseenter="showTooltip(this)" o
                     </div>
                 </div>
             </div>
-            <div class="paper-row" data-topics="GENERATING BUILDING LAYOUT" data-session="S-1" data-decision="Springer" data-abstract="Intelligent generative algorithms are increasingly
+            <div class="paper-row" data-topics="GENERATING BUILDING LAYOUT " data-session="S-1" data-decision="Springer" data-abstract="Intelligent generative algorithms are increasingly
 demonstrating substantial potential in architectural
 design. However, their applications remain relatively
 limited, primarily focusing on image-based generation of
@@ -554,7 +562,7 @@ of the generative outcomes.
                     </div>
                 </div>
             </div>
-            <div class="paper-row" data-topics="GENERATING BUILDING LAYOUT" data-session="S-1" data-decision="Springer" data-abstract="The process of generating floor plans for residential units
+            <div class="paper-row" data-topics="GENERATING BUILDING LAYOUT " data-session="S-1" data-decision="Springer" data-abstract="The process of generating floor plans for residential units
 can be a labour-intensive, repetitive, and tedious task. We
 argue that if it is possible to determine the
 suitability/affordance of an outline for a given program
@@ -605,77 +613,11 @@ analysis. https://doi.org/10.528/zenodo.7070952" onmouseenter="showTooltip(this)
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">S-2, STRUCTURAL, FABRICATION & MATERIAL LOGIC (7 papers in total)</div>
+            <div class="session-title">S-2, AUGMENTING & ADVANCING DESIGN (3 papers in total)</div>
             <div class="session-info">Speaker-Driven Session</div>
         </div>
         
         <div class="papers-container">
-            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-2" data-decision="Springer" data-abstract="With advanced fabrication and computational design methods,
-non-standard building structures made from natural
-materials such as wood and bamboo are attracting the
-attention of architectural researchers. As current studies
-primarily focus on the design and fabrication of
-single-material systems, this work explores a robotic
-fabrication and in-situ 3D printing workflow for a hybrid
-natural timber-bamboo structure. It encompasses three major
-research components: 1) the scanning and virtual recreation
-of collected raw materials; 2) the design of a hybrid
-structural system based on the materials’ natural geometric
-features and structural performance; 3) a bespoke digital
-fabrication process that addresses robotic drill-ing and
-in-situ 3D printing for non-standard timber-bamboo joints.
-The proposed workflow is illustrated through the creation
-of a full-scale structural prototype, along with its future
-architectural applications." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">132</div>
-                <div class="paper-content">
-                    <div class="paper-title">Robotic fabrication and in-situ 3D printing for a natural timber-bamboo structure</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Haojie Fan, Xinyue Xia, Shunuo Li, Huangyan Zheng, Haoyi Xu and Sining Wang</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #787878; color: white; margin-left: 5px;">Session: S-2</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-2" data-decision="Springer" data-abstract="The proposed parametric structural system is a novel
-implementation of Carbon Nanotube (CNT) Yarns, Galvorn, a
-carbon nanomaterial that combines superior strength,
-lightweight, conductivity, flexibility, and more,
-outperforming GHG-intense alternatives.
-The resulting prototype is a parametric structural
-component composed of a central hollow mast, 3D-printed
-dented spacers working in compression, and a woven pattern
-of CNT yarns in tension. The woven pattern is generated
-using a robotic arm that places the fibers following a
-precise geometrical pattern and post-tensioning the
-structure to improve substantially its structural behavior
-while using a minimum amount of material. This method
-allows the production of customized structural components
-using parametric tools and robotic fabrication
-technologies. Each structural CNT woven structure has a
-different geometric and structural pattern responding to
-specific static requirements as well as architectural and
-environmental considerations.
-Accordingly, the structural prototype works as a column or
-beam, with optimum use of material and unique aesthetics.
-Additionally, the fiber-woven structural component
-integrates lighting and data network systems harnessing the
-conductive properties of the CNT yarns. Therefore, it has
-the potential to incorporate ecological and infrastructural
-capacities such as harvesting photovoltaic energy and
-rainwater.
-This paper documents the computational tools, fabrication
-techniques, and structural implementations resulting in an
-experimental prototype as a base for future developments of
-the project." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">178</div>
-                <div class="paper-content">
-                    <div class="paper-title">CNT Fiber-woven prototypes: Zero weight, infinite span</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Juan Jose Castellon</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #787878; color: white; margin-left: 5px;">Session: S-2</span></div>
-                    </div>
-                </div>
-            </div>
             <div class="paper-row" data-topics="AUGMENTING & ADVANCING DESIGN" data-session="S-2" data-decision="Springer" data-abstract="Public engagement in urban planning and architectural
 design is crucial for creating spaces that reflect the
 diverse needs and preferences of the community. Yet,
@@ -716,82 +658,6 @@ design practices." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()"
                     <div class="paper-title">Evaluating Augmented Reality as a Tool for Democratizing Built Environment Design</div>
                     <div class="paper-meta">
                         <div class="author-tag">Tina Behrouz, Halil Erhan and Elif Sezen Yagmur Kilimci</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #787878; color: white; margin-left: 5px;">Session: S-2</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-2" data-decision="Springer" data-abstract="As part of a broader architectural initiative aimed at
-moldless fabrication of complex surfaces, this study
-investigates the potential of self-shaping mate-rials,
-specifically fiber composites. Composed of advanced fibers
-such as glass or carbon embedded in epoxy resin, and
-structured in controlled un-balanced laminates, these
-materials form a Frustrated Composites system. Unlike
-industrial practices that minimize displacement and strain,
-our re-search aims to harness material properties to
-generate curvature from pro-grammed internal stresses and
-create controlled complex geometries from flat laminates.
-Existing literature primarily focuses on producing balanced
-laminates to reduce distortions, necessitating a
-re-evaluation of fabrication protocols for Frustrated
-Composite laminates. We investigate the effect of variables
-such as temperature, curing time, and post-curing processes
-over the shaping and post-relaxation curvature of
-Frustrated Composites. Our methodology involves two stages:
-identifying the effects of curing time and temperature on
-uniformly patterned samples by measuring initial and
-post-relaxation curvatures, and validating findings over
-larger panels with com-plex patterns. Our findings aim to
-provide new insights into the potential of self-morphing
-composites, paving the way for innovative applications in
-architectural design." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">193</div>
-                <div class="paper-content">
-                    <div class="paper-title">Investigating self-shaping fibre composites: tunning curing parameters to optimise resulting curvature</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Ariel Yakobi, Eran Sharon and Arielle Blonder</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #787878; color: white; margin-left: 5px;">Session: S-2</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-2" data-decision="Springer" data-abstract="This paper presents a novel computational methodology to
-predict the mechanical behavior of 3D-printed body-centered
-cubic (BCC) lattice structures with varying grid gradation
-using an artificial neural network (ANN). The BCC lattice
-structure is one of the most widely used and researched
-lattice typologies, allowing for lightweight designs that
-maintain strength, enable complex geometries, and
-facilitate material optimization. BCC lattices are commonly
-employed in lightweight structures due to their high
-strength-to-weight ratio, but their mechanical response,
-especially stress-strain characteristics, can vary based on
-structural parameters such as grid gradation.
-Evaluation methods, such as experimental compression tests
-or 3D simulations of these behaviors, are time-consuming
-and resource-intensive. To address this, we employ a
-data-driven approach by utilizing an ANN to predict
-stress-strain responses as a function of grid variation in
-BCC lattices. By systematically varying grid parameters,
-such as the spacing of lattice nodes, we generated and
-3D-printed a lattice set. Our experimental data was
-obtained by conducting physical compression tests on the
-lattices. This data was used to train the ANN, allowing it
-to capture the complex relationships between lattice
-configuration and mechanical performance.
-The trained neural network demonstrates a high degree of
-accuracy in predicting stress-strain curves of lattice
-configurations, reducing the reliance on experimental
-testing. Validation against physical experiments confirms
-the robustness of the model, showcasing its potential as a
-powerful tool for design optimization. These findings are
-expected to facilitate the development of optimized
-structures for applications in architectural design,
-aerospace, automotive, and biomedical fields." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">386</div>
-                <div class="paper-content">
-                    <div class="paper-title">Predicting Stress-Strain Characteristics of 3D Printed BCC Lattice Structures with Variable Grid Gradation Using Neural Networks</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Mahdi Jandaghimeibodi, Mostafa Hosseini Vajari, Morteza Behzadnasab and Soheil Dariushi</div>
                         <div class="additional-topics"><span class="session-badge" style="background-color: #787878; color: white; margin-left: 5px;">Session: S-2</span></div>
                     </div>
                 </div>
@@ -1030,6 +896,158 @@ appealing tourist cities." onmouseenter="showTooltip(this)" onmouseleave="hideTo
 
     <div class="session">
         <div class="session-header">
+            <div class="session-title">S-4, STRUCTURAL, FABRICATION & MATERIAL LOGIC (4 papers in total)</div>
+            <div class="session-info">Speaker-Driven Session</div>
+        </div>
+        
+        <div class="papers-container">
+            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-4" data-decision="Springer" data-abstract="With advanced fabrication and computational design methods,
+non-standard building structures made from natural
+materials such as wood and bamboo are attracting the
+attention of architectural researchers. As current studies
+primarily focus on the design and fabrication of
+single-material systems, this work explores a robotic
+fabrication and in-situ 3D printing workflow for a hybrid
+natural timber-bamboo structure. It encompasses three major
+research components: 1) the scanning and virtual recreation
+of collected raw materials; 2) the design of a hybrid
+structural system based on the materials’ natural geometric
+features and structural performance; 3) a bespoke digital
+fabrication process that addresses robotic drill-ing and
+in-situ 3D printing for non-standard timber-bamboo joints.
+The proposed workflow is illustrated through the creation
+of a full-scale structural prototype, along with its future
+architectural applications." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">132</div>
+                <div class="paper-content">
+                    <div class="paper-title">Robotic fabrication and in-situ 3D printing for a natural timber-bamboo structure</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Haojie Fan, Xinyue Xia, Shunuo Li, Huangyan Zheng, Haoyi Xu and Sining Wang</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-4</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-4" data-decision="Springer" data-abstract="The proposed parametric structural system is a novel
+implementation of Carbon Nanotube (CNT) Yarns, Galvorn, a
+carbon nanomaterial that combines superior strength,
+lightweight, conductivity, flexibility, and more,
+outperforming GHG-intense alternatives.
+The resulting prototype is a parametric structural
+component composed of a central hollow mast, 3D-printed
+dented spacers working in compression, and a woven pattern
+of CNT yarns in tension. The woven pattern is generated
+using a robotic arm that places the fibers following a
+precise geometrical pattern and post-tensioning the
+structure to improve substantially its structural behavior
+while using a minimum amount of material. This method
+allows the production of customized structural components
+using parametric tools and robotic fabrication
+technologies. Each structural CNT woven structure has a
+different geometric and structural pattern responding to
+specific static requirements as well as architectural and
+environmental considerations.
+Accordingly, the structural prototype works as a column or
+beam, with optimum use of material and unique aesthetics.
+Additionally, the fiber-woven structural component
+integrates lighting and data network systems harnessing the
+conductive properties of the CNT yarns. Therefore, it has
+the potential to incorporate ecological and infrastructural
+capacities such as harvesting photovoltaic energy and
+rainwater.
+This paper documents the computational tools, fabrication
+techniques, and structural implementations resulting in an
+experimental prototype as a base for future developments of
+the project." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">178</div>
+                <div class="paper-content">
+                    <div class="paper-title">CNT Fiber-woven prototypes: Zero weight, infinite span</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Juan Jose Castellon</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-4</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-4" data-decision="Springer" data-abstract="As part of a broader architectural initiative aimed at
+moldless fabrication of complex surfaces, this study
+investigates the potential of self-shaping mate-rials,
+specifically fiber composites. Composed of advanced fibers
+such as glass or carbon embedded in epoxy resin, and
+structured in controlled un-balanced laminates, these
+materials form a Frustrated Composites system. Unlike
+industrial practices that minimize displacement and strain,
+our re-search aims to harness material properties to
+generate curvature from pro-grammed internal stresses and
+create controlled complex geometries from flat laminates.
+Existing literature primarily focuses on producing balanced
+laminates to reduce distortions, necessitating a
+re-evaluation of fabrication protocols for Frustrated
+Composite laminates. We investigate the effect of variables
+such as temperature, curing time, and post-curing processes
+over the shaping and post-relaxation curvature of
+Frustrated Composites. Our methodology involves two stages:
+identifying the effects of curing time and temperature on
+uniformly patterned samples by measuring initial and
+post-relaxation curvatures, and validating findings over
+larger panels with com-plex patterns. Our findings aim to
+provide new insights into the potential of self-morphing
+composites, paving the way for innovative applications in
+architectural design." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">193</div>
+                <div class="paper-content">
+                    <div class="paper-title">Investigating self-shaping fibre composites: tunning curing parameters to optimise resulting curvature</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Ariel Yakobi, Eran Sharon and Arielle Blonder</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-4</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-4" data-decision="Springer" data-abstract="This paper presents a novel computational methodology to
+predict the mechanical behavior of 3D-printed body-centered
+cubic (BCC) lattice structures with varying grid gradation
+using an artificial neural network (ANN). The BCC lattice
+structure is one of the most widely used and researched
+lattice typologies, allowing for lightweight designs that
+maintain strength, enable complex geometries, and
+facilitate material optimization. BCC lattices are commonly
+employed in lightweight structures due to their high
+strength-to-weight ratio, but their mechanical response,
+especially stress-strain characteristics, can vary based on
+structural parameters such as grid gradation.
+Evaluation methods, such as experimental compression tests
+or 3D simulations of these behaviors, are time-consuming
+and resource-intensive. To address this, we employ a
+data-driven approach by utilizing an ANN to predict
+stress-strain responses as a function of grid variation in
+BCC lattices. By systematically varying grid parameters,
+such as the spacing of lattice nodes, we generated and
+3D-printed a lattice set. Our experimental data was
+obtained by conducting physical compression tests on the
+lattices. This data was used to train the ANN, allowing it
+to capture the complex relationships between lattice
+configuration and mechanical performance.
+The trained neural network demonstrates a high degree of
+accuracy in predicting stress-strain curves of lattice
+configurations, reducing the reliance on experimental
+testing. Validation against physical experiments confirms
+the robustness of the model, showcasing its potential as a
+powerful tool for design optimization. These findings are
+expected to facilitate the development of optimized
+structures for applications in architectural design,
+aerospace, automotive, and biomedical fields." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">386</div>
+                <div class="paper-content">
+                    <div class="paper-title">Predicting Stress-Strain Characteristics of 3D Printed BCC Lattice Structures with Variable Grid Gradation Using Neural Networks</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Mahdi Jandaghimeibodi, Mostafa Hosseini Vajari, Morteza Behzadnasab and Soheil Dariushi</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-4</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="session">
+        <div class="session-header">
             <div class="session-title">S-S1, INTELLIGENT ROBOTIC ASSEMBLY (3 papers in total)</div>
             <div class="session-info">Speaker-Driven Session</div>
         </div>
@@ -1077,7 +1095,7 @@ design for robotic construction." onmouseenter="showTooltip(this)" onmouseleave=
                     <div class="paper-title">Design Validation for Robotic Fabrication: A Multi-Stage Framework for Complex and Non-Repetitive Processes (edited)</div>
                     <div class="paper-meta">
                         <div class="author-tag">Pok Yin Victor Leung and Yijiang Huang</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-S1</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S1</span></div>
                     </div>
                 </div>
             </div>
@@ -1118,7 +1136,7 @@ construction errors." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip
                     <div class="paper-title">tPACS: Phygital-Aided Construction System based on Modular Customizable Timber Fabrication</div>
                     <div class="paper-meta">
                         <div class="author-tag">Yuhong Wu and Tiantian Lo</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-S1</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S1</span></div>
                     </div>
                 </div>
             </div>
@@ -1156,7 +1174,7 @@ methodologies." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Parametric Biomimicry: Translating Spiral Seashell Formation into Robotic 3D Printing</div>
                     <div class="paper-meta">
                         <div class="author-tag">Ali Farajmandi and Negar Kalantar</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-S1</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S1</span></div>
                     </div>
                 </div>
             </div>
@@ -1207,7 +1225,7 @@ data-scarce scenarios." onmouseenter="showTooltip(this)" onmouseleave="hideToolt
                     <div class="paper-title">A Graph-Based Prediction Model for Sustainable Urban Renewal: Integrating Graph Convolutional Networks for Concrete Recycling Potential Evaluation</div>
                     <div class="paper-meta">
                         <div class="author-tag">Haoyang He, Han Li, Wanyu Pei, Shuyang Li and Rudi Stouffs</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S2</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span></div>
                     </div>
                 </div>
             </div>
@@ -1236,7 +1254,7 @@ energy consumption in residential areas." onmouseenter="showTooltip(this)" onmou
                     <div class="paper-title">An Urban Morphology Analysis Framework for Synergistic Improvement of Multiple Performance Objectives: Exemplified by Outdoor Thermal Comfort and Building Energy Efficiency</div>
                     <div class="paper-meta">
                         <div class="author-tag">Minghao Wang, Chi Zhang and Yuchen Qin</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S2</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span></div>
                     </div>
                 </div>
             </div>
@@ -1288,7 +1306,7 @@ Projects." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Shadow-Based Path Detection in Rapidly Expanding Urban Areas: Utilizing shadow detection and graph-based vectorization to uncover informal road networks in high-density slum areas</div>
                     <div class="paper-meta">
                         <div class="author-tag">Sevan Mohammadpour, Angelos Chronis, Oana Taut, Erfan Rezaei Azari, Cheng Hen Chen and Joshua Oates</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S2</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span></div>
                     </div>
                 </div>
             </div>
@@ -1330,7 +1348,7 @@ environments." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Digital Design Support for UAV Delivery Noise Reduction Strategies in High Density Urban Environments</div>
                     <div class="paper-meta">
                         <div class="author-tag">Le Zhao, Thomas Fischer, Wowei Zhang and Christiane Herr</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S2</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span></div>
                     </div>
                 </div>
             </div>
@@ -1403,7 +1421,7 @@ Learning and Data Exploration. J. Mach. Learn. Res., 22,
                     <div class="paper-title">Improving Architectural Form Classification through Salingaros’ Metrics and Topological Data Analysis</div>
                     <div class="paper-meta">
                         <div class="author-tag">Chen-An Lee and June-Hao Hou</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S2</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span></div>
                     </div>
                 </div>
             </div>
@@ -1460,7 +1478,7 @@ weaving to other fields of visual pattern generation." onmouseenter="showTooltip
                     <div class="paper-title">Encoding Performance in Digital Weave Design Using AI and Optimisation</div>
                     <div class="paper-meta">
                         <div class="author-tag">Xinru Li and Kam-Ming Mark Tam</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S2</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span></div>
                     </div>
                 </div>
             </div>
@@ -1499,7 +1517,7 @@ of resilient shoreline ecosystems." onmouseenter="showTooltip(this)" onmouseleav
                     <div class="paper-title">Generative Design for Coastal Resilience: A Computational Approach to Living Shorelines</div>
                     <div class="paper-meta">
                         <div class="author-tag">Michael Dieffenthaller, Hallie Fischman, Christine Angelini and Karla Saldana Ochoa</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S2</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span></div>
                     </div>
                 </div>
             </div>
@@ -1508,12 +1526,12 @@ of resilient shoreline ecosystems." onmouseenter="showTooltip(this)" onmouseleav
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">S-S5, PROMPTING ARCHITECTURE (6 papers in total)</div>
+            <div class="session-title">S-S4, PROMPTING ARCHITECTURE (3 papers in total)</div>
             <div class="session-info">Speaker-Driven Session</div>
         </div>
         
         <div class="papers-container">
-            <div class="paper-row" data-topics="PROMPTING ARCHITECTURE" data-session="S-S5" data-decision="Springer" data-abstract="Rule-Based Procedural Content Generation (PCG) methods have
+            <div class="paper-row" data-topics="PROMPTING ARCHITECTURE" data-session="S-S4" data-decision="Springer" data-abstract="Rule-Based Procedural Content Generation (PCG) methods have
 been instrumental in exploring the mathematical principles
 underlying traditional Chinese vernacular architecture
 (Wang et al. 2020). However, they often require detailed
@@ -1577,83 +1595,11 @@ University Press, Tianjin, 1999." onmouseenter="showTooltip(this)" onmouseleave=
                     <div class="paper-title">Text-to-Siheyuan: LLM-based Multi-Agent Procedural Generation System of Vernacular Architecture in Beijing</div>
                     <div class="paper-meta">
                         <div class="author-tag">Zixi Zhang, Wenshuo Zhang and Runjia Tian</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S5</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S4</span></div>
                     </div>
                 </div>
             </div>
-            <div class="paper-row" data-topics="ARCHITECTURAL COMPUTING & REASONING" data-session="S-S5" data-decision="Springer" data-abstract="This study proposes a workflow, ConStructGNN, that
-integrates geometric, semantic, and topological information
-to address the challenges of 3D spatial layout during the
-architectural conceptual design stage. ConStructGNN employs
-Graph Neural Networks (GNNs) to predict spatial features
-and infer layout rules. In the preprocessing phase, a
-node-edge graph automatically extracts spatial elements
-from building models and encodes them into graph datasets
-with 3D nodes and topological relationships. Leveraging
-this structured representation, ConStructGNN facilitates
-designers to create conceptual layout plans by defining 3D
-graphs, which serve as intuitive abstractions of spatial
-logic, similar to bubble diagrams in early design stages.
-To verify their accuracy, spatial consistency is assessed
-using Hausdorff distance to compare predicted and input
-graphs. Experimental results on representative cases show
-that ConStructGNN achieves a spatial similarity exceeding
-95%, demonstrating its effectiveness in generating
-consistent architectural spatial layouts and improving the
-efficiency of conceptual design." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">114</div>
-                <div class="paper-content">
-                    <div class="paper-title">ConStructGNN: A Graph Neural Network Framework for Adaptive 3D Architectural Layout</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Quan Zhou, Yize Li, Zejian Li and Immanuel Koh</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S5</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="paper-row" data-topics="ARCHITECTURAL COMPUTING & REASONING" data-session="S-S5" data-decision="Springer" data-abstract="Architectural drawings are powerful tools for representing
-spatial, functional, and relational knowledge about
-buildings and environments. Traditionally interpreted by
-humans, these drawings are now increasingly analyzed by
-learning machines, opening new possibilities for design.
-However, machine’s current ability to understand floorplans
-is still limited compared to human architectural expertise.
-By enabling machines to read and analyze floorplans as
-architects do, we unlock new ways to enhance and support
-the design process in an era of growing visual data. A key
-challenge is enabling machines to interpret geometry,
-topology, and architectural semantics with the same depth,
-fluidity, and understanding as architects. While architects
-instinctively perceive visuals as cohesive wholes, drawing
-on tacit knowledge and experience that shape their
-perception, machines require formalized relationships
-through annotated knowledge representation. Formalization
-is crucial for bridging the gap between human perception
-and computational analysis in the evolving landscape of
-intelligent machines. This study proposes a theoretical
-framework for understanding spatial knowledge in
-floorplans, addressing the various layers of information
-embedded within them. By deconstructing implicit
-information using a case study of a house, this research
-connects visual features with computer vision tasks such as
-detection, segmentation, and classification, while also
-associating architectural semantics with existing knowledge
-models. The framework outlines 15 information layers that
-provide a foundation for future architectural datasets.
-This interdisciplinary approach bridges the gap between
-human perception and computational analysis, enhancing
-transparency and accessibility in architectural reasoning,
-contributing to holistic knowledge representation in the
-era of multimodal artificial intelligence (AI)." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">231</div>
-                <div class="paper-content">
-                    <div class="paper-title">Reading Between the Lines: Bridging AI and Architectural Knowledge in Floorplan Understanding</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Marija Mateljan, Seyran Khademi and Georg Vrachliotis</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S5</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="paper-row" data-topics="PROMPTING ARCHITECTURE" data-session="S-S5" data-decision="Springer" data-abstract="The integration of Geographic Information Systems (GIS),
+            <div class="paper-row" data-topics="PROMPTING ARCHITECTURE" data-session="S-S4" data-decision="Springer" data-abstract="The integration of Geographic Information Systems (GIS),
 Building Information Modeling (BIM), and multi-agent Large
 Language Models (LLMs) offers transformative possibilities
 for generating localized and regulation-compliant
@@ -1692,41 +1638,11 @@ practical solutions for site-specific architectural design." onmouseenter="showT
                     <div class="paper-title">Interactive BIM Modelling Assistant with Multi-Agent LLM</div>
                     <div class="paper-meta">
                         <div class="author-tag">Chao Tang, Kam-Ming Mark Tam and Christiane Margerita Herr</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S5</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S4</span></div>
                     </div>
                 </div>
             </div>
-            <div class="paper-row" data-topics="ARCHITECTURAL COMPUTING & REASONING" data-session="S-S5" data-decision="Springer" data-abstract="This paper reinterprets Vitruvius’s architectural theory to
-challenge the canonical view of De Architectura as a rigid,
-rule-based system of Classical architecture. Traditionally,
-Vitruvius has been positioned as the foundation of
-deterministic architectural logic, emphasizing proportional
-and formal systems—a logic reinforced by computational
-design’s algorithmic formalization. However, this study
-uncovers the latent ambiguities within Vitruvius’s
-prescriptions, revealing gaps, redundancies, and contextual
-flexibility that foster dynamic and adaptive design
-processes. Drawing on George Stiny’s conception of
-ambiguity in shape grammars, this paper argues that
-Vitruvius’s ambiguities align with contemporary
-computational approaches, where open-ended rules and
-iterative recalibrations enable creativity and
-responsiveness to context. By reframing Vitruvius’s
-principles as a generative framework, this study bridges
-historical and computational design, demonstrating how
-ambiguity functions as a catalytic interface for
-innovation, adaptability, and interdisciplinary exchange in
-architecture." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">230</div>
-                <div class="paper-content">
-                    <div class="paper-title">Computing Beyond the Vitruvian Canon: Ambiguity as a Catalyst in Computational Design Theory</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Hayri Dortdivanlioglu</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S5</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="paper-row" data-topics="PROMPTING ARCHITECTURE" data-session="S-S5" data-decision="Springer" data-abstract="Confronted with accelerating change, the design of
+            <div class="paper-row" data-topics="PROMPTING ARCHITECTURE" data-session="S-S4" data-decision="Springer" data-abstract="Confronted with accelerating change, the design of
 sustainable environments must align long-lasting
 philosophies with hyper-adaptive solutions. This research
 introduces a method for rapidly reconfigurable timber
@@ -1772,7 +1688,119 @@ efficiency and environmental consciousness." onmouseenter="showTooltip(this)" on
                     <div class="paper-title">Prompt-to-Production: AI-Driven Design and Robotic Fabrication for Rapidly Reconfigurable Circular Timber Assemblies</div>
                     <div class="paper-meta">
                         <div class="author-tag">Nils Opgenorth, Zhenxiang Huang, Jonas Maria Mertens, Hans Jakob Wagner and Achim Menges</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S5</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S4</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="session">
+        <div class="session-header">
+            <div class="session-title">S-S5, ARCHITECTURAL COMPUTING & REASONING (3 papers in total)</div>
+            <div class="session-info">Speaker-Driven Session</div>
+        </div>
+        
+        <div class="papers-container">
+            <div class="paper-row" data-topics="ARCHITECTURAL COMPUTING & REASONING" data-session="S-S5" data-decision="Springer" data-abstract="This study proposes a workflow, ConStructGNN, that
+integrates geometric, semantic, and topological information
+to address the challenges of 3D spatial layout during the
+architectural conceptual design stage. ConStructGNN employs
+Graph Neural Networks (GNNs) to predict spatial features
+and infer layout rules. In the preprocessing phase, a
+node-edge graph automatically extracts spatial elements
+from building models and encodes them into graph datasets
+with 3D nodes and topological relationships. Leveraging
+this structured representation, ConStructGNN facilitates
+designers to create conceptual layout plans by defining 3D
+graphs, which serve as intuitive abstractions of spatial
+logic, similar to bubble diagrams in early design stages.
+To verify their accuracy, spatial consistency is assessed
+using Hausdorff distance to compare predicted and input
+graphs. Experimental results on representative cases show
+that ConStructGNN achieves a spatial similarity exceeding
+95%, demonstrating its effectiveness in generating
+consistent architectural spatial layouts and improving the
+efficiency of conceptual design." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">114</div>
+                <div class="paper-content">
+                    <div class="paper-title">ConStructGNN: A Graph Neural Network Framework for Adaptive 3D Architectural Layout</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Quan Zhou, Yize Li, Zejian Li and Immanuel Koh</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: S-S5</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="paper-row" data-topics="ARCHITECTURAL COMPUTING & REASONING" data-session="S-S5" data-decision="Springer" data-abstract="Architectural drawings are powerful tools for representing
+spatial, functional, and relational knowledge about
+buildings and environments. Traditionally interpreted by
+humans, these drawings are now increasingly analyzed by
+learning machines, opening new possibilities for design.
+However, machine’s current ability to understand floorplans
+is still limited compared to human architectural expertise.
+By enabling machines to read and analyze floorplans as
+architects do, we unlock new ways to enhance and support
+the design process in an era of growing visual data. A key
+challenge is enabling machines to interpret geometry,
+topology, and architectural semantics with the same depth,
+fluidity, and understanding as architects. While architects
+instinctively perceive visuals as cohesive wholes, drawing
+on tacit knowledge and experience that shape their
+perception, machines require formalized relationships
+through annotated knowledge representation. Formalization
+is crucial for bridging the gap between human perception
+and computational analysis in the evolving landscape of
+intelligent machines. This study proposes a theoretical
+framework for understanding spatial knowledge in
+floorplans, addressing the various layers of information
+embedded within them. By deconstructing implicit
+information using a case study of a house, this research
+connects visual features with computer vision tasks such as
+detection, segmentation, and classification, while also
+associating architectural semantics with existing knowledge
+models. The framework outlines 15 information layers that
+provide a foundation for future architectural datasets.
+This interdisciplinary approach bridges the gap between
+human perception and computational analysis, enhancing
+transparency and accessibility in architectural reasoning,
+contributing to holistic knowledge representation in the
+era of multimodal artificial intelligence (AI)." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">231</div>
+                <div class="paper-content">
+                    <div class="paper-title">Reading Between the Lines: Bridging AI and Architectural Knowledge in Floorplan Understanding</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Marija Mateljan, Seyran Khademi and Georg Vrachliotis</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: S-S5</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="paper-row" data-topics="ARCHITECTURAL COMPUTING & REASONING" data-session="S-S5" data-decision="Springer" data-abstract="This paper reinterprets Vitruvius’s architectural theory to
+challenge the canonical view of De Architectura as a rigid,
+rule-based system of Classical architecture. Traditionally,
+Vitruvius has been positioned as the foundation of
+deterministic architectural logic, emphasizing proportional
+and formal systems—a logic reinforced by computational
+design’s algorithmic formalization. However, this study
+uncovers the latent ambiguities within Vitruvius’s
+prescriptions, revealing gaps, redundancies, and contextual
+flexibility that foster dynamic and adaptive design
+processes. Drawing on George Stiny’s conception of
+ambiguity in shape grammars, this paper argues that
+Vitruvius’s ambiguities align with contemporary
+computational approaches, where open-ended rules and
+iterative recalibrations enable creativity and
+responsiveness to context. By reframing Vitruvius’s
+principles as a generative framework, this study bridges
+historical and computational design, demonstrating how
+ambiguity functions as a catalytic interface for
+innovation, adaptability, and interdisciplinary exchange in
+architecture." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">230</div>
+                <div class="paper-content">
+                    <div class="paper-title">Computing Beyond the Vitruvian Canon: Ambiguity as a Catalyst in Computational Design Theory</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Hayri Dortdivanlioglu</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: S-S5</span></div>
                     </div>
                 </div>
             </div>
@@ -1872,7 +1900,7 @@ https://doi.org/10.1177/23998083211048496" onmouseenter="showTooltip(this)" onmo
                     <div class="paper-title">Discovering Pareto-Efficient Urban Networks Through Shape Grammar, Multi-Objective Optimisation and Machine Learning</div>
                     <div class="paper-meta">
                         <div class="author-tag">Yanran Shan and Kam-Ming Mark Tam</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S2</span><span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span><span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span></div>
                     </div>
                 </div>
             </div>
@@ -2062,7 +2090,7 @@ experience." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     </div>
                 </div>
             </div>
-            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1" data-decision="Companion" data-abstract="As architecture increasingly demands complex geometries and
+            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1 " data-decision="Companion" data-abstract="As architecture increasingly demands complex geometries and
 intricate building environments, robotic systems equipped
 with intelligent perception and decision-making
 capabilities are crucial for bridging the gap be-tween
@@ -2087,11 +2115,11 @@ design-to-production." onmouseenter="showTooltip(this)" onmouseleave="hideToolti
                     <div class="paper-title">Enhancing Robotic Embodiment in Architecture: An Intelligent Approach Combining Vision Systems and Generative Neural Networks for Autonomous Design-to-Production</div>
                     <div class="paper-meta">
                         <div class="author-tag">Zhiyong Dong, Qi Wang, Maowei Jiang and Peter Búš</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-C1</span><span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-C1 </span><span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span></div>
                     </div>
                 </div>
             </div>
-            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1" data-decision="Companion" data-abstract="Worker safety and operational efficiency remain critical
+            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1 " data-decision="Companion" data-abstract="Worker safety and operational efficiency remain critical
 challenges in the architecture, engineering, construction,
 and operations (AECO) industry, particularly within dynamic
 and hazard-prone environments. This study presents an
@@ -2129,7 +2157,7 @@ environments." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Machine Learning and Mixed Reality-Controlled Cable Robots for Real-Time Construction Automation</div>
                     <div class="paper-meta">
                         <div class="author-tag">Qi Wang, Zhiyong Dong, Maowei Jiang and Peter Búš</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-C1</span><span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-C1 </span><span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span></div>
                     </div>
                 </div>
             </div>
@@ -2455,7 +2483,7 @@ transformation of the construction industry." onmouseenter="showTooltip(this)" o
                     </div>
                 </div>
             </div>
-            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1" data-decision="Companion" data-abstract="The application of natural materials and recycled materials
+            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1 " data-decision="Companion" data-abstract="The application of natural materials and recycled materials
 in the construction industry is crucial for reducing
 resource consumption and lowering carbon emissions.
 However, the irregularity in dimensions, shape, and
@@ -2493,11 +2521,11 @@ promoting sustainable and circular con-struction practices." onmouseenter="showT
                     <div class="paper-title">Stock-Constrained Design of Irregular Material Based on Graph Neural Networks</div>
                     <div class="paper-meta">
                         <div class="author-tag">Qinhui Yang, Hua Chai and Philip F. Yuan</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-C1</span><span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-C1 </span><span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span></div>
                     </div>
                 </div>
             </div>
-            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1" data-decision="Companion" data-abstract="With the growing demand for sustainability and innovative
+            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1 " data-decision="Companion" data-abstract="With the growing demand for sustainability and innovative
 materials in the construction industry, the use of recycled
 wood and natural materials has become a key focus of
 research. This study presents an integrated dual-robot
@@ -2525,7 +2553,7 @@ architectural design and construction." onmouseenter="showTooltip(this)" onmouse
                     <div class="paper-title">Grasp-to-Mill (GtM) Integrated Workflow for Natural Log Joint Fabrication Based on Multi-Objective Optimization Algorithm</div>
                     <div class="paper-meta">
                         <div class="author-tag">Yalei Zhu, Tianyi Gao, Hua Chai, Xincheng Jiang and Philip F. Yuan</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-C1</span><span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-C1 </span><span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span></div>
                     </div>
                 </div>
             </div>
@@ -2839,7 +2867,7 @@ reconfigurable construction solutions." onmouseenter="showTooltip(this)" onmouse
                     </div>
                 </div>
             </div>
-            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1" data-decision="Companion" data-abstract="Extended reality (XR) brings immersive interactions that
+            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1 " data-decision="Companion" data-abstract="Extended reality (XR) brings immersive interactions that
 can integrate digi-tal information with physical
 environments to design on a 1-to-1 scale, tak-ing
 architecture design from two-dimensional to holographic.
@@ -2874,7 +2902,7 @@ architectural practices." onmouseenter="showTooltip(this)" onmouseleave="hideToo
                     <div class="paper-title">Augmented Assembly: an Exploration of Modular Design to Fabrication based on Extended Reality</div>
                     <div class="paper-meta">
                         <div class="author-tag">Zhiyong Dong, Zhiqian Liu and Peter Búš</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-C1</span><span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-C1 </span><span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span></div>
                     </div>
                 </div>
             </div>
