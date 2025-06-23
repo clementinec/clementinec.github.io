@@ -1,0 +1,68 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+---
+
+## Presentation Instructions
+
+Welcome to the Presentation Instructions section of CAAD Futures 2025. This page outlines the guidelines for all authors presenting in the conference, including details on timing, session setup, slide formatting, and presentation submission. Please read carefully to ensure a smooth presentation experience.
+
+Please note that **all authors—across all publication types—are expected to present** their work at the conference.
+
+#### Presentation Length by Session Type
+
+- **Special Collection Paper Sessions**
+  - **12-minute talk** + **3-minute Q&A**
+  - *also known as Springer papers*
+  - *Note*: May be lead by an invited speaker; see descriptions below.
+  
+- **Conference Proceedings Parallel Paper Sessions**
+  - **7-minute talk** + **2-minute Q&A**
+  - *also known as Companion/Compendium papers*
+
+- **Catalytic Interfaces (CI) Session**
+  - **20-minute slot**; 10 minutes suggested for presentation. 
+  - You may use this time flexibly for discussion or other formats.
+
+Kindly ensure your presentation stays within the allocated time.
+
+#### Session Setup
+
+- Each session will be chaired by an expert with relevant domain knowledge.
+- **Special Collection Papers** may be assigned to:
+  - **Speaker-led Sessions**: These include an extended panel format. In addition to 15 minutes per author, an extra 25 minutes is given for the invited speaker to allocate across discussion or presentations.
+  - **Standard Sessions**: Feature a session chair only, with authors presenting in sequence.
+
+#### Presentation Formatting Requirements
+
+Please use the following [`template`](https://drive.google.com/drive/folders/1zTWbRAN1ZaBuQtLn70jaE-IBEY97ZCtc?usp=sharing) file.
+
+Please make sure you update your **main slide master** with the following identifier information:
+
+1. **Session Number & Topic** (to be announced soon):
+   - Speaker-led Special Collection Paper Sessions: `S-SX` (e.g. S-S1, S-S2)
+   - Special Collection Paper Sessions: `S-X` (e.g. S-1, S-2)
+   - Parallel Paper Sessions: `P-YX` (e.g. P-A1, P-B2)
+   - Catalytic Interface Presentations: `CI-X` (e.g. CI-1, CI-2; ordering to be announced)
+
+2. **Paper Number**: Use the format `#XXX` (e.g. #123)
+3. **Short Title** 
+4. **Presentation Date** 
+
+Additionally, please update your **title slide**, making sure it includes:
+
+1. **Title & Subtitle of Paper**
+
+2. **Presenter and Co-authors**
+
+3. **Institutional Affiliations**
+
+#### Schedule & Upload Details
+
+- The final schedule, including session numbers, topics, and paper assignments, will be posted by **24 June 2025**.
+- Presentations must be uploaded in advance using a **Google Form** (link to be provided soon).
+  - Presentations will be pre-loaded on session computers.
+  - **Deadline**: Submit your presentation at least **one day before your scheduled session**.
+

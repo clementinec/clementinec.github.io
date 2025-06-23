@@ -87,7 +87,7 @@ format:
         <img src="images/MT.png" alt="Prof. Dr. Kam-Ming Mark TAM ">
     </div>
     <div class="text-cell">
-        <h3>Co-Chair: Prof. Dr. Kam-Ming Mark TAM </h3>
+        <h3>Lead Co-Chair: Prof. Dr. Kam-Ming Mark TAM </h3>
         <p>Prof. Dr. Kam-Ming Mark TAM is an Assistant Professor of Architectural Structures at the University of Hong Kong, specialising in computational design, structural geometry, and digital manufacturing techniques. He has expertise in Geometric Deep Learning (GDL) and Deep Reinforcement Learning, which he developed during his doctoral research at ETH Zürich. Tam’s doctoral thesis focused on novel GDL methodologies for learning and modelling hierarchical discrete data structures like meshes. Before his doctoral studies, Tam earned a Master of Engineering (MEng) from MIT and a Master of Architecture from the University of Waterloo. His MEng research, which proposed a method for robotics-enabled 3-D printing based on principal stress line, received the Tsuboi best paper award for the 2015th International Association for Shell and Spatial Structures. He has taught at various institutions, including Singapore University of Technology and Design and Pratt Institute. His work has been presented at numerous conferences, and he has contributed to the development of additive manufacturing techniques and the realisation of large-scale architectural projects such as OneC1TY in Nashville.</p>
     </div>
 </div>
