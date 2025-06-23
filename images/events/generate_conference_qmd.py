@@ -157,6 +157,11 @@ body {
     color: white !important;
 }
 
+.paper-row.session-highlight:hover {
+    background-color: #333 !important;
+    color: white !important;
+}
+
 
 .paper-row[data-abstract]:hover::before {
     display: none !important;
@@ -237,9 +242,8 @@ body {
 title: ""
 format: 
   html:
-    theme: default
     toc: false
-    page-layout: article
+    page-layout: custom
     grid:
       sidebar-width: 30px
       body-width: 3000px
@@ -256,7 +260,7 @@ format:
 
 <div class="container">
     <h1>Conference Papers</h1>
-    <p><strong>{components['stats']['total_papers']} papers</strong> across <strong>{components['stats']['total_topics']} topics</strong></p>
+    <p><strong>{components['stats']['total_papers']} papers</strong> across <strong>{components['stats']['total_topics']} topics</strong> in <strong>{components['stats']['total_sessions']} sessions</strong></p>
     
 {components['filter_buttons']}
 
@@ -334,7 +338,7 @@ document.addEventListener('DOMContentLoaded', function() {{
                     session.style.display = 'block';
                 }});
             }} else {{
-                // Hide/show papers based on topic and add highlighting
+                // Hide/show papers based on topic
                 const topicClass = topicClassMap[selectedTopic];
                 
                 paperRows.forEach(row => {{
@@ -373,8 +377,8 @@ document.addEventListener('DOMContentLoaded', function() {{
         f.write(qmd_content)
     
     print(f"Conference QMD file generated: {output_qmd}")
-    print(f"Stats: {components['stats']['total_papers']} papers, {components['stats']['total_topics']} topics")
-    print(f"Topics: {', '.join(components['stats']['topics_list'][:5])}{'...' if len(components['stats']['topics_list']) > 5 else ''}")
+    print(f"Stats: {components['stats']['total_papers']} papers, {components['stats']['total_sessions']} sessions, {components['stats']['total_topics']} topics")
+    print(f"Sessions: {', '.join(components['stats']['sessions_list'][:5])}{'...' if len(components['stats']['sessions_list']) > 5 else ''}")
     
     return output_qmd
 

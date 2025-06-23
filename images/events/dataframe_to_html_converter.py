@@ -6,7 +6,7 @@ import re
 class ConferenceHTMLGenerator:
     def __init__(self, df):
         """
-        Initialize with a DataFrame containing columns: ID, Title, Authors, Final Topic, assigned_cluster, Decisions
+        Initialize with a DataFrame containing columns: ID, Title, Authors, Final Topic, Session, Decisions
         """
         self.df = df.copy()
         
@@ -26,11 +26,11 @@ class ConferenceHTMLGenerator:
         # Generate colors for topics
         self.topic_colors = self._generate_topic_colors()
         
-        # NEW: Get unique clusters for session generation
-        self.clusters = sorted(self.df['assigned_cluster'].dropna().unique().tolist())
+        # Get unique sessions (replacing clusters)
+        self.sessions = sorted(self.df['Session'].dropna().unique().tolist())
         
-        # NEW: Generate gray colors for clusters (simplified)
-        self.cluster_colors = self._generate_cluster_gray_colors()
+        # Generate colors for sessions (using similar approach as clusters)
+        self.session_colors = self._generate_session_colors()
         
     def _parse_topics(self, topic_str):
         """Parse topic string, handling multiple topics separated by semicolons"""
@@ -90,9 +90,8 @@ class ConferenceHTMLGenerator:
         
         return topic_colors
     
-    def _generate_cluster_gray_colors(self):
-        """Generate different shades of gray for clusters - ensuring uniqueness"""
-        # More distinct gray shades - wider range to ensure visual distinction
+    def _generate_session_colors(self):
+        """Generate different shades of gray for sessions"""
         gray_shades = [
             '#404040',  # very dark gray
             '#4A4A4A',  # dark gray  
@@ -111,11 +110,11 @@ class ConferenceHTMLGenerator:
             '#4C4C4C',  # dark-ish variant
         ]
         
-        cluster_colors = {}
-        for i, cluster in enumerate(self.clusters):
-            cluster_colors[cluster] = gray_shades[i % len(gray_shades)]
+        session_colors = {}
+        for i, session in enumerate(self.sessions):
+            session_colors[session] = gray_shades[i % len(gray_shades)]
         
-        return cluster_colors
+        return session_colors
     
     def _get_css_class_name(self, topic):
         """Convert topic name to CSS class name"""
@@ -125,7 +124,7 @@ class ConferenceHTMLGenerator:
     
     def _group_papers_by_session(self):
         """
-        MODIFIED: Group papers by session using assigned_cluster and handling poster sessions
+        Group papers by session using the Session column
         """
         sessions = defaultdict(lambda: {'info': {}, 'papers': []})
         
@@ -138,8 +137,7 @@ class ConferenceHTMLGenerator:
             sessions['Poster']['info'] = {
                 'title': 'Poster Session',
                 'topics': 'Various Topics',
-                'time': 'Poster Session',
-                'chair': 'TBD'
+                'time': 'Poster Session'
             }
             
             for _, paper in poster_papers.iterrows():
@@ -149,70 +147,94 @@ class ConferenceHTMLGenerator:
                     'authors': paper['Authors'],
                     'topics': paper['topic_list'] if paper['topic_list'] else [],
                     'topics_str': paper['Final Topic'],
-                    'cluster': paper.get('assigned_cluster', 'N/A'),
+                    'session': paper.get('Session', 'Poster'),
                     'decision': paper['Decisions'],
-                    'abstract': paper['Abstract']
+                    'abstract': paper.get('Abstract', 'No abstract available')
                 })
         
-        # Group regular papers by assigned_cluster
-        cluster_session_counter = defaultdict(int)
-        
+        # Group regular papers by Session column
         for _, paper in regular_papers.iterrows():
-            if pd.isna(paper.get('assigned_cluster')):
+            if pd.isna(paper.get('Session')):
                 continue
                 
-            cluster_name = paper['assigned_cluster']
-            
-            # Create session identifier based on cluster
-            # If multiple papers per cluster, they go in the same session
-            session_id = f"Session_{cluster_name}"
+            session_name = paper['Session']
             
             # Initialize session info if not exists
-            if session_id not in sessions:
-                # Count how many papers are in this cluster to determine session numbering
-                cluster_paper_count = len(regular_papers[regular_papers['assigned_cluster'] == cluster_name])
+            if session_name not in sessions:
+                # Get all papers in this session
+                session_papers = regular_papers[regular_papers['Session'] == session_name]
+                session_paper_count = len(session_papers)
                 
-                sessions[session_id]['info'] = {
-                    'title': f"{cluster_name}",
-                    'topics': cluster_name,
-                    'time': 'Conference Session',
-                    'chair': 'TBD',
-                    'paper_count': cluster_paper_count
+                # Get the most common topic for this session (or first topic if all different)
+                all_topics = []
+                for _, p in session_papers.iterrows():
+                    if not pd.isna(p['Final Topic']):
+                        topics = [t.strip() for t in str(p['Final Topic']).split(';')]
+                        all_topics.extend(topics)
+                
+                # Find most common topic
+                from collections import Counter
+                if all_topics:
+                    topic_counter = Counter(all_topics)
+                    session_topic = topic_counter.most_common(1)[0][0]
+                else:
+                    session_topic = "Mixed Topics"
+                
+                # Determine session type based on session name
+                if session_name.startswith('S-'):
+                    session_type = 'Speaker-Driven Session'
+                elif session_name.startswith('P-'):
+                    session_type = 'Poster Session'
+                else:
+                    session_type = 'Conference Session'
+                
+                sessions[session_name]['info'] = {
+                    'title': f"{session_name}, {session_topic}",
+                    'topics': session_topic,
+                    'time': session_type,
+                    'paper_count': session_paper_count
                 }
             
-            sessions[session_id]['papers'].append({
+            sessions[session_name]['papers'].append({
                 'id': paper['ID'],
                 'title': paper['Title'],
                 'authors': paper['Authors'],
                 'topics': paper['topic_list'] if paper['topic_list'] else [],
                 'topics_str': paper['Final Topic'],
-                'cluster': paper['assigned_cluster'],
+                'session': paper['Session'],
                 'decision': paper['Decisions'],
-                'abstract': paper['Abstract']
+                'abstract': paper.get('Abstract', 'No abstract available')
             })
         
         return dict(sessions)
     
     def generate_filter_buttons_html(self):
-        """Generate HTML for filter buttons - only clusters now"""
+        """Generate HTML for filter buttons - using Final Topics as filters with gray colors"""
         html = '    <div class="filters">\n'
         html += '        <div class="filter-tag all active" data-topic="all">ALL</div>\n'
         
-        # Only add cluster-based filters
-        for cluster in self.clusters:
-            css_class = self._get_css_class_name(cluster)
-            color = self.cluster_colors.get(cluster, '#6c757d')
-            html += f'        <div class="filter-tag {css_class}" data-topic="{cluster}" style="background-color: {color}; color: white;">{cluster}</div>\n'
+        # Generate gray shades for topics
+        gray_shades = [
+            '#404040', '#4A4A4A', '#545454', '#5E5E5E', '#686868',
+            '#727272', '#7C7C7C', '#464646', '#505050', '#5A5A5A',
+            '#646464', '#6E6E6E', '#787878', '#424242', '#4C4C4C'
+        ]
+        
+        # Add topic-based filters with gray colors
+        for i, topic in enumerate(self.topics):
+            css_class = self._get_css_class_name(topic)
+            color = gray_shades[i % len(gray_shades)]
+            html += f'        <div class="filter-tag {css_class}" data-topic="{topic}" style="background-color: {color}; color: white;">{topic}</div>\n'
         
         html += '    </div>\n'
         return html
     
     def generate_sessions_html(self):
-        """Generate HTML for all sessions and papers - MODIFIED to show cluster info"""
+        """Generate HTML for all sessions and papers"""
         sessions = self._group_papers_by_session()
         html = ''
         
-        # Sort sessions: Poster session last, others by cluster name
+        # Sort sessions: Poster session last, others by session name
         def session_sort_key(item):
             session_id, session_data = item
             if session_id == 'Poster':
@@ -229,13 +251,13 @@ class ConferenceHTMLGenerator:
             session_info = session_data['info']
             papers = session_data['papers']
             
-            # Add paper count to session header for regular sessions
-            paper_count_info = f" ({len(papers)} papers)" if session_id != 'Poster' else f" ({len(papers)} posters)"
+            # Add paper count to session header with new format
+            paper_count_info = f" ({len(papers)} papers in total)" if session_id != 'Poster' else f" ({len(papers)} posters)"
             
             html += f'''    <div class="session">
         <div class="session-header">
             <div class="session-title">{session_info['title']}{paper_count_info}</div>
-            <div class="session-info">{session_info['time']} // Session Chair: {session_info['chair']}</div>
+            <div class="session-info">{session_info['time']}</div>
         </div>
         
         <div class="papers-container">\n'''
@@ -249,11 +271,11 @@ class ConferenceHTMLGenerator:
                         color = self.topic_colors.get(topic, '#6c757d')
                         topic_badges += f'<span class="topic-badge" style="background-color: {color};">{topic}</span>'
                 
-                # Add cluster badge for regular papers
-                cluster_badge = ''
-                if paper.get('cluster') and paper['cluster'] != 'N/A' and session_id != 'Poster':
-                    cluster_color = self.cluster_colors.get(paper['cluster'], '#6c757d')
-                    cluster_badge = f'<span class="cluster-badge" style="background-color: {cluster_color}; color: white; margin-left: 5px;">Cluster: {paper["cluster"]}</span>'
+                # Add session badge for ALL papers (including posters)
+                session_badge = ''
+                if paper.get('session'):
+                    session_color = self.session_colors.get(paper['session'], '#6c757d')
+                    session_badge = f'<span class="session-badge" style="background-color: {session_color}; color: white; margin-left: 5px;">Session: {paper["session"]}</span>'
                 
                 # Add decision type badge for poster papers
                 decision_badge = ''
@@ -263,16 +285,16 @@ class ConferenceHTMLGenerator:
                 # Escape quotes in abstract for HTML attributes
                 abstract_text = paper.get('abstract', 'No abstract available').replace('"', '&quot;').replace("'", "&#39;")
                 
-                html += f'''            <div class="paper-row" data-topics="{paper['topics_str']}" data-cluster="{paper.get('cluster', '')}" data-decision="{paper.get('decision', '')}" data-abstract="{abstract_text}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                html += f'''            <div class="paper-row" data-topics="{paper['topics_str']}" data-session="{paper.get('session', '')}" data-decision="{paper.get('decision', '')}" data-abstract="{abstract_text}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                 <div class="paper-id">{paper['id']}</div>
                 <div class="paper-content">
                     <div class="paper-title">{paper['title']}</div>
                     <div class="paper-meta">
                         <div class="author-tag">{paper['authors']}</div>'''
                 
-                if topic_badges or cluster_badge or decision_badge:
+                if topic_badges or session_badge or decision_badge:
                     html += f'''
-                        <div class="additional-topics">{topic_badges}{cluster_badge}{decision_badge}</div>'''
+                        <div class="additional-topics">{topic_badges}{session_badge}{decision_badge}</div>'''
                 
                 html += '''
                     </div>
@@ -285,7 +307,7 @@ class ConferenceHTMLGenerator:
         return html
     
     def generate_css_for_topics(self):
-        """Generate CSS rules for topic-specific highlighting - now includes clusters"""
+        """Generate CSS rules for topic-specific highlighting - now includes sessions"""
         css = ''
         
         # Original topic CSS
@@ -305,10 +327,10 @@ class ConferenceHTMLGenerator:
     background-color: {rgba_bg};
 }}'''
         
-        # Add cluster CSS
-        for cluster in self.clusters:
-            css_class = self._get_css_class_name(cluster)
-            color = self.cluster_colors.get(cluster, '#6c757d')
+        # Add session CSS
+        for session in self.sessions:
+            css_class = self._get_css_class_name(session)
+            color = self.session_colors.get(session, '#6c757d')
             
             # Convert hex to rgba for subtle background
             hex_color = color.lstrip('#')
@@ -317,36 +339,36 @@ class ConferenceHTMLGenerator:
                 rgba_bg = f"rgba({r}, {g}, {b}, 0.05)"
                 
                 css += f'''
-.paper-row.cluster-highlight.{css_class} {{
+.paper-row.session-highlight.{css_class} {{
     border-left: 4px solid {color};
     background-color: {rgba_bg};
 }}'''
         
         # Add CSS for badges and hover effects
         css += '''
-.cluster-badge, .decision-badge {
+.session-badge, .decision-badge {
     font-size: 0.8em;
     padding: 2px 6px;
     border-radius: 3px;
     margin-left: 5px;
 }
 
-/* Cluster filter buttons hover effect - turn red like Chinese seals */
+/* Session filter buttons hover effect - turn red like Chinese seals */
 .filter-tag[data-topic]:hover {
     background-color: #B22222 !important; /* Chinese seal red */
     transform: translateY(-1px);
     transition: all 0.2s ease;
 }
 
-/* Cluster badges hover effect */
-.cluster-badge:hover {
+/* Session badges hover effect */
+.session-badge:hover {
     background-color: #B22222 !important;
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
 
-/* Paper row hover for cluster highlighting */
-.paper-row:hover .cluster-badge {
+/* Paper row hover for session highlighting */
+.paper-row:hover .session-badge {
     background-color: #B22222 !important;
 }
 
@@ -356,25 +378,20 @@ class ConferenceHTMLGenerator:
 }
 
 .session, .papers-container {
-    overflow: visible !important;  /* Add this to parent containers */
+    overflow: visible !important;
 }
 '''
         
         return css
     
     def generate_javascript_topic_mapping(self):
-        """Generate JavaScript object mapping topics and clusters to CSS classes"""
+        """Generate JavaScript object mapping topics to CSS classes"""
         mapping = {}
         
-        # Add topics
+        # Only add topics (not sessions) since we're filtering by topics
         for topic in self.topics:
             css_class = self._get_css_class_name(topic)
             mapping[topic] = css_class
-        
-        # Add clusters
-        for cluster in self.clusters:
-            css_class = self._get_css_class_name(cluster)
-            mapping[cluster] = css_class
         
         # Convert to JavaScript object string
         js_map = "{\n"
@@ -403,10 +420,10 @@ class ConferenceHTMLGenerator:
                 'regular_papers': regular_count,
                 'poster_papers': poster_count,
                 'total_topics': len(self.topics),
-                'total_clusters': len(self.clusters),
-                'total_sessions': session_count,
+                'total_sessions': len(self.sessions),
+                'session_count': session_count,
                 'topics_list': self.topics,
-                'clusters_list': self.clusters
+                'sessions_list': self.sessions
             }
         }
         
@@ -441,21 +458,21 @@ class ConferenceHTMLGenerator:
         print(f"Total papers: {components['stats']['total_papers']}")
         print(f"Regular papers: {components['stats']['regular_papers']}")
         print(f"Poster papers: {components['stats']['poster_papers']}")
-        print(f"Total clusters: {components['stats']['total_clusters']}")
-        print(f"Clusters: {', '.join(components['stats']['clusters_list'])}")
+        print(f"Total sessions: {components['stats']['total_sessions']}")
+        print(f"Sessions: {', '.join(components['stats']['sessions_list'])}")
 
 
 # Usage example with the new columns:
 def process_conference_data(excel_file_path, output_file='conference_components.py'):
     """
     Main function to process conference data and generate HTML components
-    Expected columns: ID, Title, Authors, Final Topic, assigned_cluster, Decisions
+    Expected columns: ID, Title, Authors, Final Topic, Session, Decisions
     """
     # Read the data
     df = pd.read_excel(excel_file_path)
     
     # Verify required columns exist
-    required_columns = ['ID', 'Title', 'Authors', 'Final Topic', 'assigned_cluster', 'Decisions']
+    required_columns = ['ID', 'Title', 'Authors', 'Final Topic', 'Session', 'Decisions']
     missing_columns = [col for col in required_columns if col not in df.columns]
     
     if missing_columns:
