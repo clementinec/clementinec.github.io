@@ -4,6 +4,7 @@ format:
   html:
     toc: False
 ---
+
 <style>
   /* turn off forced uppercase & weird letter‐spacing on **all** headings */
   h1, h2, h3, h4, h5, h6 {
@@ -11,11 +12,11 @@ format:
     letter-spacing: normal !important;
   }
   .faint-line {
-  border: none;
-  height: 1tpx;
-  background-color: #ccc;  /* very light grey */
-  margin: 1.5em 0;          /* optional vertical spacing */
-}
+    border: none;
+    height: 1tpx;
+    background-color: #ccc;  /* very light grey */
+    margin: 1.5em 0;          /* optional vertical spacing */
+  }
 </style>
 
 <!-- # Schedule -->
@@ -28,21 +29,23 @@ _Note: This schedule is tentative and may be updated. Social event details (tour
 
 ## Tuesday, 1 July 2025
 
-- **18:00 – 21:00**: Welcome Drinks
+- **18:00 – 21:00**: Welcome Drinks at [HKU Senior Common Room](https://www.google.com/maps?sca_esv=417d38d31a7a82ae&output=search&q=hku+senior+common+room&source=lnms&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeoJTKjrFjVxydQWqI2NcOhZS8MA-siX0k7PIasuZieEwMBJPsOLDTmy6S081eyuroiz2AFwhURK5LNVxVrVNw06fizpEJ7oaE0iTZuh8lXz2XcrbyPPeGKIZAVEOOYhjI1KCQ8REENpgUuHWkf5STIMnvhAmHykS8jZ9QKyiUCTcHpsr_w&entry=mc&ved=1t:200715&ictx=111)
 
 ---
 
 ## Wednesday, 2 July 2025
 
-- **08:30 – 09:00**: Registration & Opening  
-- **09:00 – 09:20**: Welcome & Opening Remarks  
-- [`09:20 – 10:30:   Keynote 1: MARIANA POPESCU`](keynotes/Mariana.qmd)
-- **10:40 – 11:00**: Catalytic Interfaces – Check In  
-- **11:00 – 12:10**: Speaker-driven Paper Session  
-- **12:10 – 12:50**: Lunch break / Poster viewing  
-- **12:50 – 13:40**: Short Presentations (Parallel Sessions)  
-- **14:00 – 16:20**: Paper Sessions  
-- [`17:00 – 18:00:   Keynote 2: SHIGERU BAN`](keynotes/Shigeru.qmd)
+- **08:30 – 09:00**: Registration  
+- **09:00 – 09:30**: Welcome & Opening Remarks  
+- **09:30 – 09:50**: Lion Dance  
+- [`09:50 – 10:50:   Keynote 1: MARIANA POPESCU`](keynotes/Mariana.qmd)  
+- **11:00 – 11:20**: Catalytic Interfaces – Check In  
+- **11:20 – 12:30**: Speaker-led Presentations 1: INTELLIGENT ROBOTIC ASSEMBLY  
+- **12:30 – 13:10**: Lunch break / Poster viewing  
+- **13:10 – 14:00**: Parallel Presentations 1  
+- **14:20 – 15:20**: Special Collection Presentations 1: GENERATING BUILDING LAYOUT  
+- **15:40 – 16:25**: Special Collection Presentations 2: AUGMENTING & ADVANCING DESIGN  
+- [`17:00 – 18:00:   Keynote 2: SHIGERU BAN`](keynotes/Shigeru.qmd)  
 - **18:00 – 19:00**: Catalytic Interfaces – Work Session  
 - **19:00 – 21:00**: [Victoria Peak at Night](event_details.qmd#VictoriaPeak)  
 - **20:30 – 22:00**: [Henderson by Zaha Hadid Architects](event_details.qmd#Henderson)  
@@ -52,51 +55,44 @@ _Note: This schedule is tentative and may be updated. Social event details (tour
 ## Thursday, 3 July 2025
 
 - **08:30 – 09:00**: Registration & Opening  
-- [`09:00 – 10:00:   Keynote 3: WANYU HE`](keynotes/Wanyu.qmd)
+- [`09:00 – 10:00:   Keynote 3: WANYU HE`](keynotes/Wanyu.qmd)  
 - **10:10 – 10:30**: Catalytic Interfaces – Check In  
-- **10:30 – 11:40**: Speaker-driven Paper Session  
-- **11:40 – 12:20**: Lunch break / Poster viewing  
-- **12:20 – 13:10**: Short Presentations (Parallel Sessions)  
-- **13:30 – 14:40**: Speaker-driven Paper Session  
-- **15:00 – 17:20**: Paper Sessions  
-- **17:20 – 19:00**: Catalytic Interfaces – Work Session  
+- **10:30 – 11:55**: Speaker-led Presentations 2: URBAN PERCEPTIONS & PATTERNS I  
+- **11:55 – 12:45**: Lunch break / Poster viewing  
+- **12:45 – 13:35**: Parallel Presentations 2  
+- **13:55 – 15:20**: Speaker-led Presentations 3: MORPHOLOGY ACROSS SCALES  
+- **15:40 – 16:25**: Special Collection Presentations 3: URBAN PERCEPTIONS & PATTERNS II  
+- **16:45 – 17:45**: Special Collection Presentations 4: STRUCTURAL, FABRICATION & MATERIAL LOGIC  
+- **17:45 – 19:16**: Catalytic Interfaces – Work Session  
 - **19:00 – 21:00**: [Victoria Peak at Night](event_details.qmd#VictoriaPeak)  
-- **19:00 – 21:00**: [Bar in Sai Ying Pun](event_details.qmd#BarCentral)  
 
 ---
 
 ## Friday, 4 July 2025
 
 - **08:30 – 09:00**: Registration & Opening  
-- [`09:00 – 10:00:   Keynote 4: DANIELA MITTERBERGER`](keynotes/Daniela.qmd)
+- [`09:00 – 10:00:   Keynote 4: DANIELA MITTERBERGER`](keynotes/Daniela.qmd)  
 - **10:10 – 10:30**: Catalytic Interfaces – Check In  
-- **10:30 – 11:40**: Speaker-driven Paper Session  
-- **11:40 – 12:20**: Lunch break / Poster viewing  
-- **12:20 – 13:10**: Short Presentations (Parallel Sessions)  
-- **13:10 – 14:20**: Speaker-driven Paper Session  
-- **14:40 – 17:20**: Catalytic Interfaces Presentations  
-- [`17:30 – 18:30:   Keynote 5: WILSON LU`](keynotes/Wilson.qmd)
-- **18:30 – 19:00**: Closing Speeches & Awards  
-- **19:30 onward**: Banquet Dinner
+- **10:30 – 11:40**: Speaker-led Presentations 4: PROMPTING ARCHITECTURE  
+- **12:00 – 12:50**: Parallel Presentations 3  
+- **12:50 – 13:40**: Lunch break / Poster viewing  
+- **13:40 – 14:50**: Speaker-led Presentations 5: ARCHITECTURAL COMPUTING & REASONING  
+- **15:10 – 17:10**: Catalytic Interfaces Presentation  
+- [`17:30 – 18:30:   Keynote 5: WILSON LU`](keynotes/Wilson.qmd)  
+- **18:30 – 19:00**: Closing Remarks  
+- **19:30 – 22:30**: Banquet Dinner  
 
 ---
 
 ## Saturday, 5 July 2025
 
-- **08:30 – 20:30**: Shenzhen Tour  
-- **09:30 – 11:30**: [Henderson by Zaha Hadid Architects](event_details.qmd#Henderson)  
-- **09:30 – 11:30**: [Diamond Hill Crematorium](event_details.qmd#DiamondHill)  
+- **08:30 – 20:30**: [Discovering Shenzhen](event_details.qmd#ShenzhenTour)
 - **09:30 – 11:30**: [Mongkok & Yau Ma Tei](event_details.qmd#MongkokYauMaTei)  
-- **09:30 – 11:30**: [Wan Chai Temple & Blue House](event_details.qmd#WanChaiTempleBlueHouse)  
-- **13:30 – 15:30**: [Henderson by Zaha Hadid Architects](event_details.qmd#Henderson)  
-- **13:30 – 15:30**: [Diamond Hill Crematorium](event_details.qmd#DiamondHill)  
-- **13:30 – 15:30**: [Mongkok & Yau Ma Tei](event_details.qmd#MongkokYauMaTei)  
+- **13:30 – 15:30**: [Henderson by Zaha Hadid Architects](event_details.qmd#Henderson)
 - **13:30 – 15:30**: [Public Housing](event_details.qmd#PublicHousing)  
-- **14:30 – 16:30**: [M+ Art Museum by Herzog and de Meuron](event_details.qmd#MPlus)  
+- **14:30 – 16:30**: [M+ Art Museum by Herzog and de Meuron](event_details.qmd#MPlus)
+- **14:30 – 16:30**: [Wan Chai Temple & Blue House](event_details.qmd#WanChaiTempleBlueHouse)  
 - **16:30 – 18:30**: [Henderson by Zaha Hadid Architects](event_details.qmd#Henderson)  
-- **16:30 – 18:30**: [Wan Chai Temple & Blue House](event_details.qmd#WanChaiTempleBlueHouse)  
-- **16:30 – 18:30**: [M+ Art Museum by Herzog and de Meuron](event_details.qmd#MPlus)  
-- **16:30 – 18:30**: [Public Housing](event_details.qmd#PublicHousing)  
 - **19:30 – 20:30**: [North Point to Whitty Street Tram Depot](event_details.qmd#TramTourWestToEast)  
 - **20:30 – 21:30**: [North Point to Whitty Street Tram Depot](event_details.qmd#TramTourWestToEast)  
 
@@ -108,4 +104,4 @@ _Note: This schedule is tentative and may be updated. Social event details (tour
 
 ---
 
-_Note again: This schedule is tentative and subject to change._
+_Note again: This schedule is tentative and subject to change._  
