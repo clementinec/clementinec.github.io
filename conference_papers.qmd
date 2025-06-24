@@ -376,36 +376,36 @@ body {
 
 <div class="container">
     <h1>Conference Papers</h1>
-    <p><strong>88 papers</strong> across <strong>20 topics</strong> in <strong>18 sessions</strong></p>
+    <p><strong>88 papers</strong> across <strong>20 topics</strong> in <strong>21 sessions</strong></p>
     
     <div class="filters">
         <div class="filter-tag all active" data-topic="all">ALL</div>
-        <div class="filter-tag ai-for-design-evaluation" data-topic="AI FOR DESIGN EVALUATION" style="background-color: #404040; color: white;">AI FOR DESIGN EVALUATION</div>
-        <div class="filter-tag architectural-computing--reasoning" data-topic="ARCHITECTURAL COMPUTING & REASONING" style="background-color: #4A4A4A; color: white;">ARCHITECTURAL COMPUTING & REASONING</div>
-        <div class="filter-tag augmenting--advancing-design" data-topic="AUGMENTING & ADVANCING DESIGN" style="background-color: #545454; color: white;">AUGMENTING & ADVANCING DESIGN</div>
-        <div class="filter-tag augmenting-design-generation" data-topic="AUGMENTING DESIGN GENERATION" style="background-color: #5E5E5E; color: white;">AUGMENTING DESIGN GENERATION</div>
-        <div class="filter-tag building-architectural-insights" data-topic="BUILDING ARCHITECTURAL INSIGHTS" style="background-color: #686868; color: white;">BUILDING ARCHITECTURAL INSIGHTS</div>
-        <div class="filter-tag community--collective-intelligence" data-topic="COMMUNITY & COLLECTIVE INTELLIGENCE" style="background-color: #727272; color: white;">COMMUNITY & COLLECTIVE INTELLIGENCE</div>
-        <div class="filter-tag catalytic-interface" data-topic="Catalytic Interface" style="background-color: #7C7C7C; color: white;">Catalytic Interface</div>
-        <div class="filter-tag evaluating--expanding-ai" data-topic="EVALUATING & EXPANDING AI" style="background-color: #464646; color: white;">EVALUATING & EXPANDING AI</div>
-        <div class="filter-tag generating-building-layout" data-topic="GENERATING BUILDING LAYOUT" style="background-color: #505050; color: white;">GENERATING BUILDING LAYOUT</div>
-        <div class="filter-tag immersive-learning--design" data-topic="IMMERSIVE LEARNING & DESIGN" style="background-color: #5A5A5A; color: white;">IMMERSIVE LEARNING & DESIGN</div>
-        <div class="filter-tag intelligent-robotic-assembly" data-topic="INTELLIGENT ROBOTIC ASSEMBLY" style="background-color: #646464; color: white;">INTELLIGENT ROBOTIC ASSEMBLY</div>
-        <div class="filter-tag intelligent-robotics--layout-planning" data-topic="INTELLIGENT ROBOTICS & LAYOUT PLANNING" style="background-color: #6E6E6E; color: white;">INTELLIGENT ROBOTICS & LAYOUT PLANNING</div>
-        <div class="filter-tag morphology-across-scales" data-topic="MORPHOLOGY ACROSS SCALES" style="background-color: #787878; color: white;">MORPHOLOGY ACROSS SCALES</div>
-        <div class="filter-tag prompting-architecture" data-topic="PROMPTING ARCHITECTURE" style="background-color: #424242; color: white;">PROMPTING ARCHITECTURE</div>
-        <div class="filter-tag structural-fabrication--material-logic" data-topic="STRUCTURAL, FABRICATION & MATERIAL LOGIC" style="background-color: #4C4C4C; color: white;">STRUCTURAL, FABRICATION & MATERIAL LOGIC</div>
-        <div class="filter-tag sustainable-building-design-processes" data-topic="SUSTAINABLE BUILDING DESIGN PROCESSES" style="background-color: #404040; color: white;">SUSTAINABLE BUILDING DESIGN PROCESSES</div>
-        <div class="filter-tag urban-infrastructure--environmental-systems" data-topic="URBAN INFRASTRUCTURE & ENVIRONMENTAL SYSTEMS" style="background-color: #4A4A4A; color: white;">URBAN INFRASTRUCTURE & ENVIRONMENTAL SYSTEMS</div>
-        <div class="filter-tag urban-perceptions--patterns" data-topic="URBAN PERCEPTIONS & PATTERNS" style="background-color: #545454; color: white;">URBAN PERCEPTIONS & PATTERNS</div>
-        <div class="filter-tag urban-perceptions--patterns-i" data-topic="URBAN PERCEPTIONS & PATTERNS I" style="background-color: #5E5E5E; color: white;">URBAN PERCEPTIONS & PATTERNS I</div>
-        <div class="filter-tag urban-perceptions--patterns-ii" data-topic="URBAN PERCEPTIONS & PATTERNS II" style="background-color: #686868; color: white;">URBAN PERCEPTIONS & PATTERNS II</div>
+        <div class="filter-tag ai-for-design-evaluation" data-topic="AI FOR DESIGN EVALUATION" style="background-color: #B4B4B4; color: black;">AI FOR DESIGN EVALUATION</div>
+        <div class="filter-tag architectural-computing--reasoning" data-topic="ARCHITECTURAL COMPUTING & REASONING" style="background-color: #B8B8B8; color: black;">ARCHITECTURAL COMPUTING & REASONING</div>
+        <div class="filter-tag augmenting--advancing-design" data-topic="AUGMENTING & ADVANCING DESIGN" style="background-color: #BBBBBB; color: black;">AUGMENTING & ADVANCING DESIGN</div>
+        <div class="filter-tag augmenting-design-generation" data-topic="AUGMENTING DESIGN GENERATION" style="background-color: #BFBFBF; color: black;">AUGMENTING DESIGN GENERATION</div>
+        <div class="filter-tag building-architectural-insights" data-topic="BUILDING ARCHITECTURAL INSIGHTS" style="background-color: #C2C2C2; color: black;">BUILDING ARCHITECTURAL INSIGHTS</div>
+        <div class="filter-tag community--collective-intelligence" data-topic="COMMUNITY & COLLECTIVE INTELLIGENCE" style="background-color: #C6C6C6; color: black;">COMMUNITY & COLLECTIVE INTELLIGENCE</div>
+        <div class="filter-tag catalytic-interface" data-topic="Catalytic Interface" style="background-color: #C9C9C9; color: black;">Catalytic Interface</div>
+        <div class="filter-tag evaluating--expanding-ai" data-topic="EVALUATING & EXPANDING AI" style="background-color: #CDCDCD; color: black;">EVALUATING & EXPANDING AI</div>
+        <div class="filter-tag generating-building-layout" data-topic="GENERATING BUILDING LAYOUT" style="background-color: #D0D0D0; color: black;">GENERATING BUILDING LAYOUT</div>
+        <div class="filter-tag immersive-learning--design" data-topic="IMMERSIVE LEARNING & DESIGN" style="background-color: #D4D4D4; color: black;">IMMERSIVE LEARNING & DESIGN</div>
+        <div class="filter-tag intelligent-robotic-assembly" data-topic="INTELLIGENT ROBOTIC ASSEMBLY" style="background-color: #D7D7D7; color: black;">INTELLIGENT ROBOTIC ASSEMBLY</div>
+        <div class="filter-tag intelligent-robotics--layout-planning" data-topic="INTELLIGENT ROBOTICS & LAYOUT PLANNING" style="background-color: #DBDBDB; color: black;">INTELLIGENT ROBOTICS & LAYOUT PLANNING</div>
+        <div class="filter-tag morphology-across-scales" data-topic="MORPHOLOGY ACROSS SCALES" style="background-color: #DEDEDE; color: black;">MORPHOLOGY ACROSS SCALES</div>
+        <div class="filter-tag prompting-architecture" data-topic="PROMPTING ARCHITECTURE" style="background-color: #E2E2E2; color: black;">PROMPTING ARCHITECTURE</div>
+        <div class="filter-tag structural-fabrication--material-logic" data-topic="STRUCTURAL, FABRICATION & MATERIAL LOGIC" style="background-color: #E5E5E5; color: black;">STRUCTURAL, FABRICATION & MATERIAL LOGIC</div>
+        <div class="filter-tag sustainable-building-design-processes" data-topic="SUSTAINABLE BUILDING DESIGN PROCESSES" style="background-color: #E9E9E9; color: black;">SUSTAINABLE BUILDING DESIGN PROCESSES</div>
+        <div class="filter-tag urban-infrastructure--environmental-systems" data-topic="URBAN INFRASTRUCTURE & ENVIRONMENTAL SYSTEMS" style="background-color: #ECECEC; color: black;">URBAN INFRASTRUCTURE & ENVIRONMENTAL SYSTEMS</div>
+        <div class="filter-tag urban-perceptions--patterns" data-topic="URBAN PERCEPTIONS & PATTERNS" style="background-color: #F0F0F0; color: black;">URBAN PERCEPTIONS & PATTERNS</div>
+        <div class="filter-tag urban-perceptions--patterns-i" data-topic="URBAN PERCEPTIONS & PATTERNS I" style="background-color: #B4B4B4; color: black;">URBAN PERCEPTIONS & PATTERNS I</div>
+        <div class="filter-tag urban-perceptions--patterns-ii" data-topic="URBAN PERCEPTIONS & PATTERNS II" style="background-color: #B8B8B8; color: black;">URBAN PERCEPTIONS & PATTERNS II</div>
     </div>
 
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">S-1, GENERATING BUILDING LAYOUT (3 papers)</div>
+            <div class="session-title">S-1, GENERATING BUILDING LAYOUT, 07-02 14:20 - 15:20</div>
             <div class="session-info">Speaker-Driven Session</div>
         </div>
         
@@ -450,10 +450,10 @@ components to promote workers’ well-being." onmouseenter="showTooltip(this)" o
                     <div class="paper-title">Generating Open Office Layouts using Flexible Architectural Components</div>
                     <div class="paper-meta">
                         <div class="author-tag">Sivan Grodsky, Alex Nguyen, Panos Chatzitsakyris, Danut Bidasca, Thanasis Farangas, Andrew Vande Moere and Davide Schaumann</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #787878; color: white; margin-left: 5px;">Session: S-1</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #787878; color: white; margin-left: 5px;">Session: S-1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 15:05 - 15:20</span>
+                <span class="paper-timestamp">Jul 02, 15:05 - 15:20</span>
             </div>
             <div class="paper-row" data-topics="GENERATING BUILDING LAYOUT" data-session="S-1" data-abstract="Intelligent generative algorithms are increasingly
 demonstrating substantial potential in architectural
@@ -506,10 +506,10 @@ of the generative outcomes.
                     <div class="paper-title">Stepwise Generation Method for Competition-Level Floor Plans of Medium and Large-Scale Gymnasiums Based on Rule Constraints and Diffusion Models</div>
                     <div class="paper-meta">
                         <div class="author-tag">Yufan Meng, Yetong Huang, Zhenyu Wang and Fang Zheng</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #787878; color: white; margin-left: 5px;">Session: S-1</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #787878; color: white; margin-left: 5px;">Session: S-1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 14:20 - 14:35</span>
+                <span class="paper-timestamp">Jul 02, 14:20 - 14:35</span>
             </div>
             <div class="paper-row" data-topics="GENERATING BUILDING LAYOUT" data-session="S-1" data-abstract="The process of generating floor plans for residential units
 can be a labour-intensive, repetitive, and tedious task. We
@@ -553,89 +553,21 @@ analysis. https://doi.org/10.528/zenodo.7070952" onmouseenter="showTooltip(this)
                     <div class="paper-title">Floor Plan Affordance Prediction:  Is the floor plan layout determined by its outline or the architect?</div>
                     <div class="paper-meta">
                         <div class="author-tag">Martin Bielik, Milan Valasek, Luyang Zhang and Sven Schneider</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #787878; color: white; margin-left: 5px;">Session: S-1</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #787878; color: white; margin-left: 5px;">Session: S-1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 14:35 - 14:50</span>
+                <span class="paper-timestamp">Jul 02, 14:35 - 14:50</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">S-2, STRUCTURAL, FABRICATION & MATERIAL LOGIC (7 papers)</div>
+            <div class="session-title">S-2, AUGMENTING & ADVANCING DESIGN, 07-02 15:40 - 16:25</div>
             <div class="session-info">Speaker-Driven Session</div>
         </div>
         
         <div class="papers-container">
-            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-2" data-abstract="With advanced fabrication and computational design methods,
-non-standard building structures made from natural
-materials such as wood and bamboo are attracting the
-attention of architectural researchers. As current studies
-primarily focus on the design and fabrication of
-single-material systems, this work explores a robotic
-fabrication and in-situ 3D printing workflow for a hybrid
-natural timber-bamboo structure. It encompasses three major
-research components: 1) the scanning and virtual recreation
-of collected raw materials; 2) the design of a hybrid
-structural system based on the materials’ natural geometric
-features and structural performance; 3) a bespoke digital
-fabrication process that addresses robotic drill-ing and
-in-situ 3D printing for non-standard timber-bamboo joints.
-The proposed workflow is illustrated through the creation
-of a full-scale structural prototype, along with its future
-architectural applications." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">132</div>
-                <div class="paper-content">
-                    <div class="paper-title">Robotic fabrication and in-situ 3D printing for a natural timber-bamboo structure</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Haojie Fan, Xinyue Xia, Shunuo Li, Huangyan Zheng, Haoyi Xu and Sining Wang</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #424242; color: white; margin-left: 5px;">Session: S-2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
-                    </div>
-                </div>
-                <span class="paper-timestamp">7/3/2025, 1/0/1900</span>
-            </div>
-            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-2" data-abstract="The proposed parametric structural system is a novel
-implementation of Carbon Nanotube (CNT) Yarns, Galvorn, a
-carbon nanomaterial that combines superior strength,
-lightweight, conductivity, flexibility, and more,
-outperforming GHG-intense alternatives.
-The resulting prototype is a parametric structural
-component composed of a central hollow mast, 3D-printed
-dented spacers working in compression, and a woven pattern
-of CNT yarns in tension. The woven pattern is generated
-using a robotic arm that places the fibers following a
-precise geometrical pattern and post-tensioning the
-structure to improve substantially its structural behavior
-while using a minimum amount of material. This method
-allows the production of customized structural components
-using parametric tools and robotic fabrication
-technologies. Each structural CNT woven structure has a
-different geometric and structural pattern responding to
-specific static requirements as well as architectural and
-environmental considerations.
-Accordingly, the structural prototype works as a column or
-beam, with optimum use of material and unique aesthetics.
-Additionally, the fiber-woven structural component
-integrates lighting and data network systems harnessing the
-conductive properties of the CNT yarns. Therefore, it has
-the potential to incorporate ecological and infrastructural
-capacities such as harvesting photovoltaic energy and
-rainwater.
-This paper documents the computational tools, fabrication
-techniques, and structural implementations resulting in an
-experimental prototype as a base for future developments of
-the project." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">178</div>
-                <div class="paper-content">
-                    <div class="paper-title">CNT Fiber-woven prototypes: Zero weight, infinite span</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Juan Jose Castellon</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #424242; color: white; margin-left: 5px;">Session: S-2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
-                    </div>
-                </div>
-                <span class="paper-timestamp">7/3/2025, 17:30 - 17:45</span>
-            </div>
             <div class="paper-row" data-topics="AUGMENTING & ADVANCING DESIGN" data-session="S-2" data-abstract="Public engagement in urban planning and architectural
 design is crucial for creating spaces that reflect the
 diverse needs and preferences of the community. Yet,
@@ -676,88 +608,10 @@ design practices." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()"
                     <div class="paper-title">Evaluating Augmented Reality as a Tool for Democratizing Built Environment Design</div>
                     <div class="paper-meta">
                         <div class="author-tag">Tina Behrouz, Halil Erhan and Elif Sezen Yagmur Kilimci</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #424242; color: white; margin-left: 5px;">Session: S-2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #424242; color: white; margin-left: 5px;">Session: S-2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 15:55 - 16:10</span>
-            </div>
-            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-2" data-abstract="As part of a broader architectural initiative aimed at
-moldless fabrication of complex surfaces, this study
-investigates the potential of self-shaping mate-rials,
-specifically fiber composites. Composed of advanced fibers
-such as glass or carbon embedded in epoxy resin, and
-structured in controlled un-balanced laminates, these
-materials form a Frustrated Composites system. Unlike
-industrial practices that minimize displacement and strain,
-our re-search aims to harness material properties to
-generate curvature from pro-grammed internal stresses and
-create controlled complex geometries from flat laminates.
-Existing literature primarily focuses on producing balanced
-laminates to reduce distortions, necessitating a
-re-evaluation of fabrication protocols for Frustrated
-Composite laminates. We investigate the effect of variables
-such as temperature, curing time, and post-curing processes
-over the shaping and post-relaxation curvature of
-Frustrated Composites. Our methodology involves two stages:
-identifying the effects of curing time and temperature on
-uniformly patterned samples by measuring initial and
-post-relaxation curvatures, and validating findings over
-larger panels with com-plex patterns. Our findings aim to
-provide new insights into the potential of self-morphing
-composites, paving the way for innovative applications in
-architectural design." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">193</div>
-                <div class="paper-content">
-                    <div class="paper-title">Investigating self-shaping fibre composites: tunning curing parameters to optimise resulting curvature</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Ariel Yakobi, Eran Sharon and Arielle Blonder</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #424242; color: white; margin-left: 5px;">Session: S-2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
-                    </div>
-                </div>
-                <span class="paper-timestamp">7/3/2025, 17:00 - 17:15</span>
-            </div>
-            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-2" data-abstract="This paper presents a novel computational methodology to
-predict the mechanical behavior of 3D-printed body-centered
-cubic (BCC) lattice structures with varying grid gradation
-using an artificial neural network (ANN). The BCC lattice
-structure is one of the most widely used and researched
-lattice typologies, allowing for lightweight designs that
-maintain strength, enable complex geometries, and
-facilitate material optimization. BCC lattices are commonly
-employed in lightweight structures due to their high
-strength-to-weight ratio, but their mechanical response,
-especially stress-strain characteristics, can vary based on
-structural parameters such as grid gradation.
-Evaluation methods, such as experimental compression tests
-or 3D simulations of these behaviors, are time-consuming
-and resource-intensive. To address this, we employ a
-data-driven approach by utilizing an ANN to predict
-stress-strain responses as a function of grid variation in
-BCC lattices. By systematically varying grid parameters,
-such as the spacing of lattice nodes, we generated and
-3D-printed a lattice set. Our experimental data was
-obtained by conducting physical compression tests on the
-lattices. This data was used to train the ANN, allowing it
-to capture the complex relationships between lattice
-configuration and mechanical performance.
-The trained neural network demonstrates a high degree of
-accuracy in predicting stress-strain curves of lattice
-configurations, reducing the reliance on experimental
-testing. Validation against physical experiments confirms
-the robustness of the model, showcasing its potential as a
-powerful tool for design optimization. These findings are
-expected to facilitate the development of optimized
-structures for applications in architectural design,
-aerospace, automotive, and biomedical fields." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">386</div>
-                <div class="paper-content">
-                    <div class="paper-title">Predicting Stress-Strain Characteristics of 3D Printed BCC Lattice Structures with Variable Grid Gradation Using Neural Networks</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Mahdi Jandaghimeibodi, Mostafa Hosseini Vajari, Morteza Behzadnasab and Soheil Dariushi</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #424242; color: white; margin-left: 5px;">Session: S-2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
-                    </div>
-                </div>
-                <span class="paper-timestamp">7/3/2025, 17:15 - 17:30</span>
+                <span class="paper-timestamp">Jul 02, 15:55 - 16:10</span>
             </div>
             <div class="paper-row" data-topics="AUGMENTING & ADVANCING DESIGN" data-session="S-2" data-abstract="In the rapidly advancing field of computational design,
 open-source methodologies and tools have proven to be
@@ -793,10 +647,10 @@ advanced computation and sustainable architectural robotics." onmouseenter="show
                     <div class="paper-title">Open-Source Approaches to Integrating Advanced Robotic Systems in Sustainable Design</div>
                     <div class="paper-meta">
                         <div class="author-tag">Celso Urroz and Shermeen Yousif</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #424242; color: white; margin-left: 5px;">Session: S-2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #424242; color: white; margin-left: 5px;">Session: S-2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 16:10 - 16:25</span>
+                <span class="paper-timestamp">Jul 02, 16:10 - 16:25</span>
             </div>
             <div class="paper-row" data-topics="AUGMENTING & ADVANCING DESIGN" data-session="S-2" data-abstract="This study investigates the efficacy of Virtual Reality
 (VR) and Augmented Reality (AR) technologies in enhancing
@@ -839,17 +693,17 @@ buildings." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Transforming Architectural Education: The Impact of VR and AR on Understanding Building Energy Efficiency</div>
                     <div class="paper-meta">
                         <div class="author-tag">Kifah Alhazzaa and Wei Yan</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #424242; color: white; margin-left: 5px;">Session: S-2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #424242; color: white; margin-left: 5px;">Session: S-2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 15:40 - 15:55</span>
+                <span class="paper-timestamp">Jul 02, 15:40 - 15:55</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">S-3, URBAN PERCEPTIONS & PATTERNS II (3 papers)</div>
+            <div class="session-title">S-3, URBAN PERCEPTIONS & PATTERNS II, 07-03 15:40 - 16:25</div>
             <div class="session-info">Speaker-Driven Session</div>
         </div>
         
@@ -900,10 +754,10 @@ cultures." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">How Chinese is Chinatown: Measuring the Relationship between Geographic Authenticity Perception and Streetscape Features through Machine Learning</div>
                     <div class="paper-meta">
                         <div class="author-tag">Zixi Zhang, Wenjing Li and Waishan Qiu</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-3</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 16:10 - 16:25</span>
+                <span class="paper-timestamp">Jul 03, 16:10 - 16:25</span>
             </div>
             <div class="paper-row" data-topics="URBAN PERCEPTIONS & PATTERNS II" data-session="S-3" data-abstract="Current architectural design research often overlooks
 users&#39; emotional responses in high-density urban
@@ -949,10 +803,10 @@ efficiency." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Revealing the Relationship Between Site Planning Strategies and Sentiment Through Deep Learning: Enhancing Data-Driven Architectural Design Strategies</div>
                     <div class="paper-meta">
                         <div class="author-tag">Qian Cao, Weijing Wang and Rudi Stouffs</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-3</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 15:55 - 16:10</span>
+                <span class="paper-timestamp">Jul 03, 15:55 - 16:10</span>
             </div>
             <div class="paper-row" data-topics="URBAN PERCEPTIONS & PATTERNS II" data-session="S-3" data-abstract="Understanding the heterogeneous travel preferences of
 residents and tourists is essential for the effective
@@ -988,17 +842,173 @@ appealing tourist cities." onmouseenter="showTooltip(this)" onmouseleave="hideTo
                     <div class="paper-title">Urban Visual Heterogeneity: An Intelligent Approach to Examining Travel Preferences in Nanjing</div>
                     <div class="paper-meta">
                         <div class="author-tag">Zhixian Li</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-3</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 15:40 - 16:25</span>
+                <span class="paper-timestamp">Jul 03, 15:40 - 16:25</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">S-S1, INTELLIGENT ROBOTIC ASSEMBLY (3 papers)</div>
+            <div class="session-title">S-4, STRUCTURAL, FABRICATION & MATERIAL LOGIC, 07-03 17:00 - 17:45</div>
+            <div class="session-info">Speaker-Driven Session</div>
+        </div>
+        
+        <div class="papers-container">
+            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-4" data-abstract="With advanced fabrication and computational design methods,
+non-standard building structures made from natural
+materials such as wood and bamboo are attracting the
+attention of architectural researchers. As current studies
+primarily focus on the design and fabrication of
+single-material systems, this work explores a robotic
+fabrication and in-situ 3D printing workflow for a hybrid
+natural timber-bamboo structure. It encompasses three major
+research components: 1) the scanning and virtual recreation
+of collected raw materials; 2) the design of a hybrid
+structural system based on the materials’ natural geometric
+features and structural performance; 3) a bespoke digital
+fabrication process that addresses robotic drill-ing and
+in-situ 3D printing for non-standard timber-bamboo joints.
+The proposed workflow is illustrated through the creation
+of a full-scale structural prototype, along with its future
+architectural applications." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">132</div>
+                <div class="paper-content">
+                    <div class="paper-title">Robotic fabrication and in-situ 3D printing for a natural timber-bamboo structure</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Haojie Fan, Xinyue Xia, Shunuo Li, Huangyan Zheng, Haoyi Xu and Sining Wang</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-4</span></div>
+                    </div>
+                </div>
+                <span class="paper-timestamp">Jul 03, 16:45 - 17:45</span>
+            </div>
+            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-4" data-abstract="The proposed parametric structural system is a novel
+implementation of Carbon Nanotube (CNT) Yarns, Galvorn, a
+carbon nanomaterial that combines superior strength,
+lightweight, conductivity, flexibility, and more,
+outperforming GHG-intense alternatives.
+The resulting prototype is a parametric structural
+component composed of a central hollow mast, 3D-printed
+dented spacers working in compression, and a woven pattern
+of CNT yarns in tension. The woven pattern is generated
+using a robotic arm that places the fibers following a
+precise geometrical pattern and post-tensioning the
+structure to improve substantially its structural behavior
+while using a minimum amount of material. This method
+allows the production of customized structural components
+using parametric tools and robotic fabrication
+technologies. Each structural CNT woven structure has a
+different geometric and structural pattern responding to
+specific static requirements as well as architectural and
+environmental considerations.
+Accordingly, the structural prototype works as a column or
+beam, with optimum use of material and unique aesthetics.
+Additionally, the fiber-woven structural component
+integrates lighting and data network systems harnessing the
+conductive properties of the CNT yarns. Therefore, it has
+the potential to incorporate ecological and infrastructural
+capacities such as harvesting photovoltaic energy and
+rainwater.
+This paper documents the computational tools, fabrication
+techniques, and structural implementations resulting in an
+experimental prototype as a base for future developments of
+the project." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">178</div>
+                <div class="paper-content">
+                    <div class="paper-title">CNT Fiber-woven prototypes: Zero weight, infinite span</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Juan Jose Castellon</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-4</span></div>
+                    </div>
+                </div>
+                <span class="paper-timestamp">Jul 03, 17:30 - 17:45</span>
+            </div>
+            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-4" data-abstract="As part of a broader architectural initiative aimed at
+moldless fabrication of complex surfaces, this study
+investigates the potential of self-shaping mate-rials,
+specifically fiber composites. Composed of advanced fibers
+such as glass or carbon embedded in epoxy resin, and
+structured in controlled un-balanced laminates, these
+materials form a Frustrated Composites system. Unlike
+industrial practices that minimize displacement and strain,
+our re-search aims to harness material properties to
+generate curvature from pro-grammed internal stresses and
+create controlled complex geometries from flat laminates.
+Existing literature primarily focuses on producing balanced
+laminates to reduce distortions, necessitating a
+re-evaluation of fabrication protocols for Frustrated
+Composite laminates. We investigate the effect of variables
+such as temperature, curing time, and post-curing processes
+over the shaping and post-relaxation curvature of
+Frustrated Composites. Our methodology involves two stages:
+identifying the effects of curing time and temperature on
+uniformly patterned samples by measuring initial and
+post-relaxation curvatures, and validating findings over
+larger panels with com-plex patterns. Our findings aim to
+provide new insights into the potential of self-morphing
+composites, paving the way for innovative applications in
+architectural design." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">193</div>
+                <div class="paper-content">
+                    <div class="paper-title">Investigating self-shaping fibre composites: tunning curing parameters to optimise resulting curvature</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Ariel Yakobi, Eran Sharon and Arielle Blonder</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-4</span></div>
+                    </div>
+                </div>
+                <span class="paper-timestamp">Jul 03, 17:00 - 17:15</span>
+            </div>
+            <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="S-4" data-abstract="This paper presents a novel computational methodology to
+predict the mechanical behavior of 3D-printed body-centered
+cubic (BCC) lattice structures with varying grid gradation
+using an artificial neural network (ANN). The BCC lattice
+structure is one of the most widely used and researched
+lattice typologies, allowing for lightweight designs that
+maintain strength, enable complex geometries, and
+facilitate material optimization. BCC lattices are commonly
+employed in lightweight structures due to their high
+strength-to-weight ratio, but their mechanical response,
+especially stress-strain characteristics, can vary based on
+structural parameters such as grid gradation.
+Evaluation methods, such as experimental compression tests
+or 3D simulations of these behaviors, are time-consuming
+and resource-intensive. To address this, we employ a
+data-driven approach by utilizing an ANN to predict
+stress-strain responses as a function of grid variation in
+BCC lattices. By systematically varying grid parameters,
+such as the spacing of lattice nodes, we generated and
+3D-printed a lattice set. Our experimental data was
+obtained by conducting physical compression tests on the
+lattices. This data was used to train the ANN, allowing it
+to capture the complex relationships between lattice
+configuration and mechanical performance.
+The trained neural network demonstrates a high degree of
+accuracy in predicting stress-strain curves of lattice
+configurations, reducing the reliance on experimental
+testing. Validation against physical experiments confirms
+the robustness of the model, showcasing its potential as a
+powerful tool for design optimization. These findings are
+expected to facilitate the development of optimized
+structures for applications in architectural design,
+aerospace, automotive, and biomedical fields." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">386</div>
+                <div class="paper-content">
+                    <div class="paper-title">Predicting Stress-Strain Characteristics of 3D Printed BCC Lattice Structures with Variable Grid Gradation Using Neural Networks</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Mahdi Jandaghimeibodi, Mostafa Hosseini Vajari, Morteza Behzadnasab and Soheil Dariushi</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-4</span></div>
+                    </div>
+                </div>
+                <span class="paper-timestamp">Jul 03, 17:15 - 17:30</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="session">
+        <div class="session-header">
+            <div class="session-title">S-S1, INTELLIGENT ROBOTIC ASSEMBLY, 07-02 11:25 - 12:10</div>
             <div class="session-info">Speaker-Driven Session</div>
         </div>
         
@@ -1045,10 +1055,10 @@ design for robotic construction." onmouseenter="showTooltip(this)" onmouseleave=
                     <div class="paper-title">Design Validation for Robotic Fabrication: A Multi-Stage Framework for Complex and Non-Repetitive Processes (edited)</div>
                     <div class="paper-meta">
                         <div class="author-tag">Pok Yin Victor Leung and Yijiang Huang</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S1</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 11:25 - 11:40</span>
+                <span class="paper-timestamp">Jul 02, 11:25 - 11:40</span>
             </div>
             <div class="paper-row" data-topics="INTELLIGENT ROBOTIC ASSEMBLY" data-session="S-S1" data-abstract="As construction complexity increases in the architecture,
 engineering and construction (AEC) industry, traditional
@@ -1087,10 +1097,10 @@ construction errors." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip
                     <div class="paper-title">tPACS: Phygital-Aided Construction System based on Modular Customizable Timber Fabrication</div>
                     <div class="paper-meta">
                         <div class="author-tag">Yuhong Wu and Tiantian Lo</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S1</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 11:40 - 11:55</span>
+                <span class="paper-timestamp">Jul 02, 11:40 - 11:55</span>
             </div>
             <div class="paper-row" data-topics="INTELLIGENT ROBOTIC ASSEMBLY" data-session="S-S1" data-abstract="The architectural marvel of spiral seashells, with their
 intricate geometric patterns and structural efficiency, has
@@ -1126,17 +1136,17 @@ methodologies." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Parametric Biomimicry: Translating Spiral Seashell Formation into Robotic 3D Printing</div>
                     <div class="paper-meta">
                         <div class="author-tag">Ali Farajmandi and Negar Kalantar</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: S-S1</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 11:55 - 12:10</span>
+                <span class="paper-timestamp">Jul 02, 11:55 - 12:10</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">S-S2, URBAN PERCEPTIONS & PATTERNS I (8 papers)</div>
+            <div class="session-title">S-S2, URBAN PERCEPTIONS & PATTERNS I, 07-03 10:35 - 11:35</div>
             <div class="session-info">Speaker-Driven Session</div>
         </div>
         
@@ -1178,10 +1188,10 @@ data-scarce scenarios." onmouseenter="showTooltip(this)" onmouseleave="hideToolt
                     <div class="paper-title">A Graph-Based Prediction Model for Sustainable Urban Renewal: Integrating Graph Convolutional Networks for Concrete Recycling Potential Evaluation</div>
                     <div class="paper-meta">
                         <div class="author-tag">Haoyang He, Han Li, Wanyu Pei, Shuyang Li and Rudi Stouffs</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 11:05 - 11:20</span>
+                <span class="paper-timestamp">Jul 03, 11:05 - 11:20</span>
             </div>
             <div class="paper-row" data-topics="URBAN PERCEPTIONS & PATTERNS I" data-session="S-S2" data-abstract="Urban morphology influences both outdoor thermal comfort
 and building energy consumption, however, designs focused
@@ -1208,10 +1218,10 @@ energy consumption in residential areas." onmouseenter="showTooltip(this)" onmou
                     <div class="paper-title">An Urban Morphology Analysis Framework for Synergistic Improvement of Multiple Performance Objectives: Exemplified by Outdoor Thermal Comfort and Building Energy Efficiency</div>
                     <div class="paper-meta">
                         <div class="author-tag">Minghao Wang, Chi Zhang and Yuchen Qin</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 10:35 - 10:50</span>
+                <span class="paper-timestamp">Jul 03, 10:35 - 10:50</span>
             </div>
             <div class="paper-row" data-topics="URBAN PERCEPTIONS & PATTERNS I" data-session="S-S2" data-abstract="Shadow detection for path recognition has become a highly
 effective method for identifying road networks via
@@ -1261,10 +1271,10 @@ Projects." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Shadow-Based Path Detection in Rapidly Expanding Urban Areas: Utilizing shadow detection and graph-based vectorization to uncover informal road networks in high-density slum areas</div>
                     <div class="paper-meta">
                         <div class="author-tag">Sevan Mohammadpour, Angelos Chronis, Oana Taut, Erfan Rezaei Azari, Cheng Hen Chen and Joshua Oates</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 10:50 - 11:05</span>
+                <span class="paper-timestamp">Jul 03, 10:50 - 11:05</span>
             </div>
             <div class="paper-row" data-topics="URBAN PERCEPTIONS & PATTERNS I" data-session="S-S2" data-abstract="Catalyzed by advancements in drone technology and favorable
 governmental policies, the emerging &quot;low altitude economy&quot;
@@ -1304,12 +1314,22 @@ environments." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Digital Design Support for UAV Delivery Noise Reduction Strategies in High Density Urban Environments</div>
                     <div class="paper-meta">
                         <div class="author-tag">Le Zhao, Thomas Fischer, Wowei Zhang and Christiane Herr</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 11:20 - 11:35</span>
+                <span class="paper-timestamp">Jul 03, 11:20 - 11:35</span>
             </div>
-            <div class="paper-row" data-topics="MORPHOLOGY ACROSS SCALES" data-session="S-S2" data-abstract="This study explores challenges in contemporary
+        </div>
+    </div>
+
+    <div class="session">
+        <div class="session-header">
+            <div class="session-title">S-S3, MORPHOLOGY ACROSS SCALES, 07-03 14:00 - 15:00</div>
+            <div class="session-info">Speaker-Driven Session</div>
+        </div>
+        
+        <div class="papers-container">
+            <div class="paper-row" data-topics="MORPHOLOGY ACROSS SCALES" data-session="S-S3" data-abstract="This study explores challenges in contemporary
 architectural classification, particularly in machine
 learning models processing vast, high-dimensional geometric
 datasets. The irregularity and complexity of such data
@@ -1378,12 +1398,12 @@ Learning and Data Exploration. J. Mach. Learn. Res., 22,
                     <div class="paper-title">Improving Architectural Form Classification through Salingaros’ Metrics and Topological Data Analysis</div>
                     <div class="paper-meta">
                         <div class="author-tag">Chen-An Lee and June-Hao Hou</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: S-S3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 14:30 - 14:45</span>
+                <span class="paper-timestamp">Jul 03, 14:30 - 14:45</span>
             </div>
-            <div class="paper-row" data-topics="MORPHOLOGY ACROSS SCALES" data-session="S-S2" data-abstract="The use of bitmaps to represent patterns has a long
+            <div class="paper-row" data-topics="MORPHOLOGY ACROSS SCALES" data-session="S-S3" data-abstract="The use of bitmaps to represent patterns has a long
 history, originating with the Jacquard loom, where they
 efficiently encoded the interlacing of warp and weft
 threads (Ping Zhong et al., 2017). While effective, this
@@ -1436,12 +1456,12 @@ weaving to other fields of visual pattern generation." onmouseenter="showTooltip
                     <div class="paper-title">Encoding Performance in Digital Weave Design Using AI and Optimisation</div>
                     <div class="paper-meta">
                         <div class="author-tag">Xinru Li and Kam-Ming Mark Tam</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: S-S3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 14:15 - 14:30</span>
+                <span class="paper-timestamp">Jul 03, 14:15 - 14:30</span>
             </div>
-            <div class="paper-row" data-topics="MORPHOLOGY ACROSS SCALES" data-session="S-S2" data-abstract="This study delves into computational methods to develop a
+            <div class="paper-row" data-topics="MORPHOLOGY ACROSS SCALES" data-session="S-S3" data-abstract="This study delves into computational methods to develop a
 generative design tool intended for the creation of living
 shorelines, which are natural coastal buffers constructed
 from organic materials such as plants, sand, and rock. In
@@ -1476,12 +1496,12 @@ of resilient shoreline ecosystems." onmouseenter="showTooltip(this)" onmouseleav
                     <div class="paper-title">Generative Design for Coastal Resilience: A Computational Approach to Living Shorelines</div>
                     <div class="paper-meta">
                         <div class="author-tag">Michael Dieffenthaller, Hallie Fischman, Christine Angelini and Karla Saldana Ochoa</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: S-S3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 14:45 - 15:00</span>
+                <span class="paper-timestamp">Jul 03, 14:45 - 15:00</span>
             </div>
-            <div class="paper-row" data-topics="MORPHOLOGY ACROSS SCALES" data-session="S-S2" data-abstract="The concept of a “15-minute neighborhood” is a widely
+            <div class="paper-row" data-topics="MORPHOLOGY ACROSS SCALES" data-session="S-S3" data-abstract="The concept of a “15-minute neighborhood” is a widely
 recognized and practiced global initiative that aims to
 create walkable cities, improving convenience and reducing
 carbon emissions by optimizing the layout of urban street
@@ -1529,22 +1549,22 @@ https://doi.org/10.1177/23998083211048496" onmouseenter="showTooltip(this)" onmo
                     <div class="paper-title">Discovering Pareto-Efficient Urban Networks Through Shape Grammar, Multi-Objective Optimisation and Machine Learning</div>
                     <div class="paper-meta">
                         <div class="author-tag">Yanran Shan and Kam-Ming Mark Tam</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: S-S2</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: S-S3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 14:00 - 14:15</span>
+                <span class="paper-timestamp">Jul 03, 14:00 - 14:15</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">S-S5, PROMPTING ARCHITECTURE (6 papers)</div>
+            <div class="session-title">S-S4, PROMPTING ARCHITECTURE, 07-04 10:35 - 11:20</div>
             <div class="session-info">Speaker-Driven Session</div>
         </div>
         
         <div class="papers-container">
-            <div class="paper-row" data-topics="PROMPTING ARCHITECTURE" data-session="S-S5" data-abstract="Rule-Based Procedural Content Generation (PCG) methods have
+            <div class="paper-row" data-topics="PROMPTING ARCHITECTURE" data-session="S-S4" data-abstract="Rule-Based Procedural Content Generation (PCG) methods have
 been instrumental in exploring the mathematical principles
 underlying traditional Chinese vernacular architecture
 (Wang et al. 2020). However, they often require detailed
@@ -1608,86 +1628,12 @@ University Press, Tianjin, 1999." onmouseenter="showTooltip(this)" onmouseleave=
                     <div class="paper-title">Text-to-Siheyuan: LLM-based Multi-Agent Procedural Generation System of Vernacular Architecture in Beijing</div>
                     <div class="paper-meta">
                         <div class="author-tag">Zixi Zhang, Wenshuo Zhang and Runjia Tian</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S5</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: S-S4</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 10:50 - 11:05</span>
+                <span class="paper-timestamp">Jul 04, 10:50 - 11:05</span>
             </div>
-            <div class="paper-row" data-topics="ARCHITECTURAL COMPUTING & REASONING" data-session="S-S5" data-abstract="This study proposes a workflow, ConStructGNN, that
-integrates geometric, semantic, and topological information
-to address the challenges of 3D spatial layout during the
-architectural conceptual design stage. ConStructGNN employs
-Graph Neural Networks (GNNs) to predict spatial features
-and infer layout rules. In the preprocessing phase, a
-node-edge graph automatically extracts spatial elements
-from building models and encodes them into graph datasets
-with 3D nodes and topological relationships. Leveraging
-this structured representation, ConStructGNN facilitates
-designers to create conceptual layout plans by defining 3D
-graphs, which serve as intuitive abstractions of spatial
-logic, similar to bubble diagrams in early design stages.
-To verify their accuracy, spatial consistency is assessed
-using Hausdorff distance to compare predicted and input
-graphs. Experimental results on representative cases show
-that ConStructGNN achieves a spatial similarity exceeding
-95%, demonstrating its effectiveness in generating
-consistent architectural spatial layouts and improving the
-efficiency of conceptual design." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">114</div>
-                <div class="paper-content">
-                    <div class="paper-title">ConStructGNN: A Graph Neural Network Framework for Adaptive 3D Architectural Layout</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Quan Zhou, Yize Li, Zejian Li and Immanuel Koh</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S5</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
-                    </div>
-                </div>
-                <span class="paper-timestamp">7/4/2025, 13:45 - 14:00</span>
-            </div>
-            <div class="paper-row" data-topics="ARCHITECTURAL COMPUTING & REASONING" data-session="S-S5" data-abstract="Architectural drawings are powerful tools for representing
-spatial, functional, and relational knowledge about
-buildings and environments. Traditionally interpreted by
-humans, these drawings are now increasingly analyzed by
-learning machines, opening new possibilities for design.
-However, machine’s current ability to understand floorplans
-is still limited compared to human architectural expertise.
-By enabling machines to read and analyze floorplans as
-architects do, we unlock new ways to enhance and support
-the design process in an era of growing visual data. A key
-challenge is enabling machines to interpret geometry,
-topology, and architectural semantics with the same depth,
-fluidity, and understanding as architects. While architects
-instinctively perceive visuals as cohesive wholes, drawing
-on tacit knowledge and experience that shape their
-perception, machines require formalized relationships
-through annotated knowledge representation. Formalization
-is crucial for bridging the gap between human perception
-and computational analysis in the evolving landscape of
-intelligent machines. This study proposes a theoretical
-framework for understanding spatial knowledge in
-floorplans, addressing the various layers of information
-embedded within them. By deconstructing implicit
-information using a case study of a house, this research
-connects visual features with computer vision tasks such as
-detection, segmentation, and classification, while also
-associating architectural semantics with existing knowledge
-models. The framework outlines 15 information layers that
-provide a foundation for future architectural datasets.
-This interdisciplinary approach bridges the gap between
-human perception and computational analysis, enhancing
-transparency and accessibility in architectural reasoning,
-contributing to holistic knowledge representation in the
-era of multimodal artificial intelligence (AI)." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">231</div>
-                <div class="paper-content">
-                    <div class="paper-title">Reading Between the Lines: Bridging AI and Architectural Knowledge in Floorplan Understanding</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Marija Mateljan, Seyran Khademi and Georg Vrachliotis</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S5</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
-                    </div>
-                </div>
-                <span class="paper-timestamp">7/4/2025, 14:00 - 14:15</span>
-            </div>
-            <div class="paper-row" data-topics="PROMPTING ARCHITECTURE" data-session="S-S5" data-abstract="The integration of Geographic Information Systems (GIS),
+            <div class="paper-row" data-topics="PROMPTING ARCHITECTURE" data-session="S-S4" data-abstract="The integration of Geographic Information Systems (GIS),
 Building Information Modeling (BIM), and multi-agent Large
 Language Models (LLMs) offers transformative possibilities
 for generating localized and regulation-compliant
@@ -1726,43 +1672,12 @@ practical solutions for site-specific architectural design." onmouseenter="showT
                     <div class="paper-title">Interactive BIM Modelling Assistant with Multi-Agent LLM</div>
                     <div class="paper-meta">
                         <div class="author-tag">Chao Tang, Kam-Ming Mark Tam and Christiane Margerita Herr</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S5</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: S-S4</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 10:35 - 10:50</span>
+                <span class="paper-timestamp">Jul 04, 10:35 - 10:50</span>
             </div>
-            <div class="paper-row" data-topics="ARCHITECTURAL COMPUTING & REASONING" data-session="S-S5" data-abstract="This paper reinterprets Vitruvius’s architectural theory to
-challenge the canonical view of De Architectura as a rigid,
-rule-based system of Classical architecture. Traditionally,
-Vitruvius has been positioned as the foundation of
-deterministic architectural logic, emphasizing proportional
-and formal systems—a logic reinforced by computational
-design’s algorithmic formalization. However, this study
-uncovers the latent ambiguities within Vitruvius’s
-prescriptions, revealing gaps, redundancies, and contextual
-flexibility that foster dynamic and adaptive design
-processes. Drawing on George Stiny’s conception of
-ambiguity in shape grammars, this paper argues that
-Vitruvius’s ambiguities align with contemporary
-computational approaches, where open-ended rules and
-iterative recalibrations enable creativity and
-responsiveness to context. By reframing Vitruvius’s
-principles as a generative framework, this study bridges
-historical and computational design, demonstrating how
-ambiguity functions as a catalytic interface for
-innovation, adaptability, and interdisciplinary exchange in
-architecture." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">230</div>
-                <div class="paper-content">
-                    <div class="paper-title">Computing Beyond the Vitruvian Canon: Ambiguity as a Catalyst in Computational Design Theory</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Hayri Dortdivanlioglu</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S5</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
-                    </div>
-                </div>
-                <span class="paper-timestamp">7/4/2025, 14:15 - 14:30</span>
-            </div>
-            <div class="paper-row" data-topics="PROMPTING ARCHITECTURE" data-session="S-S5" data-abstract="Confronted with accelerating change, the design of
+            <div class="paper-row" data-topics="PROMPTING ARCHITECTURE" data-session="S-S4" data-abstract="Confronted with accelerating change, the design of
 sustainable environments must align long-lasting
 philosophies with hyper-adaptive solutions. This research
 introduces a method for rapidly reconfigurable timber
@@ -1808,17 +1723,132 @@ efficiency and environmental consciousness." onmouseenter="showTooltip(this)" on
                     <div class="paper-title">Prompt-to-Production: AI-Driven Design and Robotic Fabrication for Rapidly Reconfigurable Circular Timber Assemblies</div>
                     <div class="paper-meta">
                         <div class="author-tag">Nils Opgenorth, Zhenxiang Huang, Jonas Maria Mertens, Hans Jakob Wagner and Achim Menges</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: S-S5</span><span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: S-S4</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 11:05 - 11:20</span>
+                <span class="paper-timestamp">Jul 04, 11:05 - 11:20</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">P-A1, URBAN PERCEPTIONS & PATTERNS (4 papers)</div>
+            <div class="session-title">S-S5, ARCHITECTURAL COMPUTING & REASONING, 07-04 13:45 - 14:30</div>
+            <div class="session-info">Speaker-Driven Session</div>
+        </div>
+        
+        <div class="papers-container">
+            <div class="paper-row" data-topics="ARCHITECTURAL COMPUTING & REASONING" data-session="S-S5" data-abstract="This study proposes a workflow, ConStructGNN, that
+integrates geometric, semantic, and topological information
+to address the challenges of 3D spatial layout during the
+architectural conceptual design stage. ConStructGNN employs
+Graph Neural Networks (GNNs) to predict spatial features
+and infer layout rules. In the preprocessing phase, a
+node-edge graph automatically extracts spatial elements
+from building models and encodes them into graph datasets
+with 3D nodes and topological relationships. Leveraging
+this structured representation, ConStructGNN facilitates
+designers to create conceptual layout plans by defining 3D
+graphs, which serve as intuitive abstractions of spatial
+logic, similar to bubble diagrams in early design stages.
+To verify their accuracy, spatial consistency is assessed
+using Hausdorff distance to compare predicted and input
+graphs. Experimental results on representative cases show
+that ConStructGNN achieves a spatial similarity exceeding
+95%, demonstrating its effectiveness in generating
+consistent architectural spatial layouts and improving the
+efficiency of conceptual design." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">114</div>
+                <div class="paper-content">
+                    <div class="paper-title">ConStructGNN: A Graph Neural Network Framework for Adaptive 3D Architectural Layout</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Quan Zhou, Yize Li, Zejian Li and Immanuel Koh</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: S-S5</span></div>
+                    </div>
+                </div>
+                <span class="paper-timestamp">Jul 04, 13:45 - 14:00</span>
+            </div>
+            <div class="paper-row" data-topics="ARCHITECTURAL COMPUTING & REASONING" data-session="S-S5" data-abstract="Architectural drawings are powerful tools for representing
+spatial, functional, and relational knowledge about
+buildings and environments. Traditionally interpreted by
+humans, these drawings are now increasingly analyzed by
+learning machines, opening new possibilities for design.
+However, machine’s current ability to understand floorplans
+is still limited compared to human architectural expertise.
+By enabling machines to read and analyze floorplans as
+architects do, we unlock new ways to enhance and support
+the design process in an era of growing visual data. A key
+challenge is enabling machines to interpret geometry,
+topology, and architectural semantics with the same depth,
+fluidity, and understanding as architects. While architects
+instinctively perceive visuals as cohesive wholes, drawing
+on tacit knowledge and experience that shape their
+perception, machines require formalized relationships
+through annotated knowledge representation. Formalization
+is crucial for bridging the gap between human perception
+and computational analysis in the evolving landscape of
+intelligent machines. This study proposes a theoretical
+framework for understanding spatial knowledge in
+floorplans, addressing the various layers of information
+embedded within them. By deconstructing implicit
+information using a case study of a house, this research
+connects visual features with computer vision tasks such as
+detection, segmentation, and classification, while also
+associating architectural semantics with existing knowledge
+models. The framework outlines 15 information layers that
+provide a foundation for future architectural datasets.
+This interdisciplinary approach bridges the gap between
+human perception and computational analysis, enhancing
+transparency and accessibility in architectural reasoning,
+contributing to holistic knowledge representation in the
+era of multimodal artificial intelligence (AI)." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">231</div>
+                <div class="paper-content">
+                    <div class="paper-title">Reading Between the Lines: Bridging AI and Architectural Knowledge in Floorplan Understanding</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Marija Mateljan, Seyran Khademi and Georg Vrachliotis</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: S-S5</span></div>
+                    </div>
+                </div>
+                <span class="paper-timestamp">Jul 04, 14:00 - 14:15</span>
+            </div>
+            <div class="paper-row" data-topics="ARCHITECTURAL COMPUTING & REASONING" data-session="S-S5" data-abstract="This paper reinterprets Vitruvius’s architectural theory to
+challenge the canonical view of De Architectura as a rigid,
+rule-based system of Classical architecture. Traditionally,
+Vitruvius has been positioned as the foundation of
+deterministic architectural logic, emphasizing proportional
+and formal systems—a logic reinforced by computational
+design’s algorithmic formalization. However, this study
+uncovers the latent ambiguities within Vitruvius’s
+prescriptions, revealing gaps, redundancies, and contextual
+flexibility that foster dynamic and adaptive design
+processes. Drawing on George Stiny’s conception of
+ambiguity in shape grammars, this paper argues that
+Vitruvius’s ambiguities align with contemporary
+computational approaches, where open-ended rules and
+iterative recalibrations enable creativity and
+responsiveness to context. By reframing Vitruvius’s
+principles as a generative framework, this study bridges
+historical and computational design, demonstrating how
+ambiguity functions as a catalytic interface for
+innovation, adaptability, and interdisciplinary exchange in
+architecture." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">230</div>
+                <div class="paper-content">
+                    <div class="paper-title">Computing Beyond the Vitruvian Canon: Ambiguity as a Catalyst in Computational Design Theory</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Hayri Dortdivanlioglu</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: S-S5</span></div>
+                    </div>
+                </div>
+                <span class="paper-timestamp">Jul 04, 14:15 - 14:30</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="session">
+        <div class="session-header">
+            <div class="session-title">P-A1, URBAN PERCEPTIONS & PATTERNS, 07-02 13:10 - 13:50</div>
             <div class="session-info">Parallel Session</div>
         </div>
         
@@ -1854,10 +1884,10 @@ practical urban applications." onmouseenter="showTooltip(this)" onmouseleave="hi
                     <div class="paper-title">Enhancing End-to-End Processing, Analysis, and Visualization of Citizen Participation Data in Urban Design and Planning</div>
                     <div class="paper-meta">
                         <div class="author-tag">Cem Ataman, Simon Perrault and Bige Tuncer</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: P-A1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: P-A1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:30 - 13:40</span>
+                <span class="paper-timestamp">Jul 02, 13:30 - 13:40</span>
             </div>
             <div class="paper-row" data-topics="URBAN PERCEPTIONS & PATTERNS" data-session="P-A1" data-abstract="Jane Jacobs identified key factors such as population
 diversity, small block sizes, and building age as essential
@@ -1896,10 +1926,10 @@ human-centered urban design." onmouseenter="showTooltip(this)" onmouseleave="hid
                     <div class="paper-title">Boundary Vitality: Analyzing Urban Public Perception of Spatial and Visual Elements in Manhattan</div>
                     <div class="paper-meta">
                         <div class="author-tag">Yutong Wu, Jiani Du, Zhao Zhang and Han Tu</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: P-A1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: P-A1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:20 - 13:30</span>
+                <span class="paper-timestamp">Jul 02, 13:20 - 13:30</span>
             </div>
             <div class="paper-row" data-topics="URBAN PERCEPTIONS & PATTERNS" data-session="P-A1" data-abstract="Enabled by growing repositories of urban data, a growing
 body of research presents promising techniques for
@@ -1931,10 +1961,10 @@ evoke specific responses from their inhabitants." onmouseenter="showTooltip(this
                     <div class="paper-title">Deep Perceptual Urban Form</div>
                     <div class="paper-meta">
                         <div class="author-tag">Chee Meng Chan and Frederick Kim</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: P-A1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: P-A1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:40 - 13:50</span>
+                <span class="paper-timestamp">Jul 02, 13:40 - 13:50</span>
             </div>
             <div class="paper-row" data-topics="URBAN PERCEPTIONS & PATTERNS" data-session="P-A1" data-abstract="Quantitative descriptions of urban morphology enhance our
 understanding of urban systems&#39; operation and evolution.
@@ -1974,17 +2004,17 @@ science studies." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Superiority of High-Dimensional Latent Variable Representation in Urban Spatial Structure: Evidence from an Urban Climate Study</div>
                     <div class="paper-meta">
                         <div class="author-tag">Yanting Shen, Mengqing Yu, Chenyu Huang and Jiawei Yao</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: P-A1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #4A4A4A; color: white; margin-left: 5px;">Session: P-A1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:10 - 13:20</span>
+                <span class="paper-timestamp">Jul 02, 13:10 - 13:20</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">P-A2, URBAN INFRASTRUCTURE & ENVIRONMENTAL SYSTEMS (5 papers)</div>
+            <div class="session-title">P-A2, URBAN INFRASTRUCTURE & ENVIRONMENTAL SYSTEMS, 07-03 12:45 - 13:35</div>
             <div class="session-info">Parallel Session</div>
         </div>
         
@@ -2025,10 +2055,10 @@ features in future studies." onmouseenter="showTooltip(this)" onmouseleave="hide
                     <div class="paper-title">Understand Urban Building Energy Consumption with Explainable Machine Learning Approaches</div>
                     <div class="paper-meta">
                         <div class="author-tag">Hang Xu, Chengxuan Li, Timur Dogan and Patrick Kastner</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: P-A2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: P-A2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 13:05 - 13:15</span>
+                <span class="paper-timestamp">Jul 03, 13:05 - 13:15</span>
             </div>
             <div class="paper-row" data-topics="URBAN INFRASTRUCTURE & ENVIRONMENTAL SYSTEMS" data-session="P-A2" data-abstract="Urban environments are essential to contemporary life;
 however, their vitality is increasingly compromised by the
@@ -2060,10 +2090,10 @@ evaluation of future design initiatives." onmouseenter="showTooltip(this)" onmou
                     <div class="paper-title">Enhancing Urban Vitality through Interactive XR Installations: Fostering Engagement and Environmental Awareness</div>
                     <div class="paper-meta">
                         <div class="author-tag">Xiaoxin Lu, Hanzhe Bao and Tiantian Lo</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: P-A2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: P-A2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 13:15 - 13:25</span>
+                <span class="paper-timestamp">Jul 03, 13:15 - 13:25</span>
             </div>
             <div class="paper-row" data-topics="URBAN INFRASTRUCTURE & ENVIRONMENTAL SYSTEMS" data-session="P-A2" data-abstract="Abstract:
 
@@ -2128,10 +2158,10 @@ https://doi.org/10.52842/conf.caadria.2023.1.281." onmouseenter="showTooltip(thi
                     <div class="paper-title">Performance-based Urban Environmental Restoration: A Multi-Layer Cellular Automata Model for Ecological Design Simulation in High-Density Cities</div>
                     <div class="paper-meta">
                         <div class="author-tag">Yiming Liu and Christiane M. Herr</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: P-A2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: P-A2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 13:25 - 13:35</span>
+                <span class="paper-timestamp">Jul 03, 13:25 - 13:35</span>
             </div>
             <div class="paper-row" data-topics="URBAN INFRASTRUCTURE & ENVIRONMENTAL SYSTEMS" data-session="P-A2" data-abstract="Reduction of building energy consumption is an urgent
 priority for the effort to eliminate greenhouse gas (GHG)
@@ -2174,10 +2204,10 @@ sustainable behaviour change for the built environment." onmouseenter="showToolt
                     <div class="paper-title">Sustainable Sustainable Social Building Assistant (SSoBA): Transforming Energy Use via Digital Twins, Environmental Sensing and Occupant Behaviour Change</div>
                     <div class="paper-meta">
                         <div class="author-tag">Frederick Peter Ortner, Sezgi Yalcinkaya Hamarat, Chewon Han, Simon Perrault, Mei Chee Tan, Wei Lek Kwan, Kai Zheng and Praveen Govindarajan</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: P-A2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: P-A2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 12:55 - 13:05</span>
+                <span class="paper-timestamp">Jul 03, 12:55 - 13:05</span>
             </div>
             <div class="paper-row" data-topics="URBAN INFRASTRUCTURE & ENVIRONMENTAL SYSTEMS" data-session="P-A2" data-abstract="Landslides are a major threat in mountainous regions,
 causing severe dam-age and affecting over 8,000 people in
@@ -2203,17 +2233,17 @@ landslide-prone areas." onmouseenter="showTooltip(this)" onmouseleave="hideToolt
                     <div class="paper-title">Computing Urban Tissue: Landslide Mitigation Strategy of Urban Infrastructure Design</div>
                     <div class="paper-meta">
                         <div class="author-tag">Chuheng Tan, Shaopo Huang, Haipeng Zhong and Quan Zhou</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: P-A2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #545454; color: white; margin-left: 5px;">Session: P-A2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 12:45 - 12:55</span>
+                <span class="paper-timestamp">Jul 03, 12:45 - 12:55</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">P-A3, EVALUATING & EXPANDING AI (5 papers)</div>
+            <div class="session-title">P-A3, EVALUATING & EXPANDING AI, 07-04 12:00 - 12:40</div>
             <div class="session-info">Parallel Session</div>
         </div>
         
@@ -2252,10 +2282,10 @@ analysis. https://doi.org/10.528/zenodo.7070952" onmouseenter="showTooltip(this)
                     <div class="paper-title">Bridging the Gap: Enhancing AI-Generated Floor Plans with Multi-Modal Data Integration</div>
                     <div class="paper-meta">
                         <div class="author-tag">Martin Bielik, Sven Schneider, Luyang Zhang and Milan Valasek</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: P-A3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: P-A3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:00 - 12:10</span>
+                <span class="paper-timestamp">Jul 04, 12:00 - 12:10</span>
             </div>
             <div class="paper-row" data-topics="EVALUATING & EXPANDING AI" data-session="P-A3" data-abstract="In the new era of human-computer interaction (HCI),
 Artificial Intelligence (AI)-assisted design tools present
@@ -2292,10 +2322,10 @@ design workflow." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Integrating Regulatory Compliance In AI-Assisted Architectural Design</div>
                     <div class="paper-meta">
                         <div class="author-tag">Tinghao Feng, Yulu Zhang, Xinhui Xu, Zhengcheng He, Wenjing Li and Philip F. Yuan</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: P-A3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: P-A3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:30 - 12:40</span>
+                <span class="paper-timestamp">Jul 04, 12:30 - 12:40</span>
             </div>
             <div class="paper-row" data-topics="EVALUATING & EXPANDING AI" data-session="P-A3" data-abstract="Large Language Models (LLMs) are able to generate high
 quality text, images and even code from a user request. To
@@ -2331,10 +2361,10 @@ architec-tural domain." onmouseenter="showTooltip(this)" onmouseleave="hideToolt
                     <div class="paper-title">Comparing different Building representations for readability by Large Language Models</div>
                     <div class="paper-meta">
                         <div class="author-tag">Guy Austern, Moria Schwarz and Boaz Sternfeld</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: P-A3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: P-A3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:20 - 12:30</span>
+                <span class="paper-timestamp">Jul 04, 12:20 - 12:30</span>
             </div>
             <div class="paper-row" data-topics="EVALUATING & EXPANDING AI" data-session="P-A3" data-abstract="Multimodal large language models (MLLMs), e.g., GPT-4o
 (OpenAI, 2024) and Stable Diffusion (Rombach et al., 2022)
@@ -2400,64 +2430,17 @@ Diagrams of Architecture John Wiley and Sons." onmouseenter="showTooltip(this)" 
                     <div class="paper-title">AI2D-Architecture: a Benchmark for Evaluating Multimodal Large Language Models in Architecture</div>
                     <div class="paper-meta">
                         <div class="author-tag">Xuyou Yang and Immanuel Koh</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: P-A3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: P-A3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:10 - 12:20 </span>
-            </div>
-            <div class="paper-row" data-topics="EVALUATING & EXPANDING AI" data-session="P-A3" data-abstract="Building Information Modeling (BIM) and Industry Foundation
-Classes (IFC) data are valuable resources in architecture,
-offering detailed and structured information on building
-elements.
-However, using such resources to develop artificial
-intelligence (AI) models that are capable of learning and
-generating spatial and geometrical suggestions remains a
-challenging problem.
-
-This study presents a systematic method for converting
-real-world BIM/IFC projects into graph representations,
-suitable for training Graph Neural Networks (GNNs), which
-overcome the limitations inherent to conventional AI
-techniques based on pixel and 3D voxels in architecture.
-
-First, a custom schema was defined to encode each building
-element and spatial relationship as triplets, allowing for
-the generation of heterogeneous graphs that capture
-geometry, topology and semantic labels.
-Using models provided by multiple architecture offices, we
-extracted over 180,000 subgraphs that represent diverse
-non-orthogonal spatial typologies.
-Next, each subgraph was annotated with multi-label
-classifications (element type) and continuous attributes
-(e.g. dimensions, orientation) to support both
-classification and regression tasks.
-
-Finally, to demonstrate the utility of the dataset, we
-trained a custom neural network (NN) to complete partial
-spatial graphs, producing non-orthogonal room layouts based
-on the existing building context.
-The custom NN suggests that the dataset has the capacity to
-support advanced 3D generative tasks in architecture and
-could lay the groundwork for future studies on automated
-design synthesis." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">457</div>
-                <div class="paper-content">
-                    <div class="paper-title">Augmenting IFC-Based BIM Models for Graph Neural Network
-Training of Non-Orthogonal Spatial Typologies: A
-Context-Informed Design Methodology</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Matthias Hornung, Markus Renner, Diellza Elshani, Mathias
-Niepert and Thomas Wortmann</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: P-A3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
-                    </div>
-                </div>
+                <span class="paper-timestamp">Jul 04, 12:10 - 12:20 </span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">P-B1, AUGMENTING DESIGN GENERATION (5 papers)</div>
+            <div class="session-title">P-B1, AUGMENTING DESIGN GENERATION, 07-02 13:10 - 14:00</div>
             <div class="session-info">Parallel Session</div>
         </div>
         
@@ -2484,10 +2467,10 @@ is available at \url{https://github.com/danruili/ArchSeek}." onmouseenter="showT
                     <div class="paper-title">Rec-Arch: A Case Study Recommender System for Architects using Vision and Language Models</div>
                     <div class="paper-meta">
                         <div class="author-tag">Danrui Li, Yichao Shi, Yaluo Wang, Ziying Shi and Mubbasir Kapadia</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: P-B1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: P-B1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:10 - 13:20</span>
+                <span class="paper-timestamp">Jul 02, 13:10 - 13:20</span>
             </div>
             <div class="paper-row" data-topics="AUGMENTING DESIGN GENERATION" data-session="P-B1" data-abstract="The rapid development of Artificial Intelligence (AI),
 particularly through Large Language Models (LLMs) like
@@ -2532,10 +2515,10 @@ effective integration into the process." onmouseenter="showTooltip(this)" onmous
                     <div class="paper-title">Integrating AI Tools and Methods in the Design Process</div>
                     <div class="paper-meta">
                         <div class="author-tag">Jaechang Ko, Sora Key and Mark Clayton</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: P-B1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: P-B1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:50 - 14:00</span>
+                <span class="paper-timestamp">Jul 02, 13:50 - 14:00</span>
             </div>
             <div class="paper-row" data-topics="AUGMENTING DESIGN GENERATION" data-session="P-B1" data-abstract="Abstract
 
@@ -2573,10 +2556,10 @@ reducing production waste." onmouseenter="showTooltip(this)" onmouseleave="hideT
                     <div class="paper-title">Two-Way Interventive Design and Manufacturing: Real-time design and materiality visualization through mixed reality systems based on hand tracking</div>
                     <div class="paper-meta">
                         <div class="author-tag">Jiaxiang Luo and Tian Tian Lo</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: P-B1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: P-B1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:30 - 13:40</span>
+                <span class="paper-timestamp">Jul 02, 13:30 - 13:40</span>
             </div>
             <div class="paper-row" data-topics="AUGMENTING DESIGN GENERATION" data-session="P-B1" data-abstract="AI applications in architectural design are mostly confined
 to individual use and linear design flows, with a steep
@@ -2607,10 +2590,10 @@ semi-structured interviews with the students." onmouseenter="showTooltip(this)" 
                     <div class="paper-title">Collaborative, conversational architectural design process between human designers and multimodal AI agents for early-stage design exploration</div>
                     <div class="paper-meta">
                         <div class="author-tag">Lok Hang Cheung, Likai Wang and Juan Carlos Dall'Asta</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: P-B1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: P-B1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:20 - 13:30</span>
+                <span class="paper-timestamp">Jul 02, 13:20 - 13:30</span>
             </div>
             <div class="paper-row" data-topics="AUGMENTING DESIGN GENERATION" data-session="P-B1" data-abstract="The design of floor plans is a core task in architecture,
 balancing functionality, spatial configuration, aesthetics,
@@ -2652,17 +2635,17 @@ creative exploration." onmouseenter="showTooltip(this)" onmouseleave="hideToolti
                     <div class="paper-title">MORPHOLOGICAL SECTIONS THROUGH LATENT SPACE</div>
                     <div class="paper-meta">
                         <div class="author-tag">Xin Wang and Sam Joyce</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: P-B1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #686868; color: white; margin-left: 5px;">Session: P-B1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:40 - 13:50</span>
+                <span class="paper-timestamp">Jul 02, 13:40 - 13:50</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">P-B2, AI FOR DESIGN EVALUATION (5 papers)</div>
+            <div class="session-title">P-B2, AI FOR DESIGN EVALUATION, 07-03 12:45 - 13:35</div>
             <div class="session-info">Parallel Session</div>
         </div>
         
@@ -2690,10 +2673,10 @@ according to personality." onmouseenter="showTooltip(this)" onmouseleave="hideTo
                     <div class="paper-title">Quantifable and unquantifable machine learning model or architectural preference prediction based on MBTI</div>
                     <div class="paper-meta">
                         <div class="author-tag">Xinhui Xu, Yulu Zhang, Wenxuan Wang, Tinghao Feng and Philip F. Yuan</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: P-B2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: P-B2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 12:45 - 12:55</span>
+                <span class="paper-timestamp">Jul 03, 12:45 - 12:55</span>
             </div>
             <div class="paper-row" data-topics="AI FOR DESIGN EVALUATION" data-session="P-B2" data-abstract="Accurate architectural style classification is essential
 for integrating historical and contemporary design elements
@@ -2784,10 +2767,10 @@ https://doi.org/10.1109/ACCESS.2018.2869976." onmouseenter="showTooltip(this)" o
                     <div class="paper-title">Zero-Shot Architectural Style Classification with Large Language Models</div>
                     <div class="paper-meta">
                         <div class="author-tag">Lei Li, Yixin Hao and Runjia Tian</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: P-B2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: P-B2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 13:05 - 13:15</span>
+                <span class="paper-timestamp">Jul 03, 13:05 - 13:15</span>
             </div>
             <div class="paper-row" data-topics="AI FOR DESIGN EVALUATION" data-session="P-B2" data-abstract="Architectural design relies on human intuition and the
 personal experience of the architect to assess the
@@ -2819,10 +2802,10 @@ prediction." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Quantifying Architectural Experience using VLMs: Does AI Dream of Rendered Spaces?</div>
                     <div class="paper-meta">
                         <div class="author-tag">Gal Guz, Nickolas Martelaro, Gerhard Schubert and Jonathan Dortheimer</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: P-B2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: P-B2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 12:55 - 13:05</span>
+                <span class="paper-timestamp">Jul 03, 12:55 - 13:05</span>
             </div>
             <div class="paper-row" data-topics="AI FOR DESIGN EVALUATION" data-session="P-B2" data-abstract="This study examines GPT-4&#39;s application in architectural
 design, focusing on its capability in spatial planning.
@@ -2846,10 +2829,10 @@ for fu-ture applications and development." onmouseenter="showTooltip(this)" onmo
                     <div class="paper-title">Intelligent Spatial Planning:  A Multidimensional Study on Swiss Residential Design Using Large Language model (GPT-4)</div>
                     <div class="paper-meta">
                         <div class="author-tag">Dongming Xu, Weirun Lin, Xinyi Shen, Sherif Eltarabishy and Davis Adam</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: P-B2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: P-B2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 13:25 - 13:35</span>
+                <span class="paper-timestamp">Jul 03, 13:25 - 13:35</span>
             </div>
             <div class="paper-row" data-topics="AI FOR DESIGN EVALUATION" data-session="P-B2" data-abstract="Abstract. In recent years, Generative Artificial
 Intelligence has been extensively applied in the field of
@@ -2878,17 +2861,17 @@ studies and practical applications in this domain." onmouseenter="showTooltip(th
                     <div class="paper-title">Evaluation Method of AI-Generated Architectural Facade Images Based on DCNN</div>
                     <div class="paper-meta">
                         <div class="author-tag">Li Zhang, Jiawei Wang, Zhicheng Wang, Yuetong Wu, Han Li and Bo Gao</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: P-B2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #727272; color: white; margin-left: 5px;">Session: P-B2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 13:15 - 13:25</span>
+                <span class="paper-timestamp">Jul 03, 13:15 - 13:25</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">P-B3, IMMERSIVE LEARNING & DESIGN (5 papers)</div>
+            <div class="session-title">P-B3, IMMERSIVE LEARNING & DESIGN, 07-04 12:00 - 12:50</div>
             <div class="session-info">Parallel Session</div>
         </div>
         
@@ -2939,10 +2922,10 @@ experience." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Virtual Space Design Through Physical Object Recognition, HoloLens-Based Furniture Tracking and AI-Driven Real-Time Layout Generation</div>
                     <div class="paper-meta">
                         <div class="author-tag">Wenqian Yang, Anton Savov and Benjamin Dillenguber</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-B3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-B3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:20 - 12:30</span>
+                <span class="paper-timestamp">Jul 04, 12:20 - 12:30</span>
             </div>
             <div class="paper-row" data-topics="IMMERSIVE LEARNING & DESIGN" data-session="P-B3" data-abstract="Scale perception training is a crucial part in the early
 stage of architectural education. However, desktop-based
@@ -2976,10 +2959,10 @@ numerous medium-scale parts, resulting in high satisfaction." onmouseenter="show
                     <div class="paper-title">Augmented Scale Perception: Exploring a Full-Scale Architectural Education Approach Based on MAR</div>
                     <div class="paper-meta">
                         <div class="author-tag">Han Jin, Hao Wang and Ruifeng Tian</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-B3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-B3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:10 - 12:20 </span>
+                <span class="paper-timestamp">Jul 04, 12:10 - 12:20 </span>
             </div>
             <div class="paper-row" data-topics="IMMERSIVE LEARNING & DESIGN" data-session="P-B3" data-abstract="Resonant Blech is an interdisciplinary project exploring
 the intersection of architecture, sound, and artificial
@@ -3024,10 +3007,10 @@ experiences." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Resonant Blech: Emergent Soundscapes Through Human-AI Interaction</div>
                     <div class="paper-meta">
                         <div class="author-tag">Alexander Urban, Moritz Koegel, Lukas Fink Pielsticker, Alexander Karaivanov, Nicolaj Kirisits and Zeynep Aksöz Balzar</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-B3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-B3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:40 - 12:50</span>
+                <span class="paper-timestamp">Jul 04, 12:40 - 12:50</span>
             </div>
             <div class="paper-row" data-topics="IMMERSIVE LEARNING & DESIGN" data-session="P-B3" data-abstract="In modern indoor space, not everyone can enjoy windows with
 good views. Moreover, extended indoor hours and windowless
@@ -3063,10 +3046,10 @@ of indoor space experience." onmouseenter="showTooltip(this)" onmouseleave="hide
                     <div class="paper-title">A Framework for Virtual Windows to Enhance Indoor Spatial Experience in Extended Reality</div>
                     <div class="paper-meta">
                         <div class="author-tag">Hyeokjin Choi, Jun Seo Lee, Jae Yeon Shin and Seung Hyun Cha</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-B3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-B3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:30 - 12:40</span>
+                <span class="paper-timestamp">Jul 04, 12:30 - 12:40</span>
             </div>
             <div class="paper-row" data-topics="IMMERSIVE LEARNING & DESIGN" data-session="P-B3" data-abstract="Recent advancements in Generative Artificial Intelligence
 (GenAI) and Mixed Reality (MR) are reshaping design
@@ -3107,22 +3090,22 @@ workflows, boosting creativity and efficiency in designing." onmouseenter="showT
                     <div class="paper-title">Can AI-based Suggestions Support Designing in Immersive Environments? Observing the Use of Generated Images as Visual References for Architectural Design in Mixed Reality</div>
                     <div class="paper-meta">
                         <div class="author-tag">Tai Shobuya, Yuval Kahlon, Yukiharu Iioka and Haruyuki Fujii</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-B3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #7C7C7C; color: white; margin-left: 5px;">Session: P-B3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:00 - 12:10</span>
+                <span class="paper-timestamp">Jul 04, 12:00 - 12:10</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">P-C1, INTELLIGENT ROBOTICS & LAYOUT PLANNING (5 papers)</div>
+            <div class="session-title">P-C1 , INTELLIGENT ROBOTICS & LAYOUT PLANNING, 07-02 13:10 - 14:00</div>
             <div class="session-info">Parallel Session</div>
         </div>
         
         <div class="papers-container">
-            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1" data-abstract="As architecture increasingly demands complex geometries and
+            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1 " data-abstract="As architecture increasingly demands complex geometries and
 intricate building environments, robotic systems equipped
 with intelligent perception and decision-making
 capabilities are crucial for bridging the gap be-tween
@@ -3147,12 +3130,12 @@ design-to-production." onmouseenter="showTooltip(this)" onmouseleave="hideToolti
                     <div class="paper-title">Enhancing Robotic Embodiment in Architecture: An Intelligent Approach Combining Vision Systems and Generative Neural Networks for Autonomous Design-to-Production</div>
                     <div class="paper-meta">
                         <div class="author-tag">Zhiyong Dong, Qi Wang, Maowei Jiang and Peter Búš</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #464646; color: white; margin-left: 5px;">Session: P-C1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #464646; color: white; margin-left: 5px;">Session: P-C1 </span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:20 - 13:30</span>
+                <span class="paper-timestamp">Jul 02, 13:20 - 13:30</span>
             </div>
-            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1" data-abstract="Worker safety and operational efficiency remain critical
+            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1 " data-abstract="Worker safety and operational efficiency remain critical
 challenges in the architecture, engineering, construction,
 and operations (AECO) industry, particularly within dynamic
 and hazard-prone environments. This study presents an
@@ -3190,12 +3173,12 @@ environments." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Machine Learning and Mixed Reality-Controlled Cable Robots for Real-Time Construction Automation</div>
                     <div class="paper-meta">
                         <div class="author-tag">Qi Wang, Zhiyong Dong, Maowei Jiang and Peter Búš</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #464646; color: white; margin-left: 5px;">Session: P-C1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #464646; color: white; margin-left: 5px;">Session: P-C1 </span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:10 - 13:20</span>
+                <span class="paper-timestamp">Jul 02, 13:10 - 13:20</span>
             </div>
-            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1" data-abstract="The application of natural materials and recycled materials
+            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1 " data-abstract="The application of natural materials and recycled materials
 in the construction industry is crucial for reducing
 resource consumption and lowering carbon emissions.
 However, the irregularity in dimensions, shape, and
@@ -3233,12 +3216,12 @@ promoting sustainable and circular con-struction practices." onmouseenter="showT
                     <div class="paper-title">Stock-Constrained Design of Irregular Material Based on Graph Neural Networks</div>
                     <div class="paper-meta">
                         <div class="author-tag">Qinhui Yang, Hua Chai and Philip F. Yuan</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #464646; color: white; margin-left: 5px;">Session: P-C1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #464646; color: white; margin-left: 5px;">Session: P-C1 </span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:50 - 14:00</span>
+                <span class="paper-timestamp">Jul 02, 13:50 - 14:00</span>
             </div>
-            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1" data-abstract="With the growing demand for sustainability and innovative
+            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1 " data-abstract="With the growing demand for sustainability and innovative
 materials in the construction industry, the use of recycled
 wood and natural materials has become a key focus of
 research. This study presents an integrated dual-robot
@@ -3266,12 +3249,12 @@ architectural design and construction." onmouseenter="showTooltip(this)" onmouse
                     <div class="paper-title">Grasp-to-Mill (GtM) Integrated Workflow for Natural Log Joint Fabrication Based on Multi-Objective Optimization Algorithm</div>
                     <div class="paper-meta">
                         <div class="author-tag">Yalei Zhu, Tianyi Gao, Hua Chai, Xincheng Jiang and Philip F. Yuan</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #464646; color: white; margin-left: 5px;">Session: P-C1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #464646; color: white; margin-left: 5px;">Session: P-C1 </span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:30 - 13:40</span>
+                <span class="paper-timestamp">Jul 02, 13:30 - 13:40</span>
             </div>
-            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1" data-abstract="Extended reality (XR) brings immersive interactions that
+            <div class="paper-row" data-topics="INTELLIGENT ROBOTICS & LAYOUT PLANNING" data-session="P-C1 " data-abstract="Extended reality (XR) brings immersive interactions that
 can integrate digi-tal information with physical
 environments to design on a 1-to-1 scale, tak-ing
 architecture design from two-dimensional to holographic.
@@ -3306,17 +3289,17 @@ architectural practices." onmouseenter="showTooltip(this)" onmouseleave="hideToo
                     <div class="paper-title">Augmented Assembly: an Exploration of Modular Design to Fabrication based on Extended Reality</div>
                     <div class="paper-meta">
                         <div class="author-tag">Zhiyong Dong, Zhiqian Liu and Peter Búš</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #464646; color: white; margin-left: 5px;">Session: P-C1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #464646; color: white; margin-left: 5px;">Session: P-C1 </span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:40 - 13:50</span>
+                <span class="paper-timestamp">Jul 02, 13:40 - 13:50</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">P-C2, STRUCTURAL, FABRICATION & MATERIAL LOGIC (5 papers)</div>
+            <div class="session-title">P-C2, STRUCTURAL, FABRICATION & MATERIAL LOGIC, 07-03 12:45 - 13:35</div>
             <div class="session-info">Parallel Session</div>
         </div>
         
@@ -3358,10 +3341,10 @@ practices." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Developing Stress-Line ribbed Timber Slabs: Laminating Timber Ribs with Stay-in-Place Formwork</div>
                     <div class="paper-meta">
                         <div class="author-tag">Yiting Sun, Hua Chai, Tianyi Gao and Philip F. Yuan</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #505050; color: white; margin-left: 5px;">Session: P-C2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #505050; color: white; margin-left: 5px;">Session: P-C2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 13:05 - 13:15</span>
+                <span class="paper-timestamp">Jul 03, 13:05 - 13:15</span>
             </div>
             <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="P-C2" data-abstract="This research investigates the potential of origami-based
 folding systems to function as adaptive architectural
@@ -3397,10 +3380,10 @@ real-time inputs." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()"
                     <div class="paper-title">Adaptive Origami: Fabrication of Pneumatic-actuated Adaptive Folding System</div>
                     <div class="paper-meta">
                         <div class="author-tag">Karagozaiym Turganbek, Sebastian Wimmer, Martin Hutter, Alexander Karaivanov, Nicolaj Kirisits and Zeynep Aksöz-Balzar</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #505050; color: white; margin-left: 5px;">Session: P-C2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #505050; color: white; margin-left: 5px;">Session: P-C2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 12:55 - 13:05</span>
+                <span class="paper-timestamp">Jul 03, 12:55 - 13:05</span>
             </div>
             <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="P-C2" data-abstract="This paper presents a novel combinatorial topological
 interlocking assembly (TIA) framework that integrates
@@ -3424,10 +3407,10 @@ reconfigurable construction solutions." onmouseenter="showTooltip(this)" onmouse
                     <div class="paper-title">Adaptive Design and Fabrication of Modular Topological Interlocking Assemblies</div>
                     <div class="paper-meta">
                         <div class="author-tag">Michail Georgiou and Odysseas Georgiou</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #505050; color: white; margin-left: 5px;">Session: P-C2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #505050; color: white; margin-left: 5px;">Session: P-C2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 12:45 - 12:55</span>
+                <span class="paper-timestamp">Jul 03, 12:45 - 12:55</span>
             </div>
             <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="P-C2" data-abstract="This study investigates the adaptation of Yakhchal-inspired
 passive cooling strat-‎egies into modern ceramic façade
@@ -3463,10 +3446,10 @@ thermal comfort in hot climates.‎" onmouseenter="showTooltip(this)" onmouselea
                     <div class="paper-title">From Tradition to Computation: Adaptive Ceramic ‎Façades Inspired by Persian Ice Caves (Yakhchals) for ‎Passive Cooling</div>
                     <div class="paper-meta">
                         <div class="author-tag">Maryam Badiei, Abolhassan Pishahang and Milad Heiranipour</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #505050; color: white; margin-left: 5px;">Session: P-C2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #505050; color: white; margin-left: 5px;">Session: P-C2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 13:25 - 13:35</span>
+                <span class="paper-timestamp">Jul 03, 13:25 - 13:35</span>
             </div>
             <div class="paper-row" data-topics="STRUCTURAL, FABRICATION & MATERIAL LOGIC" data-session="P-C2" data-abstract="This paper presents a fabrication grammar to formalize the
 process of ro-botically packing sand to achieve emergent
@@ -3498,17 +3481,17 @@ reusable formwork system." onmouseenter="showTooltip(this)" onmouseleave="hideTo
                     <div class="paper-title">A Fabrication Grammar for Robotic Sand Packing:  From Precise Actions to Emergent Shapes and Patterns</div>
                     <div class="paper-meta">
                         <div class="author-tag">Kieron Cook and Benay Gursoy</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #505050; color: white; margin-left: 5px;">Session: P-C2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #505050; color: white; margin-left: 5px;">Session: P-C2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 13:15 - 13:25</span>
+                <span class="paper-timestamp">Jul 03, 13:15 - 13:25</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">P-C3, BUILDING ARCHITECTURAL INSIGHTS (4 papers)</div>
+            <div class="session-title">P-C3, BUILDING ARCHITECTURAL INSIGHTS, 07-04 12:00 - 12:40</div>
             <div class="session-info">Parallel Session</div>
         </div>
         
@@ -3540,10 +3523,10 @@ fabrication." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Environmental-driven digital fabrication: controlling 3D-Printing parameters with data from CFD simulation</div>
                     <div class="paper-meta">
                         <div class="author-tag">Hangchuan Wei, Richard Beckett and Marjan Colletti</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #5A5A5A; color: white; margin-left: 5px;">Session: P-C3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5A5A5A; color: white; margin-left: 5px;">Session: P-C3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:20 - 12:30</span>
+                <span class="paper-timestamp">Jul 04, 12:20 - 12:30</span>
             </div>
             <div class="paper-row" data-topics="BUILDING ARCHITECTURAL INSIGHTS" data-session="P-C3" data-abstract="Open-space offices are an architectural typology widely
 used in modern working environments. These spaces often
@@ -3575,10 +3558,10 @@ limitations, and identify future work." onmouseenter="showTooltip(this)" onmouse
                     <div class="paper-title">Optimized Acoustics for Meeting Pods</div>
                     <div class="paper-meta">
                         <div class="author-tag">Giacomo Montiani, Matthias Helmreich and Achilleas Xydis</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #5A5A5A; color: white; margin-left: 5px;">Session: P-C3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5A5A5A; color: white; margin-left: 5px;">Session: P-C3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:30 - 12:40</span>
+                <span class="paper-timestamp">Jul 04, 12:30 - 12:40</span>
             </div>
             <div class="paper-row" data-topics="BUILDING ARCHITECTURAL INSIGHTS" data-session="P-C3" data-abstract="Generative AI, specifically text-to-image models, have
 revolutionized interior architectural design by enabling
@@ -3618,10 +3601,10 @@ architectural design." onmouseenter="showTooltip(this)" onmouseleave="hideToolti
                     <div class="paper-title">Generative Design Intelligence: Extracting Design Specific Sustainability Insights and Material Metrics from Generative Artificial Intelligence output</div>
                     <div class="paper-meta">
                         <div class="author-tag">Richa Gupta and Alexander Htet Kyaw</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #5A5A5A; color: white; margin-left: 5px;">Session: P-C3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5A5A5A; color: white; margin-left: 5px;">Session: P-C3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:10 - 12:20 </span>
+                <span class="paper-timestamp">Jul 04, 12:10 - 12:20 </span>
             </div>
             <div class="paper-row" data-topics="BUILDING ARCHITECTURAL INSIGHTS" data-session="P-C3" data-abstract="This paper introduces mycelium-based composites as
 innovative, low-emission materials with potential
@@ -3660,17 +3643,17 @@ environment." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Consolidated Empirical Bio-material Repository</div>
                     <div class="paper-meta">
                         <div class="author-tag">M. Hank Haeusler, Azia Carrother and Cristina Ramos Jaime</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #5A5A5A; color: white; margin-left: 5px;">Session: P-C3</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #5A5A5A; color: white; margin-left: 5px;">Session: P-C3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 12:00 - 12:10</span>
+                <span class="paper-timestamp">Jul 04, 12:00 - 12:10</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">P-D1, SUSTAINABLE BUILDING DESIGN PROCESSES (5 papers)</div>
+            <div class="session-title">P-D1, SUSTAINABLE BUILDING DESIGN PROCESSES, 07-02 13:10 - 14:00</div>
             <div class="session-info">Parallel Session</div>
         </div>
         
@@ -3707,10 +3690,10 @@ digital workflow closing the material reuse loop." onmouseenter="showTooltip(thi
                     <div class="paper-title">MATERIAL REUSE IN HERITAGE CONSERVATION:  DEVELOPING A DIGITAL DESIGN-TO-PRODUCTION CIRCULAR WORKFLOW</div>
                     <div class="paper-meta">
                         <div class="author-tag">Oceane Durand-Maniclas, Gulnaz Aksenova and Catherine De Wolf</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #646464; color: white; margin-left: 5px;">Session: P-D1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #646464; color: white; margin-left: 5px;">Session: P-D1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:30 - 13:40</span>
+                <span class="paper-timestamp">Jul 02, 13:30 - 13:40</span>
             </div>
             <div class="paper-row" data-topics="SUSTAINABLE BUILDING DESIGN PROCESSES" data-session="P-D1" data-abstract="Building Information Modeling (BIM) as a management method
 is expected to play an essential role in project
@@ -3746,10 +3729,10 @@ transformation of the construction industry." onmouseenter="showTooltip(this)" o
                     <div class="paper-title">BPMN-based building project lifecycle analysis with a core of BIM: Taking a campus project as an example</div>
                     <div class="paper-meta">
                         <div class="author-tag">Siwen Cao, Hao Sun and Ziyu Tong</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #646464; color: white; margin-left: 5px;">Session: P-D1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #646464; color: white; margin-left: 5px;">Session: P-D1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:50 - 14:00</span>
+                <span class="paper-timestamp">Jul 02, 13:50 - 14:00</span>
             </div>
             <div class="paper-row" data-topics="SUSTAINABLE BUILDING DESIGN PROCESSES" data-session="P-D1" data-abstract="In the context of the growing global demand for sustainable
 building materials, timber has gained significant attention
@@ -3781,10 +3764,10 @@ and resource waste in the forestry sector." onmouseenter="showTooltip(this)" onm
                     <div class="paper-title">Design and manufacture of waste timber composite panels: sustainable and innovative use of recycled timber</div>
                     <div class="paper-meta">
                         <div class="author-tag">Yu Li, Jiapan Sun, Bingbing Fan and Yixuan Liu</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #646464; color: white; margin-left: 5px;">Session: P-D1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #646464; color: white; margin-left: 5px;">Session: P-D1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:10 - 13:20</span>
+                <span class="paper-timestamp">Jul 02, 13:10 - 13:20</span>
             </div>
             <div class="paper-row" data-topics="SUSTAINABLE BUILDING DESIGN PROCESSES" data-session="P-D1" data-abstract="Sustainable design encompasses social, cultural, and
 environmental aspects. A primary challenge is to synthesise
@@ -3814,10 +3797,10 @@ empowerment." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">From Craft to Community: Participatory Upcycling in Public Housing via Digital Fabrication</div>
                     <div class="paper-meta">
                         <div class="author-tag">Provides Ng, Patrick So, Boyuan Yu, Jianing Luo, Evan Wu and Addin Cui</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #646464; color: white; margin-left: 5px;">Session: P-D1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #646464; color: white; margin-left: 5px;">Session: P-D1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:20 - 13:30</span>
+                <span class="paper-timestamp">Jul 02, 13:20 - 13:30</span>
             </div>
             <div class="paper-row" data-topics="SUSTAINABLE BUILDING DESIGN PROCESSES" data-session="P-D1" data-abstract="3D printed construction is a promising technology for
 housing, but it must address challenges related to its
@@ -3862,17 +3845,17 @@ for technological advancement in construction." onmouseenter="showTooltip(this)"
                     <div class="paper-title">Collaborative Development of Earthquake-Resistant and Variable 3D Printed Housing</div>
                     <div class="paper-meta">
                         <div class="author-tag">Rodrigo Garcia-Alvarado</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #646464; color: white; margin-left: 5px;">Session: P-D1</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #646464; color: white; margin-left: 5px;">Session: P-D1</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/2/2025, 13:40 - 13:50</span>
+                <span class="paper-timestamp">Jul 02, 13:40 - 13:50</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">P-D2, COMMUNITY & COLLECTIVE INTELLIGENCE (4 papers)</div>
+            <div class="session-title">P-D2, COMMUNITY & COLLECTIVE INTELLIGENCE, 07-03 12:45 - 13:25</div>
             <div class="session-info">Parallel Session</div>
         </div>
         
@@ -3902,10 +3885,10 @@ tools for the built environment." onmouseenter="showTooltip(this)" onmouseleave=
                     <div class="paper-title">Gamification as a Tool for Enhancing Public Engagement in Built-Environment Design.</div>
                     <div class="paper-meta">
                         <div class="author-tag">Mehrun-Nisa Raja, Halil Erhan, Md Zishaan Khan and Tina Bahroz</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #6E6E6E; color: white; margin-left: 5px;">Session: P-D2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #6E6E6E; color: white; margin-left: 5px;">Session: P-D2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 12:45 - 12:55</span>
+                <span class="paper-timestamp">Jul 03, 12:45 - 12:55</span>
             </div>
             <div class="paper-row" data-topics="COMMUNITY & COLLECTIVE INTELLIGENCE" data-session="P-D2" data-abstract="The braided knot, illustrated by Gottfried Semper,
 highlights the deep interconnection between materiality and
@@ -3947,10 +3930,10 @@ weaving crafts." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Crafting a Participatory Approach towards Traditional Vietnamese Weaving and Digital Computation</div>
                     <div class="paper-meta">
                         <div class="author-tag">Hojung Kim</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #6E6E6E; color: white; margin-left: 5px;">Session: P-D2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #6E6E6E; color: white; margin-left: 5px;">Session: P-D2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 13:05 - 13:15</span>
+                <span class="paper-timestamp">Jul 03, 13:05 - 13:15</span>
             </div>
             <div class="paper-row" data-topics="COMMUNITY & COLLECTIVE INTELLIGENCE" data-session="P-D2" data-abstract="Current examples of intelligent environments aim to
 automate certain functions in buildings to relieve humans
@@ -3989,10 +3972,10 @@ perspective." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                     <div class="paper-title">Architectural Interfaces for Shared Spaces – A Multi-User Perspective on Intelligent Environment Interactions</div>
                     <div class="paper-meta">
                         <div class="author-tag">Ilayda Memis, Frank Petzold and Gerhard Schubert</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #6E6E6E; color: white; margin-left: 5px;">Session: P-D2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #6E6E6E; color: white; margin-left: 5px;">Session: P-D2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 12:55 - 13:05</span>
+                <span class="paper-timestamp">Jul 03, 12:55 - 13:05</span>
             </div>
             <div class="paper-row" data-topics="COMMUNITY & COLLECTIVE INTELLIGENCE" data-session="P-D2" data-abstract="This paper outlines a performance-based assessment
 methodology to evaluate the design quality of housing
@@ -4018,17 +4001,17 @@ outputs and broadening the scope of evaluation." onmouseenter="showTooltip(this)
                     <div class="paper-title">Design Quality Housing Assessment Methodology: Supporting Heuristics with Evidence-Based Decision-Making</div>
                     <div class="paper-meta">
                         <div class="author-tag">Darcy Zelenko, Jean-Paul Rollo, Isabel Solin, Sahar Soltani, Duncan Maxwell and Camilo Cruz Gambardella</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #6E6E6E; color: white; margin-left: 5px;">Session: P-D2</span><span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span></div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #6E6E6E; color: white; margin-left: 5px;">Session: P-D2</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 13:15 - 13:25</span>
+                <span class="paper-timestamp">Jul 03, 13:15 - 13:25</span>
             </div>
         </div>
     </div>
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">CI, Catalytic Interface (6 papers)</div>
+            <div class="session-title">CI, Catalytic Interface, 07-04 15:10 - 17:10</div>
             <div class="session-info">Catalytic Interface Presentation</div>
         </div>
         
@@ -4180,7 +4163,7 @@ Kuys, Sisi Zlatanova and George Shinkle</div>
                         <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 15:10 - 15:30</span>
+                <span class="paper-timestamp">Jul 04, 15:10 - 15:30</span>
             </div>
             <div class="paper-row" data-topics="Catalytic Interface" data-session="CI" data-abstract="Participatory Architectural Design (PAD) offers a promising
 framework for inclusive and context-sensitive spatial
@@ -4218,7 +4201,7 @@ Designer-Stakeholder Collaboration</div>
                         <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 15:30 - 15:50</span>
+                <span class="paper-timestamp">Jul 04, 15:30 - 15:50</span>
             </div>
             <div class="paper-row" data-topics="Catalytic Interface" data-session="CI" data-abstract="The future of architectural practice is increasingly shaped
 by the integration of digital technologies that augment
@@ -4401,7 +4384,7 @@ Role of AR and Human-Machine Collaboration</div>
                         <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 15:50 - 16:10</span>
+                <span class="paper-timestamp">Jul 04, 15:50 - 16:10</span>
             </div>
             <div class="paper-row" data-topics="Catalytic Interface" data-session="CI" data-abstract="This paper presents AIXR, a framework for artificial
 intelligence (AI) informed, extended reality (XR) guided
@@ -4431,7 +4414,7 @@ Sandra Manninger and Dr. Daniela Mitterberger</div>
                         <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 16:10 - 16:30</span>
+                <span class="paper-timestamp">Jul 04, 16:10 - 16:30</span>
             </div>
             <div class="paper-row" data-topics="Catalytic Interface" data-session="CI" data-abstract="Contemporary architectural design increasingly integrates
 biological and technical systems that interact with – and
@@ -4473,7 +4456,7 @@ Christiane M. Herr</div>
                         <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 16:30 - 16:50</span>
+                <span class="paper-timestamp">Jul 04, 16:30 - 16:50</span>
             </div>
             <div class="paper-row" data-topics="Catalytic Interface" data-session="CI" data-abstract="This paper presents HIKARI, a working prototype and design methodology for integrating generative AI into architectural design, focusing on automated compliance and building massing generation. Unlike purely speculative studies, HIKARI was developed in collaboration with a leading design firm to navigate complex building codes, offering concrete lessons on embedding AI within professional practice. The platform functions as a catalytic interface, combining generative algorithms for massing exploration, a regulatory engine for automated compliance checking against Japanese building codes, and a Retrieval-Augmented Generation (RAG) pipeline for explainable, natural-language queries. We discuss the co-creation methodology, system architecture, and key lessons on operationalizing trust and harmonizing data. Furthermore, we propose a workshop framework to empirically evaluate the platform&#39;s efficacy not only as a design tool but also as a pedagogical instrument for teaching complex regulations. This is measured by assessing knowledge acquisition through a pre- and post-test methodology, demonstrating how AI can serve as an interactive guide
 in architectural education and practice." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
@@ -4486,7 +4469,7 @@ in architectural education and practice." onmouseenter="showTooltip(this)" onmou
                         <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 16:50 - 17:10</span>
+                <span class="paper-timestamp">Jul 04, 16:50 - 17:10</span>
             </div>
         </div>
     </div>

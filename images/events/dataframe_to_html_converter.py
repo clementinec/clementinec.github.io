@@ -3,7 +3,7 @@ import numpy as np
 from collections import defaultdict, Counter
 from datetime import datetime
 import re
-
+sessiontimemap={'CI': '07-04 15:10 - 17:10', 'P-A1': '07-02 13:10 - 13:50', 'P-A2': '07-03 12:45 - 13:35', 'P-A3': '07-04 12:00 - 12:40', 'P-B1': '07-02 13:10 - 14:00', 'P-B2': '07-03 12:45 - 13:35', 'P-B3': '07-04 12:00 - 12:50', 'P-C1 ': '07-02 13:10 - 14:00', 'P-C2': '07-03 12:45 - 13:35', 'P-C3': '07-04 12:00 - 12:40', 'P-D1': '07-02 13:10 - 14:00', 'P-D2': '07-03 12:45 - 13:25', 'S-1': '07-02 14:20 - 15:20', 'S-2': '07-02 15:40 - 16:25', 'S-3': '07-03 15:40 - 16:25', 'S-4': '07-03 17:00 - 17:45', 'S-S1': '07-02 11:25 - 12:10', 'S-S2': '07-03 10:35 - 11:35', 'S-S3': '07-03 14:00 - 15:00', 'S-S4': '07-04 10:35 - 11:20', 'S-S5': '07-04 13:45 - 14:30'}
 class ConferenceHTMLGenerator:
     def __init__(self, df):
         """
@@ -196,7 +196,7 @@ class ConferenceHTMLGenerator:
                         else:
                             date_obj = pd.to_datetime(date_val)
                         
-                        formatted_date = date_obj.strftime('%b %d')  # e.g., "Jul 01"
+                        formatted_date = date_obj.strftime('%b %d')  # e.g., "07-001"
                         
                         # Handle time formatting
                         if isinstance(time_val, str):
@@ -229,16 +229,18 @@ class ConferenceHTMLGenerator:
         
         # Generate gray shades for topics
         gray_shades = [
-            '#404040', '#4A4A4A', '#545454', '#5E5E5E', '#686868',
-            '#727272', '#7C7C7C', '#464646', '#505050', '#5A5A5A',
-            '#646464', '#6E6E6E', '#787878', '#424242', '#4C4C4C'
+            '#B4B4B4', '#B8B8B8', '#BBBBBB', '#BFBFBF',
+            '#C2C2C2', '#C6C6C6', '#C9C9C9', '#CDCDCD',
+            '#D0D0D0', '#D4D4D4', '#D7D7D7', '#DBDBDB',
+            '#DEDEDE', '#E2E2E2', '#E5E5E5', '#E9E9E9',
+            '#ECECEC', '#F0F0F0'
         ]
         
         # Add topic-based filters with gray colors
         for i, topic in enumerate(self.topics):
             css_class = self._get_css_class_name(topic)
             color = gray_shades[i % len(gray_shades)]
-            html += f'        <div class="filter-tag {css_class}" data-topic="{topic}" style="background-color: {color}; color: white;">{topic}</div>\n'
+            html += f'        <div class="filter-tag {css_class}" data-topic="{topic}" style="background-color: {color}; color: black;">{topic}</div>\n'
         
         html += '    </div>\n'
         return html
@@ -268,11 +270,11 @@ class ConferenceHTMLGenerator:
             papers = session_data['papers']
             
             # Add paper count to session header
-            paper_count_info = f" ({len(papers)} papers)"
+            paper_count_info = ""#f" ({len(papers)} papers)"
             
             html += f'''    <div class="session">
         <div class="session-header">
-            <div class="session-title">{session_info['title']}{paper_count_info}</div>
+            <div class="session-title">{session_info['title']}, {sessiontimemap[session_id]}{paper_count_info}</div>
             <div class="session-info">{session_info['time']}</div>
         </div>
         
@@ -316,9 +318,9 @@ class ConferenceHTMLGenerator:
                     <div class="paper-meta">
                         <div class="author-tag">{paper['authors']}</div>'''
                 
-                if topic_badges or session_badge or presentation_badge:
+                if topic_badges or session_badge:
                     html += f'''
-                        <div class="additional-topics">{topic_badges}{session_badge}{presentation_badge}</div>'''
+                        <div class="additional-topics">{topic_badges}{session_badge}</div>'''
                 
                 html += '''
                     </div>
