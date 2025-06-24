@@ -1,14 +1,25 @@
 import pandas as pd
 import numpy as np
-from collections import defaultdict
+from collections import defaultdict, Counter
+from datetime import datetime
 import re
 
 class ConferenceHTMLGenerator:
     def __init__(self, df):
         """
-        Initialize with a DataFrame containing columns: ID, Title, Authors, Final Topic, Session, Decisions
+        Initialize with a DataFrame containing columns: ID, Title, Authors, Final Topic, Session, Date, Time
         """
         self.df = df.copy()
+        
+        # Debug: Print available columns
+        print(f"Available columns in DataFrame: {list(self.df.columns)}")
+        if 'Date' in self.df.columns and 'Time' in self.df.columns:
+            print("Date and Time columns found!")
+            # Show sample of date/time values
+            sample = self.df[['Date', 'Time']].head(3)
+            print(f"Sample date/time values:\n{sample}")
+        else:
+            print("Warning: Date and/or Time columns not found")
         
         # Clean up the data
         self.df = self.df.dropna(subset=['Final Topic'])  # Remove NaN topics
@@ -26,10 +37,10 @@ class ConferenceHTMLGenerator:
         # Generate colors for topics
         self.topic_colors = self._generate_topic_colors()
         
-        # Get unique sessions (replacing clusters)
+        # Get unique sessions
         self.sessions = sorted(self.df['Session'].dropna().unique().tolist())
         
-        # Generate colors for sessions (using similar approach as clusters)
+        # Generate colors for sessions
         self.session_colors = self._generate_session_colors()
         
     def _parse_topics(self, topic_str):
@@ -128,32 +139,8 @@ class ConferenceHTMLGenerator:
         """
         sessions = defaultdict(lambda: {'info': {}, 'papers': []})
         
-        # First, separate poster papers (Decisions == 'Companion')
-        poster_papers = self.df[self.df['Decisions'] == 'Companion']
-        regular_papers = self.df[self.df['Decisions'] != 'Companion']
-        
-        # Create poster session if there are poster papers
-        if not poster_papers.empty:
-            sessions['Poster']['info'] = {
-                'title': 'Poster Session',
-                'topics': 'Various Topics',
-                'time': 'Poster Session'
-            }
-            
-            for _, paper in poster_papers.iterrows():
-                sessions['Poster']['papers'].append({
-                    'id': paper['ID'],
-                    'title': paper['Title'],
-                    'authors': paper['Authors'],
-                    'topics': paper['topic_list'] if paper['topic_list'] else [],
-                    'topics_str': paper['Final Topic'],
-                    'session': paper.get('Session', 'Poster'),
-                    'decision': paper['Decisions'],
-                    'abstract': paper.get('Abstract', 'No abstract available')
-                })
-        
-        # Group regular papers by Session column
-        for _, paper in regular_papers.iterrows():
+        # Process all papers
+        for _, paper in self.df.iterrows():
             if pd.isna(paper.get('Session')):
                 continue
                 
@@ -162,10 +149,10 @@ class ConferenceHTMLGenerator:
             # Initialize session info if not exists
             if session_name not in sessions:
                 # Get all papers in this session
-                session_papers = regular_papers[regular_papers['Session'] == session_name]
+                session_papers = self.df[self.df['Session'] == session_name]
                 session_paper_count = len(session_papers)
                 
-                # Get the most common topic for this session (or first topic if all different)
+                # Get the most common topic for this session
                 all_topics = []
                 for _, p in session_papers.iterrows():
                     if not pd.isna(p['Final Topic']):
@@ -173,7 +160,6 @@ class ConferenceHTMLGenerator:
                         all_topics.extend(topics)
                 
                 # Find most common topic
-                from collections import Counter
                 if all_topics:
                     topic_counter = Counter(all_topics)
                     session_topic = topic_counter.most_common(1)[0][0]
@@ -184,9 +170,9 @@ class ConferenceHTMLGenerator:
                 if session_name.startswith('S-'):
                     session_type = 'Speaker-Driven Session'
                 elif session_name.startswith('P-'):
-                    session_type = 'Poster Session'
+                    session_type = 'Parallel Session'
                 else:
-                    session_type = 'Conference Session'
+                    session_type = 'Catalytic Interface Presentation'
                 
                 sessions[session_name]['info'] = {
                     'title': f"{session_name}, {session_topic}",
@@ -195,6 +181,34 @@ class ConferenceHTMLGenerator:
                     'paper_count': session_paper_count
                 }
             
+            # Format timestamp if Date and Time columns exist
+            timestamp = ''
+            if 'Date' in self.df.columns and 'Time' in self.df.columns:
+                date_val = paper.get('Date')
+                time_val = paper.get('Time')
+                
+                if date_val is not None and time_val is not None and not pd.isna(date_val) and not pd.isna(time_val):
+                    # Convert date format from 2025/07/01 to a more readable format
+                    try:
+                        # Handle both string and datetime objects
+                        if isinstance(date_val, str):
+                            date_obj = datetime.strptime(date_val, '%Y/%m/%d')
+                        else:
+                            date_obj = pd.to_datetime(date_val)
+                        
+                        formatted_date = date_obj.strftime('%b %d')  # e.g., "Jul 01"
+                        
+                        # Handle time formatting
+                        if isinstance(time_val, str):
+                            timestamp = f"{formatted_date}, {time_val}"
+                        else:
+                            # If time is a datetime object, extract just the time part
+                            time_str = pd.to_datetime(time_val).strftime('%H:%M')
+                            timestamp = f"{formatted_date}, {time_str}"
+                    except Exception as e:
+                        # Fallback to raw values if parsing fails
+                        timestamp = f"{date_val}, {time_val}"
+            
             sessions[session_name]['papers'].append({
                 'id': paper['ID'],
                 'title': paper['Title'],
@@ -202,8 +216,8 @@ class ConferenceHTMLGenerator:
                 'topics': paper['topic_list'] if paper['topic_list'] else [],
                 'topics_str': paper['Final Topic'],
                 'session': paper['Session'],
-                'decision': paper['Decisions'],
-                'abstract': paper.get('Abstract', 'No abstract available')
+                'abstract': paper.get('Abstract', 'No abstract available'),
+                'timestamp': timestamp
             })
         
         return dict(sessions)
@@ -234,13 +248,15 @@ class ConferenceHTMLGenerator:
         sessions = self._group_papers_by_session()
         html = ''
         
-        # Sort sessions: Poster session last, others by session name
+        # Sort sessions: S- first, then P-, then others
         def session_sort_key(item):
             session_id, session_data = item
-            if session_id == 'Poster':
-                return ('Z', 'Poster')  # Sort posters last
+            if session_id.startswith('S-'):
+                return ('A', session_id)  # Sort S- sessions first
+            elif session_id.startswith('P-'):
+                return ('B', session_id)  # Sort P- sessions after S- sessions
             else:
-                return ('A', session_data['info']['title'])  # Sort regular sessions by title
+                return ('C', session_id)  # Other sessions last
         
         sorted_sessions = sorted(sessions.items(), key=session_sort_key)
         
@@ -251,8 +267,8 @@ class ConferenceHTMLGenerator:
             session_info = session_data['info']
             papers = session_data['papers']
             
-            # Add paper count to session header with new format
-            paper_count_info = f" ({len(papers)} papers in total)" if session_id != 'Poster' else f" ({len(papers)} posters)"
+            # Add paper count to session header
+            paper_count_info = f" ({len(papers)} papers)"
             
             html += f'''    <div class="session">
         <div class="session-header">
@@ -271,34 +287,49 @@ class ConferenceHTMLGenerator:
                         color = self.topic_colors.get(topic, '#6c757d')
                         topic_badges += f'<span class="topic-badge" style="background-color: {color};">{topic}</span>'
                 
-                # Add session badge for ALL papers (including posters)
+                # Add session badge for all papers
                 session_badge = ''
                 if paper.get('session'):
                     session_color = self.session_colors.get(paper['session'], '#6c757d')
                     session_badge = f'<span class="session-badge" style="background-color: {session_color}; color: white; margin-left: 5px;">Session: {paper["session"]}</span>'
                 
-                # Add decision type badge for poster papers
-                decision_badge = ''
-                if paper.get('decision') == 'Companion':
-                    decision_badge = '<span class="decision-badge" style="background-color: #D3D3D3; color: #333333; margin-left: 5px;">Poster</span>'
+                # Add presentation type badge based on session code
+                presentation_badge = ''
+                if paper.get('session'):
+                    if paper['session'].startswith('S-'):
+                        presentation_badge = '<span class="presentation-badge" style="background-color: #5F9EA0; color: white; margin-left: 5px;">Speaker-led</span>'
+                    elif paper['session'].startswith('P-'):
+                        presentation_badge = '<span class="presentation-badge" style="background-color: #708090; color: white; margin-left: 5px;">Parallel</span>'
+                
+                # Add timestamp if available
+                timestamp_html = ''
+                if paper.get('timestamp'):
+                    timestamp_html = f'<span class="paper-timestamp">{paper["timestamp"]}</span>'
                 
                 # Escape quotes in abstract for HTML attributes
                 abstract_text = paper.get('abstract', 'No abstract available').replace('"', '&quot;').replace("'", "&#39;")
                 
-                html += f'''            <div class="paper-row" data-topics="{paper['topics_str']}" data-session="{paper.get('session', '')}" data-decision="{paper.get('decision', '')}" data-abstract="{abstract_text}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                html += f'''            <div class="paper-row" data-topics="{paper['topics_str']}" data-session="{paper.get('session', '')}" data-abstract="{abstract_text}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                 <div class="paper-id">{paper['id']}</div>
                 <div class="paper-content">
                     <div class="paper-title">{paper['title']}</div>
                     <div class="paper-meta">
                         <div class="author-tag">{paper['authors']}</div>'''
                 
-                if topic_badges or session_badge or decision_badge:
+                if topic_badges or session_badge or presentation_badge:
                     html += f'''
-                        <div class="additional-topics">{topic_badges}{session_badge}{decision_badge}</div>'''
+                        <div class="additional-topics">{topic_badges}{session_badge}{presentation_badge}</div>'''
                 
                 html += '''
                     </div>
-                </div>
+                </div>'''
+                
+                # Add timestamp at the end
+                if timestamp_html:
+                    html += f'''
+                {timestamp_html}'''
+                
+                html += '''
             </div>\n'''
             
             html += '''        </div>
@@ -307,10 +338,10 @@ class ConferenceHTMLGenerator:
         return html
     
     def generate_css_for_topics(self):
-        """Generate CSS rules for topic-specific highlighting - now includes sessions"""
+        """Generate CSS rules for topic-specific highlighting"""
         css = ''
         
-        # Original topic CSS
+        # Topic CSS
         for topic in self.topics:
             css_class = self._get_css_class_name(topic)
             color = self.topic_colors[topic]
@@ -327,26 +358,9 @@ class ConferenceHTMLGenerator:
     background-color: {rgba_bg};
 }}'''
         
-        # Add session CSS
-        for session in self.sessions:
-            css_class = self._get_css_class_name(session)
-            color = self.session_colors.get(session, '#6c757d')
-            
-            # Convert hex to rgba for subtle background
-            hex_color = color.lstrip('#')
-            if len(hex_color) == 6:
-                r, g, b = tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
-                rgba_bg = f"rgba({r}, {g}, {b}, 0.05)"
-                
-                css += f'''
-.paper-row.session-highlight.{css_class} {{
-    border-left: 4px solid {color};
-    background-color: {rgba_bg};
-}}'''
-        
-        # Add CSS for badges and hover effects
+        # Add CSS for badges, hover effects, and timestamp
         css += '''
-.session-badge, .decision-badge {
+.session-badge, .presentation-badge {
     font-size: 0.8em;
     padding: 2px 6px;
     border-radius: 3px;
@@ -361,7 +375,7 @@ class ConferenceHTMLGenerator:
 }
 
 /* Session badges hover effect */
-.session-badge:hover {
+.session-badge:hover, .presentation-badge:hover {
     background-color: #B22222 !important;
     cursor: pointer;
     transition: background-color 0.2s ease;
@@ -370,6 +384,24 @@ class ConferenceHTMLGenerator:
 /* Paper row hover for session highlighting */
 .paper-row:hover .session-badge {
     background-color: #B22222 !important;
+}
+
+.paper-row:hover .presentation-badge {
+    background-color: #8B0000 !important;
+}
+
+/* Timestamp styling */
+.paper-timestamp {
+    margin-left: auto;
+    font-size: 0.75rem;
+    color: #999;
+    opacity: 0.7;
+    white-space: nowrap;
+    padding-left: 15px;
+}
+
+.paper-row:hover .paper-timestamp {
+    color: #ccc;
 }
 
 /* Custom tooltip styling for abstracts */
@@ -406,9 +438,9 @@ class ConferenceHTMLGenerator:
         sessions = self._group_papers_by_session()
         session_count = len([s for s in sessions.values() if s['papers']])
         
-        # Count poster papers separately
-        poster_count = len(self.df[self.df['Decisions'] == 'Companion'])
-        regular_count = len(self.df[self.df['Decisions'] != 'Companion'])
+        # Count papers by session type
+        s_papers = len(self.df[self.df['Session'].str.startswith('S-', na=False)])
+        p_papers = len(self.df[self.df['Session'].str.startswith('P-', na=False)])
         
         components = {
             'filter_buttons': self.generate_filter_buttons_html(),
@@ -417,8 +449,8 @@ class ConferenceHTMLGenerator:
             'js_topic_mapping': self.generate_javascript_topic_mapping(),
             'stats': {
                 'total_papers': len(self.df),
-                'regular_papers': regular_count,
-                'poster_papers': poster_count,
+                'speaker_led_papers': s_papers,
+                'parallel_papers': p_papers,
                 'total_topics': len(self.topics),
                 'total_sessions': len(self.sessions),
                 'session_count': session_count,
@@ -456,8 +488,8 @@ class ConferenceHTMLGenerator:
         
         print(f"HTML components saved to {output_file}")
         print(f"Total papers: {components['stats']['total_papers']}")
-        print(f"Regular papers: {components['stats']['regular_papers']}")
-        print(f"Poster papers: {components['stats']['poster_papers']}")
+        print(f"Speaker-led presentations: {components['stats']['speaker_led_papers']}")
+        print(f"Parallel presentations: {components['stats']['parallel_papers']}")
         print(f"Total sessions: {components['stats']['total_sessions']}")
         print(f"Sessions: {', '.join(components['stats']['sessions_list'])}")
 
@@ -466,18 +498,24 @@ class ConferenceHTMLGenerator:
 def process_conference_data(excel_file_path, output_file='conference_components.py'):
     """
     Main function to process conference data and generate HTML components
-    Expected columns: ID, Title, Authors, Final Topic, Session, Decisions
+    Expected columns: ID, Title, Authors, Final Topic, Session
+    Optional columns: Date, Time, Abstract
     """
     # Read the data
     df = pd.read_excel(excel_file_path)
     
     # Verify required columns exist
-    required_columns = ['ID', 'Title', 'Authors', 'Final Topic', 'Session', 'Decisions']
+    required_columns = ['ID', 'Title', 'Authors', 'Final Topic', 'Session']
+    optional_columns = ['Date', 'Time', 'Abstract']
     missing_columns = [col for col in required_columns if col not in df.columns]
     
     if missing_columns:
-        print(f"Warning: Missing columns: {missing_columns}")
+        print(f"Warning: Missing required columns: {missing_columns}")
         print(f"Available columns: {list(df.columns)}")
+    
+    missing_optional = [col for col in optional_columns if col not in df.columns]
+    if missing_optional:
+        print(f"Note: Missing optional columns: {missing_optional}")
     
     # Generate HTML components
     generator = ConferenceHTMLGenerator(df)
