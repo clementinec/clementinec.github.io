@@ -189,7 +189,7 @@ body {
     font-size: 1rem;
     margin-bottom: 8px;
     line-height: 1.4;
-    color: #000000;
+    color: inherit;
 }
 
 .paper-meta {
@@ -268,40 +268,62 @@ format:
 </div>
 
 <script>
-let tooltipDiv = null;
+let showTimer, hideTimer, tooltipDiv;
+
+function createTooltip(text) {{
+  if (tooltipDiv) tooltipDiv.remove();
+  tooltipDiv = document.createElement('div');
+  tooltipDiv.innerHTML = text;
+  tooltipDiv.style.cssText = `
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    z-index: 999999;
+    background: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 0.95em;
+    line-height: 1.6;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    max-height: 70vh;
+    overflow-y: auto;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  `;
+  document.body.appendChild(tooltipDiv);
+  requestAnimationFrame(() => {{
+    tooltipDiv.style.opacity = '1';
+  }});
+}}
 
 function showTooltip(element) {{
-    const abstractText = element.getAttribute('data-abstract');
-    
-    // Create tooltip element
-    tooltipDiv = document.createElement('div');
-    tooltipDiv.innerHTML = abstractText;
-    tooltipDiv.style.cssText = `
-        position: fixed;
-        top: 50px;
-        left: 50px;
-        right: 50px;
-        z-index: 999999;
-        background: #333;
-        color: white;
-        padding: 20px;
-        border-radius: 8px;
-        font-size: 0.95em;
-        line-height: 1.6;
-        box-shadow: 0 8px 24px rgba(0,0,0,0.5);
-        max-height: 70vh;
-        overflow-y: auto;
-    `;
-    
-    document.body.appendChild(tooltipDiv);
+  clearTimeout(hideTimer);
+  const text = element.getAttribute('data-abstract');
+  showTimer = setTimeout(() => {{
+    createTooltip(text);
+  }}, 200);  // delay before showing
 }}
 
 function hideTooltip() {{
+  clearTimeout(showTimer);
+  if (!tooltipDiv) return;
+  tooltipDiv.style.opacity = '0';
+  hideTimer = setTimeout(() => {{
     if (tooltipDiv) {{
-        document.body.removeChild(tooltipDiv);
-        tooltipDiv = null;
+      tooltipDiv.remove();
+      tooltipDiv = null;
     }}
+  }}, 200);  // match the fade-out duration
 }}
+
+// Attach to your elements:
+document.querySelectorAll('.has-abstract').forEach(el => {{
+  el.addEventListener('mouseenter', () => showTooltip(el));
+  el.addEventListener('mouseleave', hideTooltip);
+}});
+
 
 document.addEventListener('DOMContentLoaded', function() {{
     const filterTags = document.querySelectorAll('.filter-tag');

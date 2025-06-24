@@ -191,7 +191,7 @@ body {
     font-size: 1rem;
     margin-bottom: 8px;
     line-height: 1.4;
-    color: #000000;
+    color: inherit;
 }
 
 .paper-meta {
@@ -352,9 +352,9 @@ body {
 /* Timestamp styling */
 .paper-timestamp {
     margin-left: auto;
-    font-size: 0.75rem;
-    color: #999;
-    opacity: 0.7;
+    font-size: 0.8rem;
+    color: #000;
+    opacity: 0.95;
     white-space: nowrap;
     padding-left: 15px;
 }
@@ -406,7 +406,7 @@ body {
     <div class="session">
         <div class="session-header">
             <div class="session-title">S-1, GENERATING BUILDING LAYOUT, 07-02 14:20 - 15:20</div>
-            <div class="session-info">Speaker-Driven Session</div>
+            <div class="session-info">Special Collection Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -564,7 +564,7 @@ analysis. https://doi.org/10.528/zenodo.7070952" onmouseenter="showTooltip(this)
     <div class="session">
         <div class="session-header">
             <div class="session-title">S-2, AUGMENTING & ADVANCING DESIGN, 07-02 15:40 - 16:25</div>
-            <div class="session-info">Speaker-Driven Session</div>
+            <div class="session-info">Special Collection Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -704,7 +704,7 @@ buildings." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
     <div class="session">
         <div class="session-header">
             <div class="session-title">S-3, URBAN PERCEPTIONS & PATTERNS II, 07-03 15:40 - 16:25</div>
-            <div class="session-info">Speaker-Driven Session</div>
+            <div class="session-info">Special Collection Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -853,7 +853,7 @@ appealing tourist cities." onmouseenter="showTooltip(this)" onmouseleave="hideTo
     <div class="session">
         <div class="session-header">
             <div class="session-title">S-4, STRUCTURAL, FABRICATION & MATERIAL LOGIC, 07-03 17:00 - 17:45</div>
-            <div class="session-info">Speaker-Driven Session</div>
+            <div class="session-info">Special Collection Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -1009,7 +1009,7 @@ aerospace, automotive, and biomedical fields." onmouseenter="showTooltip(this)" 
     <div class="session">
         <div class="session-header">
             <div class="session-title">S-S1, INTELLIGENT ROBOTIC ASSEMBLY, 07-02 11:25 - 12:10</div>
-            <div class="session-info">Speaker-Driven Session</div>
+            <div class="session-info">Speaker-led Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -1147,7 +1147,7 @@ methodologies." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
     <div class="session">
         <div class="session-header">
             <div class="session-title">S-S2, URBAN PERCEPTIONS & PATTERNS I, 07-03 10:35 - 11:35</div>
-            <div class="session-info">Speaker-Driven Session</div>
+            <div class="session-info">Speaker-led Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -1325,7 +1325,7 @@ environments." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
     <div class="session">
         <div class="session-header">
             <div class="session-title">S-S3, MORPHOLOGY ACROSS SCALES, 07-03 14:00 - 15:00</div>
-            <div class="session-info">Speaker-Driven Session</div>
+            <div class="session-info">Speaker-led Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -1560,7 +1560,7 @@ https://doi.org/10.1177/23998083211048496" onmouseenter="showTooltip(this)" onmo
     <div class="session">
         <div class="session-header">
             <div class="session-title">S-S4, PROMPTING ARCHITECTURE, 07-04 10:35 - 11:20</div>
-            <div class="session-info">Speaker-Driven Session</div>
+            <div class="session-info">Speaker-led Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -1734,7 +1734,7 @@ efficiency and environmental consciousness." onmouseenter="showTooltip(this)" on
     <div class="session">
         <div class="session-header">
             <div class="session-title">S-S5, ARCHITECTURAL COMPUTING & REASONING, 07-04 13:45 - 14:30</div>
-            <div class="session-info">Speaker-Driven Session</div>
+            <div class="session-info">Speaker-led Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -1849,7 +1849,7 @@ architecture." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
     <div class="session">
         <div class="session-header">
             <div class="session-title">P-A1, URBAN PERCEPTIONS & PATTERNS, 07-02 13:10 - 13:50</div>
-            <div class="session-info">Parallel Session</div>
+            <div class="session-info">Parallel Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -2015,7 +2015,7 @@ science studies." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
     <div class="session">
         <div class="session-header">
             <div class="session-title">P-A2, URBAN INFRASTRUCTURE & ENVIRONMENTAL SYSTEMS, 07-03 12:45 - 13:35</div>
-            <div class="session-info">Parallel Session</div>
+            <div class="session-info">Parallel Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -2244,7 +2244,7 @@ landslide-prone areas." onmouseenter="showTooltip(this)" onmouseleave="hideToolt
     <div class="session">
         <div class="session-header">
             <div class="session-title">P-A3, EVALUATING & EXPANDING AI, 07-04 12:00 - 12:40</div>
-            <div class="session-info">Parallel Session</div>
+            <div class="session-info">Parallel Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -2441,7 +2441,7 @@ Diagrams of Architecture John Wiley and Sons." onmouseenter="showTooltip(this)" 
     <div class="session">
         <div class="session-header">
             <div class="session-title">P-B1, AUGMENTING DESIGN GENERATION, 07-02 13:10 - 14:00</div>
-            <div class="session-info">Parallel Session</div>
+            <div class="session-info">Parallel Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -2646,7 +2646,7 @@ creative exploration." onmouseenter="showTooltip(this)" onmouseleave="hideToolti
     <div class="session">
         <div class="session-header">
             <div class="session-title">P-B2, AI FOR DESIGN EVALUATION, 07-03 12:45 - 13:35</div>
-            <div class="session-info">Parallel Session</div>
+            <div class="session-info">Parallel Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -2872,7 +2872,7 @@ studies and practical applications in this domain." onmouseenter="showTooltip(th
     <div class="session">
         <div class="session-header">
             <div class="session-title">P-B3, IMMERSIVE LEARNING & DESIGN, 07-04 12:00 - 12:50</div>
-            <div class="session-info">Parallel Session</div>
+            <div class="session-info">Parallel Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -3101,7 +3101,7 @@ workflows, boosting creativity and efficiency in designing." onmouseenter="showT
     <div class="session">
         <div class="session-header">
             <div class="session-title">P-C1 , INTELLIGENT ROBOTICS & LAYOUT PLANNING, 07-02 13:10 - 14:00</div>
-            <div class="session-info">Parallel Session</div>
+            <div class="session-info">Parallel Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -3300,7 +3300,7 @@ architectural practices." onmouseenter="showTooltip(this)" onmouseleave="hideToo
     <div class="session">
         <div class="session-header">
             <div class="session-title">P-C2, STRUCTURAL, FABRICATION & MATERIAL LOGIC, 07-03 12:45 - 13:35</div>
-            <div class="session-info">Parallel Session</div>
+            <div class="session-info">Parallel Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -3492,7 +3492,7 @@ reusable formwork system." onmouseenter="showTooltip(this)" onmouseleave="hideTo
     <div class="session">
         <div class="session-header">
             <div class="session-title">P-C3, BUILDING ARCHITECTURAL INSIGHTS, 07-04 12:00 - 12:40</div>
-            <div class="session-info">Parallel Session</div>
+            <div class="session-info">Parallel Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -3654,7 +3654,7 @@ environment." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
     <div class="session">
         <div class="session-header">
             <div class="session-title">P-D1, SUSTAINABLE BUILDING DESIGN PROCESSES, 07-02 13:10 - 14:00</div>
-            <div class="session-info">Parallel Session</div>
+            <div class="session-info">Parallel Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -3856,7 +3856,7 @@ for technological advancement in construction." onmouseenter="showTooltip(this)"
     <div class="session">
         <div class="session-header">
             <div class="session-title">P-D2, COMMUNITY & COLLECTIVE INTELLIGENCE, 07-03 12:45 - 13:25</div>
-            <div class="session-info">Parallel Session</div>
+            <div class="session-info">Parallel Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -4012,7 +4012,7 @@ outputs and broadening the scope of evaluation." onmouseenter="showTooltip(this)
     <div class="session">
         <div class="session-header">
             <div class="session-title">CI, CATALYTIC INTERFACE, 07-04 15:10 - 17:10</div>
-            <div class="session-info">Catalytic Interface Presentation</div>
+            <div class="session-info">Catalytic Interface Presentations</div>
         </div>
         
         <div class="papers-container">
@@ -4478,40 +4478,62 @@ in architectural education and practice." onmouseenter="showTooltip(this)" onmou
 </div>
 
 <script>
-let tooltipDiv = null;
+let showTimer, hideTimer, tooltipDiv;
+
+function createTooltip(text) {
+  if (tooltipDiv) tooltipDiv.remove();
+  tooltipDiv = document.createElement('div');
+  tooltipDiv.innerHTML = text;
+  tooltipDiv.style.cssText = `
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    z-index: 999999;
+    background: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 0.95em;
+    line-height: 1.6;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    max-height: 70vh;
+    overflow-y: auto;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  `;
+  document.body.appendChild(tooltipDiv);
+  requestAnimationFrame(() => {
+    tooltipDiv.style.opacity = '1';
+  });
+}
 
 function showTooltip(element) {
-    const abstractText = element.getAttribute('data-abstract');
-    
-    // Create tooltip element
-    tooltipDiv = document.createElement('div');
-    tooltipDiv.innerHTML = abstractText;
-    tooltipDiv.style.cssText = `
-        position: fixed;
-        top: 50px;
-        left: 50px;
-        right: 50px;
-        z-index: 999999;
-        background: #333;
-        color: white;
-        padding: 20px;
-        border-radius: 8px;
-        font-size: 0.95em;
-        line-height: 1.6;
-        box-shadow: 0 8px 24px rgba(0,0,0,0.5);
-        max-height: 70vh;
-        overflow-y: auto;
-    `;
-    
-    document.body.appendChild(tooltipDiv);
+  clearTimeout(hideTimer);
+  const text = element.getAttribute('data-abstract');
+  showTimer = setTimeout(() => {
+    createTooltip(text);
+  }, 200);  // delay before showing
 }
 
 function hideTooltip() {
+  clearTimeout(showTimer);
+  if (!tooltipDiv) return;
+  tooltipDiv.style.opacity = '0';
+  hideTimer = setTimeout(() => {
     if (tooltipDiv) {
-        document.body.removeChild(tooltipDiv);
-        tooltipDiv = null;
+      tooltipDiv.remove();
+      tooltipDiv = null;
     }
+  }, 200);  // match the fade-out duration
 }
+
+// Attach to your elements:
+document.querySelectorAll('.has-abstract').forEach(el => {
+  el.addEventListener('mouseenter', () => showTooltip(el));
+  el.addEventListener('mouseleave', hideTooltip);
+});
+
 
 document.addEventListener('DOMContentLoaded', function() {
     const filterTags = document.querySelectorAll('.filter-tag');

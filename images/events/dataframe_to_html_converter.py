@@ -168,11 +168,14 @@ class ConferenceHTMLGenerator:
                 
                 # Determine session type based on session name
                 if session_name.startswith('S-'):
-                    session_type = 'Speaker-Driven Session'
+                    if session_name.startswith('S-S'):
+                        session_type = 'Speaker-led Presentations'
+                    else:    
+                        session_type = 'Special Collection Presentations'
                 elif session_name.startswith('P-'):
-                    session_type = 'Parallel Session'
+                    session_type = 'Parallel Presentations'
                 else:
-                    session_type = 'Catalytic Interface Presentation'
+                    session_type = 'Catalytic Interface Presentations'
                 
                 sessions[session_name]['info'] = {
                     'title': f"{session_name}, {session_topic}",
@@ -395,9 +398,9 @@ class ConferenceHTMLGenerator:
 /* Timestamp styling */
 .paper-timestamp {
     margin-left: auto;
-    font-size: 0.75rem;
-    color: #999;
-    opacity: 0.7;
+    font-size: 0.8rem;
+    color: #000;
+    opacity: 0.95;
     white-space: nowrap;
     padding-left: 15px;
 }
