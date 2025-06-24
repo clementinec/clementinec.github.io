@@ -189,7 +189,7 @@ body {
     font-size: 1rem;
     margin-bottom: 8px;
     line-height: 1.4;
-    color: inherit;
+    color: #000000;
 }
 
 .paper-meta {

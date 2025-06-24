@@ -191,7 +191,7 @@ body {
     font-size: 1rem;
     margin-bottom: 8px;
     line-height: 1.4;
-    color: inherit;
+    color: #000000;
 }
 
 .paper-meta {
@@ -259,11 +259,11 @@ body {
     border-left: 4px solid #BC8F8F;
     background-color: rgba(188, 143, 143, 0.05);
 }
-.paper-row.topic-highlight.community--collective-intelligence {
+.paper-row.topic-highlight.catalytic-interface {
     border-left: 4px solid #708090;
     background-color: rgba(112, 128, 144, 0.05);
 }
-.paper-row.topic-highlight.catalytic-interface {
+.paper-row.topic-highlight.community--collective-intelligence {
     border-left: 4px solid #4682B4;
     background-color: rgba(70, 130, 180, 0.05);
 }
@@ -385,8 +385,8 @@ body {
         <div class="filter-tag augmenting--advancing-design" data-topic="AUGMENTING & ADVANCING DESIGN" style="background-color: #BBBBBB; color: black;">AUGMENTING & ADVANCING DESIGN</div>
         <div class="filter-tag augmenting-design-generation" data-topic="AUGMENTING DESIGN GENERATION" style="background-color: #BFBFBF; color: black;">AUGMENTING DESIGN GENERATION</div>
         <div class="filter-tag building-architectural-insights" data-topic="BUILDING ARCHITECTURAL INSIGHTS" style="background-color: #C2C2C2; color: black;">BUILDING ARCHITECTURAL INSIGHTS</div>
-        <div class="filter-tag community--collective-intelligence" data-topic="COMMUNITY & COLLECTIVE INTELLIGENCE" style="background-color: #C6C6C6; color: black;">COMMUNITY & COLLECTIVE INTELLIGENCE</div>
-        <div class="filter-tag catalytic-interface" data-topic="Catalytic Interface" style="background-color: #C9C9C9; color: black;">Catalytic Interface</div>
+        <div class="filter-tag catalytic-interface" data-topic="CATALYTIC INTERFACE" style="background-color: #C6C6C6; color: black;">CATALYTIC INTERFACE</div>
+        <div class="filter-tag community--collective-intelligence" data-topic="COMMUNITY & COLLECTIVE INTELLIGENCE" style="background-color: #C9C9C9; color: black;">COMMUNITY & COLLECTIVE INTELLIGENCE</div>
         <div class="filter-tag evaluating--expanding-ai" data-topic="EVALUATING & EXPANDING AI" style="background-color: #CDCDCD; color: black;">EVALUATING & EXPANDING AI</div>
         <div class="filter-tag generating-building-layout" data-topic="GENERATING BUILDING LAYOUT" style="background-color: #D0D0D0; color: black;">GENERATING BUILDING LAYOUT</div>
         <div class="filter-tag immersive-learning--design" data-topic="IMMERSIVE LEARNING & DESIGN" style="background-color: #D4D4D4; color: black;">IMMERSIVE LEARNING & DESIGN</div>
@@ -4011,12 +4011,12 @@ outputs and broadening the scope of evaluation." onmouseenter="showTooltip(this)
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">CI, Catalytic Interface, 07-04 15:10 - 17:10</div>
+            <div class="session-title">CI, CATALYTIC INTERFACE, 07-04 15:10 - 17:10</div>
             <div class="session-info">Catalytic Interface Presentation</div>
         </div>
         
         <div class="papers-container">
-            <div class="paper-row" data-topics="Catalytic Interface" data-session="CI" data-abstract="The Architecture, Engineering, and Construction (AEC)
+            <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="The Architecture, Engineering, and Construction (AEC)
 sector faces the immense challenge of helping nations meet
 their net-zero targets by 2050. Simultaneously, the global
 population is projected to increase by 2 billion, reaching
@@ -4165,7 +4165,7 @@ Kuys, Sisi Zlatanova and George Shinkle</div>
                 </div>
                 <span class="paper-timestamp">Jul 04, 15:10 - 15:30</span>
             </div>
-            <div class="paper-row" data-topics="Catalytic Interface" data-session="CI" data-abstract="Participatory Architectural Design (PAD) offers a promising
+            <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="Participatory Architectural Design (PAD) offers a promising
 framework for inclusive and context-sensitive spatial
 design. However, its implementation in practice continues
 to be hindered by communication breakdowns between
@@ -4203,7 +4203,7 @@ Designer-Stakeholder Collaboration</div>
                 </div>
                 <span class="paper-timestamp">Jul 04, 15:30 - 15:50</span>
             </div>
-            <div class="paper-row" data-topics="Catalytic Interface" data-session="CI" data-abstract="The future of architectural practice is increasingly shaped
+            <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="The future of architectural practice is increasingly shaped
 by the integration of digital technologies that augment
 human capabilities, particularly in design and fabrication.
 As boundaries between human craftsmanship and computational
@@ -4386,7 +4386,7 @@ Role of AR and Human-Machine Collaboration</div>
                 </div>
                 <span class="paper-timestamp">Jul 04, 15:50 - 16:10</span>
             </div>
-            <div class="paper-row" data-topics="Catalytic Interface" data-session="CI" data-abstract="This paper presents AIXR, a framework for artificial
+            <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="This paper presents AIXR, a framework for artificial
 intelligence (AI) informed, extended reality (XR) guided
 human-machine collaboration in rubble-based construction.
 Addressing the dual challenges of material irregularity and
@@ -4416,7 +4416,7 @@ Sandra Manninger and Dr. Daniela Mitterberger</div>
                 </div>
                 <span class="paper-timestamp">Jul 04, 16:10 - 16:30</span>
             </div>
-            <div class="paper-row" data-topics="Catalytic Interface" data-session="CI" data-abstract="Contemporary architectural design increasingly integrates
+            <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="Contemporary architectural design increasingly integrates
 biological and technical systems that interact with – and
 adapt to – their surrounding environments. Biological
 systems encompass living organisms such as humans, animals,
@@ -4458,7 +4458,7 @@ Christiane M. Herr</div>
                 </div>
                 <span class="paper-timestamp">Jul 04, 16:30 - 16:50</span>
             </div>
-            <div class="paper-row" data-topics="Catalytic Interface" data-session="CI" data-abstract="This paper presents HIKARI, a working prototype and design methodology for integrating generative AI into architectural design, focusing on automated compliance and building massing generation. Unlike purely speculative studies, HIKARI was developed in collaboration with a leading design firm to navigate complex building codes, offering concrete lessons on embedding AI within professional practice. The platform functions as a catalytic interface, combining generative algorithms for massing exploration, a regulatory engine for automated compliance checking against Japanese building codes, and a Retrieval-Augmented Generation (RAG) pipeline for explainable, natural-language queries. We discuss the co-creation methodology, system architecture, and key lessons on operationalizing trust and harmonizing data. Furthermore, we propose a workshop framework to empirically evaluate the platform&#39;s efficacy not only as a design tool but also as a pedagogical instrument for teaching complex regulations. This is measured by assessing knowledge acquisition through a pre- and post-test methodology, demonstrating how AI can serve as an interactive guide
+            <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="This paper presents HIKARI, a working prototype and design methodology for integrating generative AI into architectural design, focusing on automated compliance and building massing generation. Unlike purely speculative studies, HIKARI was developed in collaboration with a leading design firm to navigate complex building codes, offering concrete lessons on embedding AI within professional practice. The platform functions as a catalytic interface, combining generative algorithms for massing exploration, a regulatory engine for automated compliance checking against Japanese building codes, and a Retrieval-Augmented Generation (RAG) pipeline for explainable, natural-language queries. We discuss the co-creation methodology, system architecture, and key lessons on operationalizing trust and harmonizing data. Furthermore, we propose a workshop framework to empirically evaluate the platform&#39;s efficacy not only as a design tool but also as a pedagogical instrument for teaching complex regulations. This is measured by assessing knowledge acquisition through a pre- and post-test methodology, demonstrating how AI can serve as an interactive guide
 in architectural education and practice." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                 <div class="paper-id">458</div>
                 <div class="paper-content">
@@ -4525,8 +4525,8 @@ document.addEventListener('DOMContentLoaded', function() {
         'AUGMENTING & ADVANCING DESIGN': 'augmenting--advancing-design',
         'AUGMENTING DESIGN GENERATION': 'augmenting-design-generation',
         'BUILDING ARCHITECTURAL INSIGHTS': 'building-architectural-insights',
+        'CATALYTIC INTERFACE': 'catalytic-interface',
         'COMMUNITY & COLLECTIVE INTELLIGENCE': 'community--collective-intelligence',
-        'Catalytic Interface': 'catalytic-interface',
         'EVALUATING & EXPANDING AI': 'evaluating--expanding-ai',
         'GENERATING BUILDING LAYOUT': 'generating-building-layout',
         'IMMERSIVE LEARNING & DESIGN': 'immersive-learning--design',
