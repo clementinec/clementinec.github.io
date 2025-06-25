@@ -259,7 +259,9 @@ format:
 </style>
 
 <div class="container">
-    <h1>Conference Papers</h1>
+    <h1>Technical Programme</h1>
+    <p>This technical programme only reflects author names and abstracts from <strong>EasyChair</strong> submission records. 
+    Edits to authorship/abstract made in camera-ready submission will be reflected in conference proceedings.</p>
     <p><strong>{components['stats']['total_papers']} papers</strong> across <strong>{components['stats']['total_topics']} topics</strong> in <strong>{components['stats']['total_sessions']} sessions</strong></p>
     
 {components['filter_buttons']}
