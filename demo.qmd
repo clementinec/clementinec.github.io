@@ -483,24 +483,6 @@ format:
           </div>
         </div>
 
-        <!-- “Diamond Hill Crematorium” (Wed 5/7, 09:30 – 11:30) ▸ cat-architecture -->
-        <div class="event cat-architecture"
-             style="
-               grid-row: 5 / 9;      /* 09:30 → 11:30 */
-               grid-column: 3;       /* sub-col 2 under Wed 5/7 */
-             ">
-          <div class="event-title">Diamond Hill Crematorium</div>
-          <div class="tooltip">
-          <a href="event_details.html#DiamondHill">
-            <img src="images/events/DiamondHillCrematorium.jpg"
-                 alt="Diamond Hill Crematorium"
-                 style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
-            <strong>Diamond Hill Crematorium</strong><br/>
-            <em>Remembrance & Architectural Context</em><br/>
-            Date: July 5 | 09:30 – 11:30<br/>
-            Cost: HKD 250
-          </div>
-        </div>
 
         <!-- “Wan Chai Temple & Blue House” (Wed 5/7, 09:30 – 11:30) ▸ cat-architecture -->
         <div class="event cat-architecture"
@@ -597,24 +579,6 @@ format:
           </div>
         </div>
 
-        <!-- “Diamond Hill Crematorium” (Wed 5/7, 13:30 – 15:30) ▸ cat-architecture -->
-        <div class="event cat-architecture"
-             style="
-               grid-row: 13 / 17;     /* 13:30 → 15:30 */
-               grid-column: 5;       /* sub-col 4 under Wed 5/7 */
-             ?>">
-          <div class="event-title">Diamond Hill Crematorium</div>
-          <div class="tooltip">
-          <a href="event_details.html#DiamondHill">
-            <img src="images/events/DiamondHillCrematorium.jpg"
-                 alt="Diamond Hill Crematorium"
-                 style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
-            <strong>Diamond Hill Crematorium</strong><br/>
-            <em>Designing for Remembrance in a City of Density</em><br/>
-            Date: July 5 | 13:30 – 15:30<br/>
-            Cost: HKD 250
-          </div>
-        </div>
 
         <!-- “M+ Art Museum” (Wed 5/7, 14:30 – 16:30) ▸ cat-architecture -->
         <div class="event cat-architecture"

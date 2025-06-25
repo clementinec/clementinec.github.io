@@ -36,8 +36,11 @@ website:
             href: present.qmd
           # - text: "Special Events"
           #   href: keynotes/special-events.qmd
+          - text: "Technical Programme"
+            href: conference_papers.qmd
           - text: "Schedule"
             href: schedule.qmd
+
           # - text: "---"
           # - text: "All Events"
           #   href: event.qmd
