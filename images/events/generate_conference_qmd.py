@@ -190,6 +190,9 @@ body {
     margin-bottom: 8px;
     line-height: 1.4;
     color: inherit;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 .paper-meta {
