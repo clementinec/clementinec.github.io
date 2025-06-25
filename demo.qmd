@@ -409,10 +409,10 @@ format:
            ">
         <!-- Row 1: Main Headers -->
         <div class="day-header" style="grid-row: 1; grid-column: 2 / span 4;">
-          Wed 5/7
+          Sat 5/7
         </div>
         <div class="day-header" style="grid-row: 1; grid-column: 6;">
-          Sat 6/7
+          Sun 6/7
         </div>
 
         <!-- Row 2–28: Time Labels 08:00 → 21:30 -->
@@ -461,45 +461,6 @@ format:
             <em>Exploring Innovation & Urban Transformation</em><br/>
             Date: July 5 | 08:30 – 20:30<br/>
             Cost: HKD 900
-          </div>
-        </div>
-
-        <!-- “Henderson by Zaha Hadid Arch.” (Wed 5/7, 09:30 – 11:30) ▸ cat-architecture -->
-        <div class="event cat-architecture"
-             style="
-               grid-row: 5 / 9;      /* 09:30 (row 5) → 11:30 (row 9) */
-               grid-column: 2;       /* sub-col 1 under Wed 5/7 */
-             ">
-          <div class="event-title">Henderson by Zaha Hadid Arch.</div>
-          <div class="tooltip">
-          <a href="event_details.html#Henderson">
-            <img src="images/events/Henderson.png"
-                 alt="Henderson by Zaha Hadid Arch."
-                 style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
-            <strong>Henderson by Zaha Hadid Arch.</strong><br/>
-            <em>Vertical Fluidity & Urban Innovation</em><br/>
-            Date: July 5 | 09:30 – 11:30<br/>
-            Cost: HKD 250
-          </div>
-        </div>
-
-
-        <!-- “Wan Chai Temple & Blue House” (Wed 5/7, 09:30 – 11:30) ▸ cat-architecture -->
-        <div class="event cat-architecture"
-             style="
-               grid-row: 5 / 9;      /* 09:30 → 11:30 */
-               grid-column: 4;       /* sub-col 3 under Wed 5/7 */
-             ">
-          <div class="event-title">Wan Chai Temple & Blue House</div>
-          <div class="tooltip">
-          <a href="event_details.html#WanChaiTempleBlueHouse">
-            <img src="images/events/WanChaiTempleBlueHouse.jpg"
-                 alt="Wan Chai Temple & Blue House"
-                 style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
-            <strong>Wan Chai Temple & Blue House</strong><br/>
-            <em>Heritage & Urban Regeneration</em><br/>
-            Date: July 5 | 09:30 – 11:30<br/>
-            Cost: HKD 250
           </div>
         </div>
 
@@ -560,26 +521,6 @@ format:
           </div>
         </div>
 
-        <!-- “Mong Kok & Yau Ma Tei” (Wed 5/7, 13:30 – 15:30) ▸ cat-architecture -->
-        <div class="event cat-architecture"
-             style="
-               grid-row: 13 / 17;     /* 13:30 → 15:30 */
-               grid-column: 4;       /* sub-col 3 under Wed 5/7 */
-             ?>">
-          <div class="event-title">Mong Kok & Yau Ma Tei</div>
-          <div class="tooltip">
-          <a href="event_details.html#MongkokYauMaTei">
-            <img src="images/events/temple-street.jpg"
-                 alt="Mong Kok & Yau Ma Tei"
-                 style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
-            <strong>Mong Kok & Yau Ma Tei</strong><br/>
-            <em>Urban Density & Cultural Layers</em><br/>
-            Date: July 5 | 13:30 – 15:30<br/>
-            Cost: HKD 250
-          </div>
-        </div>
-
-
         <!-- “M+ Art Museum” (Wed 5/7, 14:30 – 16:30) ▸ cat-architecture -->
         <div class="event cat-architecture"
              style="
@@ -618,49 +559,11 @@ format:
           </div>
         </div>
 
-        <!-- “M+ Art Museum” (Wed 5/7, 16:30 – 18:30) ▸ cat-architecture -->
-        <div class="event cat-architecture"
-             style="
-               grid-row: 19 / 23;     /* 16:30 → 18:30 */
-               grid-column: 3;       /* sub-col 2 under Wed 5/7 */
-             ?>">
-          <div class="event-title">M+ Art Museum</div>
-          <div class="tooltip">
-          <a href="event_details.html#MPlus">
-            <img src="images/events/MPlus.png"
-                 alt="M+ Art Museum"
-                 style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
-            <strong>M+ Art Museum by Herzog & de Meuron</strong><br/>
-            <em>Inside the Making of a Cultural Landmark</em><br/>
-            Date: July 5 | 16:30 – 18:30<br/>
-            Cost: HKD 250
-          </div>
-        </div>
-
-        <!-- “Public Housing Typologies” (Wed 5/7, 16:30 – 18:30) ▸ cat-architecture -->
-        <div class="event cat-architecture"
-             style="
-               grid-row: 19 / 23;     /* 16:30 → 18:30 */
-               grid-column: 4;       /* sub-col 3 under Wed 5/7 */
-             ?>">
-          <div class="event-title">Public Housing Typologies</div>
-          <div class="tooltip">
-          <a href="event_details.html#PublicHousing">
-            <img src="images/events/Public_Housing.png"
-                 alt="Public Housing Typologies"
-                 style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
-            <strong>Public Housing Typologies</strong><br/>
-            <em>High-Density Residential Design</em><br/>
-            Date: July 5 | 16:30 – 18:30<br/>
-            Cost: HKD 250
-          </div>
-        </div>
-
         <!-- “Wan Chai Temple & Blue House” (Wed 5/7, 16:30 – 18:30) ▸ cat-architecture -->
         <div class="event cat-architecture"
              style="
-               grid-row: 19 / 23;     /* 16:30 → 18:30 */
-               grid-column: 5;       /* sub-col 4 under Wed 5/7 */
+               grid-row: 15 / 19;     /* 14:30 → 16:30 */
+               grid-column: 4;       /* sub-col 4 under Wed 5/7 */
              ?>">
           <div class="event-title">Wan Chai Temple & Blue House</div>
           <div class="tooltip">
@@ -670,7 +573,7 @@ format:
                  style="width:100%; margin-bottom:6px; border-radius:3px;"></a>
             <strong>Wan Chai Temple & Blue House</strong><br/>
             <em>Heritage & Urban Regeneration</em><br/>
-            Date: July 5 | 16:30 – 18:30<br/>
+            Date: July 5 | 14:30 – 16:30<br/>
             Cost: HKD 250
           </div>
         </div>

@@ -486,7 +486,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><strong>Event Details:</strong><br>
 <strong>Date:</strong> Saturday, 5th July<br>
-<strong>Time:</strong> 4:30PM - 6:30PM <a href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&amp;ueid=100428"><code>Ticket</code></a><br>
+<strong>Time:</strong> 2:30PM - 4:30PM <a href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&amp;ueid=100428"><code>Ticket</code></a><br>
 <!-- - Option 1: 9:30AM – 11:30AM  [`Ticket`](https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100391) --> <strong>Quota:</strong> 30 per tour<br>
 <strong>Cost:</strong> HKD 250<br>
 <strong>Meeting Point:</strong> : Wan Chai Pak Tai Temple, Lung On St, Wan Chai <a href="https://maps.app.goo.gl/UQgPAbC4hrPZyZ3cA">Map</a></p>
@@ -760,7 +760,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/caadfutures2025\.hku\.hk");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
