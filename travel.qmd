@@ -14,6 +14,19 @@ format:
 
 Welcome to CAAD Futures 2025 at The University of Hong Kong (HKU). Below is essential travel information to help you plan your visit.
 
+## Conference Location
+The conference will take place at HKU's main campus in Pok Fu Lam, Hong Kong. The map below highlights HKU Station and key campus locations.
+
+```{=html}
+<iframe
+  src="./events/CAAD Futures map.pdf"
+  style="width:100%;height:75vh;border:none;"
+  loading="lazy"
+  title="Report PDF">
+</iframe>
+```
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.841741370834!2d114.13313762733291!3d22.283983979613655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff84558ca189%3A0x7dea16aa57d61c84!2sHKU!5e0!3m2!1sen!2sus!4v1749374410665!5m2!1sen!2sus" width="600" height="450" style="width:100%;height:40vh;border:none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 ## Visa Requirements
 
 Most overseas visitors can enter Hong Kong without a visa for tourism or short business visits, with permitted stays ranging from 7 to 180 days depending on nationality. For longer stays or activities such as work, study, or business, a visa or entry permit is required. All visitors must hold a passport valid for more than one month.
@@ -44,9 +57,3 @@ Routes 23, 37A, 40, 40M, and 90B stop near HKU's main campus.
 Red taxis serve Hong Kong Island and are widely available. A taxi from the airport to HKU costs approximately HK$360.
 
 **Tip**: Purchase an [Octopus Card](https://www.mtr.com.hk/en/customer/tickets/octopus.html) for seamless payments across MTR, buses, and other transport. For real-time directions, use [HKeMobility](https://www.hkemobility.gov.hk/) or [Google Maps](https://www.google.com/maps).
-
-## Conference Location
-
-The conference will take place at HKU's main campus in Pok Fu Lam, Hong Kong. The map below highlights HKU Station and key campus locations.
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.841741370834!2d114.13313762733291!3d22.283983979613655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff84558ca189%3A0x7dea16aa57d61c84!2sHKU!5e0!3m2!1sen!2sus!4v1749374410665!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
