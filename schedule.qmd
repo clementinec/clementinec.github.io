@@ -17,6 +17,37 @@ format:
     background-color: #ccc;  /* very light grey */
     margin: 1.5em 0;          /* optional vertical spacing */
   }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th:nth-child(1),
+  td:nth-child(1) {
+    width: 15%;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2) {
+    width: 35%;
+  }
+
+  th:nth-child(3),
+  td:nth-child(3) {
+    width: 30%;
+  }
+
+  th:nth-child(4),
+  td:nth-child(4) {
+    width: 20%;
+  }
+
+  th, td {
+    padding: 0px 0px;
+    border: none;
+    vertical-align: top;
+    line-height: 1.0;
+  }
 </style>
 
 <!-- # Schedule -->
@@ -35,6 +66,34 @@ _Note: This schedule is tentative and may be updated. Social event details (tour
 
 ## Wednesday, 2 July 2025
 
+| Time             | Description                                                             | Host / Chair / Speaker              | Location                       |
+|------------------|-------------------------------------------------------------------------|-------------------------------------|---------------------------------|
+| 08:30 – 09:00    | **Registration & Opening**                                                  | Prof. Dr. Kristof Crolla <br> Mr. Mono Tong | CPD - LG Atrium          |
+| 09:00 – 09:30    | **Welcome & Opening Remarks**                                               | Prof. Dr. Kristof Crolla            | CPD - LG.08-09                 |
+| 09:30 – 09:50    | Lion Dance                                                              | Prof. Dr. Kristof Crolla            | CPD - LG.08-09                 |
+| 09:50 – 10:50    | [`Keynote 1: PROF. DR. MARIANA POPESCU`](keynotes/Mariana.qmd)          | Prof. Dr. Kam-Ming Mark Tam         | CPD - LG.08-09                 |
+| 10:50 – 11:00    | Break                                                                   |                                     | CPD - LG.07-10                 |
+| 11:00 – 11:20    | **Catalytic Interfaces – Introduction**                                     | Prof. Dr. Kristof Crolla            | CPD - LG.08-09                 |
+| 11:20 – 12:30    | **Speaker-led Presentations S-S1:** <br>*Intelligent Robotic Assembly*  | Prof. Dr. Victor Leung              | CPD - LG.08-09                 |
+| 12:30 – 13:10    | Lunch Break / Poster Viewing                                            |                                     | CPD - LG.07-10                 |
+| 13:10 – 13:50    | **Parallel Presentation P-A1:** <br>*Urban Perceptions & Patterns*      | Prof. Dr. Hongshan Guo              | CPD - LG.08-09                 |
+| 13:10 – 14:00    | **Parallel Presentation P-B1:** <br>*Augmenting Design Generation*      | Prof. Dr. Tan Tan                   | CPD - LG.18                    |
+| 13:10 – 14:00    | **Parallel Presentation P-C1:** <br>*Intelligent Robotics & Layout Planning* | Prof. Dr. Peter Búš             | CPD - LG.34                    |
+| 13:10 – 14:00    | **Parallel Presentation P-D1:** <br>*Sustainable Building Design Processes* | Dr. Provides Ng                  | CPD - 1.21                     |
+| 14:00 – 14:20    | Break                                                                   |                                     | CPD - LG.07-10                 |
+| 14:20 – 15:20    | **Special Collection S-1:** <br>*Generating Building Layout*            | Prof. Dr. Davide Schaumann          | CPD - LG.08-09                 |
+| 15:20 – 15:40    | Break                                                                   |                                     | CPD - LG.07-10                 |
+| 15:40 – 16:25    | **Special Collection S-2:** <br>*Augmenting & Advancing Design*         | Dr. Garvin Goepel                   | CPD - LG.08-09                 |
+| 16:25 – 17:00    | Break / Relocate                                                        |                                     |                                |
+| 17:00 – 18:00    | [`Keynote 2: PROF. SHIGERU BAN`](keynotes/Shigeru.qmd)                  | Prof. Dr. Kristof Crolla            | Rayson Huang Lecture Theatre    |
+| 18:00 – 19:00    | **Catalytic Interfaces – Work Session**                                     |                                     | CPD - LG.07-10                 |
+| 19:00 – 21:00    | [`Victoria Peak at Night`](event_details.qmd#VictoriaPeak)              |                                     | Offsite                         |
+| 20:30 – 22:00    | [`Henderson by Zaha Hadid Architects`](event_details.qmd#Henderson)     |                                     | Offsite                         |
+
+
+<!-- 
+## Wednesday, 2 July 2025
+
 - **08:30 – 09:00**: Registration  
 - **09:00 – 09:30**: Welcome & Opening Remarks  
 - **09:30 – 09:50**: Lion Dance  
@@ -49,13 +108,35 @@ _Note: This schedule is tentative and may be updated. Social event details (tour
 - **18:00 – 19:00**: Catalytic Interfaces – Work Session  
 - **19:00 – 21:00**: [Victoria Peak at Night](event_details.qmd#VictoriaPeak)  
 - **20:30 – 22:00**: [Henderson by Zaha Hadid Architects](event_details.qmd#Henderson)  
-
+ -->
 ---
 
 ## Thursday, 3 July 2025
 
-- **08:30 – 09:00**: Registration & Opening  
-- [`09:00 – 10:00:   Keynote 3: WANYU HE`](keynotes/Wanyu.qmd)  
+| Time             | Description                                                             | Host / Chair / Speaker                        | Location                       |
+|------------------|-------------------------------------------------------------------------|------------------------------------------------|---------------------------------|
+| 08:30 – 09:00    | **Registration & Opening**                                                  | Prof. Dr. Kristof Crolla <br> Mr. Mono Tong    | CPD - LG Atrium                |
+| 09:00 – 10:00    | [`Keynote 3: DR. WANYU HE`](keynotes/Wanyu.qmd)                         | Mr. Haotian Zhang                              | CPD - LG.08-09                 |
+| 10:00 – 10:10    | Break                                                                   |                                                | CPD - LG.07-10                 |
+| 10:10 – 10:30    | **Catalytic Interfaces – Check In**                                         |                                                | CPD - LG.07-10                 |
+| 10:30 – 11:55    | **Speaker-led Presentations S-S2:** <br>*Urban Perceptions & Patterns I*    | Prof. Dr. Rudi Stouffs                         | CPD - LG.08-09                 |
+| 11:55 – 12:45    | Lunch Break / Poster Viewing                                            |                                                | CPD - LG.07-10                 |
+| 12:45 – 13:35    | **Parallel Presentation P-A2:** <br>*Urban Infrastructure & Environmental Systems* | Prof. Dr. Christiane M. Herr        | CPD - LG.08-09                 |
+| 12:45 – 13:35    | **Parallel Presentation P-B2:** <br>*AI for Design Evaluation*          | Prof. Dr. Hao Zheng                             | CPD - LG.18                    |
+| 12:45 – 13:35    | **Parallel Presentation P-C2:** <br>*Structural, Fabrication & Material Logic* | Prof. Dr. Cao Ting                          | CPD - LG.34                    |
+| 12:45 – 13:25    | **Parallel Presentation P-D2:** <br>*Community & Collective Intelligence* | Mr. Haotian Zhang                              | CPD - 1.21                     |
+| 13:35 – 13:55    | Break                                                                   |                                                | CPD - LG.07-10                 |
+| 13:55 – 15:20    | **Speaker-led Presentations S-S3:** <br>*Morphology Across Scales*          | Prof. Dr. Kam-Ming Mark Tam                     | CPD - LG.08-09                 |
+| 15:20 – 15:40    | Break                                                                   |                                                | CPD - LG.07-10                 |
+| 15:40 – 16:25    | **Special Collection S-3:** <br>*Urban Perceptions & Patterns II*             | Prof. Dr. Hongshan Guo                          | CPD - LG.08-09                 |
+| 16:25 – 16:45    | Break                                                                   |                                                |                               |
+| 16:45 – 17:45    | **Special Collection S-4:** <br>*Structural, Fabrication & Material Logic*    | Prof. Dr. Juan Jose Castellon                   | CPD - LG.08-09                 |
+| 17:45 – 19:15    | **Catalytic Interfaces – Work Session**                                     |                                                | CPD - LG.07-10                 |
+| 19:00 – 21:00    | [`Victoria Peak at Night`](event_details.qmd#VictoriaPeak)              |                                                | Offsite                         |
+
+
+<!-- - **08:30 – 09:00**: Registration & Opening  
+- [`09:00 – 10:00:   Keynote 3: DR. WANYU HE`](keynotes/Wanyu.qmd)  
 - **10:10 – 10:30**: Catalytic Interfaces – Check In  
 - **10:30 – 11:55**: Speaker-led Presentations 2: URBAN PERCEPTIONS & PATTERNS I  
 - **11:55 – 12:45**: Lunch break / Poster viewing  
@@ -64,23 +145,45 @@ _Note: This schedule is tentative and may be updated. Social event details (tour
 - **15:40 – 16:25**: Special Collection Presentations 3: URBAN PERCEPTIONS & PATTERNS II  
 - **16:45 – 17:45**: Special Collection Presentations 4: STRUCTURAL, FABRICATION & MATERIAL LOGIC  
 - **17:45 – 19:16**: Catalytic Interfaces – Work Session  
-- **19:00 – 21:00**: [Victoria Peak at Night](event_details.qmd#VictoriaPeak)  
+- **19:00 – 21:00**: [Victoria Peak at Night](event_details.qmd#VictoriaPeak)   -->
 
 ---
 
 ## Friday, 4 July 2025
+| Time             | Description                                                             | Host / Chair / Speaker                                | Location                             |
+|------------------|-------------------------------------------------------------------------|--------------------------------------------------------|---------------------------------------|
+| 08:30 – 09:00    | **Registration & Opening**                                                  | Prof. Dr. Kristof Crolla <br> Mr. Mono Tong            | CPD - LG Atrium                      |
+| 09:00 – 10:00    | [`Keynote 4: PROF. DR. DANIELA MITTERBERGER`](keynotes/Daniela.qmd)     | Prof. Dr. Kam-Ming Mark Tam                            | CPD - LG.08-09                       |
+| 10:00 – 10:10    | Break                                                                   |                                                        | CPD - LG.07-10                       |
+| 10:10 – 10:30    | **Catalytic Interfaces – Check In**                                         |                                                        | CPD - LG.07-10                       |
+| 10:30 – 11:40    | **Speaker-led Presentations S-S4:** <br>*Prompting Architecture*        | Prof. Dr. Christiane M. Herr                           | CPD - LG.08-09                       |
+| 11:40 – 12:00    | Break                                                                   |                                                        | CPD - LG.07-10                       |
+| 12:00 – 12:40    | **Parallel Presentation P-A3:** <br>*Evaluating & Expanding AI*         | Prof. Dr. Frank Xue                                    | CPD - LG.08-09                       |
+| 12:00 – 12:50    | **Parallel Presentation P-B3:** <br>*Immersive Learning & Design*       | Dr. Garvin Goepel                                      | CPD - LG.18                          |
+| 12:00 – 12:40    | **Parallel Presentation P-C3:** <br>*Building Architectural Insights*   | Dr. Achilleas Xydis                                    | CPD - LG.34                          |
+| 12:50 – 13:40    | Lunch Break / Poster Viewing                                            |                                                        | CPD - LG.34                          |
+| 13:40 – 14:50    | **Speaker-led Presentations S-S5:** <br>*Architectural Computing & Reasoning* | Prof. Dr. Immanuel Koh                             | CPD - LG.08-09                       |
+| 14:50 – 15:10    | Break                                                                   |                                                        | CPD - LG.07-10                       |
+| 15:10 – 17:10    | **Catalytic Interfaces Presentation**                                   | Prof. Dr. Kristof Crolla <br> Prof. Dr. Kam-Ming Mark Tam | CPD - LG.08-09                   |
+| 17:10 – 17:30    | Break                                                                   |                                                        | CPD - LG.07-10                       |
+| 17:30 – 18:30    | [`Keynote 5: PROF. DR. WILSON LU`](keynotes/Wilson.qmd)                 | Prof. Dr. Kristof Crolla                               | CPD - LG.08-09                       |
+| 18:30 – 19:00    | **Closing Remarks**                                                         | Prof. Dr. Kristof Crolla                               | CPD - LG.08-09                       |
+| 19:30 – 22:30    | **Banquet Dinner**                                                          |                                                        | City Hall Maxim's Palace (Central)    |
+
+
+<!-- ## Friday, 4 July 2025
 
 - **08:30 – 09:00**: Registration & Opening  
-- [`09:00 – 10:00:   Keynote 4: DANIELA MITTERBERGER`](keynotes/Daniela.qmd)  
+- [`09:00 – 10:00:   Keynote 4: PROF. DR. DANIELA MITTERBERGER`](keynotes/Daniela.qmd)  
 - **10:10 – 10:30**: Catalytic Interfaces – Check In  
 - **10:30 – 11:40**: Speaker-led Presentations 4: PROMPTING ARCHITECTURE  
 - **12:00 – 12:50**: Parallel Presentations 3  
 - **12:50 – 13:40**: Lunch break / Poster viewing  
 - **13:40 – 14:50**: Speaker-led Presentations 5: ARCHITECTURAL COMPUTING & REASONING  
 - **15:10 – 17:10**: Catalytic Interfaces Presentation  
-- [`17:30 – 18:30:   Keynote 5: WILSON LU`](keynotes/Wilson.qmd)  
+- [`17:30 – 18:30:   Keynote 5: PROF. DR. WILSON LU`](keynotes/Wilson.qmd)  
 - **18:30 – 19:00**: Closing Remarks  
-- **19:30 – 22:30**: Banquet Dinner  
+- **19:30 – 22:30**: Banquet Dinner   -->
 
 ---
 
