@@ -62,7 +62,11 @@ Additionally, please update your **title slide**, making sure it includes:
 #### Schedule & Upload Details
 
 - The final schedule, including session numbers, topics, and paper assignments, will be posted by **24 June 2025**.
-- Presentations must be uploaded in advance using a **Google Form** (link to be provided soon).
+- Presentations must be uploaded in advance using a [`Google Form`](https://docs.google.com/forms/d/e/1FAIpQLScEVDIeIX0fgavEgok9Ck75HsyZtO4_oBts3nuEsGuP6yDdJg/viewform).
   - Presentations will be pre-loaded on session computers.
-  - **Deadline**: Submit your presentation at least **one day before your scheduled session**.
+  - Upload your presentation using this [link]
+  - **Deadline**: 
+    - For Special Collection & Conference Proceedings authors: please upload ideally by `1 July 13:00 HKT`, but no later than **one day before your scheduled session**. 
+    - For Catalytic Interfaces authors, please upload your final presentation by `4 July 13:00 HKT`.
+
 

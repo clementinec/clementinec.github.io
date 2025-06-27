@@ -28,24 +28,28 @@ website:
         href: index.qmd
       - text: "Programme"
         menu:
-          - text: "Regular Papers"
-            href: regular.qmd
-          - text: "Catalytic Interfaces"
-            href: props.qmd
-          - text: "Presentation Format"
-            href: present.qmd
-          # - text: "Special Events"
-          #   href: keynotes/special-events.qmd
+          # - text: "Regular Papers"
+          #   href: regular.qmd
+          # - text: "Catalytic Interfaces"
+          #   href: props.qmd
+          # - text: "Presentation Format"
+          #   href: present.qmd
           - text: "Technical Programme"
             href: conference_papers.qmd
-          - text: "Schedule"
+          - text: "Conference Schedule"
             href: schedule.qmd
-
-          # - text: "---"
-          # - text: "All Events"
-          #   href: event.qmd
-          # - text: "Event Pending"
-          #   href: event_thumbnails_n.qmd
+      - text: "Instructions"
+        menu:
+          - text: "Paper: Regular Papers"
+            href: regular.qmd
+          - text: "Paper: Catalytic Interfaces"
+            href: props.qmd
+          - text: "Presentation: All Stream"
+            href: present.qmd
+          # - text: "Technical Programme"
+          #   href: conference_papers.qmd
+          # - text: "Conference Schedule"
+          #   href: schedule.qmd
       - text: "Keynotes"
         href: keynote.qmd
       - text: "Tickets"
