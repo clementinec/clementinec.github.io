@@ -11,6 +11,11 @@ format:
   html:
     theme: quartz
     toc: false
+    page-layout: full
+    grid:
+      body-width: 2000px
+      margin-width: 200px
+      gutter-width: 1.5rem
 ---
 """
 
@@ -18,6 +23,10 @@ format:
 qmd_content += """
 ```{=html}
 <style>
+main.content {
+    padding-left: 40px;
+    padding-right: 40px;
+}
 .table-container {
     display: flex;
     align-items: center;
@@ -45,11 +54,18 @@ qmd_content += """
     font-size: 1.2em;
     font-weight: bold;
 }
+.affiliation {
+    margin: 5px 0;
+    font-size: 1.15em;
+    font-weight: 500;
+    color: #333;
+}
 .text-cell p {
     margin: 5px 0;
     font-size: 1.1em;
     line-height: 1.5;
 }
+
 </style>
 ```
 """
@@ -64,6 +80,7 @@ for member in data["committee"]:
     </div>
     <div class="text-cell">
         <h3>{member['role']}: {member['name']}</h3>
+        <div class="affiliation">{member['affiliation']}</div>
         <p>{member['bio']}</p>
     </div>
 </div>
