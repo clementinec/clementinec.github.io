@@ -197,7 +197,7 @@ main.content {
     <div class="text-cell">
         <h3>ADMINISTRATION LEAD: Ms. Candy LAU</h3>
         <div class="affiliation">Executive Officer, Department of Architecture</div>
-        <p>Candy has been instrumental in enabling the conference logistics and has worked tirelessly to make sure the delivery of info is speedy and accurate across the board.</p>
+        <p>Candy Lau is an Executive Officer at the University of Hong Kong. With a unique background combining arts administration and public relations, Candy brings extensive insights in managing cultural events and collaborating closely with creative teams and artists. She holds a Master’s degree in Communication from Hong Kong Baptist University and a Bachelor’s in Arts, Event & Stage Management from The Hong Kong Academy for Performing Arts. Candy’s expertise in event coordination, stakeholder engagement, theatre production management and multimedia content development contribute to dynamic experiences that fosters innovation and global collaboration in the creative industry.</p>
     </div>
 </div>
 ```
