@@ -17,38 +17,36 @@ format:
     background-color: #ccc;  /* very light grey */
     margin: 1.5em 0;          /* optional vertical spacing */
   }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
+</style>
 
-  th:nth-child(1),
-  td:nth-child(1) {
-    width: 15%;
-  }
-
-  th:nth-child(2),
-  td:nth-child(2) {
-    width: 35%;
-  }
-
-  th:nth-child(3),
-  td:nth-child(3) {
-    width: 30%;
-  }
-
-  th:nth-child(4),
-  td:nth-child(4) {
-    width: 20%;
-  }
-
-  th, td {
-    padding: 0px 0px;
-    border: none;
+<style>
+  /* Reset line-height inside tables */
+  table, tr, th, td {
+    line-height: 1.5 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
     vertical-align: top;
-    line-height: 1.0;
+  }
+
+  /* Also reset global body influence */
+  table {
+    font-size: 1em;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  th:nth-child(1), td:nth-child(1) { width: 15%; }
+  th:nth-child(2), td:nth-child(2) { width: 35%; }
+  th:nth-child(3), td:nth-child(3) { width: 30%; }
+  th:nth-child(4), td:nth-c0hild(4) { width: 20%; }
+
+  /* Remove margins from block elements in cells */
+  td p, th p {
+    margin: 0 !important;
   }
 </style>
+
 
 <!-- # Schedule -->
 
