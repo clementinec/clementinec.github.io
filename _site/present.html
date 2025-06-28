@@ -117,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-instructions">    
         <li>
     <a class="dropdown-item" href="./regular.html">
- <span class="dropdown-text">Paper: Regular Papers</span></a>
+ <span class="dropdown-text">Paper: Conference Proceedings</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./props.html">
@@ -269,10 +269,9 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="schedule-upload-details">Schedule &amp; Upload Details</h4>
 <ul>
 <li>The final schedule, including session numbers, topics, and paper assignments, will be posted by <strong>24 June 2025</strong>.</li>
-<li>Presentations must be uploaded in advance using a <a href="https://docs.google.com/forms/d/e/1FAIpQLScEVDIeIX0fgavEgok9Ck75HsyZtO4_oBts3nuEsGuP6yDdJg/viewform"><code>Google Form</code></a>.
+<li>Presentations must be uploaded in advance using this <a href="https://docs.google.com/forms/d/e/1FAIpQLScEVDIeIX0fgavEgok9Ck75HsyZtO4_oBts3nuEsGuP6yDdJg/viewform"><code>Google Form</code></a>.
 <ul>
 <li>Presentations will be pre-loaded on session computers.</li>
-<li>Upload your presentation using this [link]</li>
 <li><strong>Deadline</strong>:
 <ul>
 <li>For Special Collection &amp; Conference Proceedings authors: please upload ideally by <code>1 July 13:00 HKT</code>, but no later than <strong>one day before your scheduled session</strong>.</li>
@@ -378,7 +377,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/caadfutures2025\.hku\.hk");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

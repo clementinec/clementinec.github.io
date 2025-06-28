@@ -42,7 +42,7 @@ website:
             href: CI_acts.qmd
       - text: "Instructions"
         menu:
-          - text: "Paper: Regular Papers"
+          - text: "Paper: Conference Proceedings"
             href: regular.qmd
           - text: "Paper: Catalytic Interfaces"
             href: props.qmd
