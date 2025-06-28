@@ -747,7 +747,7 @@ advanced computation and sustainable architectural robotics." onmouseenter="show
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">S-3, URBAN PERCEPTIONS & PATTERNS II, 07-03 15:40 - 16:25</div>
+            <div class="session-title">S-3, URBAN PERCEPTIONS & PATTERNS II, 07-03 13:55 - 14:40</div>
             <div class="session-info">Special Collection Presentations</div>
         </div>
         
@@ -789,7 +789,7 @@ appealing tourist cities." onmouseenter="showTooltip(this)" onmouseleave="hideTo
                         <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 15:40 - 16:25</span>
+                <span class="paper-timestamp">7/3/2025, 13:55 - 14:10</span>
             </div>
             <div class="paper-row" data-topics="URBAN PERCEPTIONS & PATTERNS II" data-session="S-3" data-abstract="Current architectural design research often overlooks
 users&#39; emotional responses in high-density urban
@@ -838,7 +838,7 @@ efficiency." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                         <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 15:55 - 16:10</span>
+                <span class="paper-timestamp">7/3/2025, 14:10 - 14:25</span>
             </div>
             <div class="paper-row" data-topics="URBAN PERCEPTIONS & PATTERNS II" data-session="S-3" data-abstract="In the context of globalization and cultural hybridization,
 immigrant communities significantly shape how streets are
@@ -889,7 +889,7 @@ cultures." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                         <div class="additional-topics"><span class="session-badge" style="background-color: #4C4C4C; color: white; margin-left: 5px;">Session: S-3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 16:10 - 16:25</span>
+                <span class="paper-timestamp">7/3/2025, 14:25 - 14:40</span>
             </div>
         </div>
     </div>
@@ -1368,7 +1368,7 @@ environments." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
 
     <div class="session">
         <div class="session-header">
-            <div class="session-title">S-S3, MORPHOLOGY ACROSS SCALES, 07-03 14:00 - 15:00</div>
+            <div class="session-title">S-S3, MORPHOLOGY ACROSS SCALES, 07-03 15:00 - 16:25</div>
             <div class="session-info">Speaker-led Presentations</div>
         </div>
         
@@ -1424,7 +1424,7 @@ https://doi.org/10.1177/23998083211048496" onmouseenter="showTooltip(this)" onmo
                         <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: S-S3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 14:00 - 14:15</span>
+                <span class="paper-timestamp">7/3/2025, 15:05 – 15:20 </span>
             </div>
             <div class="paper-row" data-topics="MORPHOLOGY ACROSS SCALES" data-session="S-S3" data-abstract="The use of bitmaps to represent patterns has a long
 history, originating with the Jacquard loom, where they
@@ -1482,7 +1482,7 @@ weaving to other fields of visual pattern generation." onmouseenter="showTooltip
                         <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: S-S3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 14:15 - 14:30</span>
+                <span class="paper-timestamp">7/3/2025, 15:20 – 15:35</span>
             </div>
             <div class="paper-row" data-topics="MORPHOLOGY ACROSS SCALES" data-session="S-S3" data-abstract="This study explores challenges in contemporary
 architectural classification, particularly in machine
@@ -1556,7 +1556,7 @@ Learning and Data Exploration. J. Mach. Learn. Res., 22,
                         <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: S-S3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 14:30 - 14:45</span>
+                <span class="paper-timestamp">7/3/2025, 15:35 – 15:50</span>
             </div>
             <div class="paper-row" data-topics="MORPHOLOGY ACROSS SCALES" data-session="S-S3" data-abstract="This study delves into computational methods to develop a
 generative design tool intended for the creation of living
@@ -1596,7 +1596,7 @@ of resilient shoreline ecosystems." onmouseenter="showTooltip(this)" onmouseleav
                         <div class="additional-topics"><span class="session-badge" style="background-color: #5E5E5E; color: white; margin-left: 5px;">Session: S-S3</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/3/2025, 14:45 - 15:00</span>
+                <span class="paper-timestamp">7/3/2025, 15:50 – 16:05</span>
             </div>
         </div>
     </div>
@@ -3525,9 +3525,7 @@ validates the structural reliability of the generated
 framework through finite element analysis." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                 <div class="paper-id">27</div>
                 <div class="paper-content">
-                    <div class="paper-title">A Full-Process Digital Method for Recursive Geometric
-Structure and Machining Parameter Generation Targeting the
-Reutilization of Curved Timber</div>
+                    <div class="paper-title">A FULL-PROCESS DIGITAL METHOD FOR RECURSIVE GEOMETRIC STRUCTURE AND MACHINING PARAMETER GENERATION TARGETING THE REUTILIZATION OF CURVED TIMBER</div>
                     <div class="paper-meta">
                         <div class="author-tag">Shenzhou Dai, Sihang Liu, Haojun Wang, Yulin Chen and
 Zixiong Lin</div>
@@ -4156,7 +4154,7 @@ Futures 2025.
 [2] https://innochain.net/about/, accessed Sept 2024." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                 <div class="paper-id">82</div>
                 <div class="paper-content">
-                    <div class="paper-title">(CI) COLLABORATIVE PATHWAYS TO SUSTAINABLE DIGITAL
+                    <div class="paper-title">COLLABORATIVE PATHWAYS TO SUSTAINABLE DIGITAL
 INNOVATION IN AEC</div>
                     <div class="paper-meta">
                         <div class="author-tag">M. Hank Haeusler, Ivana Kuzmanovska, Christopher
@@ -4379,7 +4377,7 @@ together to shape a more creative, efficient, and
 sustainable built environment." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
                 <div class="paper-id">389</div>
                 <div class="paper-content">
-                    <div class="paper-title">(CI) AUGMENTATION IN DESIGN AND FABRICATION: EXPANDING THE
+                    <div class="paper-title">AUGMENTATION IN DESIGN AND FABRICATION: EXPANDING THE
 ROLE OF AR AND HUMAN-MACHINE COLLABORATION</div>
                     <div class="paper-meta">
                         <div class="author-tag">Igor Pantic, Soomeen Hahm, Peter Búš and Zhiyong Dong</div>
