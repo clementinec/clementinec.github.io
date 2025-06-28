@@ -44,8 +44,10 @@ website:
             href: regular.qmd
           - text: "Paper: Catalytic Interfaces"
             href: props.qmd
-          - text: "Presentation: All Stream"
+          - text: "Presentation: All Streams"
             href: present.qmd
+          - text: "Activities: Catalytic Interfaces"
+            href: CI_activities.qmd
           # - text: "Technical Programme"
           #   href: conference_papers.qmd
           # - text: "Conference Schedule"
