@@ -122,7 +122,7 @@ The CI programme is guided by the following principles:
 </ul>
 <li>Please find the presentation formatting requirements <a href="present.qmd">here</a>.</li>
 <li>Submit your slides by <code>4 July at 13:00</code>!</li>
-<li>See the <a href="schedule.qmd">presentation line-up</a>.</li>
+<li>See the <a href="conference_papers.qmd">presentation line-up</a>.</li>
 </ul>
 </div>
 
