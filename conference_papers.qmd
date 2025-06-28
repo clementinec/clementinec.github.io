@@ -4016,6 +4016,19 @@ outputs and broadening the scope of evaluation." onmouseenter="showTooltip(this)
         </div>
         
         <div class="papers-container">
+            <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="This paper presents HIKARI, a working prototype and design methodology for integrating generative AI into architectural design, focusing on automated compliance and building massing generation. Unlike purely speculative studies, HIKARI was developed in collaboration with a leading design firm to navigate complex building codes, offering concrete lessons on embedding AI within professional practice. The platform functions as a catalytic interface, combining generative algorithms for massing exploration, a regulatory engine for automated compliance checking against Japanese building codes, and a Retrieval-Augmented Generation (RAG) pipeline for explainable, natural-language queries. We discuss the co-creation methodology, system architecture, and key lessons on operationalizing trust and harmonizing data. Furthermore, we propose a workshop framework to empirically evaluate the platform&#39;s efficacy not only as a design tool but also as a pedagogical instrument for teaching complex regulations. This is measured by assessing knowledge acquisition through a pre- and post-test methodology, demonstrating how AI can serve as an interactive guide
+in architectural education and practice." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                <div class="paper-id">458</div>
+                <div class="paper-content">
+                    <div class="paper-title">CATALYTIC DESIGN INTERFACES: AI-GUIDED BUILDING MASSING AND AUTOMATED COMPLIANCE
+</div>
+                    <div class="paper-meta">
+                        <div class="author-tag">Tejas Chavan, Houssame E. Hsain, Camiel Weijenberg and Sayjel V. Patel</div>
+                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
+                    </div>
+                </div>
+                <span class="paper-timestamp">7/4/2025, 15:10 - 15:30</span>
+            </div>
             <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="The Architecture, Engineering, and Construction (AEC)
 sector faces the immense challenge of helping nations meet
 their net-zero targets by 2050. Simultaneously, the global
@@ -4163,7 +4176,7 @@ Kuys, Sisi Zlatanova and George Shinkle</div>
                         <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 15:10 - 15:30</span>
+                <span class="paper-timestamp">7/4/2025, 15:30 - 15:50</span>
             </div>
             <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="Participatory Architectural Design (PAD) offers a promising
 framework for inclusive and context-sensitive spatial
@@ -4201,7 +4214,7 @@ DESIGNER-STAKEHOLDER COLLABORATION</div>
                         <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 15:30 - 15:50</span>
+                <span class="paper-timestamp">7/4/2025, 15:50 - 16:10</span>
             </div>
             <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="The future of architectural practice is increasingly shaped
 by the integration of digital technologies that augment
@@ -4384,7 +4397,7 @@ ROLE OF AR AND HUMAN-MACHINE COLLABORATION</div>
                         <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 15:50 - 16:10</span>
+                <span class="paper-timestamp">7/4/2025, 16:10 - 16:30</span>
             </div>
             <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="This paper presents AIXR, a framework for artificial
 intelligence (AI) informed, extended reality (XR) guided
@@ -4414,7 +4427,7 @@ Sandra Manninger and Dr. Daniela Mitterberger</div>
                         <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
                     </div>
                 </div>
-                <span class="paper-timestamp">7/4/2025, 16:10 - 16:30</span>
+                <span class="paper-timestamp">7/4/2025, 16:30 - 16:50</span>
             </div>
             <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="Contemporary architectural design increasingly integrates
 biological and technical systems that interact with – and
@@ -4453,19 +4466,6 @@ BETWEEN TECHNICAL AND BIOLOGICAL SYSTEMS IN ARCHITECTURE</div>
 Farahbod Heidari, Alex Binh Vinh Duc Nguyen, Yiming Liu,
 Umaru Mohammed Bongwirnso, Sihao Chen, Thomas Fischer and
 Christiane M. Herr</div>
-                        <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
-                    </div>
-                </div>
-                <span class="paper-timestamp">7/4/2025, 16:30 - 16:50</span>
-            </div>
-            <div class="paper-row" data-topics="CATALYTIC INTERFACE" data-session="CI" data-abstract="This paper presents HIKARI, a working prototype and design methodology for integrating generative AI into architectural design, focusing on automated compliance and building massing generation. Unlike purely speculative studies, HIKARI was developed in collaboration with a leading design firm to navigate complex building codes, offering concrete lessons on embedding AI within professional practice. The platform functions as a catalytic interface, combining generative algorithms for massing exploration, a regulatory engine for automated compliance checking against Japanese building codes, and a Retrieval-Augmented Generation (RAG) pipeline for explainable, natural-language queries. We discuss the co-creation methodology, system architecture, and key lessons on operationalizing trust and harmonizing data. Furthermore, we propose a workshop framework to empirically evaluate the platform&#39;s efficacy not only as a design tool but also as a pedagogical instrument for teaching complex regulations. This is measured by assessing knowledge acquisition through a pre- and post-test methodology, demonstrating how AI can serve as an interactive guide
-in architectural education and practice." onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-                <div class="paper-id">458</div>
-                <div class="paper-content">
-                    <div class="paper-title">CATALYTIC DESIGN INTERFACES: AI-GUIDED BUILDING MASSING AND AUTOMATED COMPLIANCE
-</div>
-                    <div class="paper-meta">
-                        <div class="author-tag">Tejas Chavan, Houssame E. Hsain, Camiel Weijenberg and Sayjel V. Patel</div>
                         <div class="additional-topics"><span class="session-badge" style="background-color: #404040; color: white; margin-left: 5px;">Session: CI</span></div>
                     </div>
                 </div>
