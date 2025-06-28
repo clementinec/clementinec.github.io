@@ -1,0 +1,67 @@
+---
+title: "Planned Activities of Catalytic Interfaces"
+format:
+  html:
+    toc: false
+---
+
+<style>
+/* ========== Inline Grey Highlight for Dates & Times ========== */
+.hl {
+  background-color: #e0e0e0;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 90%;
+}
+
+/* ========== Inline Code = Deadlines in Red ========== */
+code {
+  color: #C10000;
+  font-weight: bold;
+}
+
+/* ========== Links in Red ========== */
+a {
+  color: #C10000;
+  text-decoration: underline;
+}
+
+/* ========== Callout Block Styling ========== */
+/* Darker text inside IMPORTANT callout */
+.callout-important {
+  color: #222222; /* Dark grey text */
+}
+
+/* Optional: make headings or bold text even stronger */
+.callout-important strong,
+.callout-important h4,
+.callout-important h3 {
+  color: #111111;
+}
+</style>
+
+
+This page serves as a bulletin board for activities & events arranged as part of the Catalytic Interfaces (CI) programme.
+
+We are pleased to highlight the following additional sessions proposed by CI teams:
+
+- **[CI#82] Collaborative Pathways to Sustainable Digital Innovation in AEC**  
+  - ***Roundtable Discussion with Faculty***  
+  - <span class="hl">2 July | 13:10 – 15:00</span>
+  - We are looking for academic researchers with experiences in advising doctoral students in Hong Kong.  Please join us! You can learn more about it and sign up [`here`](https://forms.gle/NRb4xdbVzrvwMAiW7)!
+
+- **[CI#82] Collaborative Pathways to Sustainable Digital Innovation in AEC**  
+  - ***Roundtable Discussion with Students***  
+  - <span class="hl">3 July | 12:45 – 14:30</span>
+  - We are looking for participants who are prusuing a doctoral degree in Hong Kong.  Sign up [`here`](https://forms.gle/XEAGgYVb3jRexBL49) now!
+
+
+
+
+<div style="border-left: 4px solid orange; background: #fff8e1; padding: 1em; border-radius: 6px;">
+<h4>💡 Add Your Event to the CI Programme</h4>
+<p>We welcome CI teams to propose additional events, workshops, roundtables, or other activities during the conference. This is a great way to invite collaborators, engage with the community, and bring more visibility to your research focus.</p>
+<p>If you are interested in organising a public-facing activity as part of the <strong>Catalytic Interfaces</strong> programme, please let us know! We will help spotlight your event and support gathering participants.</p>
+<p>Simply email us at <a href="mailto:caadfutures2025@hku.hk">caadfutures2025@hku.hk</a> with a short description of your proposed session (title, format, target audience, and preferred time slot if any).</p>
+</div>
