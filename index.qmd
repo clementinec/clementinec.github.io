@@ -57,8 +57,18 @@ Find out more about the CAAD Futures Foundation [here](https://www.caadfutures.o
 <div style="text-align: center; margin: 30px 0;">
   <!-- Row 1: Bigger logos -->
   <div style="display: flex; justify-content: center; align-items: center; gap: 60px; height: 100px; margin-bottom: 30px;">
-    <img src="images/HKU.png" alt="The University of Hong Kong" style="height: 90px; object-fit: contain;">
     <img src="images/CITF.jpg" alt="CITF" style="height: 75px; object-fit: contain;">
+  </div>
+</div>
+```
+
+**Supported by**
+
+```{=html}
+<div style="text-align: center; margin: 30px 0;">
+  <!-- Row 1: Bigger logos -->
+  <div style="display: flex; justify-content: center; align-items: center; gap: 60px; height: 100px; margin-bottom: 30px;">
+    <img src="images/HKU.png" alt="The University of Hong Kong" style="height: 90px; object-fit: contain;">
   </div>
   
   <!-- Row 2: Smaller logo -->
