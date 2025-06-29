@@ -267,6 +267,8 @@ format:
     Edits to authorship/abstract made in camera-ready submission will be reflected in conference proceedings.</p>
     <p><strong>{components['stats']['total_papers']} papers</strong> across <strong>{components['stats']['total_topics']} topics</strong> in <strong>{components['stats']['total_sessions']} sessions</strong></p>
     
+{components['day_filters']}
+
 {components['filter_buttons']}
 
 {components['sessions']}
@@ -331,67 +333,105 @@ document.querySelectorAll('.has-abstract').forEach(el => {{
 
 
 document.addEventListener('DOMContentLoaded', function() {{
+    const dayFilterTags = document.querySelectorAll('.day-filter-tag');
     const filterTags = document.querySelectorAll('.filter-tag');
     const paperRows = document.querySelectorAll('.paper-row');
     const sessions = document.querySelectorAll('.session');
     
+    // Current filter states
+    let currentDay = 'all';
+    let currentTopic = 'all';
+    
     // Map topics to CSS classes
     const topicClassMap = {components['js_topic_mapping']};
     
+    function applyFilters() {{
+        // Reset all rows and sessions visibility
+        paperRows.forEach(row => {{
+            row.classList.remove('hidden', 'day-hidden');
+            row.classList.remove('topic-highlight');
+            // Remove all possible topic classes
+            Object.values(topicClassMap).forEach(cssClass => {{
+                row.classList.remove(cssClass);
+            }});
+        }});
+        
+        sessions.forEach(session => {{
+            session.style.display = 'block';
+        }});
+        
+        // Apply day filter
+        if (currentDay !== 'all') {{
+            paperRows.forEach(row => {{
+                const paperDate = row.getAttribute('data-paper-date');
+                if (paperDate !== currentDay) {{
+                    row.classList.add('day-hidden');
+                }}
+            }});
+            
+            sessions.forEach(session => {{
+                const sessionDate = session.getAttribute('data-session-date');
+                if (sessionDate !== currentDay) {{
+                    session.style.display = 'none';
+                }}
+            }});
+        }}
+        
+        // Apply topic filter
+        if (currentTopic !== 'all') {{
+            const topicClass = topicClassMap[currentTopic];
+            
+            paperRows.forEach(row => {{
+                if (row.classList.contains('day-hidden')) return; // Skip day-hidden papers
+                
+                const paperTopics = row.getAttribute('data-topics');
+                if (paperTopics && paperTopics.split(';').some(topic => topic.trim() === currentTopic)) {{
+                    // Add topic highlighting for visible papers
+                    if (topicClass) {{
+                        row.classList.add('topic-highlight', topicClass);
+                    }}
+                }} else {{
+                    row.classList.add('hidden');
+                }}
+            }});
+            
+            // Hide sessions that have no visible papers
+            sessions.forEach(session => {{
+                if (session.style.display === 'none') return; // Skip day-hidden sessions
+                
+                const visiblePapers = session.querySelectorAll('.paper-row:not(.hidden):not(.day-hidden)');
+                if (visiblePapers.length === 0) {{
+                    session.style.display = 'none';
+                }}
+            }});
+        }}
+    }}
+    
+    // Day filter event listeners
+    dayFilterTags.forEach(tag => {{
+        tag.addEventListener('click', function() {{
+            const selectedDay = this.getAttribute('data-day');
+            
+            // Update active day filter
+            dayFilterTags.forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+            
+            currentDay = selectedDay;
+            applyFilters();
+        }});
+    }});
+    
+    // Topic filter event listeners
     filterTags.forEach(tag => {{
         tag.addEventListener('click', function() {{
             const selectedTopic = this.getAttribute('data-topic');
             
-            // Update active filter
+            // Update active topic filter
             filterTags.forEach(t => t.classList.remove('active'));
             this.classList.add('active');
             
-            // Remove all topic highlighting first
-            paperRows.forEach(row => {{
-                row.classList.remove('topic-highlight');
-                // Remove all possible topic classes
-                Object.values(topicClassMap).forEach(cssClass => {{
-                    row.classList.remove(cssClass);
-                }});
-            }});
-            
-            // Filter papers
-            if (selectedTopic === 'all') {{
-                // Show all papers, no highlighting
-                paperRows.forEach(row => {{
-                    row.classList.remove('hidden');
-                }});
-                sessions.forEach(session => {{
-                    session.style.display = 'block';
-                }});
-            }} else {{
-                // Hide/show papers based on topic
-                const topicClass = topicClassMap[selectedTopic];
-                
-                paperRows.forEach(row => {{
-                    const paperTopics = row.getAttribute('data-topics');
-                    // Check if any of the paper's topics match the selected topic
-                    if (paperTopics && paperTopics.split(';').some(topic => topic.trim() === selectedTopic)) {{
-                        row.classList.remove('hidden');
-                        // Add topic highlighting for visible papers
-                        if (topicClass) {{
-                            row.classList.add('topic-highlight', topicClass);
-                        }}
-                    }} else {{
-                        row.classList.add('hidden');
-                    }}
-                }});
-                
-                // Hide sessions that have no visible papers
-                sessions.forEach(session => {{
-                    const visiblePapers = session.querySelectorAll('.paper-row:not(.hidden)');
-                    if (visiblePapers.length === 0) {{
-                        session.style.display = 'none';
-                    }} else {{
-                        session.style.display = 'block';
-                    }}
-                }});
-            }}
+            currentTopic = selectedTopic;
+            applyFilters();
         }});
     }});
 }});
@@ -406,6 +446,7 @@ document.addEventListener('DOMContentLoaded', function() {{
     print(f"Conference QMD file generated: {output_qmd}")
     print(f"Stats: {components['stats']['total_papers']} papers, {components['stats']['total_sessions']} sessions, {components['stats']['total_topics']} topics")
     print(f"Sessions: {', '.join(components['stats']['sessions_list'][:5])}{'...' if len(components['stats']['sessions_list']) > 5 else ''}")
+    print(f"Days: {', '.join([d[1] for d in components['stats']['days_list']])}")
     
     return output_qmd
 

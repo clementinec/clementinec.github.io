@@ -3,27 +3,72 @@ import numpy as np
 from collections import defaultdict, Counter
 from datetime import datetime
 import re
-sessiontimemap={'CI': '07-04 15:10 - 17:10', 
-                'P-A1': '07-02 13:10 - 13:50', 
-                'P-A2': '07-03 12:45 - 13:35', 
-                'P-A3': '07-04 12:00 - 12:40', 
-                'P-B1': '07-02 13:10 - 14:00',
-                'P-B2': '07-03 12:45 - 13:35', 
-                'P-B3': '07-04 12:00 - 12:50', 
-                'P-C1 ': '07-02 13:10 - 14:00', 
-                'P-C2': '07-03 12:45 - 13:35', 
-                'P-C3': '07-04 12:00 - 12:40', 
-                'P-D1': '07-02 13:10 - 14:00', 
-                'P-D2': '07-03 12:45 - 13:25', 
-                'S-1': '07-02 14:20 - 15:20', 
-                'S-2': '07-02 15:40 - 16:25', 
-                'S-3': '07-03 13:55 - 14:40', 
-                'S-4': '07-03 17:00 - 17:45', 
-                'S-S1': '07-02 11:25 - 12:10', 
-                'S-S2': '07-03 10:35 - 11:35', 
-                'S-S3': '07-03 15:00 - 16:25', 
-                'S-S4': '07-04 10:35 - 11:20', 
-                'S-S5': '07-04 13:45 - 14:30'}
+
+sessiontimemap={'CI': '07-04 15:10 - 17:10', 'P-A1': '07-02 13:10 - 13:50', 'P-A2': '07-03 12:45 - 13:35', 'P-A3': '07-04 12:00 - 12:40', 'P-B1': '07-02 13:10 - 14:00', 'P-B2': '07-03 12:45 - 13:35', 'P-B3': '07-04 12:00 - 12:50', 'P-C1 ': '07-02 13:10 - 14:00', 'P-C2': '07-03 12:45 - 13:35', 'P-C3': '07-04 12:00 - 12:40', 'P-D1': '07-02 13:10 - 14:00', 'P-D2': '07-03 12:45 - 13:25', 'S-1': '07-02 14:20 - 15:20', 'S-2': '07-02 15:40 - 16:25', 'S-3': '07-03 15:40 - 16:25', 'S-4': '07-03 17:00 - 17:45', 'S-S1': '07-02 11:25 - 12:10', 'S-S2': '07-03 10:35 - 11:35', 'S-S3': '07-03 14:00 - 15:00', 'S-S4': '07-04 10:35 - 11:20', 'S-S5': '07-04 13:45 - 14:30'}
+roomap={'S-S1': 'CPD - LG.08-09',
+'P-A1': 'CPD - LG.08-09',
+'P-B1': 'CPD - LG.18',
+'P-C1 ': 'CPD - LG.34',
+'P-D1': 'CPD - 1.21',
+'S-1': 'CPD - LG.08-09',
+'S-2': 'CPD - LG.08-09',
+'S-S2': 'CPD - LG.08-09',
+'P-A2': 'CPD - LG.08-09',
+'P-B2': 'CPD - LG.18',
+'P-C2': 'CPD - LG.34',
+'P-D2': 'CPD - 1.21',
+'S-S3': 'CPD - LG.08-09',
+'S-3': 'CPD - LG.08-09',
+'S-4': 'CPD - LG.08-09',
+'S-S4': 'CPD - LG.08-09',
+'P-A3': 'CPD - LG.08-09',
+'P-B3': 'CPD - LG.18',
+'P-C3': 'CPD - LG.34',
+'S-S5': 'CPD - LG.08-09',
+'CI': 'CPD - LG.08-09'}
+chairmap={'S-S1': 'Prof. Dr. Victor Leung',
+'P-A1': 'Prof. Dr. Hongshan Guo',
+'P-B1': 'Prof. Dr. Tan Tan',
+'P-C1 ': 'Prof. Dr. Peter  Bú',
+'P-D1': 'Dr. Provides Ng',
+'S-1': 'Prof. Dr. Davide Schaumann',
+'S-2': 'Dr. Garvin Goepel',
+'S-S2': 'Prof. Dr. Rudi Stouffs',
+'P-A2': 'Prof. Dr. Christiane M. Herr',
+'P-B2': 'Prof. Dr. Hao Zheng',
+'P-C2': 'Prof. Dr. Cao Ting',
+'P-D2': 'Mr. Haotian Zhang',
+'S-S3': 'Prof. Dr. Kam-Ming Mark Tam',
+'S-3': 'Prof. Dr. Hongshan Guo',
+'S-4': 'Prof. Dr. Juan Jose Castellon',
+'S-S4': 'Prof. Dr. Christiane M. Herr',
+'P-A3': 'Prof. Dr. Frank Xue',
+'P-B3': 'Dr. Garvin Goepel',
+'P-C3': 'Dr. Achilleas Xydis',
+'S-S5': 'Prof. Dr. Immanuel Koh',
+'CI': 'Prof. Dr. Kristof Crolla & \nProf. Dr. Kam-Ming Mark Tam'}
+datemap={'S-S1': '7/2/2025',
+'P-A1': '7/2/2025',
+'P-B1': '7/2/2025',
+'P-C1 ': '7/2/2025',
+'P-D1': '7/2/2025',
+'S-1': '7/2/2025',
+'S-2': '7/2/2025',
+'S-S2': '7/3/2025',
+'P-A2': '7/3/2025',
+'P-B2': '7/3/2025',
+'P-C2': '7/3/2025',
+'P-D2': '7/3/2025',
+'S-S3': '7/3/2025',
+'S-3': '7/3/2025',
+'S-4': '7/3/2025',
+'S-S4': '7/4/2025',
+'P-A3': '7/4/2025',
+'P-B3': '7/4/2025',
+'P-C3': '7/4/2025',
+'S-S5': '7/4/2025',
+'CI': '7/4/2025'}
+
 class ConferenceHTMLGenerator:
     def __init__(self, df):
         """
@@ -62,6 +107,27 @@ class ConferenceHTMLGenerator:
         
         # Generate colors for sessions
         self.session_colors = self._generate_session_colors()
+        
+        # Get unique days from datemap
+        self.days = self._get_unique_days()
+        
+    def _get_unique_days(self):
+        """Get unique days from the datemap"""
+        unique_dates = set()
+        for session in self.sessions:
+            if session in datemap:
+                date_str = datemap[session]
+                # Convert to a more readable format
+                try:
+                    date_obj = datetime.strptime(date_str, '%m/%d/%Y')
+                    formatted_date = date_obj.strftime('%B %d')  # e.g., "July 02"
+                    unique_dates.add((date_str, formatted_date))
+                except:
+                    unique_dates.add((date_str, date_str))
+        
+        # Sort by original date string
+        sorted_dates = sorted(list(unique_dates), key=lambda x: x[0])
+        return sorted_dates
         
     def _parse_topics(self, topic_str):
         """Parse topic string, handling multiple topics separated by semicolons"""
@@ -201,7 +267,8 @@ class ConferenceHTMLGenerator:
                     'title': f"{session_name}, {session_topic}",
                     'topics': session_topic,
                     'time': session_type,
-                    'paper_count': session_paper_count
+                    'paper_count': session_paper_count,
+                    'date': datemap.get(session_name, '')
                 }
             
             # Format timestamp if Date and Time columns exist
@@ -240,15 +307,28 @@ class ConferenceHTMLGenerator:
                 'topics_str': paper['Final Topic'],
                 'session': paper['Session'],
                 'abstract': paper.get('Abstract', 'No abstract available'),
-                'timestamp': timestamp
+                'timestamp': timestamp,
+                'date': datemap.get(paper['Session'], '')
             })
         
         return dict(sessions)
     
+    def generate_day_filter_html(self):
+        """Generate HTML for day-based filter buttons"""
+        html = '    <div class="day-filters">\n'
+        html += '        <div class="day-filter-tag all active" data-day="all">ALL DAYS</div>\n'
+        
+        # Add day-based filters
+        for date_str, formatted_date in self.days:
+            html += f'        <div class="day-filter-tag" data-day="{date_str}">{formatted_date}</div>\n'
+        
+        html += '    </div>\n'
+        return html
+    
     def generate_filter_buttons_html(self):
         """Generate HTML for filter buttons - using Final Topics as filters with gray colors"""
         html = '    <div class="filters">\n'
-        html += '        <div class="filter-tag all active" data-topic="all">ALL</div>\n'
+        html += '        <div class="filter-tag all active" data-topic="all">ALL TOPICS</div>\n'
         
         # Generate gray shades for topics
         gray_shades = [
@@ -291,14 +371,15 @@ class ConferenceHTMLGenerator:
                 
             session_info = session_data['info']
             papers = session_data['papers']
+            session_date = session_info.get('date', '')
             
             # Add paper count to session header
             paper_count_info = ""#f" ({len(papers)} papers)"
             
-            html += f'''    <div class="session">
+            html += f'''    <div class="session" data-session-date="{session_date}">
         <div class="session-header">
-            <div class="session-title">{session_info['title']}, {sessiontimemap[session_id]}{paper_count_info}</div>
-            <div class="session-info">{session_info['time']}</div>
+            <div class="session-title">{session_info['title']}, {sessiontimemap[session_id]} | {roomap[session_id]}{paper_count_info}</div>
+            <div class="session-info">{session_info['time']}, Chair-Speaker: {chairmap[session_id]}</div>
         </div>
         
         <div class="papers-container">\n'''
@@ -312,12 +393,12 @@ class ConferenceHTMLGenerator:
                         color = self.topic_colors.get(topic, '#6c757d')
                         topic_badges += f'<span class="topic-badge" style="background-color: {color};">{topic}</span>'
                 
-                # Add session badge for all papers
+                # Add session badge for all papers with "coming soon" hover
                 session_badge = ''
                 if paper.get('session'):
                     session_color = self.session_colors.get(paper['session'], '#6c757d')
-                    session_badge = f'<span class="session-badge" style="background-color: {session_color}; color: white; margin-left: 5px;">Session: {paper["session"]}</span>'
-                
+                    session_badge = f'<span class="session-badge" style="background-color: {session_color}; color: white; margin-left: 5px;" title="Coming soon">DOI</span>'
+                    # session_badge = f'<a class="session-badge" style="background-color: {session_color}; color: white; margin-left: 5px; text-decoration: none;" href="{paper.get("doiurl", "#")}" target="_blank">DOI</a>'
                 # Add presentation type badge based on session code
                 presentation_badge = ''
                 if paper.get('session'):
@@ -334,7 +415,7 @@ class ConferenceHTMLGenerator:
                 # Escape quotes in abstract for HTML attributes
                 abstract_text = paper.get('abstract', 'No abstract available').replace('"', '&quot;').replace("'", "&#39;")
                 
-                html += f'''            <div class="paper-row" data-topics="{paper['topics_str']}" data-session="{paper.get('session', '')}" data-abstract="{abstract_text}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+                html += f'''            <div class="paper-row" data-topics="{paper['topics_str']}" data-session="{paper.get('session', '')}" data-paper-date="{paper.get('date', '')}">
                 <div class="paper-id">{paper['id']}</div>
                 <div class="paper-content">
                     <div class="paper-title">{paper['title']}</div>
@@ -383,13 +464,72 @@ class ConferenceHTMLGenerator:
     background-color: {rgba_bg};
 }}'''
         
-        # Add CSS for badges, hover effects, and timestamp
+        # Add CSS for day filters, badges, hover effects, and timestamp
         css += '''
+/* Day filter styling */
+.day-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-left: 4px solid #333;
+}
+
+.day-filter-tag {
+    padding: 10px 18px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    user-select: none;
+    background-color: #333;
+    color: white;
+}
+
+.day-filter-tag:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    background-color: #B22222 !important;
+}
+
+.day-filter-tag.active {
+    background-color: #444 !important;
+    border-color: #000;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+}
+
 .session-badge, .presentation-badge {
     font-size: 0.8em;
     padding: 2px 6px;
     border-radius: 3px;
     margin-left: 5px;
+    cursor: help;
+}
+
+/* Session badge hover tooltip */
+.session-badge[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    background: #333;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    z-index: 1000;
+    margin-top: 25px;
+    margin-left: -20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.session-badge[title]:hover {
+    position: relative;
 }
 
 /* Session filter buttons hover effect - turn red like Chinese seals */
@@ -437,6 +577,15 @@ class ConferenceHTMLGenerator:
 .session, .papers-container {
     overflow: visible !important;
 }
+
+/* Hide sessions and papers when day filtering */
+.session.day-hidden {
+    display: none !important;
+}
+
+.paper-row.day-hidden {
+    display: none !important;
+}
 '''
         
         return css
@@ -468,6 +617,7 @@ class ConferenceHTMLGenerator:
         p_papers = len(self.df[self.df['Session'].str.startswith('P-', na=False)])
         
         components = {
+            'day_filters': self.generate_day_filter_html(),
             'filter_buttons': self.generate_filter_buttons_html(),
             'sessions': self.generate_sessions_html(),
             'topic_css': self.generate_css_for_topics(),
@@ -480,7 +630,8 @@ class ConferenceHTMLGenerator:
                 'total_sessions': len(self.sessions),
                 'session_count': session_count,
                 'topics_list': self.topics,
-                'sessions_list': self.sessions
+                'sessions_list': self.sessions,
+                'days_list': self.days
             }
         }
         
@@ -492,6 +643,10 @@ class ConferenceHTMLGenerator:
         
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write('# Generated HTML components for conference papers\n\n')
+            
+            f.write('DAY_FILTERS_HTML = """\n')
+            f.write(components['day_filters'])
+            f.write('"""\n\n')
             
             f.write('FILTER_BUTTONS_HTML = """\n')
             f.write(components['filter_buttons'])
@@ -517,6 +672,7 @@ class ConferenceHTMLGenerator:
         print(f"Parallel presentations: {components['stats']['parallel_papers']}")
         print(f"Total sessions: {components['stats']['total_sessions']}")
         print(f"Sessions: {', '.join(components['stats']['sessions_list'])}")
+        print(f"Days: {', '.join([d[1] for d in components['stats']['days_list']])}")
 
 
 # Usage example with the new columns:
