@@ -269,47 +269,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="99f3ca33-0bc1-468b-ba69-c4158762bf4a" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>EX<span class="op">=</span>ex[[<span class="st">'ID'</span>,<span class="st">'Title'</span>,<span class="st">'Authors'</span>,<span class="st">'Abstract'</span>]]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="e7afaf74-9cc8-459d-bd8b-af3bd27001ec" class="cell" data-execution_count="4">
+<div id="e7afaf74-9cc8-459d-bd8b-af3bd27001ec" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ex['Title']=ex['Title'].str.upper()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="36f8be92-1452-4476-9f6e-2afa6dd070d5" class="cell" data-execution_count="5">
+<div id="36f8be92-1452-4476-9f6e-2afa6dd070d5" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ex.to_excel('cf25dat.xlsx')</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="fcb062a9-b525-4fc0-8b41-d89c3e576e27" class="cell" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>gx<span class="op">=</span>pd.read_csv(<span class="st">'20250623 - Detailed Schedule - v10(FINAL).csv'</span>,encoding<span class="op">=</span><span class="st">'unicode_escape'</span>)<span class="co">#CHANGE THIS TO MATCH NEW INPUT!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_9154/2035001923.py:1: DtypeWarning: Columns (0,1,2,3,4,5,6,7,9,10,11,12,13,14,15) have mixed types. Specify dtype option on import or set low_memory=False.
-  gx=pd.read_csv('20250623 - Detailed Schedule - v10(FINAL).csv',encoding='unicode_escape')#CHANGE THIS TO MATCH NEW INPUT!</code></pre>
+<div id="2e9cef19-9fdc-4a04-aa67-3d5a90323570" class="cell" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>gx<span class="op">=</span>pd.read_excel(<span class="st">'20250623 - Detailed Schedule - v10.xlsx'</span>,sheet_name<span class="op">=</span><span class="st">'FINAL'</span>)<span class="co">#CHANGE THIS TO MATCH NEW INPUT!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<div id="1f2838f4-143a-4337-8950-6420983615ac" class="cell" data-execution_count="17">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>gx[<span class="st">'EasyChair'</span>]<span class="op">=</span>gx[<span class="st">'Unnamed: 16'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="3407d4a0-3cad-4db8-94b8-b674d03006d8" class="cell" data-execution_count="44">
+<div id="3407d4a0-3cad-4db8-94b8-b674d03006d8" class="cell" data-execution_count="19">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>g<span class="op">=</span>gx.dropna(subset<span class="op">=</span>[<span class="st">'EasyChair'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="a600fdcb-7372-4e48-b7a9-a7b0e9a3c31d" class="cell" data-execution_count="33">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>gx.loc[<span class="dv">127</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="33">
-<pre><code>FILTER OPTIONS                             Parallel Paper Presentations
-FILTER OPTIONS.1                                               7/4/2025
-Time                                                     12:10 - 12:20 
-session code                                                       P-A3
-Presentations name                             Parallel Presentations 3
-session title                                 EVALUATING &amp; EXPANDING AI
-title                 AI2D-ARCHITECTURE: A BENCHMARK FOR EVALUATING ...
-authors                                     Xuyou Yang and Immanuel Koh
-EasyChair                                                          80.0
-Unnamed: 9                                                          NaN
-Unnamed: 10                                                         NaN
-Unnamed: 11                                              12:10 - 12:20 
-Unnamed: 12                                                      [ 80 ]
-Unnamed: 13           AI2D-ARCHITECTURE: A BENCHMARK FOR EVALUATING ...
-Session Chairs TBD                                                  NaN
-COMMENTS                                                            NaN
-Name: 127, dtype: object</code></pre>
-</div>
-</div>
-<div id="06a780a7-5183-464b-b63f-9ce4ba2bb7d4" class="cell" data-execution_count="43">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>gx.loc[gx[<span class="st">'EasyChair'</span>]<span class="op">==</span><span class="dv">80</span>].dropna(subset<span class="op">=</span>[<span class="st">'EasyChair'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="43">
+<div id="e30ac124-9030-4211-9678-faf5eb72cb5d" class="cell" data-execution_count="21">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>g.loc[g[<span class="st">'EasyChair'</span>]<span class="op">==</span><span class="dv">458</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="21">
 <div>
 
 
@@ -326,33 +303,39 @@ Name: 127, dtype: object</code></pre>
 <th data-quarto-table-cell-role="th">title</th>
 <th data-quarto-table-cell-role="th">authors</th>
 <th data-quarto-table-cell-role="th">EasyChair</th>
-<th data-quarto-table-cell-role="th">Unnamed: 9</th>
-<th data-quarto-table-cell-role="th">Unnamed: 10</th>
-<th data-quarto-table-cell-role="th">Unnamed: 11</th>
-<th data-quarto-table-cell-role="th">Unnamed: 12</th>
+<th data-quarto-table-cell-role="th">DOI (real)</th>
+<th data-quarto-table-cell-role="th">room</th>
+<th data-quarto-table-cell-role="th">chair / introducer</th>
+<th data-quarto-table-cell-role="th">DOI</th>
 <th data-quarto-table-cell-role="th">Unnamed: 13</th>
-<th data-quarto-table-cell-role="th">Session Chairs TBD</th>
+<th data-quarto-table-cell-role="th">Unnamed: 14</th>
+<th data-quarto-table-cell-role="th">Unnamed: 15</th>
+<th data-quarto-table-cell-role="th">Unnamed: 16</th>
+<th data-quarto-table-cell-role="th">Unnamed: 17</th>
 <th data-quarto-table-cell-role="th">COMMENTS</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">127</td>
-<td>Parallel Paper Presentations</td>
-<td>7/4/2025</td>
-<td>12:10 - 12:20</td>
-<td>P-A3</td>
-<td>Parallel Presentations 3</td>
-<td>EVALUATING &amp; EXPANDING AI</td>
-<td>AI2D-ARCHITECTURE: A BENCHMARK FOR EVALUATING ...</td>
-<td>Xuyou Yang and Immanuel Koh</td>
-<td>80.0</td>
+<td data-quarto-table-cell-role="th">152</td>
+<td>Catalytic Interfaces</td>
+<td>2025-07-04</td>
+<td>15:10 - 15:30</td>
+<td>CI</td>
+<td>Catalytic Interfaces Presentation</td>
+<td>NaN</td>
+<td>CATALYTIC DESIGN INTERFACES: AI-GUIDED BUILDIN...</td>
+<td>Tejas Chavan, Houssame E. Hsain, Camiel Weijen...</td>
+<td>458</td>
+<td>coming soon</td>
+<td>CPD - LG.08-09</td>
+<td>Prof. Dr. Kristof Crolla &amp; \nProf. Dr. Kam-Min...</td>
+<td>coming soon</td>
 <td>NaN</td>
 <td>NaN</td>
-<td>12:10 - 12:20</td>
-<td>[ 80 ]</td>
-<td>AI2D-ARCHITECTURE: A BENCHMARK FOR EVALUATING ...</td>
-<td>NaN</td>
+<td>15:10 - 15:30</td>
+<td>458</td>
+<td>CATALYTIC DESIGN INTERFACES: AI-GUIDED BUILDIN...</td>
 <td>NaN</td>
 </tr>
 </tbody>
@@ -361,91 +344,324 @@ Name: 127, dtype: object</code></pre>
 </div>
 </div>
 </div>
-<div id="b3cdfb4f-8a6d-4f5e-9808-cda0b3a991f0" class="cell" data-scrolled="true" data-execution_count="9">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># g[['Date','Time','session code']]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div id="83ec34ec-ab07-443d-a0b4-641b60a30463" class="cell" data-execution_count="10">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># df=g</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 0) your original df has columns: Date, Time, session code</span></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 1) drop any rows where Time, Date or code is missing</span></span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co"># df = df.dropna(subset=['Time','Date','session code'])</span></span>
-<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 2) pull out exactly two HH:MM groups (as strings)</span></span>
-<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="co"># df[['start','end']] = df['Time'].str.extract(</span></span>
-<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="co">#     r'(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})'</span></span>
-<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="co"># )</span></span>
-<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 3) drop rows where extract failed (you’ll now have only pure strings)</span></span>
-<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="co"># df = df.dropna(subset=['start','end'])</span></span>
-<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 4) if you want to enforce two-digit hours, parse &amp; re-format;</span></span>
-<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a><span class="co"># #     otherwise you can skip to step 5.</span></span>
-<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a><span class="co"># df['start'] = (</span></span>
-<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a><span class="co">#     pd.to_datetime(df['start'], format='%H:%M', errors='coerce')</span></span>
-<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a><span class="co">#       .dt.strftime('%H:%M')</span></span>
-<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a><span class="co"># )</span></span>
-<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a><span class="co"># df['end'] = (</span></span>
-<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a><span class="co">#     pd.to_datetime(df['end'],   format='%H:%M', errors='coerce')</span></span>
-<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a><span class="co">#       .dt.strftime('%H:%M')</span></span>
-<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a><span class="co"># )</span></span>
-<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a><span class="co"># # drop any rows that still failed parsing</span></span>
-<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a><span class="co"># df = df.dropna(subset=['start','end'])</span></span>
-<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 5) group by code (and date), taking earliest start &amp; latest end</span></span>
-<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a><span class="co"># span = (</span></span>
-<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a><span class="co">#     df</span></span>
-<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a><span class="co">#     .groupby(['session code','Date'], as_index=False)</span></span>
-<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a><span class="co">#     .agg(</span></span>
-<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a><span class="co">#         start=('start','min'),</span></span>
-<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a><span class="co">#         end  =('end',  'max')</span></span>
-<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a><span class="co">#     )</span></span>
-<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a><span class="co"># )</span></span>
-<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 6) build your dict: code → "YYYY-MM-DD HH:MM - HH:MM"</span></span>
-<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a><span class="co"># result = {</span></span>
-<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a><span class="co">#     row['session code']:</span></span>
-<span id="cb13-42"><a href="#cb13-42" aria-hidden="true" tabindex="-1"></a><span class="co">#       f"{row['Date'].date()} {row['start']} - {row['end']}"</span></span>
-<span id="cb13-43"><a href="#cb13-43" aria-hidden="true" tabindex="-1"></a><span class="co">#     for _, row in span.iterrows()</span></span>
-<span id="cb13-44"><a href="#cb13-44" aria-hidden="true" tabindex="-1"></a><span class="co"># }</span></span>
-<span id="cb13-45"><a href="#cb13-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-46"><a href="#cb13-46" aria-hidden="true" tabindex="-1"></a><span class="co"># print(result)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div id="84740e60-716c-4914-a65a-00af15b04a3c" class="cell" data-execution_count="11">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>absin<span class="op">=</span>pd.read_csv(<span class="st">'CAADFutures_abstractin.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div id="820539fe-2685-4c56-8332-f3314eb653dc" class="cell" data-execution_count="12">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>g.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="12">
-<pre><code>(87, 16)</code></pre>
-</div>
-</div>
-<div id="228373a5-7a5c-43bc-bdb4-92d045853e58" class="cell" data-execution_count="13">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>g<span class="op">=</span>g.drop([<span class="dv">127</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div id="2435dc15-b642-4015-8272-c29834ab5d36" class="cell" data-execution_count="46">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>g[<span class="st">'Date'</span>]<span class="op">=</span>g[<span class="st">'FILTER OPTIONS.1'</span>]</span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>g[<span class="st">'EasyChair'</span>]<span class="op">=</span>g[<span class="st">'EasyChair'</span>].astype(<span class="bu">str</span>).replace(<span class="st">'['</span>,<span class="st">''</span>).<span class="bu">str</span>.replace(<span class="st">']'</span>,<span class="st">''</span>).<span class="bu">str</span>.strip().<span class="bu">str</span>.replace(<span class="st">'['</span>,<span class="st">''</span>).<span class="bu">str</span>.replace(<span class="st">'.0'</span>,<span class="st">''</span>)</span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>g[<span class="st">'EasyChair'</span>]<span class="op">=</span>g[<span class="st">'EasyChair'</span>].astype(<span class="bu">int</span>)</span>
-<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>datemape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'Date'</span>]))</span>
-<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>timemape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'Time'</span>]))</span>
-<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>topicmape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'session title'</span>]))</span>
-<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>sessimape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'session code'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="a600fdcb-7372-4e48-b7a9-a7b0e9a3c31d" class="cell" data-execution_count="22">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>gr<span class="op">=</span>gx</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>gr[<span class="st">'Unnamed: 13'</span>]<span class="op">=</span>gr[<span class="st">'Unnamed: 13'</span>].fillna(method<span class="op">=</span><span class="st">'ffill'</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>gr[<span class="st">'Date'</span>]<span class="op">=</span>gr[<span class="st">'FILTER OPTIONS.1'</span>]</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>gr[<span class="st">'DT'</span>]<span class="op">=</span>gr[<span class="st">'Date'</span>].astype(<span class="bu">str</span>)<span class="op">+</span><span class="st">' '</span><span class="op">+</span>gr[<span class="st">'Unnamed: 13'</span>]</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>gr<span class="op">=</span>gr.dropna(subset<span class="op">=</span>[<span class="st">'session code'</span>])</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>sessiontimemap<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(gr[<span class="st">'session code'</span>],gr[<span class="st">'DT'</span>]))</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>gr[<span class="st">'Date'</span>]<span class="op">=</span>gr[<span class="st">'Date'</span>].astype(<span class="bu">str</span>).<span class="bu">str</span>.split(<span class="st">' '</span>,expand<span class="op">=</span><span class="va">True</span>)[<span class="dv">0</span>]</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>datemap<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(gr[<span class="st">'session code'</span>],gr[<span class="st">'Date'</span>]))</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="co"># # chairmap = dict(zip(gr['session code'],gr['chair / introducer']))</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_9154/3861230579.py:1: SettingWithCopyWarning: 
+<pre><code>/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_34487/1792639543.py:2: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  gr['Unnamed: 13']=gr['Unnamed: 13'].fillna(method='ffill')
+/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_34487/1792639543.py:7: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gr['Date']=gr['Date'].astype(str).str.split(' ',expand=True)[0]</code></pre>
+</div>
+</div>
+<div id="f5ebdfde-6c53-47b2-990c-af0ec6cdb6bb" class="cell" data-execution_count="23">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>roomap<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(gr[<span class="st">'session code'</span>],gr[<span class="st">'room'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="9f213209-d2a3-4922-bb9a-5b6e84a52b2e" class="cell" data-execution_count="24">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>roomap</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="24">
+<pre><code>{'CI': 'CPD - LG.08-09',
+ 'S-S1': 'CPD - LG.08-09',
+ 'P-A1': 'CPD - LG.08-09',
+ 'P-B1': 'CPD - LG.18',
+ 'P-C1 ': 'CPD - LG.34',
+ 'P-D1': 'CPD - 1.21',
+ 'S-1': 'CPD - LG.08-09',
+ 'S-2': 'CPD - LG.08-09',
+ 'S-S2': 'CPD - LG.08-09',
+ 'P-A2': 'CPD - LG.08-09',
+ 'P-B2': 'CPD - LG.18',
+ 'P-C2': 'CPD - LG.34',
+ 'P-D2': 'CPD - 1.21',
+ 'S-3': 'CPD - LG.08-09',
+ 'S-S3': 'CPD - LG.08-09',
+ 'S-4': 'CPD - LG.08-09',
+ 'S-S4': 'CPD - LG.08-09',
+ 'P-A3': 'CPD - LG.08-09',
+ 'P-B3': 'CPD - LG.18',
+ 'P-C3': 'CPD - LG.34',
+ 'S-S5': 'CPD - LG.08-09'}</code></pre>
+</div>
+</div>
+<div id="705a02e3-e6b4-4e13-b51c-e5290663c572" class="cell" data-execution_count="25">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>sessiontimemap</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="25">
+<pre><code>{'CI': '2025-07-04 15:10 - 17:10',
+ 'S-S1': '2025-07-02 11:20 - 12:30',
+ 'P-A1': '2025-07-02 13:10 - 14:00',
+ 'P-B1': '2025-07-02 13:10 - 14:00',
+ 'P-C1 ': '2025-07-02 13:10 - 14:00',
+ 'P-D1': '2025-07-02 13:10 - 14:00',
+ 'S-1': '2025-07-02 14:20 - 15:20',
+ 'S-2': '2025-07-02 15:40 - 16:25',
+ 'S-S2': '2025-07-03 10:30 - 11:55',
+ 'P-A2': '2025-07-03 12:45 - 13:35',
+ 'P-B2': '2025-07-03 12:45 - 13:35',
+ 'P-C2': '2025-07-03 12:45 - 13:35',
+ 'P-D2': '2025-07-03 12:45 - 13:35',
+ 'S-3': '2025-07-03 13:55 - 14:40',
+ 'S-S3': '2025-07-03 15:00 - 16:25',
+ 'S-4': '2025-07-03 16:45 - 17:45',
+ 'S-S4': '2025-07-04 10:30 - 11:40',
+ 'P-A3': '2025-07-04 12:00 - 12:50',
+ 'P-B3': '2025-07-04 12:00 - 12:50',
+ 'P-C3': '2025-07-04 12:00 - 12:50',
+ 'S-S5': '2025-07-04 13:40 - 14:50'}</code></pre>
+</div>
+</div>
+<div id="191eda2a-8480-40d4-a7d1-e19871342196" class="cell" data-execution_count="26">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>sessiontimemap</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(sessiontimemap)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="26">
+<pre><code>21</code></pre>
+</div>
+</div>
+<div id="060e1947-d189-4a35-aab5-7e06d6b37e94" class="cell" data-execution_count="27">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>chairmap<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(gr[<span class="st">'session code'</span>],gr[<span class="st">'chair / introducer'</span>]))</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(chairmap)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="27">
+<pre><code>21</code></pre>
+</div>
+</div>
+<div id="5f25803e-15fe-4200-a3e9-b6594a14c095" class="cell" data-execution_count="28">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>roomap</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="28">
+<pre><code>{'CI': 'CPD - LG.08-09',
+ 'S-S1': 'CPD - LG.08-09',
+ 'P-A1': 'CPD - LG.08-09',
+ 'P-B1': 'CPD - LG.18',
+ 'P-C1 ': 'CPD - LG.34',
+ 'P-D1': 'CPD - 1.21',
+ 'S-1': 'CPD - LG.08-09',
+ 'S-2': 'CPD - LG.08-09',
+ 'S-S2': 'CPD - LG.08-09',
+ 'P-A2': 'CPD - LG.08-09',
+ 'P-B2': 'CPD - LG.18',
+ 'P-C2': 'CPD - LG.34',
+ 'P-D2': 'CPD - 1.21',
+ 'S-3': 'CPD - LG.08-09',
+ 'S-S3': 'CPD - LG.08-09',
+ 'S-4': 'CPD - LG.08-09',
+ 'S-S4': 'CPD - LG.08-09',
+ 'P-A3': 'CPD - LG.08-09',
+ 'P-B3': 'CPD - LG.18',
+ 'P-C3': 'CPD - LG.34',
+ 'S-S5': 'CPD - LG.08-09'}</code></pre>
+</div>
+</div>
+<div id="89254c70-45ea-494e-a14e-ccbd32b051bc" class="cell" data-execution_count="29">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>chairmap</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="29">
+<pre><code>{'CI': 'Prof. Dr. Kristof Crolla &amp; \nProf. Dr. Kam-Ming Mark Tam',
+ 'S-S1': 'Prof. Dr. Victor Leung',
+ 'P-A1': 'Prof. Dr. Hongshan Guo',
+ 'P-B1': 'Prof. Dr. Tan Tan',
+ 'P-C1 ': 'Prof. Dr. Peter  Búš',
+ 'P-D1': 'Dr. Provides Ng',
+ 'S-1': 'Prof. Dr. Davide Schaumann',
+ 'S-2': 'Dr. Garvin Goepel',
+ 'S-S2': 'Prof. Dr. Rudi Stouffs',
+ 'P-A2': 'Prof. Dr. Christiane M. Herr',
+ 'P-B2': 'Prof. Dr. Hao Zheng',
+ 'P-C2': 'Prof. Dr. Cao Ting',
+ 'P-D2': 'Mr. Haotian Zhang',
+ 'S-3': 'Prof. Dr. Hongshan Guo',
+ 'S-S3': 'Prof. Dr. Kam-Ming Mark Tam',
+ 'S-4': 'Prof. Dr. Juan Jose Castellon',
+ 'S-S4': 'Prof. Dr. Christiane M. Herr',
+ 'P-A3': 'Prof. Dr. Frank Xue',
+ 'P-B3': 'Dr. Garvin Goepel',
+ 'P-C3': 'Dr. Achilleas Xydis',
+ 'S-S5': 'Prof. Dr. Immanuel Koh'}</code></pre>
+</div>
+</div>
+<div id="5e3fdcf8-98b3-4a24-aa51-ff57e7724c67" class="cell" data-execution_count="50">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>datemap</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="50">
+<pre><code>{'CI': '2025-07-04',
+ 'S-S1': '2025-07-02',
+ 'P-A1': '2025-07-02',
+ 'P-B1': '2025-07-02',
+ 'P-C1 ': '2025-07-02',
+ 'P-D1': '2025-07-02',
+ 'S-1': '2025-07-02',
+ 'S-2': '2025-07-02',
+ 'S-S2': '2025-07-03',
+ 'P-A2': '2025-07-03',
+ 'P-B2': '2025-07-03',
+ 'P-C2': '2025-07-03',
+ 'P-D2': '2025-07-03',
+ 'S-3': '2025-07-03',
+ 'S-S3': '2025-07-03',
+ 'S-4': '2025-07-03',
+ 'S-S4': '2025-07-04',
+ 'P-A3': '2025-07-04',
+ 'P-B3': '2025-07-04',
+ 'P-C3': '2025-07-04',
+ 'S-S5': '2025-07-04'}</code></pre>
+</div>
+</div>
+<div id="06a780a7-5183-464b-b63f-9ce4ba2bb7d4" class="cell" data-execution_count="30">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>gx.loc[gx[<span class="st">'EasyChair'</span>]<span class="op">==</span><span class="dv">458</span>].dropna(subset<span class="op">=</span>[<span class="st">'EasyChair'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="30">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">FILTER OPTIONS</th>
+<th data-quarto-table-cell-role="th">FILTER OPTIONS.1</th>
+<th data-quarto-table-cell-role="th">Time</th>
+<th data-quarto-table-cell-role="th">session code</th>
+<th data-quarto-table-cell-role="th">Presentations name</th>
+<th data-quarto-table-cell-role="th">session title</th>
+<th data-quarto-table-cell-role="th">title</th>
+<th data-quarto-table-cell-role="th">authors</th>
+<th data-quarto-table-cell-role="th">EasyChair</th>
+<th data-quarto-table-cell-role="th">DOI (real)</th>
+<th data-quarto-table-cell-role="th">...</th>
+<th data-quarto-table-cell-role="th">chair / introducer</th>
+<th data-quarto-table-cell-role="th">DOI</th>
+<th data-quarto-table-cell-role="th">Unnamed: 13</th>
+<th data-quarto-table-cell-role="th">Unnamed: 14</th>
+<th data-quarto-table-cell-role="th">Unnamed: 15</th>
+<th data-quarto-table-cell-role="th">Unnamed: 16</th>
+<th data-quarto-table-cell-role="th">Unnamed: 17</th>
+<th data-quarto-table-cell-role="th">COMMENTS</th>
+<th data-quarto-table-cell-role="th">Date</th>
+<th data-quarto-table-cell-role="th">DT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">152</td>
+<td>Catalytic Interfaces</td>
+<td>2025-07-04</td>
+<td>15:10 - 15:30</td>
+<td>CI</td>
+<td>Catalytic Interfaces Presentation</td>
+<td>NaN</td>
+<td>CATALYTIC DESIGN INTERFACES: AI-GUIDED BUILDIN...</td>
+<td>Tejas Chavan, Houssame E. Hsain, Camiel Weijen...</td>
+<td>458</td>
+<td>coming soon</td>
+<td>...</td>
+<td>Prof. Dr. Kristof Crolla &amp; \nProf. Dr. Kam-Min...</td>
+<td>coming soon</td>
+<td>15:10 - 17:10</td>
+<td>NaN</td>
+<td>15:10 - 15:30</td>
+<td>458</td>
+<td>CATALYTIC DESIGN INTERFACES: AI-GUIDED BUILDIN...</td>
+<td>NaN</td>
+<td>2025-07-04</td>
+<td>2025-07-04 15:10 - 17:10</td>
+</tr>
+</tbody>
+</table>
+
+<p>1 rows × 21 columns</p>
+</div>
+</div>
+</div>
+<div id="b3cdfb4f-8a6d-4f5e-9808-cda0b3a991f0" class="cell" data-scrolled="true" data-execution_count="31">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># g[['Date','Time','session code']]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="83ec34ec-ab07-443d-a0b4-641b60a30463" class="cell" data-execution_count="32">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># df=g</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 0) your original df has columns: Date, Time, session code</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 1) drop any rows where Time, Date or code is missing</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a><span class="co"># df = df.dropna(subset=['Time','Date','session code'])</span></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 2) pull out exactly two HH:MM groups (as strings)</span></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a><span class="co"># df[['start','end']] = df['Time'].str.extract(</span></span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a><span class="co">#     r'(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})'</span></span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a><span class="co"># )</span></span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 3) drop rows where extract failed (you’ll now have only pure strings)</span></span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a><span class="co"># df = df.dropna(subset=['start','end'])</span></span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 4) if you want to enforce two-digit hours, parse &amp; re-format;</span></span>
+<span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a><span class="co"># #     otherwise you can skip to step 5.</span></span>
+<span id="cb29-18"><a href="#cb29-18" aria-hidden="true" tabindex="-1"></a><span class="co"># df['start'] = (</span></span>
+<span id="cb29-19"><a href="#cb29-19" aria-hidden="true" tabindex="-1"></a><span class="co">#     pd.to_datetime(df['start'], format='%H:%M', errors='coerce')</span></span>
+<span id="cb29-20"><a href="#cb29-20" aria-hidden="true" tabindex="-1"></a><span class="co">#       .dt.strftime('%H:%M')</span></span>
+<span id="cb29-21"><a href="#cb29-21" aria-hidden="true" tabindex="-1"></a><span class="co"># )</span></span>
+<span id="cb29-22"><a href="#cb29-22" aria-hidden="true" tabindex="-1"></a><span class="co"># df['end'] = (</span></span>
+<span id="cb29-23"><a href="#cb29-23" aria-hidden="true" tabindex="-1"></a><span class="co">#     pd.to_datetime(df['end'],   format='%H:%M', errors='coerce')</span></span>
+<span id="cb29-24"><a href="#cb29-24" aria-hidden="true" tabindex="-1"></a><span class="co">#       .dt.strftime('%H:%M')</span></span>
+<span id="cb29-25"><a href="#cb29-25" aria-hidden="true" tabindex="-1"></a><span class="co"># )</span></span>
+<span id="cb29-26"><a href="#cb29-26" aria-hidden="true" tabindex="-1"></a><span class="co"># # drop any rows that still failed parsing</span></span>
+<span id="cb29-27"><a href="#cb29-27" aria-hidden="true" tabindex="-1"></a><span class="co"># df = df.dropna(subset=['start','end'])</span></span>
+<span id="cb29-28"><a href="#cb29-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-29"><a href="#cb29-29" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 5) group by code (and date), taking earliest start &amp; latest end</span></span>
+<span id="cb29-30"><a href="#cb29-30" aria-hidden="true" tabindex="-1"></a><span class="co"># span = (</span></span>
+<span id="cb29-31"><a href="#cb29-31" aria-hidden="true" tabindex="-1"></a><span class="co">#     df</span></span>
+<span id="cb29-32"><a href="#cb29-32" aria-hidden="true" tabindex="-1"></a><span class="co">#     .groupby(['session code','Date'], as_index=False)</span></span>
+<span id="cb29-33"><a href="#cb29-33" aria-hidden="true" tabindex="-1"></a><span class="co">#     .agg(</span></span>
+<span id="cb29-34"><a href="#cb29-34" aria-hidden="true" tabindex="-1"></a><span class="co">#         start=('start','min'),</span></span>
+<span id="cb29-35"><a href="#cb29-35" aria-hidden="true" tabindex="-1"></a><span class="co">#         end  =('end',  'max')</span></span>
+<span id="cb29-36"><a href="#cb29-36" aria-hidden="true" tabindex="-1"></a><span class="co">#     )</span></span>
+<span id="cb29-37"><a href="#cb29-37" aria-hidden="true" tabindex="-1"></a><span class="co"># )</span></span>
+<span id="cb29-38"><a href="#cb29-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-39"><a href="#cb29-39" aria-hidden="true" tabindex="-1"></a><span class="co"># # --- 6) build your dict: code → "YYYY-MM-DD HH:MM - HH:MM"</span></span>
+<span id="cb29-40"><a href="#cb29-40" aria-hidden="true" tabindex="-1"></a><span class="co"># result = {</span></span>
+<span id="cb29-41"><a href="#cb29-41" aria-hidden="true" tabindex="-1"></a><span class="co">#     row['session code']:</span></span>
+<span id="cb29-42"><a href="#cb29-42" aria-hidden="true" tabindex="-1"></a><span class="co">#       f"{row['Date'].date()} {row['start']} - {row['end']}"</span></span>
+<span id="cb29-43"><a href="#cb29-43" aria-hidden="true" tabindex="-1"></a><span class="co">#     for _, row in span.iterrows()</span></span>
+<span id="cb29-44"><a href="#cb29-44" aria-hidden="true" tabindex="-1"></a><span class="co"># }</span></span>
+<span id="cb29-45"><a href="#cb29-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-46"><a href="#cb29-46" aria-hidden="true" tabindex="-1"></a><span class="co"># print(result)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="84740e60-716c-4914-a65a-00af15b04a3c" class="cell" data-execution_count="33">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>absin<span class="op">=</span>pd.read_csv(<span class="st">'CAADFutures_abstractin.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="820539fe-2685-4c56-8332-f3314eb653dc" class="cell" data-execution_count="34">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>g.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="34">
+<pre><code>(88, 19)</code></pre>
+</div>
+</div>
+<div id="228373a5-7a5c-43bc-bdb4-92d045853e58" class="cell" data-scrolled="true" data-execution_count="36">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># g[['session code']</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="2435dc15-b642-4015-8272-c29834ab5d36" class="cell" data-execution_count="37">
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>g[<span class="st">'Date'</span>]<span class="op">=</span>g[<span class="st">'FILTER OPTIONS.1'</span>]</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>g[<span class="st">'EasyChair'</span>]<span class="op">=</span>g[<span class="st">'EasyChair'</span>].astype(<span class="bu">str</span>).replace(<span class="st">'['</span>,<span class="st">''</span>).<span class="bu">str</span>.replace(<span class="st">']'</span>,<span class="st">''</span>).<span class="bu">str</span>.strip().<span class="bu">str</span>.replace(<span class="st">'['</span>,<span class="st">''</span>).<span class="bu">str</span>.replace(<span class="st">'.0'</span>,<span class="st">''</span>)</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>g[<span class="st">'EasyChair'</span>]<span class="op">=</span>g[<span class="st">'EasyChair'</span>].astype(<span class="bu">int</span>)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>datemape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'Date'</span>]))</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>timemape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'Time'</span>]))</span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>topicmape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'session title'</span>]))</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>sessimape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'session code'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_34487/3861230579.py:1: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame.
 Try using .loc[row_indexer,col_indexer] = value instead
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   g['Date']=g['FILTER OPTIONS.1']
-/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_9154/3861230579.py:2: SettingWithCopyWarning: 
+/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_34487/3861230579.py:2: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame.
 Try using .loc[row_indexer,col_indexer] = value instead
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   g['EasyChair']=g['EasyChair'].astype(str).replace('[','').str.replace(']','').str.strip().str.replace('[','').str.replace('.0','')
-/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_9154/3861230579.py:3: SettingWithCopyWarning: 
+/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_34487/3861230579.py:3: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame.
 Try using .loc[row_indexer,col_indexer] = value instead
 
@@ -453,54 +669,170 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
   g['EasyChair']=g['EasyChair'].astype(int)</code></pre>
 </div>
 </div>
-<div id="44273c68-7248-49c7-96df-0bc63dec805d" class="cell" data-execution_count="53">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>titlemap<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'Unnamed: 13'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="85a33bd2-9273-49a7-8609-95ebfd5ce058" class="cell" data-execution_count="38">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>gx[<span class="st">'title'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="38">
+<pre><code>0                                                    NaN
+1                                                    NaN
+2                                                    NaN
+3                                                    NaN
+4                                                    NaN
+                             ...                        
+157    BUILDINGS AS SYMBIOTIC SYSTEMS: CYBERNETIC ADA...
+158                                                  NaN
+159                                                  NaN
+160                                                  NaN
+161                                                  NaN
+Name: title, Length: 162, dtype: object</code></pre>
 </div>
-<div id="a96a4cc9-c8a3-45fb-966e-48d1f4806e13" class="cell" data-execution_count="54">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>EX[<span class="st">'Date'</span>]<span class="op">=</span>EX[<span class="st">'ID'</span>].<span class="bu">map</span>(datemape)</span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>EX[<span class="st">'Time'</span>]<span class="op">=</span>EX[<span class="st">'ID'</span>].<span class="bu">map</span>(timemape)</span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>EX[<span class="st">'Session'</span>]<span class="op">=</span>EX[<span class="st">'ID'</span>].<span class="bu">map</span>(sessimape)</span>
-<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>EX[<span class="st">'Final Topic'</span>]<span class="op">=</span>EX[<span class="st">'ID'</span>].<span class="bu">map</span>(topicmape)</span>
-<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>EX[<span class="st">'TitleAlt'</span>]<span class="op">=</span>EX[<span class="st">'ID'</span>].<span class="bu">map</span>(titlemap)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="44273c68-7248-49c7-96df-0bc63dec805d" class="cell" data-execution_count="39">
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>titlemap<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'title'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="452f6c94-c1a2-4e45-a8af-046d39be30ae" class="cell" data-execution_count="40">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>titlemap</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="40">
+<pre><code>{238: 'DESIGN VALIDATION FOR ROBOTIC FABRICATION: A MULTI-STAGE FRAMEWORK FOR COMPLEX AND NON-REPETITIVE PROCESSES \n',
+ 349: 'TPACS: PHYGITAL-AIDED CONSTRUCTION SYSTEM BASED ON MODULAR CUSTOMIZABLE TIMBER FABRICATION\n',
+ 36: 'PARAMETRIC BIOMIMICRY: TRANSLATING SPIRAL SEASHELL FORMATION INTO ROBOTIC 3D PRINTING\n',
+ 5: 'SUPERIORITY OF HIGH-DIMENSIONAL LATENT VARIABLE REPRESENTATION IN URBAN SPATIAL STRUCTURE: EVIDENCE FROM AN URBAN CLIMATE STUDY\n',
+ 46: 'BOUNDARY VITALITY: ANALYZING URBAN PUBLIC PERCEPTION OF SPATIAL AND VISUAL ELEMENTS IN MANHATTAN\n',
+ 240: 'ENHANCING END-TO-END PROCESSING, ANALYSIS, AND VISUALIZATION OF CITIZEN PARTICIPATION DATA IN URBAN DESIGN AND PLANNING\n',
+ 453: 'DEEP PERCEPTUAL URBAN FORM\n',
+ 169: 'REC-ARCH: A CASE STUDY RECOMMENDER SYSTEM FOR ARCHITECTS USING VISION AND LANGUAGE MODELS\n',
+ 41: 'COLLABORATIVE, CONVERSATIONAL ARCHITECTURAL DESIGN PROCESS BETWEEN HUMAN DESIGNERS AND MULTIMODAL AI AGENTS FOR EARLY-STAGE DESIGN EXPLORATION\n',
+ 255: 'TWO-WAY INTERVENTIVE DESIGN AND MANUFACTURING: REAL-TIME DESIGN AND MATERIALITY VISUALIZATION THROUGH MIXED REALITY SYSTEMS BASED ON HAND TRACKING\n',
+ 217: 'MORPHOLOGICAL SECTIONS THROUGH LATENT SPACE\n',
+ 141: 'INTEGRATING AI TOOLS AND METHODS IN THE DESIGN PROCESS\n',
+ 87: 'MACHINE LEARNING AND MIXED REALITY-CONTROLLED CABLE ROBOTS FOR REAL-TIME CONSTRUCTION AUTOMATION\n',
+ 149: 'ENHANCING ROBOTIC EMBODIMENT IN ARCHITECTURE: AN INTELLIGENT APPROACH COMBINING VISION SYSTEMS AND GENERATIVE NEURAL NETWORKS FOR AUTONOMOUS DESIGN-TO-PRODUCTION\n',
+ 252: 'GRASP-TO-MILL (GTM) INTEGRATED WORKFLOW FOR NATURAL LOG JOINT FABRICATION BASED ON MULTI-OBJECTIVE OPTIMIZATION ALGORITHM\n',
+ 357: 'AUGMENTED ASSEMBLY: AN EXPLORATION OF MODULAR DESIGN TO FABRICATION BASED ON EXTENDED REALITY\n',
+ 222: 'STOCK-CONSTRAINED DESIGN OF IRREGULAR MATERIAL BASED ON GRAPH NEURAL NETWORKS\n',
+ 447: 'DESIGN AND MANUFACTURE OF WASTE TIMBER COMPOSITE PANELS: SUSTAINABLE AND INNOVATIVE USE OF RECYCLED TIMBER\n',
+ 48: 'FROM CRAFT TO COMMUNITY: PARTICIPATORY UPCYCLING IN PUBLIC HOUSING VIA DIGITAL FABRICATION\n',
+ 162: 'MATERIAL REUSE IN HERITAGE CONSERVATION: DEVELOPING A DIGITAL DESIGN-TO-PRODUCTION CIRCULAR WORKFLOW\n',
+ 127: 'BPMN-BASED BUILDING PROJECT LIFECYCLE ANALYSIS WITH A CORE OF BIM: TAKING A CAMPUS PROJECT AS AN EXAMPLE\n',
+ 126: 'STEPWISE GENERATION METHOD FOR COMPETITION-LEVEL FLOOR PLANS OF MEDIUM AND LARGE-SCALE GYMNASIUMS BASED ON RULE CONSTRAINTS AND DIFFUSION MODELS\n',
+ 134: 'FLOOR PLAN AFFORDANCE PREDICTION: IS THE FLOOR PLAN LAYOUT DETERMINED BY ITS OUTLINE OR THE ARCHITECT\n',
+ 135: 'BRIDGING THE GAP: ENHANCING AI-GENERATED FLOOR PLANS WITH MULTI-MODAL DATA INTEGRATION\n',
+ 151: 'GENERATING OPEN OFFICE LAYOUTS USING FLEXIBLE ARCHITECTURAL COMPONENTS\n',
+ 33: 'TRANSFORMING ARCHITECTURAL EDUCATION: THE IMPACT OF VR AND AR ON UNDERSTANDING BUILDING ENERGY EFFICIENCY\n',
+ 426: 'EVALUATING AUGMENTED REALITY AS A TOOL FOR DEMOCRATIZING BUILT ENVIRONMENT DESIGN\n',
+ 196: 'OPEN-SOURCE APPROACHES TO INTEGRATING ADVANCED ROBOTIC SYSTEMS IN SUSTAINABLE DESIGN\n',
+ 148: 'A GRAPH-BASED PREDICTION MODEL FOR SUSTAINABLE URBAN RENEWAL: INTEGRATING GRAPH CONVOLUTIONAL NETWORKS FOR CONCRETE RECYCLING POTENTIAL EVALUATION\n',
+ 55: 'SHADOW-BASED PATH DETECTION IN RAPIDLY EXPANDING URBAN AREAS: UTILIZING SHADOW DETECTION AND GRAPH-BASED VECTORIZATION TO UNCOVER INFORMAL ROAD NETWORKS IN HIGH-DENSITY SLUM AREAS\n',
+ 329: 'AN URBAN MORPHOLOGY ANALYSIS FRAMEWORK FOR SYNERGISTIC IMPROVEMENT OF MULTIPLE PERFORMANCE OBJECTIVES: EXEMPLIFIED BY OUTDOOR THERMAL COMFORT AND BUILDING ENERGY EFFICIENCY\n',
+ 262: 'DIGITAL DESIGN SUPPORT FOR UAV DELIVERY NOISE REDUCTION STRATEGIES IN HIGH DENSITY URBAN ENVIRONMENTS\n',
+ 299: 'COMPUTING URBAN TISSUE: LANDSLIDE MITIGATION STRATEGY OF URBAN INFRASTRUCTURE DESIGN\n',
+ 278: 'SUSTAINABLE SUSTAINABLE SOCIAL BUILDING ASSISTANT (SSOBA): TRANSFORMING ENERGY USE VIA DIGITAL TWINS, ENVIRONMENTAL SENSING AND OCCUPANT BEHAVIOUR CHANGE\n',
+ 29: 'UNDERSTAND URBAN BUILDING ENERGY CONSUMPTION WITH EXPLAINABLE MACHINE LEARNING APPROACHES\n',
+ 121: 'ENHANCING URBAN VITALITY THROUGH INTERACTIVE XR INSTALLATIONS: FOSTERING ENGAGEMENT AND ENVIRONMENTAL AWARENESS\n',
+ 71: 'PERFORMANCE-BASED URBAN ENVIRONMENTAL RESTORATION: A MULTI-LAYER CELLULAR AUTOMATA MODEL FOR ECOLOGICAL DESIGN SIMULATION IN HIGH-DENSITY CITIES\n',
+ 45: 'QUANTIFABLE AND UNQUANTIFABLE MACHINE LEARNING MODEL OR ARCHITECTURAL PREFERENCE PREDICTION BASED ON MBTI\n',
+ 150: 'QUANTIFYING ARCHITECTURAL EXPERIENCE USING VLMS: DOES AI DREAM OF RENDERED SPACES?\n',
+ 304: 'ZERO-SHOT ARCHITECTURAL STYLE CLASSIFICATION WITH LARGE LANGUAGE MODELS\n',
+ 456: 'EVALUATION METHOD OF AI-GENERATED ARCHITECTURAL FACADE IMAGES BASED ON DCNN\n',
+ 59: 'INTELLIGENT SPATIAL PLANNING: A MULTIDIMENSIONAL STUDY ON SWISS RESIDENTIAL DESIGN USING LARGE LANGUAGE MODEL (GPT-4)\n',
+ 34: 'ADAPTIVE DESIGN AND FABRICATION OF MODULAR TOPOLOGICAL INTERLOCKING ASSEMBLIES\n',
+ 155: 'ADAPTIVE ORIGAMI: FABRICATION OF PNEUMATIC-ACTUATED ADAPTIVE FOLDING SYSTEM\n',
+ 221: 'DEVELOPING STRESS-LINE RIBBED TIMBER SLABS: LAMINATING TIMBER RIBS WITH STAY-IN-PLACE FORMWORK\n',
+ 339: 'A FABRICATION GRAMMAR FOR ROBOTIC SAND PACKING: FROM PRECISE ACTIONS TO EMERGENT SHAPES AND PATTERNS\n',
+ 27: 'A FULL-PROCESS DIGITAL METHOD FOR RECURSIVE GEOMETRIC STRUCTURE AND MACHINING PARAMETER GENERATION TARGETING THE REUTILIZATION OF CURVED TIMBER\n',
+ 206: 'GAMIFICATION AS A TOOL FOR ENHANCING PUBLIC ENGAGEMENT IN BUILT-ENVIRONMENT DESIGN\n',
+ 74: 'ARCHITECTURAL INTERFACES FOR SHARED SPACES – A MULTI-USER PERSPECTIVE ON INTELLIGENT ENVIRONMENT INTERACTIONS\n',
+ 137: 'CRAFTING A PARTICIPATORY APPROACH TOWARDS TRADITIONAL VIETNAMESE WEAVING AND DIGITAL COMPUTATION\n',
+ 180: 'DESIGN QUALITY HOUSING ASSESSMENT METHODOLOGY: SUPPORTING HEURISTICS WITH EVIDENCE-BASED DECISION-MAKING\n',
+ 408: 'FROM TRADITION TO COMPUTATION: ADAPTIVE CERAMIC \u200eFAÇADES INSPIRED BY PERSIAN ICE CAVES (YAKHCHALS) FOR \u200ePASSIVE COOLING\n',
+ 50: 'URBAN VISUAL HETEROGENEITY: AN INTELLIGENT APPROACH TO EXAMINING TRAVEL PREFERENCES IN NANJING\n',
+ 198: 'REVEALING THE RELATIONSHIP BETWEEN SITE PLANNING STRATEGIES AND SENTIMENT THROUGH DEEP LEARNING: ENHANCING DATA-DRIVEN ARCHITECTURAL DESIGN STRATEGIES\n',
+ 250: 'HOW CHINESE IS CHINATOWN: MEASURING THE RELATIONSHIP BETWEEN GEOGRAPHIC AUTHENTICITY PERCEPTION AND STREETSCAPE FEATURES THROUGH MACHINE LEARNING\n',
+ 210: 'DISCOVERING PARETO-EFFICIENT URBAN NETWORKS THROUGH SHAPE GRAMMAR, MULTI-OBJECTIVE OPTIMISATION AND MACHINE LEARNING\n',
+ 440: 'ENCODING PERFORMANCE IN DIGITAL WEAVE DESIGN USING AI AND OPTIMISATION\n',
+ 431: 'IMPROVING ARCHITECTURAL FORM CLASSIFICATION THROUGH SALINGAROS’ METRICS AND TOPOLOGICAL DATA ANALYSIS\n',
+ 314: 'GENERATIVE DESIGN FOR COASTAL RESILIENCE: A COMPUTATIONAL APPROACH TO LIVING SHORELINES\n',
+ 132: 'ROBOTIC FABRICATION AND IN-SITU 3D PRINTING FOR A NATURAL TIMBER-BAMBOO STRUCTURE\n',
+ 193: 'INVESTIGATING SELF-SHAPING FIBRE COMPOSITES: TUNNING CURING PARAMETERS TO OPTIMISE RESULTING CURVATURE\n',
+ 386: 'PREDICTING STRESS-STRAIN CHARACTERISTICS OF 3D PRINTED BCC LATTICE STRUCTURES WITH VARIABLE GRID GRADATION USING NEURAL NETWORKS\n',
+ 178: 'CNT FIBER-WOVEN PROTOTYPES: ZERO WEIGHT, INFINITE SPAN\n',
+ 444: 'INTERACTIVE BIM MODELLING ASSISTANT WITH MULTI-AGENT LLM\n',
+ 403: 'TEXT-TO-SIHEYUAN: LLM-BASED MULTI-AGENT PROCEDURAL GENERATION SYSTEM OF VERNACULAR ARCHITECTURE IN BEIJING\n',
+ 253: 'PROMPT-TO-PRODUCTION: AI-DRIVEN DESIGN AND ROBOTIC FABRICATION FOR RAPIDLY RECONFIGURABLE CIRCULAR TIMBER ASSEMBLIES\n',
+ 80: 'AI2D-ARCHITECTURE: A BENCHMARK FOR EVALUATING MULTIMODAL LARGE LANGUAGE MODELS IN ARCHITECTURE\n',
+ 145: 'COMPARING DIFFERENT BUILDING REPRESENTATIONS FOR READABILITY BY LARGE LANGUAGE MODELS\n',
+ 19: 'INTEGRATING REGULATORY COMPLIANCE IN AI-ASSISTED ARCHITECTURAL DESIGN\n',
+ 457: 'Augmenting IFC-Based BIM Models for Graph Neural Network Training of Non-Orthogonal Spatial Typologies: A Context-Informed Design Methodology\n',
+ 68: 'CAN AI-BASED SUGGESTIONS SUPPORT DESIGNING IN IMMERSIVE ENVIRONMENTS?\n',
+ 276: 'AUGMENTED SCALE PERCEPTION: EXPLORING A FULL-SCALE ARCHITECTURAL EDUCATION APPROACH BASED ON MAR\n',
+ 379: 'VIRTUAL SPACE DESIGN THROUGH PHYSICAL OBJECT RECOGNITION, HOLOLENS-BASED FURNITURE TRACKING AND AI-DRIVEN REAL-TIME LAYOUT GENERATION\n',
+ 428: 'A FRAMEWORK FOR VIRTUAL WINDOWS TO ENHANCE INDOOR SPATIAL EXPERIENCE IN EXTENDED REALITY\n',
+ 111: 'RESONANT BLECH: EMERGENT SOUNDSCAPES THROUGH HUMAN-AI INTERACTION\n',
+ 79: 'CONSOLIDATED EMPIRICAL BIO-MATERIAL REPOSITORY\n',
+ 313: 'GENERATIVE DESIGN INTELLIGENCE: EXTRACTING DESIGN SPECIFIC SUSTAINABILITY INSIGHTS AND MATERIAL METRICS FROM GENERATIVE ARTIFICIAL INTELLIGENCE OUTPUT\n',
+ 133: 'ENVIRONMENTAL-DRIVEN DIGITAL FABRICATION: CONTROLLING 3D-PRINTING PARAMETERS WITH DATA FROM CFD SIMULATION\n',
+ 395: 'OPTIMIZED ACOUSTICS FOR MEETING PODS\n',
+ 114: 'CONSTRUCTGNN: A GRAPH NEURAL NETWORK FRAMEWORK FOR ADAPTIVE 3D ARCHITECTURAL LAYOUT\n',
+ 231: 'READING BETWEEN THE LINES: BRIDGING AI AND ARCHITECTURAL KNOWLEDGE IN FLOORPLAN UNDERSTANDING\n',
+ 230: 'COMPUTING BEYOND THE VITRUVIAN CANON: AMBIGUITY AS A CATALYST IN COMPUTATIONAL DESIGN THEORY\n',
+ 458: 'CATALYTIC DESIGN INTERFACES: AI-GUIDED BUILDING MASSING AND AUTOMATED COMPLIANCE\n',
+ 82: 'TOWARDS AN INTERDISCIPLINARY ACADEMIA INDUSTRY RESEARCH NEXUS - COLLABORATIVE PATHWAYS TO SUSTAINABLE DIGITAL INNOVATION IN AEC \n',
+ 330: 'RETHINKING PARTICIPATORY ARCHITECTURAL DESIGN: HARNESSING IMMERSIVE ENVIRONMENTS &amp; AI FOR FACILITATING DESIGNER-STAKEHOLDER COLLABORATION\n',
+ 389: 'FROM AUGMENTATION TO AUTONOMY: HUMAN–XR–ROBOT SYNERGIES IN ADVANCED DESIGN AND CONSTRUCTION\n',
+ 427: 'TOWARDS AIXR: DESIGNING A FRAMEWORK FOR AI-INFORMED HUMAN-ROBOT COLLABORATIVE ASSEMBLY OF NONUNIFORM MATERIAL IN EXTENDED REALITY \n',
+ 445: 'BUILDINGS AS SYMBIOTIC SYSTEMS: CYBERNETIC ADAPTATION BETWEEN TECHNICAL AND BIOLOGICAL SYSTEMS IN ARCHITECTURE \n'}</code></pre>
+</div>
+</div>
+<div id="a96a4cc9-c8a3-45fb-966e-48d1f4806e13" class="cell" data-execution_count="41">
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>EX[<span class="st">'Date'</span>]<span class="op">=</span>EX[<span class="st">'ID'</span>].<span class="bu">map</span>(datemape)</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>EX[<span class="st">'Time'</span>]<span class="op">=</span>EX[<span class="st">'ID'</span>].<span class="bu">map</span>(timemape)</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>EX[<span class="st">'Session'</span>]<span class="op">=</span>EX[<span class="st">'ID'</span>].<span class="bu">map</span>(sessimape)</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>EX[<span class="st">'Final Topic'</span>]<span class="op">=</span>EX[<span class="st">'ID'</span>].<span class="bu">map</span>(topicmape)</span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>EX[<span class="st">'TitleAlt'</span>]<span class="op">=</span>EX[<span class="st">'ID'</span>].<span class="bu">map</span>(titlemap)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_9154/3794125394.py:1: SettingWithCopyWarning: 
+<pre><code>/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_34487/3794125394.py:1: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame.
 Try using .loc[row_indexer,col_indexer] = value instead
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   EX['Date']=EX['ID'].map(datemape)
-/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_9154/3794125394.py:2: SettingWithCopyWarning: 
+/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_34487/3794125394.py:2: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame.
 Try using .loc[row_indexer,col_indexer] = value instead
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   EX['Time']=EX['ID'].map(timemape)
-/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_9154/3794125394.py:3: SettingWithCopyWarning: 
+/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_34487/3794125394.py:3: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame.
 Try using .loc[row_indexer,col_indexer] = value instead
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   EX['Session']=EX['ID'].map(sessimape)
-/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_9154/3794125394.py:4: SettingWithCopyWarning: 
+/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_34487/3794125394.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame.
 Try using .loc[row_indexer,col_indexer] = value instead
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  EX['Final Topic']=EX['ID'].map(topicmape)</code></pre>
+  EX['Final Topic']=EX['ID'].map(topicmape)
+/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_34487/3794125394.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  EX['TitleAlt']=EX['ID'].map(titlemap)</code></pre>
 </div>
 </div>
-<div id="c481c7b7-1f7f-4229-9e20-a1886f00f5d9" class="cell" data-execution_count="55">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>datemape[<span class="dv">80</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="55">
-<pre><code>'7/4/2025'</code></pre>
+<div id="c481c7b7-1f7f-4229-9e20-a1886f00f5d9" class="cell" data-execution_count="42">
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>datemape[<span class="dv">80</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="42">
+<pre><code>Timestamp('2025-07-04 00:00:00')</code></pre>
 </div>
 </div>
-<div id="0caa8ab3-72a9-4203-bb29-3139238ed6f9" class="cell" data-execution_count="56">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>EX.loc[EX[<span class="st">'Final Topic'</span>].isna(),<span class="st">'Final Topic'</span>]<span class="op">=</span><span class="st">'CATALYTIC INTERFACE'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="0caa8ab3-72a9-4203-bb29-3139238ed6f9" class="cell" data-execution_count="43">
+<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>EX.loc[EX[<span class="st">'Final Topic'</span>].isna(),<span class="st">'Final Topic'</span>]<span class="op">=</span><span class="st">'CATALYTIC INTERFACE'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="4aa165ea-3819-449f-8051-76406355368f" class="cell" data-execution_count="57">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>EX.sort_values(by<span class="op">=</span>[<span class="st">'Date'</span>,<span class="st">'Time'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="57">
+<div id="4aa165ea-3819-449f-8051-76406355368f" class="cell" data-scrolled="true" data-execution_count="44">
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>EX.sort_values(by<span class="op">=</span>[<span class="st">'Date'</span>,<span class="st">'Time'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="44">
 <div>
 
 
@@ -526,7 +858,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <td>DESIGN VALIDATION FOR ROBOTIC FABRICATION: A M...</td>
 <td>Pok Yin Victor Leung and Yijiang Huang</td>
 <td>The use of robotics in construction offers tra...</td>
-<td>7/2/2025</td>
+<td>2025-07-02</td>
 <td>11:25 - 11:40</td>
 <td>S-S1</td>
 <td>INTELLIGENT ROBOTIC ASSEMBLY</td>
@@ -538,7 +870,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <td>TPACS: PHYGITAL-AIDED CONSTRUCTION SYSTEM BASE...</td>
 <td>Yuhong Wu and Tiantian Lo</td>
 <td>As construction complexity increases in the ar...</td>
-<td>7/2/2025</td>
+<td>2025-07-02</td>
 <td>11:40 - 11:55</td>
 <td>S-S1</td>
 <td>INTELLIGENT ROBOTIC ASSEMBLY</td>
@@ -550,7 +882,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <td>PARAMETRIC BIOMIMICRY: TRANSLATING SPIRAL SEAS...</td>
 <td>Ali Farajmandi and Negar Kalantar</td>
 <td>The architectural marvel of spiral seashells, ...</td>
-<td>7/2/2025</td>
+<td>2025-07-02</td>
 <td>11:55 - 12:10</td>
 <td>S-S1</td>
 <td>INTELLIGENT ROBOTIC ASSEMBLY</td>
@@ -562,7 +894,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <td>REC-ARCH: A CASE STUDY RECOMMENDER SYSTEM FOR ...</td>
 <td>Danrui Li, Yichao Shi, Yaluo Wang, Ziying Shi ...</td>
 <td>Efficiently searching for relevant case studie...</td>
-<td>7/2/2025</td>
+<td>2025-07-02</td>
 <td>13:10 - 13:20</td>
 <td>P-B1</td>
 <td>AUGMENTING DESIGN GENERATION</td>
@@ -574,7 +906,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <td>MACHINE LEARNING AND MIXED REALITY-CONTROLLED ...</td>
 <td>Qi Wang, Zhiyong Dong, Maowei Jiang and Peter Búš</td>
 <td>Worker safety and operational efficiency remai...</td>
-<td>7/2/2025</td>
+<td>2025-07-02</td>
 <td>13:10 - 13:20</td>
 <td>P-C1</td>
 <td>INTELLIGENT ROBOTICS &amp; LAYOUT PLANNING</td>
@@ -593,64 +925,64 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <td>...</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">81</td>
+<td data-quarto-table-cell-role="th">82</td>
+<td>82</td>
+<td>(CI) COLLABORATIVE PATHWAYS TO SUSTAINABLE DIG...</td>
+<td>M. Hank Haeusler, Ivana Kuzmanovska, Christoph...</td>
+<td>The Architecture, Engineering, and Constructio...</td>
+<td>2025-07-04</td>
+<td>15:30 - 15:50</td>
+<td>CI</td>
+<td>CATALYTIC INTERFACE</td>
+<td>TOWARDS AN INTERDISCIPLINARY ACADEMIA INDUSTRY...</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">83</td>
 <td>330</td>
 <td>RETHINKING PARTICIPATORY ARCHITECTURAL DESIGN:...</td>
 <td>Weiheng Hu, Yuval Kahlon, Momoko Nakatani and ...</td>
 <td>Participatory Architectural Design (PAD) offer...</td>
-<td>7/4/2025</td>
-<td>15:30 - 15:50</td>
+<td>2025-07-04</td>
+<td>15:50 - 16:10</td>
 <td>CI</td>
 <td>CATALYTIC INTERFACE</td>
 <td>RETHINKING PARTICIPATORY ARCHITECTURAL DESIGN:...</td>
 </tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">82</td>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">84</td>
 <td>389</td>
 <td>(CI) AUGMENTATION IN DESIGN AND FABRICATION: E...</td>
 <td>Igor Pantic, Soomeen Hahm, Peter Búš and Zhiyo...</td>
 <td>The future of architectural practice is increa...</td>
-<td>7/4/2025</td>
-<td>15:50 - 16:10</td>
+<td>2025-07-04</td>
+<td>16:10 - 16:30</td>
 <td>CI</td>
 <td>CATALYTIC INTERFACE</td>
 <td>FROM AUGMENTATION TO AUTONOMY: HUMAN–XR–ROBOT ...</td>
 </tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">83</td>
+<tr class="even">
+<td data-quarto-table-cell-role="th">85</td>
 <td>427</td>
 <td>TOWARD AIXR: DESIGNING A FRAMEWORK FOR AI-INFO...</td>
 <td>Matias del Campo, Joseph Kenny, Eleni Vasiliki...</td>
 <td>This paper presents AIXR, a framework for arti...</td>
-<td>7/4/2025</td>
-<td>16:10 - 16:30</td>
+<td>2025-07-04</td>
+<td>16:30 - 16:50</td>
 <td>CI</td>
 <td>CATALYTIC INTERFACE</td>
 <td>TOWARDS AIXR: DESIGNING A FRAMEWORK FOR AI-INF...</td>
 </tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">84</td>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">86</td>
 <td>445</td>
 <td>BUILDINGS AS SYMBIOTIC SYSTEMS: CYBERNETIC ADA...</td>
 <td>Davide Schaumann, Andrew Vande Moere, Yuval Ka...</td>
 <td>Contemporary architectural design increasingly...</td>
-<td>7/4/2025</td>
-<td>16:30 - 16:50</td>
-<td>CI</td>
-<td>CATALYTIC INTERFACE</td>
-<td>BUILDINGS AS SYMBIOTIC SYSTEMS: CYBERNETIC ADA...</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">85</td>
-<td>458</td>
-<td>CATALYTIC DESIGN INTERFACES: AI-GUIDED BUILDIN...</td>
-<td>Tejas Chavan, Houssame E. Hsain, Camiel Weijen...</td>
-<td>This paper presents HIKARI, a working prototyp...</td>
-<td>7/4/2025</td>
+<td>2025-07-04</td>
 <td>16:50 - 17:10</td>
 <td>CI</td>
 <td>CATALYTIC INTERFACE</td>
-<td>CATALYTIC DESIGN INTERFACES: AI-GUIDED BUILDIN...</td>
+<td>BUILDINGS AS SYMBIOTIC SYSTEMS: CYBERNETIC ADA...</td>
 </tr>
 </tbody>
 </table>
@@ -659,160 +991,211 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </div>
 </div>
 </div>
-<div id="85c74ee3-74dc-4c3a-b126-372d92b59500" class="cell" data-execution_count="51">
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>EX.sort_values(by<span class="op">=</span>[<span class="st">'Date'</span>,<span class="st">'Time'</span>]).to_excel(<span class="st">'events/cf25dat.xlsx'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="8ff704b2-cd31-44f5-a09c-54c85e2cd0a8" class="cell" data-execution_count="47">
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>EX[<span class="st">'Title'</span>]<span class="op">=</span>EX[<span class="st">'TitleAlt'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>/var/folders/rs/m2cwbt951nlfsrncdqwyny5h0000gn/T/ipykernel_34487/3929371652.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  EX['Title']=EX['TitleAlt']</code></pre>
+</div>
+</div>
+<div id="0642b2ec-8fd8-4d27-99a2-a042b88be09d" class="cell" data-execution_count="48">
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>EX[EX[<span class="st">'ID'</span>]<span class="op">==</span><span class="dv">458</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="48">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">ID</th>
+<th data-quarto-table-cell-role="th">Title</th>
+<th data-quarto-table-cell-role="th">Authors</th>
+<th data-quarto-table-cell-role="th">Abstract</th>
+<th data-quarto-table-cell-role="th">Date</th>
+<th data-quarto-table-cell-role="th">Time</th>
+<th data-quarto-table-cell-role="th">Session</th>
+<th data-quarto-table-cell-role="th">Final Topic</th>
+<th data-quarto-table-cell-role="th">TitleAlt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">81</td>
+<td>458</td>
+<td>CATALYTIC DESIGN INTERFACES: AI-GUIDED BUILDIN...</td>
+<td>Tejas Chavan, Houssame E. Hsain, Camiel Weijen...</td>
+<td>This paper presents HIKARI, a working prototyp...</td>
+<td>2025-07-04</td>
+<td>15:10 - 15:30</td>
+<td>CI</td>
+<td>CATALYTIC INTERFACE</td>
+<td>CATALYTIC DESIGN INTERFACES: AI-GUIDED BUILDIN...</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="85c74ee3-74dc-4c3a-b126-372d92b59500" class="cell" data-execution_count="49">
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>EX.sort_values(by<span class="op">=</span>[<span class="st">'Date'</span>,<span class="st">'Time'</span>]).to_excel(<span class="st">'events/cf25dat.xlsx'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="2773fb23-e0ad-4e20-ba86-eabeef0f1e46" class="cell">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>trt<span class="op">=</span>absin[absin[<span class="st">'#'</span>]<span class="op">==</span><span class="dv">27</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>trt<span class="op">=</span>absin[absin[<span class="st">'#'</span>]<span class="op">==</span><span class="dv">27</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="ad8af48d-195e-41b6-935a-5b2d117c4d89" class="cell">
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>putabs<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(absin[<span class="st">'#'</span>],absin[<span class="st">'Abstract'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>putabs<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(absin[<span class="st">'#'</span>],absin[<span class="st">'Abstract'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="22df02fc-4cef-45d3-b6c9-1f91b99d251e" class="cell">
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>g[<span class="st">'Date'</span>]<span class="op">=</span>g[<span class="st">'FILTER OPTIONS.1'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>g[<span class="st">'Date'</span>]<span class="op">=</span>g[<span class="st">'FILTER OPTIONS.1'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="7cdac913-1a36-45df-b8df-b196c2351324" class="cell" data-scrolled="true">
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>topicmape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'session title'</span>]))</span>
-<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>sessimape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'session code'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>topicmape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'session title'</span>]))</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>sessimape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'session code'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="467c428d-e45c-4673-877c-7caeb9cc652a" class="cell">
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>timemape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'Time'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb55"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>timemape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'Time'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="1bd6cbca-4009-4b24-9cf6-1badec5ce303" class="cell">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>idex<span class="op">=</span>ex[<span class="st">'ID'</span>].unique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>idex<span class="op">=</span>ex[<span class="st">'ID'</span>].unique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="e24d42c3-32fd-413c-ab3e-02e7b68acd01" class="cell">
-<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>g[<span class="st">'EasyChair'</span>]<span class="op">=</span>g[<span class="st">'EasyChair'</span>].astype(<span class="bu">int</span>)</span>
-<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>datemape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'Date'</span>]))</span>
-<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>timemape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'Time'</span>]))</span>
-<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>topicmape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'session title'</span>]))</span>
-<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>sessimape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'session code'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb57"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>g[<span class="st">'EasyChair'</span>]<span class="op">=</span>g[<span class="st">'EasyChair'</span>].astype(<span class="bu">int</span>)</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>datemape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'Date'</span>]))</span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>timemape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'Time'</span>]))</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>topicmape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'session title'</span>]))</span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>sessimape<span class="op">=</span><span class="bu">dict</span>(<span class="bu">zip</span>(g[<span class="st">'EasyChair'</span>],g[<span class="st">'session code'</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="22ee3d95-122c-4a85-904b-c87137b918d8" class="cell">
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># g['EasyChair']</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb58"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="co"># g['EasyChair']</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="56afd3b8-6842-42d8-b921-fdcbf1ec18e5" class="cell">
-<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>ex.loc[ex[<span class="st">'ID'</span>]<span class="op">==</span><span class="dv">135</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb59"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>ex.loc[ex[<span class="st">'ID'</span>]<span class="op">==</span><span class="dv">135</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="fed4e6dc-6a0f-48ac-b40e-8b3ec8faedfb" class="cell">
-<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>[c <span class="cf">for</span> c <span class="kw">in</span> g[<span class="st">'EasyChair'</span>].unique() <span class="cf">if</span> c <span class="kw">not</span> <span class="kw">in</span> idex]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>[c <span class="cf">for</span> c <span class="kw">in</span> g[<span class="st">'EasyChair'</span>].unique() <span class="cf">if</span> c <span class="kw">not</span> <span class="kw">in</span> idex]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="2a56caf2-7ea4-48e8-8375-873a992bf6db" class="cell">
-<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>[c <span class="cf">for</span> c <span class="kw">in</span> idex <span class="cf">if</span> c <span class="kw">not</span> <span class="kw">in</span> g[<span class="st">'EasyChair'</span>].unique()]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb61"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a>[c <span class="cf">for</span> c <span class="kw">in</span> idex <span class="cf">if</span> c <span class="kw">not</span> <span class="kw">in</span> g[<span class="st">'EasyChair'</span>].unique()]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="e62cbd32-59f9-4e93-9e9b-58c2e193ec04" class="cell">
-<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>ex<span class="op">=</span>ex.loc[<span class="op">~</span>ex[<span class="st">'ID'</span>].isin([<span class="dv">214</span>, <span class="dv">376</span>, <span class="dv">283</span>, <span class="dv">27</span>])]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb62"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>ex<span class="op">=</span>ex.loc[<span class="op">~</span>ex[<span class="st">'ID'</span>].isin([<span class="dv">214</span>, <span class="dv">376</span>, <span class="dv">283</span>, <span class="dv">27</span>])]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="df54c8a4-764e-46a5-abad-3ffa25014ee0" class="cell">
-<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>en<span class="op">=</span>ex[[<span class="st">'ID'</span>,<span class="st">'Title'</span>,<span class="st">'Authors'</span>,<span class="st">'Final Topic'</span>,<span class="st">'Session'</span>,<span class="st">'Abstract'</span>]]</span>
-<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>en.reset_index(inplace<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb63"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a>en<span class="op">=</span>ex[[<span class="st">'ID'</span>,<span class="st">'Title'</span>,<span class="st">'Authors'</span>,<span class="st">'Final Topic'</span>,<span class="st">'Session'</span>,<span class="st">'Abstract'</span>]]</span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a>en.reset_index(inplace<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="08fc8222-a691-48aa-8b34-ffb47926ca67" class="cell">
-<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># trt</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb64"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="co"># trt</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="cd852526-4fee-431d-a1cf-c75ea2c66da7" class="cell">
-<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>g[<span class="st">'EasyChair'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb65"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a>g[<span class="st">'EasyChair'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="e13e8734-7292-4d85-b470-61a00fc9f915" class="cell">
-<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># #One-off 27 to be added. </span></span>
-<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="dv">88</span>,<span class="st">'ID'</span>]<span class="op">=</span><span class="dv">27</span></span>
-<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="dv">88</span>,<span class="st">'Title'</span>]<span class="op">=</span>trt[<span class="st">'Title'</span>].values[<span class="dv">0</span>]</span>
-<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="dv">88</span>,<span class="st">'Authors'</span>]<span class="op">=</span>trt[<span class="st">'Authors'</span>].values[<span class="dv">0</span>]</span>
-<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="dv">88</span>,<span class="st">'Abstract'</span>]<span class="op">=</span>trt[<span class="st">'Abstract'</span>].values[<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb66"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="co"># #One-off 27 to be added. </span></span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb66-3"><a href="#cb66-3" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="dv">88</span>,<span class="st">'ID'</span>]<span class="op">=</span><span class="dv">27</span></span>
+<span id="cb66-4"><a href="#cb66-4" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="dv">88</span>,<span class="st">'Title'</span>]<span class="op">=</span>trt[<span class="st">'Title'</span>].values[<span class="dv">0</span>]</span>
+<span id="cb66-5"><a href="#cb66-5" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="dv">88</span>,<span class="st">'Authors'</span>]<span class="op">=</span>trt[<span class="st">'Authors'</span>].values[<span class="dv">0</span>]</span>
+<span id="cb66-6"><a href="#cb66-6" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="dv">88</span>,<span class="st">'Abstract'</span>]<span class="op">=</span>trt[<span class="st">'Abstract'</span>].values[<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="cca8a287-c25c-4d11-b5db-d524fb278700" class="cell">
-<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>ex[<span class="st">'Session'</span>]<span class="op">=</span>ex[<span class="st">'ID'</span>].<span class="bu">map</span>(sessimape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb67"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>ex[<span class="st">'Session'</span>]<span class="op">=</span>ex[<span class="st">'ID'</span>].<span class="bu">map</span>(sessimape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="6d5306ca-4bbd-4a08-bb9b-54989746f138" class="cell">
-<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>g[g[<span class="st">'EasyChair'</span>]<span class="op">==</span><span class="dv">135</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb68"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a>g[g[<span class="st">'EasyChair'</span>]<span class="op">==</span><span class="dv">135</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="e539795e-8171-439f-85bc-d797a7b682d3" class="cell">
-<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>ex.loc[ex[<span class="st">'ID'</span>]<span class="op">==</span><span class="dv">135</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb69"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a>ex.loc[ex[<span class="st">'ID'</span>]<span class="op">==</span><span class="dv">135</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="18f49def-ba5d-4048-9202-e6c15e398edd" class="cell">
-<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># sessimape['27']</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb70"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a><span class="co"># sessimape['27']</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="c71d8c4b-2d26-4581-b5d5-544e75c50fa5" class="cell">
-<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="dv">88</span>,<span class="st">'Session'</span>]<span class="op">=</span>sessimape[<span class="dv">27</span>]</span>
-<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="dv">88</span>,<span class="st">'Final Topic'</span>]<span class="op">=</span>topicmape[<span class="dv">27</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb71"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="dv">88</span>,<span class="st">'Session'</span>]<span class="op">=</span>sessimape[<span class="dv">27</span>]</span>
+<span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="dv">88</span>,<span class="st">'Final Topic'</span>]<span class="op">=</span>topicmape[<span class="dv">27</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="168729b9-e5ec-48e9-ab53-f8ece29c251b" class="cell">
-<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>en.tail(<span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb72"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a>en.tail(<span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="8d40c7d8-9c5b-4c8b-a1e5-f35ce14e0aa8" class="cell">
-<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co"># absin.loc[absin['#']==457]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb73"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a><span class="co"># absin.loc[absin['#']==457]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="557e509e-9695-429e-86d9-3d03f7ad945c" class="cell">
-<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co"># en.head(2)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb74"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a><span class="co"># en.head(2)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="9ce52d2a-868d-4dac-b830-0224db6ebf81" class="cell">
-<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co"># topicmape[238]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb75"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a><span class="co"># topicmape[238]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="eaa15c48-90f4-438b-ac40-7b724eaa734c" class="cell" data-scrolled="true">
-<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ct=81</span></span>
-<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="co"># for i in [457, 82, 330, 389, 427, 445, 458]:</span></span>
-<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a><span class="co">#     try:</span></span>
-<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a><span class="co">#         id,aut,title,subs,typesub,timesub,abs=absin.loc[absin['#']==i].values[0]</span></span>
-<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a><span class="co">#         en.loc[ct]=ct+4,id,title,aut,topicmape[i],sessimape[i],abs</span></span>
-<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a><span class="co">#     except:</span></span>
-<span id="cb53-7"><a href="#cb53-7" aria-hidden="true" tabindex="-1"></a><span class="co">#         print(i)</span></span>
-<span id="cb53-8"><a href="#cb53-8" aria-hidden="true" tabindex="-1"></a><span class="co">#         tnt=g[g['EasyChair']==i]</span></span>
-<span id="cb53-9"><a href="#cb53-9" aria-hidden="true" tabindex="-1"></a><span class="co">#         en.loc[87]=87+4,tnt['EasyChair'].values[0],tnt['title'].values[0],tnt['authors'].values[0],tnt['session title'].values[0],tnt['session code'].values[0],None</span></span>
-<span id="cb53-10"><a href="#cb53-10" aria-hidden="true" tabindex="-1"></a><span class="co">#     ct +=1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb76"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ct=81</span></span>
+<span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a><span class="co"># for i in [457, 82, 330, 389, 427, 445, 458]:</span></span>
+<span id="cb76-3"><a href="#cb76-3" aria-hidden="true" tabindex="-1"></a><span class="co">#     try:</span></span>
+<span id="cb76-4"><a href="#cb76-4" aria-hidden="true" tabindex="-1"></a><span class="co">#         id,aut,title,subs,typesub,timesub,abs=absin.loc[absin['#']==i].values[0]</span></span>
+<span id="cb76-5"><a href="#cb76-5" aria-hidden="true" tabindex="-1"></a><span class="co">#         en.loc[ct]=ct+4,id,title,aut,topicmape[i],sessimape[i],abs</span></span>
+<span id="cb76-6"><a href="#cb76-6" aria-hidden="true" tabindex="-1"></a><span class="co">#     except:</span></span>
+<span id="cb76-7"><a href="#cb76-7" aria-hidden="true" tabindex="-1"></a><span class="co">#         print(i)</span></span>
+<span id="cb76-8"><a href="#cb76-8" aria-hidden="true" tabindex="-1"></a><span class="co">#         tnt=g[g['EasyChair']==i]</span></span>
+<span id="cb76-9"><a href="#cb76-9" aria-hidden="true" tabindex="-1"></a><span class="co">#         en.loc[87]=87+4,tnt['EasyChair'].values[0],tnt['title'].values[0],tnt['authors'].values[0],tnt['session title'].values[0],tnt['session code'].values[0],None</span></span>
+<span id="cb76-10"><a href="#cb76-10" aria-hidden="true" tabindex="-1"></a><span class="co">#     ct +=1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="fe26bec5-7ad1-4ae3-8aa3-86d0ce117899" class="cell">
-<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>en[<span class="st">'Session'</span>]<span class="op">=</span>en[<span class="st">'ID'</span>].<span class="bu">map</span>(sessimape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb77"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a>en[<span class="st">'Session'</span>]<span class="op">=</span>en[<span class="st">'ID'</span>].<span class="bu">map</span>(sessimape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="891118c9-ef5b-4893-8a56-b0343ff5477e" class="cell">
-<div class="sourceCode cell-code" id="cb55"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="co"># en.loc[en['Final Topic'].isna(),'Final Topic']='Catalytic Interface'</span></span>
-<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a><span class="co"># # en.loc[en.tail(6).index,'Final Topic']='Catalyi</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb78"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb78-1"><a href="#cb78-1" aria-hidden="true" tabindex="-1"></a><span class="co"># en.loc[en['Final Topic'].isna(),'Final Topic']='Catalytic Interface'</span></span>
+<span id="cb78-2"><a href="#cb78-2" aria-hidden="true" tabindex="-1"></a><span class="co"># # en.loc[en.tail(6).index,'Final Topic']='Catalyi</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="f4bea816-11c8-447b-bfb0-9e0c75f4f828" class="cell">
-<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>p2drop<span class="op">=</span>[c <span class="cf">for</span> c <span class="kw">in</span> idex <span class="cf">if</span> c <span class="kw">not</span> <span class="kw">in</span> g[<span class="st">'EasyChair'</span>].unique()]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb79"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a>p2drop<span class="op">=</span>[c <span class="cf">for</span> c <span class="kw">in</span> idex <span class="cf">if</span> c <span class="kw">not</span> <span class="kw">in</span> g[<span class="st">'EasyChair'</span>].unique()]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="935880cc-5c79-43c5-ac99-ac7e1ad2c415" class="cell" data-scrolled="true">
-<div class="sourceCode cell-code" id="cb57"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>en.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb80"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb80-1"><a href="#cb80-1" aria-hidden="true" tabindex="-1"></a>en.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="d20387a2-73c5-4be8-8f4e-2bb2078f8142" class="cell">
-<div class="sourceCode cell-code" id="cb58"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>en[<span class="st">'Date'</span>]<span class="op">=</span>en[<span class="st">'ID'</span>].<span class="bu">map</span>(datemape)</span>
-<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>en[<span class="st">'Time'</span>]<span class="op">=</span>en[<span class="st">'ID'</span>].<span class="bu">map</span>(timemape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb81"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb81-1"><a href="#cb81-1" aria-hidden="true" tabindex="-1"></a>en[<span class="st">'Date'</span>]<span class="op">=</span>en[<span class="st">'ID'</span>].<span class="bu">map</span>(datemape)</span>
+<span id="cb81-2"><a href="#cb81-2" aria-hidden="true" tabindex="-1"></a>en[<span class="st">'Time'</span>]<span class="op">=</span>en[<span class="st">'ID'</span>].<span class="bu">map</span>(timemape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="821448b9-1ee9-438e-a050-2a381acc7973" class="cell">
-<div class="sourceCode cell-code" id="cb59"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="op">~</span>en[<span class="st">'ID'</span>].isin(p2drop)].to_excel(<span class="st">'events/cf25dat.xlsx'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb82"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a>en.loc[<span class="op">~</span>en[<span class="st">'ID'</span>].isin(p2drop)].to_excel(<span class="st">'events/cf25dat.xlsx'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="4a5a1a84-5abf-4941-976c-3344cff755d5" class="cell">
-<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>en</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb83"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb83-1"><a href="#cb83-1" aria-hidden="true" tabindex="-1"></a>en</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="7f56276a-bee5-4aef-a346-efee1aa29645" class="cell">
-<div class="sourceCode cell-code" id="cb61"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a><span class="co"># en.loc[87,'Abstract']=putabs[458]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb84"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb84-1"><a href="#cb84-1" aria-hidden="true" tabindex="-1"></a><span class="co"># en.loc[87,'Abstract']=putabs[458]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="a9e5364a-d514-4b01-a4f6-33e5ca94d6e0" class="cell">
-<div class="sourceCode cell-code" id="cb62"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="co"># putabs[458]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb85"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a><span class="co"># putabs[458]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="f275c95d-67e6-4a01-b551-e4d41dc99aff" class="cell">
-<div class="sourceCode cell-code" id="cb63"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="co"># tnt=g[g['EasyChair']==458]</span></span>
-<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a><span class="co"># en.loc[87]=87+4,tnt['EasyChair'],tnt['title'],tnt['a</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb86"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb86-1"><a href="#cb86-1" aria-hidden="true" tabindex="-1"></a><span class="co"># tnt=g[g['EasyChair']==458]</span></span>
+<span id="cb86-2"><a href="#cb86-2" aria-hidden="true" tabindex="-1"></a><span class="co"># en.loc[87]=87+4,tnt['EasyChair'],tnt['title'],tnt['a</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="389b2052-f87b-4483-8e34-5357bdfbee68" class="cell">
-<div class="sourceCode cell-code" id="cb64"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a>tn<span class="op">=</span>absin.loc[absin[<span class="st">'#'</span>]<span class="op">==</span>i].values</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb87"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a>tn<span class="op">=</span>absin.loc[absin[<span class="st">'#'</span>]<span class="op">==</span>i].values</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="eb5acded-2ee2-4374-9529-a57f87d1884f" class="cell">
-<div class="sourceCode cell-code" id="cb65"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a>tn[<span class="dv">0</span>][<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb88"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb88-1"><a href="#cb88-1" aria-hidden="true" tabindex="-1"></a>tn[<span class="dv">0</span>][<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="806c9c81-cc3c-4c9e-a19f-4a4370ce3b5d" class="cell">
-<div class="sourceCode cell-code" id="cb66"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a>g[g[<span class="st">'EasyChair'</span>]<span class="op">==</span>i].values</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb89"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>g[g[<span class="st">'EasyChair'</span>]<span class="op">==</span>i].values</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="5a900c79-93d7-4fd2-92df-0884e21a0707" class="cell">
-<div class="sourceCode cell-code" id="cb67"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>tnt[<span class="st">'EasyChair'</span>].values[<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb90"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb90-1"><a href="#cb90-1" aria-hidden="true" tabindex="-1"></a>tnt[<span class="st">'EasyChair'</span>].values[<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="0e7b4ed4-ca3c-4a23-bbce-8933d8ffb634" class="cell">
-<div class="sourceCode cell-code" id="cb68"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a>ex[<span class="st">'Date'</span>]<span class="op">=</span>ex[<span class="st">'ID'</span>].<span class="bu">map</span>(datemape)</span>
-<span id="cb68-2"><a href="#cb68-2" aria-hidden="true" tabindex="-1"></a>ex[<span class="st">'Time'</span>]<span class="op">=</span>ex[<span class="st">'ID'</span>].<span class="bu">map</span>(timemape)</span>
-<span id="cb68-3"><a href="#cb68-3" aria-hidden="true" tabindex="-1"></a>ex[<span class="st">'Session'</span>]<span class="op">=</span>ex[<span class="st">'ID'</span>].<span class="bu">map</span>(sessimape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb91"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a>ex[<span class="st">'Date'</span>]<span class="op">=</span>ex[<span class="st">'ID'</span>].<span class="bu">map</span>(datemape)</span>
+<span id="cb91-2"><a href="#cb91-2" aria-hidden="true" tabindex="-1"></a>ex[<span class="st">'Time'</span>]<span class="op">=</span>ex[<span class="st">'ID'</span>].<span class="bu">map</span>(timemape)</span>
+<span id="cb91-3"><a href="#cb91-3" aria-hidden="true" tabindex="-1"></a>ex[<span class="st">'Session'</span>]<span class="op">=</span>ex[<span class="st">'ID'</span>].<span class="bu">map</span>(sessimape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="47e7ed48-ff2e-478d-8820-08270d2742da" class="cell">
-<div class="sourceCode cell-code" id="cb69"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a>ex.to_excel(<span class="st">'events/cf25dat.xlsx'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb92"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb92-1"><a href="#cb92-1" aria-hidden="true" tabindex="-1"></a>ex.to_excel(<span class="st">'events/cf25dat.xlsx'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
