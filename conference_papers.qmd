@@ -450,8 +450,8 @@ body {
         <p>This technical programme only reflects author names and abstracts from <strong>EasyChair</strong> submission records. 
 Edits to authorship/abstract made in camera-ready submission will be reflected in conference proceedings. <em>Paper-specific DOIs will remain pending until author release forms are signed and processed onsite during the conference.</em></p>
     <div style="margin-bottom: 20px;">
-    <a href="https://doi.org/10.25442/hku.29265815" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #000000; color: white; text-decoration: none; border-radius: 4px; margin-right: 10px; font-weight: 600;">Conference Proceedings Volume I</a>
-    <a href="https://doi.org/10.25442/hku.29364860" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #000000; color: white; text-decoration: none; border-radius: 4px; font-weight: 600;">Conference Proceedings Volume II</a>
+    <a href="https://doi.org/10.25442/hku.29265815" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #B22222; color: white; text-decoration: none; border-radius: 4px; margin-right: 10px; font-weight: 600;">Conference Proceedings Volume I</a>
+    <a href="https://doi.org/10.25442/hku.29364860" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #B22222; color: white; text-decoration: none; border-radius: 4px; font-weight: 600;">Conference Proceedings Volume II</a>
     </div>
     
     <div class="day-filters">
