@@ -28,12 +28,6 @@ website:
         href: index.qmd
       - text: "Programme"
         menu:
-          # - text: "Regular Papers"
-          #   href: regular.qmd
-          # - text: "Catalytic Interfaces"
-          #   href: props.qmd
-          # - text: "Presentation Format"
-          #   href: present.qmd
           - text: "Technical Programme"
             href: conference_papers.qmd
           - text: "Conference Schedule"
@@ -50,10 +44,6 @@ website:
             href: present.qmd
           - text: "Setup: Catalytic Interfaces"
             href: CI_setup.qmd
-          # - text: "Technical Programme"
-          #   href: conference_papers.qmd
-          # - text: "Conference Schedule"
-          #   href: schedule.qmd
       - text: "Keynotes"
         href: keynote.qmd
       - text: "Tickets"
