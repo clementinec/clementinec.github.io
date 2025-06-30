@@ -65,7 +65,7 @@ Additionally, please update your **title slide**, making sure it includes:
 - Presentations must be uploaded in advance using this [`Google Form`](https://docs.google.com/forms/d/e/1FAIpQLScEVDIeIX0fgavEgok9Ck75HsyZtO4_oBts3nuEsGuP6yDdJg/viewform).
   - Presentations will be pre-loaded on session computers.
   - **Deadline**: 
-    - For Special Collection & Conference Proceedings authors: please upload ideally by `1 July 13:00 HKT`, but no later than **one day before your scheduled session**. 
+    - For Special Collection & Conference Proceedings authors: please upload ideally by `1 July 13:00 HKT`, but no later than **one day before your scheduled session at 12:00 HKT**. 
     - For Catalytic Interfaces authors, please upload your final presentation by `4 July 13:00 HKT`.
 
 

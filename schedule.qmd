@@ -112,7 +112,7 @@ _Note: This schedule is tentative and may be updated. Social event details (tour
 | 16:25 – 16:45    | Break                                                                   |                                                |                               |
 | 16:45 – 17:45    | **Special Collection S-4:** <br>*Structural, Fabrication & Material Logic*    | Prof. Dr. Juan Jose Castellon                   | CPD - LG.08-09                 |
 | 17:45 – 19:15    | **Catalytic Interfaces – Work Session**                                     |                                                | CPD - LG.07-10                 |
-| 19:00 – 21:00    | [`Victoria Peak at Night`](event_details.qmd#VictoriaPeak)              |                                                | Offsite                         |
+| 19:00 – 21:00    | [Victoria Peak at Night](event_details.qmd#VictoriaPeak)              |                                                | Offsite                         |
 
 ---
 
