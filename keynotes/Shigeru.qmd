@@ -22,7 +22,7 @@ format: html
 
 ## Prof. Shigeru Ban
 ##### Founder and Principal of Shigeru Ban Architects
-##### Professor, Keio University
+##### Professor, Shibaura Institute of Techonology
 ##### 2014 Pritzker Architecture Prize recipient
 
 
