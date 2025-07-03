@@ -659,7 +659,7 @@ drinks at the venue.
 **Date:** Thursday, 3rd July  
 **Time:** 7:00 PM - 9:00 PM <a class="ticket-button" href="https://hkuems1.hku.hk/hkuems/ec_hdetail.aspx?guest=Y&ueid=100394" target="_blank">Register</a>
 
-**Meeting Point:** 129 Second Street, L/G Nam Cheong House, Sai Ying Pun,Hong Kong [Map](https://maps.app.goo.gl/YqDvccu3ncDPx2CfA)
+**Meeting Point:** Bar Ping Pong, 129 Second Street, L/G Nam Cheong House, Sai Ying Pun,Hong Kong [Map](https://maps.app.goo.gl/YqDvccu3ncDPx2CfA)
 
 ```{python}
 #| echo: false
